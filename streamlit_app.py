@@ -126,7 +126,7 @@ categories = {
         "mohon enable flag ctt old rg new rg",
         "old rg new rg ctt truckroll",
         "bantuan tukar flag ke combo box mohon update acs bind",
-        "sn lama sn baru unc"
+        "sn lama rgx sn baru unc"
     ],
     "TT HSBA Reappointment": [
         "bantu patch appt am",
