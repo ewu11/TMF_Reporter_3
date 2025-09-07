@@ -215,7 +215,7 @@ def categorize_message(msg):
 # Streamlit UI
 # ------------------------
 st.set_page_config(layout="centered")
-st.title("📂 TMF Report 3")
+st.title("📂 TMF Reporter 3")
 st.write("Enhanced report categorizer.")
 
 tab1, tab2 = st.tabs(["Categorizer", "Categorize Single Message"])
