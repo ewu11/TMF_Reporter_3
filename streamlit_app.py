@@ -32,7 +32,10 @@ categories = {
         "mir in progress",
         "mir ra ip"
     ],
-    "Missing Manual Assign Button": [
+    "Revert SWIFT-TMF Order": [
+        "tiada di subscriber activity list"
+    ]
+    "Missing Order Manual Assign Button": [
         "tidak boleh manual assign",
         "x boleh ma",
         "ma button missing",
