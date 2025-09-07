@@ -24,8 +24,9 @@ categories = {
 }
 
 # Build initial embeddings
+# Now is case-insensitive -- simpler categorization
 category_embeddings = {
-    cat: model.encode(sentences, convert_to_tensor=True).mean(dim=0)
+    cat: model.encode([s.lower() for s in sentences], convert_to_tensor=True).mean(dim=0)
     for cat, sentences in categories.items()
 }
 
@@ -51,22 +52,23 @@ def extract_ids(msg: str):
 
 # ------------------------
 # Categorization function
+# Now case-insensitive
 # ------------------------
 def categorize_message(msg):
     global group_counter
-    emb = model.encode(msg, convert_to_tensor=True)
+    emb = model.encode(msg.lower(), convert_to_tensor=True)  # normalize to lowercase
     scores = {cat: util.cos_sim(emb, emb_cat).item() for cat, emb_cat in category_embeddings.items()}
     best_cat, best_score = max(scores.items(), key=lambda x: x[1])
 
     if best_score >= SIMILARITY_THRESHOLD:
         return best_cat, best_score
     else:
-        # create new category dynamically
         new_cat = f"auto_group_{group_counter}"
         new_groups[new_cat] = emb
         category_embeddings[new_cat] = emb
         group_counter += 1
         return new_cat, best_score
+
 
 # ------------------------
 # Streamlit UI
