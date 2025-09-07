@@ -117,7 +117,9 @@ categories = {
         "dijanjikan oleh tmpoint",
         "tukar flag ke combobox ctt old rg new",
         "enable flag ctt old rg new rg",
-        "mintak tukar combo old combo new combo"
+        "mintak tukar combo old combo new combo",
+        "mohon enable flag ctt old rg new rg",
+        "old rg new rg ctt truckroll"
     ],
     "TT HSBA Reappointment": [
         "bantu patch appt am",
