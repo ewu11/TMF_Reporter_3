@@ -16,24 +16,10 @@ model = load_model()
 # Seed categories
 # ------------------------
 categories = {
-    "equipment_change": [
-        "tukar rg7 ke rg6",
-        "update wifi7 ke wifi6 ax3000",
-        "ubah equipment kepada combo"
-    ],
-    "bypass_issue": [
-        "bypass extraport",
-        "iris access denied",
-        "tak boleh masuk bypass"
-    ],
-    "order_issue": [
-        "order returned",
-        "tiada dalam rol",
-        "order tak boleh done keluar error"
-    ],
-    "contact_update": [
-        "tolong update contact number",
-        "change phone number for order"
+    "RG6-RG7 Equipment Update": [
+        "tukar wifi6 2.5ghz",
+        "tukar rg7 ke rg6 combo",
+        "tukar rg7 ke rg6 ax3000"
     ]
 }
 
