@@ -139,6 +139,13 @@ categories = {
         "ctt error 400",
         "semakan eror 400"
     ],
+    "TT with No Activity Worktype": [
+        "ctt tiada activity work type"
+    ],
+    "TT V1P": [
+        "mohon bantuan utk slot am pm",
+        "tt v1p"
+    ]
     "TT Missing": [
         "ctt missing"
     ]
