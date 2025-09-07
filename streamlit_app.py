@@ -18,7 +18,8 @@ model = load_model()
 categories = {
     "Missing Order": [
         "order missing",
-        "masih tiada dalam tmf"
+        "masih tiada dalam tmf",
+        "order tiada di page schedule"
     ],
     "Next Order Activity Not Appear": [
         "not in rol",
@@ -56,7 +57,8 @@ categories = {
         "rg7 ke rg6 combo",
         "rg7 ke rg6 ax3000",
         "order schoolnet",
-        "update cpe wifi 7 ke wifi 6 ax3000 combo"
+        "update cpe wifi 7 ke wifi 6 ax3000 combo",
+        "minta tukar rg7 ke rg6 combo"
     ],
     "Update Order New/ Existing Equipment Info": [
         "ubah equipment ke rg6",
