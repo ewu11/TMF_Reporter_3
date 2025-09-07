@@ -23,7 +23,7 @@ categories = {
     ],
     "Next Order Activity Not Appear": [
         "not in rol",
-        "next activity tak appear"
+        "tak ada next owner"
     ]
 }
 
