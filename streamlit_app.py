@@ -41,7 +41,7 @@ categories = {
         "tukar new vm ke onu combo"
     ],
     "Bypass ExtraPort": [
-        "bypass extraport",
+        "tolong/ mohon bypass extraport",
         "iris access denied",
         "iris tak dapat masuk",
         "out"
