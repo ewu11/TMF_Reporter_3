@@ -20,7 +20,8 @@ categories = {
         "not in rol",
         "tak ada next owner",
         "tiada dalam rol",
-        "order tiada/ xda owner"
+        "order tiada/ xda owner",
+        "mohon bantuan next activity tak appear"
     ],
     "Update Order Equipment Details": [
         "order modify",
@@ -48,9 +49,14 @@ categories = {
     ],
     "Unable to Swap Number": [
         "order whp/ v1p",
-        "order v1p",
         "tak dapat swap number",
         "call/ contact ftc/ tva",
+    ],
+    "Invalid ICBRN Number": [
+        "verify to proceed failed",
+        "v2p failed",
+        "icbrn num invalid",
+        "brn number invalid"
     ]
 }
 
