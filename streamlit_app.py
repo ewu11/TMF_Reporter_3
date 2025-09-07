@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer, util
 # ------------------------
 @st.cache_resource
 def load_model():
-    return SentenceTransformer("./all-MiniLM-L6-v2")  # <-- change if model is not local
+    return SentenceTransformer("all-MiniLM-L6-v2")  # <-- change if model is not local
 
 model = load_model()
 
