@@ -83,7 +83,8 @@ categories = {
         "tukar new service point ke new combo box",
         "add new equipment combo vdsl ke ftth",
         "order modify tukar wifi ax3000",
-        "sp masih existing"
+        "sp masih existing",
+        "service point masih existing"
     ],
     "Bypass ExtraPort": [
         "tolong bypass extraport",
