@@ -24,6 +24,7 @@ categories = {
     "Next Order Activity Not Appear": [
         "not in rol",
         "tak ada next owner",
+        "xda owner"
         "tiada dalam rol",
         "order tiada/ xda owner",
         "mohon next activity tak appear",
