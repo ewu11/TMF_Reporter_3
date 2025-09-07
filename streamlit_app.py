@@ -20,7 +20,7 @@ categories = {
         "not in rol",
         "tak ada next owner",
         "tiada dalam rol",
-        "order tiada owner"
+        "order tiada/ xda owner"
     ],
     "Update Order Equipment Details": [
         "order modify",
@@ -44,7 +44,7 @@ categories = {
         "iris tak dapat masuk"
     ],
     "Unable to Swap Number": [
-        "order whp",
+        "order whp/ v1p",
         "order v1p",
         "tak dapat swap number",
         "call/ contact ftc/ tva",
