@@ -163,8 +163,56 @@ with tab1:
                 unsafe_allow_html=True
             )
             
+            # Custom CSS: make text_area cursor default (not text cursor)
+            st.markdown(
+                """
+                <style>
+                textarea[disabled] {
+                    cursor: default !important;
+                }
+                </style>
+                """,
+                unsafe_allow_html=True
+            )
+            
             # Display inside scrollable, taller text area
-            st.text_area("Grouped Results", output_text, height=450, disabled=True)
+            st.text_area("Grouped Results", output_text, height=500, disabled=True)
+            
+            # ------------------------
+            # Export to Excel
+            # ------------------------
+            import pandas as pd
+            from io import BytesIO
+            from datetime import datetime
+            
+            st.markdown("---")  # horizontal line
+            
+            # Build dataframe for export
+            export_data = []
+            for cat, ids in grouped.items():
+                for tid in sorted(ids):
+                    export_data.append({"Category": cat, "Ticket/ID": tid})
+            
+            df_export = pd.DataFrame(export_data)
+            
+            # Generate filename with today's date
+            today_str = datetime.today().strftime("%d.%m.%Y")
+            filename = f"FF TT Report {today_str}.xlsx"
+            
+            # Convert to Excel in memory
+            output = BytesIO()
+            with pd.ExcelWriter(output, engine="openpyxl") as writer:
+                df_export.to_excel(writer, index=False, sheet_name="Report")
+            output.seek(0)
+            
+            # Download button
+            st.download_button(
+                label="📥 Download Excel Report",
+                data=output,
+                file_name=filename,
+                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            )
+
 
 # ------------------------
 # Tab 2: Test single message
