@@ -34,7 +34,7 @@ categories = {
     ],
     "Revert SWIFT-TMF Order": [
         "tiada di subscriber activity list"
-    ]
+    ],
     "Missing Order Manual Assign Button": [
         "tidak boleh manual assign",
         "x boleh ma",
