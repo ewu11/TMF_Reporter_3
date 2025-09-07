@@ -78,74 +78,83 @@ def categorize_message(msg):
         return new_cat, best_score
 
 # ------------------------
-# Streamlit UI
+# Streamlit UI with Tabs
 # ------------------------
 st.title("📂 Chat Log Categorizer")
-st.write("Automatically categorize messages based on semantic similarity. (Only messages with valid ID are processed)")
 
-# Upload file
-uploaded_file = st.file_uploader("Upload cleansed_output.txt", type=["txt"])
+tab1, tab2 = st.tabs(["Categorization (Main)", "🔎 Test Single Message"])
 
-if uploaded_file:
-    # Read messages
-    lines = uploaded_file.read().decode("utf-8").splitlines()
-    messages = []
-    for line in lines:
-        if "]" in line and ":" in line:
-            msg = line.split(":", 2)[-1].strip()
-            if msg and has_valid_id(msg):   # filter by ID
-                messages.append(msg)
+# ------------------------
+# Tab 1: File categorization (for all users)
+# ------------------------
+with tab1:
+    st.write("Automatically categorize messages based on semantic similarity. (Only messages with valid ID are processed)")
 
-    st.success(f"Loaded {len(messages)} messages (after filtering by ID format)")
+    uploaded_file = st.file_uploader("Upload cleansed_output.txt", type=["txt"])
 
-    if messages:
-        # Run categorization
-        results = []
-        for msg in messages:
-            cat, score = categorize_message(msg)
-            results.append((msg, cat, round(score, 2)))
+    if uploaded_file:
+        # Read messages
+        lines = uploaded_file.read().decode("utf-8").splitlines()
+        messages = []
+        for line in lines:
+            if "]" in line and ":" in line:
+                msg = line.split(":", 2)[-1].strip()
+                if msg and has_valid_id(msg):   # filter by ID
+                    messages.append(msg)
 
-        # ------------------------
-        # Choose View Mode
-        # ------------------------
-        view_mode = st.radio("Select View Mode", ["Developer View", "User View"])
+        st.success(f"Loaded {len(messages)} messages (after filtering by ID format)")
 
-        if view_mode == "Developer View":
-            # Display results
-            st.subheader("Categorized Messages")
-            for msg, cat, score in results[:100]:  # preview first 100
-                st.markdown(f"**[{cat}]** ({score}) → {msg}")
+        if messages:
+            # Run categorization
+            results = []
+            for msg in messages:
+                cat, score = categorize_message(msg)
+                results.append((msg, cat, round(score, 2)))
 
-            # Summary
-            st.subheader("📊 Category Summary")
-            summary = {}
-            for _, cat, _ in results:
-                summary[cat] = summary.get(cat, 0) + 1
-            st.table([{"Category": k, "Count": v} for k, v in summary.items()])
+            # Choose View Mode
+            view_mode = st.radio("Select View Mode", ["Developer View", "User View"])
 
+            if view_mode == "Developer View":
+                # Display results
+                st.subheader("Categorized Messages")
+                for msg, cat, score in results[:100]:  # preview first 100
+                    st.markdown(f"**[{cat}]** ({score}) → {msg}")
+
+                # Summary
+                st.subheader("📊 Category Summary")
+                summary = {}
+                for _, cat, _ in results:
+                    summary[cat] = summary.get(cat, 0) + 1
+                st.table([{"Category": k, "Count": v} for k, v in summary.items()])
+
+            else:
+                # User-friendly grouping
+                st.subheader("📋 Grouped by Category")
+                grouped = {}
+                for msg, cat, _ in results:
+                    ids = extract_ids(msg)
+                    if not ids:
+                        continue
+                    if cat not in grouped:
+                        grouped[cat] = set()
+                    grouped[cat].update(ids)
+
+                for cat, ids in grouped.items():
+                    st.markdown(f"### {cat}")
+                    for tid in sorted(ids):
+                        st.write(tid)
         else:
-            # User-friendly grouping
-            st.subheader("📋 Grouped by Category")
-            grouped = {}
-            for msg, cat, _ in results:
-                ids = extract_ids(msg)
-                if not ids:
-                    continue
-                if cat not in grouped:
-                    grouped[cat] = set()
-                grouped[cat].update(ids)
+            st.warning("No valid messages found with required ID format.")
 
-            for cat, ids in grouped.items():
-                st.markdown(f"### {cat}")
-                for tid in sorted(ids):
-                    st.write(tid)
-
-# Textbox for single message test
-st.subheader("🔎 Test Single Message")
-test_msg = st.text_input("Enter a message:")
-if test_msg:
-    if has_valid_id(test_msg):
-        cat, score = categorize_message(test_msg)
-        st.write(f"Prediction: **{cat}** (score={score:.2f})")
-    else:
-        st.write("⚠️ Message skipped: no valid ID format detected.")
+# ------------------------
+# Tab 2: Test single message (for developer use)
+# ------------------------
+with tab2:
+    st.write("Test a single message manually (Developer mode).")
+    test_msg = st.text_input("Enter a message:")
+    if test_msg:
+        if has_valid_id(test_msg):
+            cat, score = categorize_message(test_msg)
+            st.write(f"Prediction: **{cat}** (score={score:.2f})")
+        else:
+            st.write("⚠️ Message skipped: no valid ID format detected.")
