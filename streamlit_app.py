@@ -26,7 +26,10 @@ categories = {
     ],
     "Update Order Equipment Details": [
         "order modify",
-        "error pink"
+        "error pink",
+        "bantu order tambah mesh",
+        "tak boleh done",
+        "error equipment not same"
     ],
     "RG6-RG7 Equipment Update": [
         "wifi6 2.5ghz",
@@ -40,7 +43,8 @@ categories = {
         "nak router baru",
         "nak rg baru",
         "tiada button replace cpe",
-        "tukar new vm ke onu combo"
+        "tukar new vm ke onu combo",
+        "add new equipment combo vdsl ke ftth"
     ],
     "Bypass ExtraPort": [
         "tolong bypass extraport",
