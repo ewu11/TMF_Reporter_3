@@ -89,6 +89,14 @@ categories = {
         "tukar hp contact number",
         "update contact nombor",
         "change ctc no"
+    ],
+    "TT CPE List not Same as Physical": [
+        "dekat equipment takda modem",
+        "site dah tukar baru"
+    ],
+    "TT RG6/ Combo Update": [
+        "xlepas nak replace combo",
+        "sn lama sn baru"
     ]
 }
 
