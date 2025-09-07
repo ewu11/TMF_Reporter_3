@@ -21,7 +21,8 @@ categories = {
         "tak ada next owner",
         "tiada dalam rol",
         "order tiada/ xda owner",
-        "mohon bantuan next activity tak appear"
+        "mohon next activity tak appear",
+        "bantuan next act x appear"
     ],
     "Update Order Equipment Details": [
         "order modify",
