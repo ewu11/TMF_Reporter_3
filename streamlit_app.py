@@ -8,7 +8,7 @@ import re
 # ------------------------
 @st.cache_resource
 def load_model():
-    return SentenceTransformer("all-MiniLM-L6-v2")
+    return SentenceTransformer("all-MiniLM-L6-v2")  # <-- change if model is not local
 
 model = load_model()
 
@@ -49,7 +49,7 @@ new_groups = {}
 group_counter = 1
 
 # ------------------------
-# Regex filter for valid IDs
+# Regex for ticket/order/ID
 # ------------------------
 ID_PATTERN = re.compile(r"(1-[A-Za-z0-9]+|250\d+|Q\d+|TM\d+)", re.IGNORECASE)
 
@@ -71,6 +71,7 @@ def categorize_message(msg):
     if best_score >= SIMILARITY_THRESHOLD:
         return best_cat, best_score
     else:
+        # create new category dynamically
         new_cat = f"auto_group_{group_counter}"
         new_groups[new_cat] = emb
         category_embeddings[new_cat] = emb
@@ -78,18 +79,18 @@ def categorize_message(msg):
         return new_cat, best_score
 
 # ------------------------
-# Streamlit UI with Tabs
+# Streamlit UI
 # ------------------------
+st.set_page_config(layout="wide")
 st.title("📂 Chat Log Categorizer")
+st.write("Automatically categorize messages based on semantic similarity.")
 
-tab1, tab2 = st.tabs(["Categorization (Main)", "🔎 Test Single Message"])
+tab1, tab2 = st.tabs(["Categorizer", "Test Single Message"])
 
 # ------------------------
-# Tab 1: File categorization (for all users)
+# Tab 1: File categorizer
 # ------------------------
 with tab1:
-    st.write("Automatically categorize messages based on semantic similarity. (Only messages with valid ID are processed)")
-
     uploaded_file = st.file_uploader("Upload cleansed_output.txt", type=["txt"])
 
     if uploaded_file:
@@ -99,62 +100,65 @@ with tab1:
         for line in lines:
             if "]" in line and ":" in line:
                 msg = line.split(":", 2)[-1].strip()
-                if msg and has_valid_id(msg):   # filter by ID
+                if msg and has_valid_id(msg):   # filter only with valid IDs
                     messages.append(msg)
 
         st.success(f"Loaded {len(messages)} messages (after filtering by ID format)")
 
-        if messages:
-            # Run categorization
-            results = []
-            for msg in messages:
-                cat, score = categorize_message(msg)
-                results.append((msg, cat, round(score, 2)))
+        # Run categorization
+        results = []
+        for msg in messages:
+            cat, score = categorize_message(msg)
+            results.append((msg, cat, round(score, 2)))
 
-            # Choose View Mode
-            view_mode = st.radio("Select View Mode", ["Developer View", "User View"])
+        # Choose View Mode
+        view_mode = st.radio("Select View Mode", ["Developer View", "User View"])
+        st.markdown("---")  # horizontal line
 
-            if view_mode == "Developer View":
-                # Display results
-                st.subheader("Categorized Messages")
-                for msg, cat, score in results[:100]:  # preview first 100
-                    st.markdown(f"**[{cat}]** ({score}) → {msg}")
+        if view_mode == "Developer View":
+            # Display results
+            st.subheader("Categorized Messages")
+            for msg, cat, score in results[:100]:  # preview first 100
+                st.markdown(f"**[{cat}]** ({score}) → {msg}")
 
-                # Summary
-                st.subheader("📊 Category Summary")
-                summary = {}
-                for _, cat, _ in results:
-                    summary[cat] = summary.get(cat, 0) + 1
-                st.table([{"Category": k, "Count": v} for k, v in summary.items()])
+            # Summary
+            st.subheader("📊 Category Summary")
+            summary = {}
+            for _, cat, _ in results:
+                summary[cat] = summary.get(cat, 0) + 1
+            st.table([{"Category": k, "Count": v} for k, v in summary.items()])
 
-            else:
-                # User-friendly grouping
-                st.subheader("📋 Grouped by Category")
-                grouped = {}
-                for msg, cat, _ in results:
-                    ids = extract_ids(msg)
-                    if not ids:
-                        continue
-                    if cat not in grouped:
-                        grouped[cat] = set()
-                    grouped[cat].update(ids)
-
-                for cat, ids in grouped.items():
-                    st.markdown(f"### {cat}")
-                    for tid in sorted(ids):
-                        st.write(tid)
         else:
-            st.warning("No valid messages found with required ID format.")
+            # User-friendly grouping
+            st.subheader("📋 Grouped by Category")
+            grouped = {}
+            for msg, cat, _ in results:
+                ids = extract_ids(msg)
+                if not ids:
+                    continue
+                if cat not in grouped:
+                    grouped[cat] = set()
+                grouped[cat].update(ids)
+
+            # Build formatted string
+            output_lines = []
+            for cat, ids in grouped.items():
+                output_lines.append(f"{cat}:")
+                for tid in sorted(ids):
+                    output_lines.append(f"  {tid}")
+                output_lines.append("")  # spacing
+
+            output_text = "\n".join(output_lines)
+
+            # Display inside scrollable text area
+            st.text_area("Grouped Results", output_text, height=300, disabled=True)
 
 # ------------------------
-# Tab 2: Test single message (for developer use)
+# Tab 2: Test single message
 # ------------------------
 with tab2:
-    st.write("Test a single message manually (Developer mode).")
+    st.subheader("🔎 Test Single Message")
     test_msg = st.text_input("Enter a message:")
     if test_msg:
-        if has_valid_id(test_msg):
-            cat, score = categorize_message(test_msg)
-            st.write(f"Prediction: **{cat}** (score={score:.2f})")
-        else:
-            st.write("⚠️ Message skipped: no valid ID format detected.")
+        cat, score = categorize_message(test_msg)
+        st.write(f"Prediction: **{cat}** (score={score:.2f})")
