@@ -57,7 +57,8 @@ categories = {
         "error pink",
         "bantu order tambah mesh",
         "tak boleh done",
-        "error equipment not same"
+        "error equipment not same",
+        "update cpe rg5 request update ke rg6 tukar wifi 5 kepada wifi 6"
     ],
     "RG6-RG7 Equipment Update": [
         "wifi6 2.5ghz",
@@ -66,7 +67,9 @@ categories = {
         "order schoolnet",
         "update cpe wifi 7 ke wifi 6 ax3000 combo",
         "minta tukar rg7 ke rg6 combo",
-        "tolong tukar eq ke combo biasa order schoolnet"
+        "tolong tukar eq ke combo biasa order schoolnet",
+        "mohon bantu tukar equipment dari rg7 ke rg6 combo ax3000",
+        "minta bantuan tukar wifi 7 kepada wifi 6"
     ],
     "Update Order New/ Existing Equipment Info": [
         "ubah equipment ke rg6",
@@ -108,7 +111,21 @@ categories = {
     ],
     "TT RG6/ Combo Update": [
         "xlepas nak replace combo",
-        "sn lama sn baru"
+        "sn lama sn baru",
+        "combo ctt old rg sn new rg sn",
+        "sn lama sn baru customer setuju renew contract",
+        "dijanjikan oleh tmpoint"
+    ],
+    "TT HSBA Reappointment": [
+        "bantu patch appt am",
+        "bantu patch appointment pm",
+        "bantuan patchkan appt tmf ctt am pm"
+    ],
+    "TT Error 400": [
+        "tt error 400"
+    ],
+    "TT Missing": [
+        "ctt missing"
     ]
 }
 
