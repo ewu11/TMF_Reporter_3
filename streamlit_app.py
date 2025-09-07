@@ -324,7 +324,7 @@ with tab1:
             export_data = []
             for cat, ids in grouped.items():
                 for tid in sorted(ids):
-                    export_data.append({"Category": cat, "Ticket/ID": tid})
+                    export_data.append({"Ticket/ID": tid, "Category": cat})
             
             df_export = pd.DataFrame(export_data)
             
