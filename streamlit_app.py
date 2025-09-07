@@ -28,7 +28,13 @@ categories = {
         "tidak boleh manual assign",
         "x boleh ma",
         "ma button missing",
-        "ma button tak appear"
+        "ma button tak appear",
+        "tiada activity manual assign"
+    ],
+    "Reopen Order Proposed Cancel": [
+        "tarik balik order",
+        "proposed cancel",
+        "propose cancelled ke rol"
     ],
     "Update Order Equipment Details": [
         "order modify",
@@ -71,7 +77,8 @@ categories = {
     ],
     "Update Contact Number": [
         "tukar hp contact number",
-        "update contact nombor"
+        "update contact nombor",
+        "change ctc no"
     ]
 }
 
