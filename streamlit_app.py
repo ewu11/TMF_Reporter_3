@@ -30,7 +30,9 @@ categories = {
         "bantuan next act x appear",
         "order return tiada next owner",
         "mir in progress",
-        "mir ra ip"
+        "mir ra ip",
+        "mohon bantuan order tiada dlm rol",
+        "mohon bantuan next act x appear"
     ],
     "Revert SWIFT-TMF Order": [
         "tiada di subscriber activity list"
