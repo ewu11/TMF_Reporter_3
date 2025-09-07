@@ -54,9 +54,17 @@ def extract_ids(msg: str):
 # Categorization function
 # Now case-insensitive
 # ------------------------
+def clean_message(msg: str) -> str:
+    # Remove ticket/order IDs
+    msg = ID_PATTERN.sub("", msg)
+    # Lowercase + strip
+    msg = msg.lower().strip()
+    return msg
+    
 def categorize_message(msg):
     global group_counter
-    emb = model.encode(msg.lower(), convert_to_tensor=True)  # normalize to lowercase
+    clean_msg = clean_message(msg)  # normalize before encoding
+    emb = model.encode(clean_msg, convert_to_tensor=True)
     scores = {cat: util.cos_sim(emb, emb_cat).item() for cat, emb_cat in category_embeddings.items()}
     best_cat, best_score = max(scores.items(), key=lambda x: x[1])
 
