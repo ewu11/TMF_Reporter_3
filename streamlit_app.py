@@ -16,6 +16,10 @@ model = load_model()
 # Seed categories
 # ------------------------
 categories = {
+    "Missing Order": [
+        "order missing",
+        "masih tiada dalam tmf"
+    ],
     "Next Order Activity Not Appear": [
         "not in rol",
         "tak ada next owner",
@@ -34,7 +38,9 @@ categories = {
     "Reopen Order Proposed Cancel": [
         "tarik balik order",
         "proposed cancel",
-        "propose cancelled ke rol"
+        "propose cancelled ke rol",
+        "movekan order ke return order list semula",
+        "masuk dalam rol semula"
     ],
     "Update Order Equipment Details": [
         "order modify",
