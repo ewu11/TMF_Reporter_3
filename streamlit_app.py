@@ -42,6 +42,12 @@ categories = {
         "bypass extraport",
         "iris access denied",
         "iris tak dapat masuk"
+    ],
+    "Unable to Swap Number": [
+        "order whp",
+        "order v1p",
+        "tak dapat swap number",
+        "call/ contact ftc/ tva",
     ]
 }
 
