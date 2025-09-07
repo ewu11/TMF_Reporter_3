@@ -19,7 +19,8 @@ categories = {
     "Next Order Activity Not Appear": [
         "not in rol",
         "tak ada next owner",
-        "tiada dalam rol"
+        "tiada dalam rol",
+        "order tiada owner"
     ],
     "Update Order Equipment Details": [
         "order modify",
