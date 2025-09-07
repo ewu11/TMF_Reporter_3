@@ -201,7 +201,7 @@ with tab1:
             
             # Convert to Excel in memory
             output = BytesIO()
-            with pd.ExcelWriter(output, engine="openpyxl") as writer:
+            with pd.ExcelWriter(output, engine="xlsxwriter") as writer:
                 df_export.to_excel(writer, index=False, sheet_name="Report")
             output.seek(0)
             
