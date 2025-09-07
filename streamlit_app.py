@@ -20,6 +20,10 @@ categories = {
         "wifi6 2.5ghz",
         "rg7 ke rg6 combo",
         "rg7 ke rg6 ax3000"
+    ],
+    "Next Order Activity Not Appear": [
+        "not in rol",
+        "next activity tak appear"
     ]
 }
 
