@@ -81,7 +81,7 @@ def categorize_message(msg):
 # ------------------------
 # Streamlit UI
 # ------------------------
-st.set_page_config(layout="wide")
+#st.set_page_config(layout="wide")
 st.title("📂 TMF Report 3")
 st.write("Enhanced report categorizer.")
 
