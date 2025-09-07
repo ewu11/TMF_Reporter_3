@@ -205,11 +205,11 @@ with tab1:
                 df_export.to_excel(writer, index=False, sheet_name="Report")
             output.seek(0)
 
-            st.subheader("📋 Export Report to Excel")
+            st.subheader("📥 Export Report to Excel")
             
             # Download button
             st.download_button(
-                label="📥 Download Excel Report",
+                label="Download Excel Report",
                 data=output,
                 file_name=filename,
                 mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
