@@ -24,6 +24,10 @@ categories = {
     "Next Order Activity Not Appear": [
         "not in rol",
         "tak ada next owner"
+    ],
+    "Update Order Equipment Details": [
+        "order modify",
+        "error pink"
     ]
 }
 
