@@ -137,7 +137,9 @@ categories = {
     ],
     "TT Error 400": [
         "ctt error 400",
-        "semakan eror 400"
+        "semakan eror 400",
+        "ctt xleh slot appt",
+        "tt unable to slot appointment"
     ],
     "TT with No Activity Worktype": [
         "ctt tiada activity work type"
