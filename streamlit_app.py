@@ -8,7 +8,7 @@ import re
 # ------------------------
 @st.cache_resource
 def load_model():
-    return SentenceTransformer("all-MiniLM-L6-v2")  # <-- change if model is not local
+    return SentenceTransformer("all-MiniLM-L6-v2")
 
 model = load_model()
 
@@ -56,6 +56,9 @@ ID_PATTERN = re.compile(r"(1-[A-Za-z0-9]+|250\d+|Q\d+|TM\d+)", re.IGNORECASE)
 def has_valid_id(msg: str) -> bool:
     return bool(ID_PATTERN.search(msg))
 
+def extract_ids(msg: str):
+    return ID_PATTERN.findall(msg)
+
 # ------------------------
 # Categorization function
 # ------------------------
@@ -68,7 +71,6 @@ def categorize_message(msg):
     if best_score >= SIMILARITY_THRESHOLD:
         return best_cat, best_score
     else:
-        # create new category dynamically
         new_cat = f"auto_group_{group_counter}"
         new_groups[new_cat] = emb
         category_embeddings[new_cat] = emb
@@ -96,24 +98,47 @@ if uploaded_file:
 
     st.success(f"Loaded {len(messages)} messages (after filtering by ID format)")
 
-    # Run categorization
-    results = []
-    for msg in messages:
-        cat, score = categorize_message(msg)
-        results.append((msg, cat, round(score, 2)))
+    if messages:
+        # Run categorization
+        results = []
+        for msg in messages:
+            cat, score = categorize_message(msg)
+            results.append((msg, cat, round(score, 2)))
 
-    # Display results
-    st.subheader("Categorized Messages")
-    for msg, cat, score in results[:100]:  # preview first 100
-        st.markdown(f"**[{cat}]** ({score}) → {msg}")
+        # ------------------------
+        # Choose View Mode
+        # ------------------------
+        view_mode = st.radio("Select View Mode", ["Developer View", "User View"])
 
-    # Summary
-    st.subheader("📊 Category Summary")
-    summary = {}
-    for _, cat, _ in results:
-        summary[cat] = summary.get(cat, 0) + 1
+        if view_mode == "Developer View":
+            # Display results
+            st.subheader("Categorized Messages")
+            for msg, cat, score in results[:100]:  # preview first 100
+                st.markdown(f"**[{cat}]** ({score}) → {msg}")
 
-    st.table([{"Category": k, "Count": v} for k, v in summary.items()])
+            # Summary
+            st.subheader("📊 Category Summary")
+            summary = {}
+            for _, cat, _ in results:
+                summary[cat] = summary.get(cat, 0) + 1
+            st.table([{"Category": k, "Count": v} for k, v in summary.items()])
+
+        else:
+            # User-friendly grouping
+            st.subheader("📋 Grouped by Category")
+            grouped = {}
+            for msg, cat, _ in results:
+                ids = extract_ids(msg)
+                if not ids:
+                    continue
+                if cat not in grouped:
+                    grouped[cat] = set()
+                grouped[cat].update(ids)
+
+            for cat, ids in grouped.items():
+                st.markdown(f"### {cat}")
+                for tid in sorted(ids):
+                    st.write(tid)
 
 # Textbox for single message test
 st.subheader("🔎 Test Single Message")
