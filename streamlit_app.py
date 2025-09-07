@@ -1,6 +1,7 @@
 import streamlit as st
 from pathlib import Path
 from sentence_transformers import SentenceTransformer, util
+import re
 
 # ------------------------
 # Load model (local or online)
@@ -47,6 +48,13 @@ SIMILARITY_THRESHOLD = 0.70
 new_groups = {}
 group_counter = 1
 
+# ------------------------
+# Regex filter for valid IDs
+# ------------------------
+ID_PATTERN = re.compile(r"(1-[A-Za-z0-9]+|250\d+|Q\d+|TM\d+)", re.IGNORECASE)
+
+def has_valid_id(msg: str) -> bool:
+    return bool(ID_PATTERN.search(msg))
 
 # ------------------------
 # Categorization function
@@ -67,12 +75,11 @@ def categorize_message(msg):
         group_counter += 1
         return new_cat, best_score
 
-
 # ------------------------
 # Streamlit UI
 # ------------------------
 st.title("📂 Chat Log Categorizer")
-st.write("Automatically categorize messages based on semantic similarity.")
+st.write("Automatically categorize messages based on semantic similarity. (Only messages with valid ID are processed)")
 
 # Upload file
 uploaded_file = st.file_uploader("Upload cleansed_output.txt", type=["txt"])
@@ -84,10 +91,10 @@ if uploaded_file:
     for line in lines:
         if "]" in line and ":" in line:
             msg = line.split(":", 2)[-1].strip()
-            if msg:
+            if msg and has_valid_id(msg):   # filter by ID
                 messages.append(msg)
 
-    st.success(f"Loaded {len(messages)} messages")
+    st.success(f"Loaded {len(messages)} messages (after filtering by ID format)")
 
     # Run categorization
     results = []
@@ -112,5 +119,8 @@ if uploaded_file:
 st.subheader("🔎 Test Single Message")
 test_msg = st.text_input("Enter a message:")
 if test_msg:
-    cat, score = categorize_message(test_msg)
-    st.write(f"Prediction: **{cat}** (score={score:.2f})")
+    if has_valid_id(test_msg):
+        cat, score = categorize_message(test_msg)
+        st.write(f"Prediction: **{cat}** (score={score:.2f})")
+    else:
+        st.write("⚠️ Message skipped: no valid ID format detected.")
