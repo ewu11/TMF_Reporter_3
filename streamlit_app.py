@@ -114,7 +114,10 @@ categories = {
         "sn lama sn baru",
         "combo ctt old rg sn new rg sn",
         "sn lama sn baru customer setuju renew contract",
-        "dijanjikan oleh tmpoint"
+        "dijanjikan oleh tmpoint",
+        "tukar flag ke combobox ctt old rg new",
+        "enable flag ctt old rg new rg",
+        "mintak tukar combo old combo new combo"
     ],
     "TT HSBA Reappointment": [
         "bantu patch appt am",
@@ -122,7 +125,8 @@ categories = {
         "bantuan patchkan appt tmf ctt am pm"
     ],
     "TT Error 400": [
-        "tt error 400"
+        "ctt error 400",
+        "semakan eror 400"
     ],
     "TT Missing": [
         "ctt missing"
