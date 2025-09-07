@@ -40,7 +40,9 @@ categories = {
         "proposed cancel",
         "propose cancelled ke rol",
         "movekan order ke return order list semula",
-        "masuk dalam rol semula"
+        "masuk dalam rol semula",
+        "masuk dalam basket rol",
+        "masuk ke dalam bakul rol"
     ],
     "Update Order Equipment Details": [
         "order modify",
