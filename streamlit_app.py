@@ -16,11 +16,6 @@ model = load_model()
 # Seed categories
 # ------------------------
 categories = {
-    "RG6-RG7 Equipment Update": [
-        "wifi6 2.5ghz",
-        "rg7 ke rg6 combo",
-        "rg7 ke rg6 ax3000"
-    ],
     "Next Order Activity Not Appear": [
         "not in rol",
         "tak ada next owner",
@@ -29,6 +24,17 @@ categories = {
     "Update Order Equipment Details": [
         "order modify",
         "error pink"
+    ],
+    "RG6-RG7 Equipment Update": [
+        "wifi6 2.5ghz",
+        "rg7 ke rg6 combo",
+        "rg7 ke rg6 ax3000"
+    ],
+    "Update Order New/ Existing Equipment Info": [
+        "ubah equipment ke rg6",
+        "nak router baru",
+        "nak rg baru",
+        "tiada button replace cpe"
     ],
     "Bypass ExtraPort": [
         "bypass extraport",
