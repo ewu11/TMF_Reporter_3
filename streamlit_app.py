@@ -61,7 +61,8 @@ categories = {
         "rg7 ke rg6 ax3000",
         "order schoolnet",
         "update cpe wifi 7 ke wifi 6 ax3000 combo",
-        "minta tukar rg7 ke rg6 combo"
+        "minta tukar rg7 ke rg6 combo",
+        "tolong tukar eq ke combo biasa order schoolnet"
     ],
     "Update Order New/ Existing Equipment Info": [
         "ubah equipment ke rg6",
@@ -94,7 +95,8 @@ categories = {
     "Update Contact Number": [
         "tukar hp contact number",
         "update contact nombor",
-        "change ctc no"
+        "change ctc no",
+        "tukar hp contact number"
     ],
     "TT CPE List not Same as Physical": [
         "dekat equipment takda modem",
