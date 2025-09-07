@@ -37,7 +37,7 @@ categories = {
         "x boleh ma",
         "ma button missing",
         "ma button tak appear",
-        "tiada activity manual assign"
+        "tiada aktiviti manual assign"
     ],
     "Reopen Order Proposed Cancel": [
         "tarik balik order",
