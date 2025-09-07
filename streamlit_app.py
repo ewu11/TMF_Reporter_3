@@ -17,9 +17,9 @@ model = load_model()
 # ------------------------
 categories = {
     "RG6-RG7 Equipment Update": [
-        "tukar wifi6 2.5ghz",
-        "tukar rg7 ke rg6 combo",
-        "tukar rg7 ke rg6 ax3000"
+        "wifi6 2.5ghz",
+        "rg7 ke rg6 combo",
+        "rg7 ke rg6 ax3000"
     ]
 }
 
