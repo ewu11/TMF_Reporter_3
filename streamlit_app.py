@@ -29,6 +29,11 @@ categories = {
     "Update Order Equipment Details": [
         "order modify",
         "error pink"
+    ],
+    "Bypass ExtraPort": [
+        "bypass extraport",
+        "iris access denied",
+        "iris tak dapat masuk"
     ]
 }
 
