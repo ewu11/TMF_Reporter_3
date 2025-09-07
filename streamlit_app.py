@@ -164,7 +164,7 @@ with tab1:
             )
             
             # Display inside scrollable, taller text area
-            st.text_area("Grouped Results", output_text, height=350, disabled=True)
+            st.text_area("Grouped Results", output_text, height=400, disabled=True)
 
 # ------------------------
 # Tab 2: Test single message
