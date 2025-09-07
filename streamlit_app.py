@@ -34,7 +34,8 @@ categories = {
         "ubah equipment ke rg6",
         "nak router baru",
         "nak rg baru",
-        "tiada button replace cpe"
+        "tiada button replace cpe",
+        "tukar new vm ke onu combo"
     ],
     "Bypass ExtraPort": [
         "bypass extraport",
