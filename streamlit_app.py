@@ -82,10 +82,10 @@ def categorize_message(msg):
 # Streamlit UI
 # ------------------------
 st.set_page_config(layout="wide")
-st.title("📂 Chat Log Categorizer")
-st.write("Automatically categorize messages based on semantic similarity.")
+st.title("📂 TMF Report 3")
+st.write("Enhanced report categorizer.")
 
-tab1, tab2 = st.tabs(["Categorizer", "Test Single Message"])
+tab1, tab2 = st.tabs(["Categorizer", "Categorize Single Message"])
 
 # ------------------------
 # Tab 1: File categorizer
@@ -103,7 +103,7 @@ with tab1:
                 if msg and has_valid_id(msg):   # filter only with valid IDs
                     messages.append(msg)
 
-        st.success(f"Loaded {len(messages)} messages (after filtering by ID format)")
+        st.success(f"Loaded {len(messages)} messages (filtered unnecessary text)")
 
         # Run categorization
         results = []
@@ -204,6 +204,8 @@ with tab1:
             with pd.ExcelWriter(output, engine="xlsxwriter") as writer:
                 df_export.to_excel(writer, index=False, sheet_name="Report")
             output.seek(0)
+
+            st.subheader("📋 Export Report to Excel")
             
             # Download button
             st.download_button(
@@ -218,7 +220,7 @@ with tab1:
 # Tab 2: Test single message
 # ------------------------
 with tab2:
-    st.subheader("🔎 Test Single Message")
+    st.subheader("🔎 Categorize Single Message")
     test_msg = st.text_input("Enter a message:")
     if test_msg:
         cat, score = categorize_message(test_msg)
