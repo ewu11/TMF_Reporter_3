@@ -151,7 +151,20 @@ with tab1:
             output_text = "\n".join(output_lines)
 
             # Display inside scrollable text area
-            st.text_area("Grouped Results", output_text, height=300, disabled=True)
+            # Custom CSS: make text_area cursor default (not text cursor)
+            st.markdown(
+                """
+                <style>
+                textarea[disabled] {
+                    cursor: default !important;
+                }
+                </style>
+                """,
+                unsafe_allow_html=True
+            )
+            
+            # Display inside scrollable, taller text area
+            st.text_area("Grouped Results", output_text, height=500, disabled=True)
 
 # ------------------------
 # Tab 2: Test single message
