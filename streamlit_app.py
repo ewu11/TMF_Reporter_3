@@ -27,7 +27,10 @@ categories = {
         "tiada dalam rol",
         "order tiada/ xda owner",
         "mohon next activity tak appear",
-        "bantuan next act x appear"
+        "bantuan next act x appear",
+        "order return tiada next owner",
+        "mir in progress",
+        "mir ra ip"
     ],
     "Missing Manual Assign Button": [
         "tidak boleh manual assign",
@@ -66,13 +69,16 @@ categories = {
         "nak rg baru",
         "tiada button replace cpe",
         "tukar new vm ke onu combo",
-        "add new equipment combo vdsl ke ftth"
+        "tukar new service point ke new combo box",
+        "add new equipment combo vdsl ke ftth",
+        "order modify tukar wifi ax3000"
     ],
     "Bypass ExtraPort": [
         "tolong bypass extraport",
         "iris access denied",
         "iris tak dapat masuk",
-        "dp out"
+        "dp out",
+        "bypass order extra port flag y"
     ],
     "Unable to Swap Number": [
         "order whp/ v1p",
