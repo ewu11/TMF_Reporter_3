@@ -128,7 +128,8 @@ categories = {
         "bantuan tukar flag ke combo box mohon update acs bind",
         "sn lama: rgx sn baru: unc30val",
         "upgrade pakej",
-        "no eligible or suitable cpe in handlist for this equipment"
+        "no eligible or suitable cpe in handlist for this equipment",
+        "xda pertukaran cpe sebelum ini"
     ],
     "TT HSBA Reappointment": [
         "bantu patch appt am",
@@ -139,7 +140,9 @@ categories = {
         "ctt error 400",
         "semakan eror 400",
         "ctt xleh slot appt",
-        "tt unable to slot appointment"
+        "tt unable to slot appointment",
+        "betulkan cabinet id",
+        "bantua delete olt cab id"
     ],
     "TT with No Activity Worktype": [
         "ctt tiada activity work type"
