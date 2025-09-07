@@ -24,6 +24,12 @@ categories = {
         "mohon next activity tak appear",
         "bantuan next act x appear"
     ],
+    "Missing Manual Assign Button": [
+        "tidak boleh manual assign",
+        "x boleh ma",
+        "ma button missing",
+        "ma button tak appear"
+    ],
     "Update Order Equipment Details": [
         "order modify",
         "error pink",
@@ -62,6 +68,10 @@ categories = {
         "v2p failed",
         "icbrn num invalid",
         "brn number invalid"
+    ],
+    "Update Contact Number": [
+        "tukar hp contact number",
+        "update contact nombor"
     ]
 }
 
