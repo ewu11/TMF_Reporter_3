@@ -125,7 +125,8 @@ categories = {
         "mintak tukar combo old combo new combo",
         "mohon enable flag ctt old rg new rg",
         "old rg new rg ctt truckroll",
-        "bantuan tukar flag ke combo box mohon update acs bind"
+        "bantuan tukar flag ke combo box mohon update acs bind",
+        "sn lama sn baru unc"
     ],
     "TT HSBA Reappointment": [
         "bantu patch appt am",
