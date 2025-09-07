@@ -4,3 +4,7 @@ torch
 transformers
 numpy
 scikit-learn
+openpyxl
+pandas
+XlsxWriter
+sentence-transformers
