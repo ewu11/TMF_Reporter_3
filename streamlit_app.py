@@ -43,7 +43,8 @@ categories = {
     "Bypass ExtraPort": [
         "bypass extraport",
         "iris access denied",
-        "iris tak dapat masuk"
+        "iris tak dapat masuk",
+        "out"
     ],
     "Unable to Swap Number": [
         "order whp/ v1p",
