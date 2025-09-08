@@ -186,10 +186,10 @@ categories = {
         "dijanjikan oleh tmpoint",
         "tukar flag ke combobox ctt old rg new",
         "enable flag ctt old rg new rg",
-        "mintak tukar combo old combo new combo",
-        "mohon enable flag ctt old rg new rg",
+        "tukar combo old combo new combo",
+        "enable flag ctt old rg new rg",
         "old rg new rg ctt truckroll",
-        "bantuan tukar flag ke combo box mohon update acs bind",
+        "tukar flag ke combo box mohon update acs bind",
         "sn lama: rgx sn baru: unc30val",
         "upgrade pakej",
         "no eligible or suitable cpe in handlist for this equipment",
@@ -197,10 +197,10 @@ categories = {
         "team tak boleh done ctt buat penukaran rg pakej old on new sn",
         "team nak close ctt x lepas sn lama sn baru",
         "old sn rgx new sn unc",
-        "berikan detail spt dibwh ctt no old rg sn: new rg sn: remark serial number does not exist in your cpe",
-        "truckroll cpe replacement old rg rgx new rg unc",
-        "mohon enable flag ctt no old rg new rg",
-        "mintk tukar flag tt no new sn old sn tt truckroll"
+        "berikan detail spt dibwh ctt no old rg sn new rg sn remark serial number does not exist in your cpe",
+        "truckroll cpe replacement old rg newrg",
+        "enable flag ctt no old rg new rg",
+        "tukar flag tt no new sn old sn tt truckroll"
     ],
     "TT RG5 Equipment Update": [
         "ctt sn lama rgx sn baru rgx pakej 100mbps"
@@ -235,7 +235,8 @@ categories = {
         "ra tt v1p 1-2 am pm"
     ],
     "TT-LR Linkage": [
-        "ctt unlink tiada dalam tmf"
+        "ctt unlink tiada dalam tmf",
+        "clear tmf ctt link lr"
     ],
     "TT Missing": [
         "ctt missing",
