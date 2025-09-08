@@ -196,13 +196,13 @@ categories = {
         "xda pertukaran cpe sebelum ini",
         "team tak boleh done ctt buat penukaran rg pakej old on new sn",
         "team nak close ctt x lepas sn lama sn baru",
-        "1-1 old sn : rgx new sn : unc",
+        "old sn rgx new sn unc",
         "berikan detail spt dibwh ctt no old rg sn: new rg sn: remark serial number does not exist in your cpe",
         "truckroll cpe replacement old rg rgx new rg unc",
-        "mohon enable flag ctt no : old rg : new rg :",
+        "mohon enable flag ctt no old rg new rg",
     ],
     "TT RG5 Equipment Update": [
-        "ctt : sn lama:rgx sn baru:rgx pakej:100mbps"
+        "ctt sn lama rgx sn baru rgx pakej 100mbps"
     ],
     "TT HSBA Reappointment": [
         "bantu patch appt am",
