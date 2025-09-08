@@ -2,6 +2,7 @@ import streamlit as st
 from pathlib import Path
 from sentence_transformers import SentenceTransformer, util
 import re
+import string
 
 # ------------------------
 # Load model (local or online)
@@ -236,8 +237,7 @@ categories = {
     ]
 }
 
-# Build initial embeddings
-# Now is case-insensitive -- simpler categorization
+# Build initial embeddings (case-insensitive)
 category_embeddings = {
     cat: model.encode([s.lower() for s in sentences], convert_to_tensor=True).mean(dim=0)
     for cat, sentences in categories.items()
@@ -251,11 +251,7 @@ group_counter = 1
 # ------------------------
 # Regex for ticket/order/ID
 # ------------------------
-# ID_PATTERN = re.compile(r"(1-[A-Za-z0-9]+|250\d+|Q\d+|TM\d+)", re.IGNORECASE)
-
-# only match IDs that are NOT part of a larger alphanumeric token
 ID_PATTERN = re.compile(r"(?<!\w)(?:1-[A-Za-z0-9]+|250\d+|Q\d+|TM\d+)(?!\w)", re.IGNORECASE)
-
 
 def has_valid_id(msg: str) -> bool:
     return bool(ID_PATTERN.search(msg))
@@ -264,15 +260,18 @@ def extract_ids(msg: str):
     return ID_PATTERN.findall(msg)
 
 # ------------------------
-# Categorization function
-# Now case-insensitive
+# Categorization helpers
 # ------------------------
 def clean_message(msg: str) -> str:
     # Remove ticket/order IDs
     msg = ID_PATTERN.sub("", msg)
-    # Lowercase + strip
-    msg = msg.lower().strip()
-    return msg
+    # Lowercase
+    msg = msg.lower()
+    # Remove punctuation
+    msg = re.sub(rf"[{re.escape(string.punctuation)}]", " ", msg)
+    # Collapse multiple spaces
+    msg = re.sub(r"\s+", " ", msg)
+    return msg.strip()
     
 def categorize_message(msg):
     global group_counter
@@ -345,13 +344,19 @@ with tab1:
             # User-friendly grouping
             st.subheader("📋 Grouped by Category")
             grouped = {}
+            seen_ids = set()  # ensure unique IDs across all categories
+
             for msg, cat, _ in results:
                 ids = extract_ids(msg)
                 if not ids:
                     continue
-                if cat not in grouped:
-                    grouped[cat] = set()
-                grouped[cat].update(ids)
+                for tid in ids:
+                    if tid in seen_ids:
+                        continue
+                    seen_ids.add(tid)
+                    if cat not in grouped:
+                        grouped[cat] = set()
+                    grouped[cat].add(tid)
 
             # Build formatted string
             output_lines = []
@@ -363,20 +368,7 @@ with tab1:
 
             output_text = "\n".join(output_lines)
 
-            # Display inside scrollable text area
-            # Custom CSS: make text_area cursor default (not text cursor)
-            st.markdown(
-                """
-                <style>
-                textarea[disabled] {
-                    cursor: default !important;
-                }
-                </style>
-                """,
-                unsafe_allow_html=True
-            )
-            
-            # Custom CSS: make text_area cursor default (not text cursor)
+            # Custom CSS: default cursor in disabled textarea
             st.markdown(
                 """
                 <style>
