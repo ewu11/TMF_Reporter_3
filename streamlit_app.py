@@ -84,7 +84,7 @@ categories = {
         "bantuan ui maklum dah done tapi nampak in progress dalam tmf"
     ],
     "Update Order Equipment Details": [
-        "order modify",
+        #"order modify",
         "error pink",
         "bantu order tambah mesh",
         "tak boleh done",
