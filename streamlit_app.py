@@ -93,7 +93,7 @@ categories = {
     "Update Network Info": [
         "dekat granite dp type street cabinet tapi di network on pole",
         "yang betul adalah street cabinet"
-    ]
+    ],
     "Bypass ExtraPort": [
         "tolong bypass extraport",
         "iris access denied",
