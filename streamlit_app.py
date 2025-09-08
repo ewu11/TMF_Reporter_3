@@ -17,28 +17,6 @@ def load_model():
 
 model = load_model()
 
-# cursor to default even in non-editable text_area
-st.markdown(
-    """
-    <style>
-    textarea[readonly] {
-        background-color: #f8f9fa !important;
-        cursor: text !important;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-# Then when rendering "non-editable but selectable" text areas:
-st.text_area(
-    "Results",
-    value=dev_output,
-    height=400,
-    key="results_area",
-    disabled=False
-)
-
 
 # ------------------------
 # Function: Text Cleansing
@@ -94,6 +72,28 @@ def has_valid_id(msg: str) -> bool:
 
 def extract_ids(msg: str):
     return ID_PATTERN.findall(msg)
+
+# cursor to default even in non-editable text_area
+st.markdown(
+    """
+    <style>
+    textarea[readonly] {
+        background-color: #f8f9fa !important;
+        cursor: text !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Then when rendering "non-editable but selectable" text areas:
+st.text_area(
+    "Results",
+    value=dev_output,
+    height=400,
+    key="results_area",
+    disabled=False
+)
 
 # ------------------------
 # Categories & embeddings
