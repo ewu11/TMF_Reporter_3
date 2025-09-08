@@ -76,8 +76,8 @@ categories = {
         "order status propose cancel bantu utk ra semula"
     ],
     "Order Incomplete but Auto Done": [
-        "minta tolong check order ttiba done sendiri",
-        "bantu ui nk done order terus ke saf",
+        "ttiba done sendiri",
+        "bantu ui nk done terus ke saf",
         "x sempat scan cpe lg"
     ],
     "Order Unsync": [
