@@ -38,13 +38,19 @@ categories = {
         "mohon bantuan order tiada dlm rol",
         "mohon bantuan next act x appear",
         "order return tapi missing owner",
-        "order xde dlm rol"
+        "order xde dlm rol",
+        "bantu done mir"
+    ],
+    "Order D&A": [
+        "task d&a ip",
+        "order dna ip"
     ],
     "Order Returned but Unscheduled": [
         "order return status unschedule"
     ],
-    "Revert SWIFT-TMF Order": [
-        "tiada di subscriber activity list"
+    "Revert BAU SWIFT-TMF Order": [
+        "tiada di subscriber activity list",
+        "mohon revert order id dibawah ke tmf system urgent"
     ],
     "Missing Order Manual Assign Button": [
         "tidak boleh manual assign",
@@ -53,7 +59,8 @@ categories = {
         "ma button tak appear",
         "tiada aktiviti manual assign",
         "fail to assign",
-        "mohon bantu manual assign not appear tqvm"
+        "mohon bantu manual assign not appear tqvm",
+        "bantuan manual slot x appear"
     ],
     "Reopen Order Proposed Cancel": [
         "tarik balik order",
@@ -62,7 +69,14 @@ categories = {
         "movekan order ke return order list semula",
         "masuk dalam rol semula",
         "masuk dalam basket rol",
-        "masuk ke dalam bakul rol"
+        "masuk ke dalam bakul rol",
+        "order status propose cancel bantu utk ra semula"
+    ],
+    "Order Incomplete but Auto Done": [
+        "minta tolong check order ttiba done sendiri"
+    ],
+    "Order Unsync": [
+        "bantuan ui maklum dah done tapi nampak in progress dalam tmf"
     ],
     "Update Order Equipment Details": [
         "order modify",
@@ -72,7 +86,9 @@ categories = {
         "error equipment not same",
         "update cpe rg5 request update ke rg6 tukar wifi 5 kepada wifi 6",
         "ui nak done order tak lepas keluar error macam ni",
-        "tukar new cpe ke existing order force done cancel"
+        "tukar new cpe ke existing order force done cancel",
+        "upgrade 1gbps tukar modem router tak support 1gbps mohon tukar equipment ke combo wifi 6",
+        "ui x blh nk done order equipment tmf existing cpe berlainan"
     ],
     "RG6-RG7 Equipment Update": [
         "wifi6 2.5ghz",
@@ -85,7 +101,8 @@ categories = {
         "mohon bantu tukar equipment dari rg7 ke rg6 combo ax3000",
         "minta bantuan tukar wifi 7 kepada wifi 6",
         "1gb tukarkan combo dengan mesh combo rg7 ke combo ax3000",
-        "tukar equipment be72000 ke ax3000 1gbps"
+        "tukar equipment be72000 ke ax3000 1gbps",
+        "minta tukar equipment rg dan mesh dari rg7 ke rg6 combo 2.5g"
     ],
     "Update Order New/ Existing Equipment Info": [
         "ubah equipment ke rg6",
@@ -104,14 +121,20 @@ categories = {
     ],
     "Update Network Info": [
         "dekat granite dp type street cabinet tapi di network on pole",
-        "yang betul adalah street cabinet"
+        "yang betul adalah street cabinet",
+        "bantuan dah tukar dp snopbot sama ada error"
     ],
     "Bypass ExtraPort": [
         "tolong bypass extraport",
         "iris access denied",
         "iris tak dapat masuk",
         "dp out",
-        "bypass order extra port flag y"
+        "bypass order extra port flag y",
+        "bantuan bypass xp",
+        "bypass fdp cleansing dp ada reading tracebite tkde reading"
+    ],
+    "Bypass HSI": [
+        "bypass speedtest dan wifi analyzer"
     ],
     "Unable to Swap Number": [
         "order whp/ v1p",
@@ -122,7 +145,11 @@ categories = {
         "verify to proceed failed",
         "v2p failed",
         "icbrn num invalid",
-        "brn number invalid"
+        "brn number invalid",
+        "mohon no ssm ic cust",
+        "minta ic no untuk order ni",
+        "bantuan ic dan ssm no invalid",
+        "fail utk update ic br no"
     ],
     "Update Contact Number": [
         "tukar hp contact number",
