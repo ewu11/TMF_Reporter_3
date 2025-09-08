@@ -122,7 +122,8 @@ categories = {
         "ru pemasangan pakai rg6",
         "order dh siap nk done kuar error guna wifi rg6 ax3000",
         "order tukar existing equipment combo box ke be7200 wifi 7 ke combo box ax3000",
-        "order tukar new equipment dari rg7 ke combo rg6"
+        "order tukar new equipment dari rg7 ke combo rg6",
+        "2508000079245568 bantuan blh tukar kan equipment wifi 7 tukar kepada wifi 6 sebab cust pakai speed 500mbps"
     ],
     "Update Order New/ Existing Equipment Info": [
         "ubah equipment ke rg6",
