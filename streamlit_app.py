@@ -232,7 +232,8 @@ categories = {
         "appt v1p @ am pm",
         "1-2 appmt am pm tq",
         "1-2 bantuan ra pm tq",
-        "ra tt v1p 1-2 am pm"
+        "ra tt v1p 1-2 am pm",
+        "appt ctt v1p @ 1-2"
     ],
     "TT-LR Linkage": [
         "ctt unlink tiada dalam tmf",
