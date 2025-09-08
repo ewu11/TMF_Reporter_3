@@ -109,9 +109,9 @@ categories = {
         "1gb tukarkan combo dengan mesh combo rg7 ke combo ax3000",
         "tukar equipment be72000 ke ax3000 1gbps",
         "minta tukar equipment rg dan mesh dari rg7 ke rg6 combo 2.5g",
-        "bantu flag masih rg7, ru pemasangan pakai rg6",
-        "bantuan order dh siap nk done kuar error guna wifi rg6 ax3000",
-        
+        "bantu flag masih rg7",
+        "ru pemasangan pakai rg6",
+        "bantuan order dh siap nk done kuar error guna wifi rg6 ax3000"
     ],
     "Update Order New/ Existing Equipment Info": [
         "ubah equipment ke rg6",
