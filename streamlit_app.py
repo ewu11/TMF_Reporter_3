@@ -103,7 +103,7 @@ categories = {
         "upgrade 1gbps tukar modem router tak support 1gbps mohon tukar equipment ke combo wifi 6",
         "ui x blh nk done order equipment tmf existing cpe berlainan"
         "new equipment kpd rg6 combo ax3000"
-        # "mhn bantuan order nak done tap error SN baru"
+        "mhn bantuan order nak done tap error SN baru"
     ],
     "RG6-RG7 Equipment Update": [
         "wifi6 2.5ghz",
@@ -166,6 +166,7 @@ categories = {
         "order whp/ v1p",
         "tak dapat swap number",
         "call/ contact ftc/ tva",
+        "mohon bantuan untuk error ni.   id :q103945 tt number:1-26818262517 old sn:whps20al2405000239 new sn:whp910dl2501001033"
     ],
     "Invalid ICBRN Number": [
         "verify to proceed failed",
@@ -229,8 +230,7 @@ categories = {
         "update old rg new rg serial number",
         "replace rg7 with rg6 in tmf",
         "provide old rg sn and new rg sn",
-        "fill google form for rg6 combo update",
-        "salam team x dapt close ctt untuk pertukaran router minta bantuan  ctt no : 1-116315464203 package : 100mbps sn lama : rg6fhax32208032145 sn baru :unc30val2410080579"
+        "fill google form for rg6 combo update"
     ],
     "TT RG5 Equipment Update": [
         "ctt sn lama rgx sn baru rgx pakej 100"
