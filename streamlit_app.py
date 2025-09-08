@@ -61,7 +61,8 @@ categories = {
         "bantu order tambah mesh",
         "tak boleh done",
         "error equipment not same",
-        "update cpe rg5 request update ke rg6 tukar wifi 5 kepada wifi 6"
+        "update cpe rg5 request update ke rg6 tukar wifi 5 kepada wifi 6",
+        "ui nak done order tak lepas keluar error macam ni"
     ],
     "RG6-RG7 Equipment Update": [
         "wifi6 2.5ghz",
