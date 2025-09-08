@@ -182,8 +182,6 @@ categories = {
         "update cpe di fizikal tidak sama dengan sistem",
         "fizikal tak sama dengan tmf",
         "tolong update service point sn dalam tmf dengan fizikal tak sama"
-    ]
-
     ],
     "TT RG6/ Combo Update": [
         "xlepas nak replace combo",
