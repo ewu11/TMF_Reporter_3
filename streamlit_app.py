@@ -102,8 +102,8 @@ categories = {
         "tukar new cpe ke existing order force done cancel",
         "upgrade 1gbps tukar modem router tak support 1gbps mohon tukar equipment ke combo wifi 6",
         "ui x blh nk done order equipment tmf existing cpe berlainan"
-        "new equipment kpd rg6 combo ax3000",
-        "mhn bantuan order nak done tap error SN baru"
+        "new equipment kpd rg6 combo ax3000"
+        # "mhn bantuan order nak done tap error SN baru"
     ],
     "RG6-RG7 Equipment Update": [
         "wifi6 2.5ghz",
