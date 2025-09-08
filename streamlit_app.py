@@ -73,28 +73,6 @@ def has_valid_id(msg: str) -> bool:
 def extract_ids(msg: str):
     return ID_PATTERN.findall(msg)
 
-# cursor to default even in non-editable text_area
-st.markdown(
-    """
-    <style>
-    textarea[readonly] {
-        background-color: #f8f9fa !important;
-        cursor: text !important;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-# Then when rendering "non-editable but selectable" text areas:
-st.text_area(
-    "Results",
-    value=dev_output,
-    height=400,
-    key="results_area",
-    disabled=False
-)
-
 # ------------------------
 # Categories & embeddings
 # ------------------------
@@ -519,6 +497,28 @@ with tab2:
 
             st.download_button("Download Excel Report", output, file_name=filename,
                                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+
+        # cursor to default even in non-editable text_area
+        st.markdown(
+            """
+            <style>
+            textarea[readonly] {
+                background-color: #f8f9fa !important;
+                cursor: text !important;
+            }
+            </style>
+            """,
+            unsafe_allow_html=True
+        )
+        
+        # Then when rendering "non-editable but selectable" text areas:
+        st.text_area(
+            "Results",
+            value=dev_output,
+            height=400,
+            key="results_area",
+            disabled=False
+        )
 
 # ------------------------
 # Tab 3: Single Message
