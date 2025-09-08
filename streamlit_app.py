@@ -80,7 +80,9 @@ categories = {
         "ttiba done sendiri",
         "bantu ui nk done terus ke saf",
         "x sempat scan cpe lg",
-        "tiba done sendiri masa tengah nak masuk attachment"
+        "tiba done sendiri masa tengah nak masuk attachment",
+        "nak done tetapi tmf auto refresh dan cpe belum pe tak update lg",
+        "dalam portal dh completed"
     ],
     "Order Unsync": [
         "ui maklum dah done tapi nampak in progress dalam tmf"
