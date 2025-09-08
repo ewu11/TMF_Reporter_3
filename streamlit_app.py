@@ -335,17 +335,35 @@ with tab1:
         st.markdown("---")  # horizontal line
 
         if view_mode == "Developer View":
-            # Display results
+            # Display results in scrollable text area
             st.subheader("Categorized Messages")
-            for msg, cat, score in results[:100]:  # preview first 100
-                st.markdown(f"**[{cat}]** ({score}) → {msg}")
-
+        
+            dev_output_lines = []
+            for msg, cat, score in results:
+                dev_output_lines.append(f"[{cat}] ({score}) → {msg}")
+            dev_output_text = "\n".join(dev_output_lines)
+        
+            # Custom CSS: default cursor in disabled textarea
+            st.markdown(
+                """
+                <style>
+                textarea[disabled] {
+                    cursor: default !important;
+                }
+                </style>
+                """,
+                unsafe_allow_html=True
+            )
+        
+            st.text_area("Results", dev_output_text, height=400, disabled=True)
+        
             # Summary
             st.subheader("📊 Category Summary")
             summary = {}
             for _, cat, _ in results:
                 summary[cat] = summary.get(cat, 0) + 1
             st.table([{"Category": k, "Count": v} for k, v in summary.items()])
+
 
         else:
             # User-friendly grouping
