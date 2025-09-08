@@ -81,7 +81,7 @@ categories = {
         "bantu ui nk done terus ke saf",
         "x sempat scan cpe lg",
         "tiba done sendiri masa tengah nak masuk attachment",
-        "nak done tetapi tmf auto refresh dan cpe belum pe tak update lg",
+        "mhn bantuan order ni nak  done tetapi tmf auto refresh dan cpe belum pe tak update lg",
         "dalam portal dh completed"
     ],
     "Order Unsync": [
@@ -95,7 +95,7 @@ categories = {
     "Update Order Equipment Details": [
         "error pink",
         "order tambah mesh",
-        "tak boleh done",
+        # "tak boleh done",
         "error equipment not same",
         "update cpe rg5 request update ke rg6 tukar wifi 5 kepada wifi 6",
         "ui nak done order tak lepas keluar error macam ni",
