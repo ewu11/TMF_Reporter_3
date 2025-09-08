@@ -70,9 +70,9 @@ categories = {
         "proposed cancel",
         "propose cancelled ke rol",
         "movekan order ke return order list semula",
-        "masuk dalam rol semula",
-        "masuk dalam basket rol",
-        "masuk ke dalam bakul rol",
+        "propose cancel masuk dalam rol semula",
+        "propose cancel masuk dalam basket rol",
+        "propose cancel masuk ke dalam bakul rol",
         "order status propose cancel"
     ],
     "Order Incomplete but Auto Done": [
