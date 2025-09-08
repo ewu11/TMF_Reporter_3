@@ -1,80 +1,18 @@
+import streamlit as st
 import re
-import string
+import pandas as pd
 from io import BytesIO
-from pathlib import Path
 from datetime import datetime
 
-import streamlit as st
-import pandas as pd
-from sentence_transformers import SentenceTransformer, util
+# ------------------------
+# Regex for ID extraction
+# ------------------------
+ID_PATTERN = re.compile(
+    r"\b(1-[A-Za-z0-9]+|25\d{6,}|Q\d{5,}|TM\d{5,})\b", re.IGNORECASE
+)
 
 # ------------------------
-# Load model (cached)
-# ------------------------
-@st.cache_resource
-def load_model():
-    return SentenceTransformer("all-MiniLM-L6-v2")
-
-model = load_model()
-
-
-# ------------------------
-# Function: Text Cleansing
-# ------------------------
-def filter_messages(file_contents, base_names):
-    timestamp_pattern = re.compile(
-        r'\[\d{1,2}/\d{1,2}/\d{4} \d{1,2}:\d{2} (?:am|pm)\]'
-        r'|\[\d{1,2}:\d{2} (?:am|pm), \d{1,2}/\d{1,2}/\d{4}\]'
-        r'|\[\d{1,2}:\d{2}, \d{1,2}/\d{1,2}/\d{4}\]'
-        r'|^\[\d{1,2}/\d{1,2}/\d{4} \d{1,2}:\d{2} [APM]{2}]'
-    )
-    name_patterns = [
-        re.compile(rf'\b{re.escape(name)}\b', re.IGNORECASE) if re.match(r'\w+', name)
-        else re.compile(rf'{re.escape(name)}', re.IGNORECASE)
-        for name in base_names
-    ]
-
-    filtered_lines, current_message = [], []
-    skip_block = False
-
-    for line in file_contents.splitlines():
-        if timestamp_pattern.match(line):
-            if current_message:
-                filtered_lines.append(' '.join(current_message).strip().lower())
-                current_message = []
-
-            skip_block = any(pattern.search(line) for pattern in name_patterns)
-
-        if not skip_block:
-            current_message.append(line.strip().lower())
-
-    if not skip_block and current_message:
-        filtered_lines.append(' '.join(current_message).strip().lower())
-
-    return '\n\n'.join(filtered_lines)
-
-
-def process_uploaded_files_filtering(uploaded_files, base_names):
-    all_output = []
-    for uploaded_file in uploaded_files:
-        file_contents = uploaded_file.read().decode("utf-8")
-        filtered_text = filter_messages(file_contents, base_names)
-        all_output.append(f"===Cleansed content from {uploaded_file.name}:===\n{filtered_text}")
-    return "\n\n".join(all_output)
-
-# ------------------------
-# Regex for ticket/order/ID
-# ------------------------
-ID_PATTERN = re.compile(r"(?<!\w)(?:1-[A-Za-z0-9]+|250\d+|Q\d+|TM\d+)(?!\w)", re.IGNORECASE)
-
-def has_valid_id(msg: str) -> bool:
-    return bool(ID_PATTERN.search(msg))
-
-def extract_ids(msg: str):
-    return ID_PATTERN.findall(msg)
-
-# ------------------------
-# Categories & embeddings
+# Categories (sample only, update as needed)
 # ------------------------
 categories = {
     "Missing Order": [
@@ -368,164 +306,154 @@ categories = {
     ]
 }
 
-category_embeddings = {
-    cat: model.encode([s.lower() for s in sentences], convert_to_tensor=True).mean(dim=0)
-    for cat, sentences in categories.items()
-}
+# ------------------------
+# Helper: Categorize message
+# ------------------------
+def categorize_message(message: str, threshold: float = 0.53):
+    msg_lower = message.lower()
+    for category, keywords in categories.items():
+        for kw in keywords:
+            if kw.lower() in msg_lower:
+                return category, 1.0  # matched keyword
+    return "auto_group", threshold  # fallback
 
-SIMILARITY_THRESHOLD = 0.53
-new_groups = {}
-group_counter = 1
-
-def clean_message(msg: str) -> str:
-    msg = ID_PATTERN.sub("", msg)   # remove IDs
-    msg = msg.lower()
-    msg = re.sub(rf"[{re.escape(string.punctuation)}]", " ", msg)
-    return re.sub(r"\s+", " ", msg).strip()
-
-def categorize_message(msg):
-    global group_counter
-    clean_msg = clean_message(msg)
-    emb = model.encode(clean_msg, convert_to_tensor=True)
-    scores = {cat: util.cos_sim(emb, emb_cat).item() for cat, emb_cat in category_embeddings.items()}
-    best_cat, best_score = max(scores.items(), key=lambda x: x[1])
-
-    if best_score >= SIMILARITY_THRESHOLD:
-        return best_cat, best_score
-    else:
-        new_cat = f"auto_group_{group_counter}"
-        new_groups[new_cat] = emb
-        category_embeddings[new_cat] = emb
-        group_counter += 1
-        return new_cat, best_score
 
 # ------------------------
-# Streamlit UI
+# Helper: extract IDs
 # ------------------------
-st.set_page_config(layout="centered")
-st.title("📂 TMF Reporter 3")
+def extract_ids(message: str):
+    return ID_PATTERN.findall(message)
 
-tab1, tab2, tab3 = st.tabs(["1. Text Cleansing", "2. Categorizer", "3. Single Message Test"])
 
 # ------------------------
-# Tab 1: Text Cleansing
+# Helper: read-only text area
 # ------------------------
-with tab1:
-    st.subheader("🧹 Text Cleansing")
-    base_names_input = st.text_area(
-        "Enter names (comma-separated, to be removed):",
-        "Hartina, Tina, Normah, Pom, Afizan, Pijan, Ariff, Arep, Arip, Dheffirdaus, Dhef, Hazrina"
+def readonly_text_area(label, value, height=400, key=None):
+    st.markdown(
+        """
+        <style>
+        textarea[readonly] {
+            background-color: #f8f9fa !important;
+            cursor: text !important;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
     )
-    base_names = [name.strip() for name in base_names_input.split(",")]
+    return st.text_area(
+        label,
+        value=value,
+        height=height,
+        key=key,
+    )
 
-    uploaded_files_filter = st.file_uploader("Upload text files (max 2)", type="txt", accept_multiple_files=True)
-
-    if uploaded_files_filter and len(uploaded_files_filter) > 2:
-        st.error("You can only upload up to 2 files.")
-    else:
-        if uploaded_files_filter and st.button("Cleanse File"):
-            filtered_output = process_uploaded_files_filtering(uploaded_files_filter, base_names)
-
-            st.text_area("Cleansed Output", value=filtered_output, height=400, disabled=True)
-
-            download_data = BytesIO(filtered_output.encode("utf-8"))
-            st.download_button(
-                label="Download cleansed text",
-                data=download_data,
-                file_name="cleansed_output.txt",
-                mime="text/plain"
-            )
 
 # ------------------------
-# Tab 2: File Categorizer
+# Streamlit App
 # ------------------------
-with tab2:
-    st.subheader("📂 Categorize Cleansed File")
-    uploaded_file = st.file_uploader("Upload cleansed_output.txt", type=["txt"])
+st.set_page_config(layout="wide")
+
+st.title("📂 Trouble Ticket Categorizer")
+
+tab1, tab2 = st.tabs(["👥 User View", "👨‍💻 Developer View"])
+
+# ========================
+# USER VIEW
+# ========================
+with tab1:
+    st.header("User View")
+
+    uploaded_file = st.file_uploader("Upload a text file", type=["txt"])
 
     if uploaded_file:
-        lines = uploaded_file.read().decode("utf-8").splitlines()
-        messages = []
-        for line in lines:
-            if "]" in line and ":" in line:
-                msg = line.split(":", 2)[-1].strip()
-                if msg and has_valid_id(msg):
-                    messages.append(msg)
+        text = uploaded_file.read().decode("utf-8")
+        messages = text.splitlines()
 
-        st.success(f"Loaded {len(messages)} messages with valid IDs")
+        grouped = {}
+        for msg in messages:
+            ids = extract_ids(msg)
+            if not ids:
+                continue  # skip messages without valid IDs
+            cat, score = categorize_message(msg)
+            grouped.setdefault(cat, []).extend(ids)
 
-        results = [(msg, *categorize_message(msg)) for msg in messages]
+        # Show grouped output
+        user_output_lines = []
+        for cat, ids in grouped.items():
+            user_output_lines.append(f"\n{cat}:")
+            for i in ids:
+                user_output_lines.append(i)
 
-        view_mode = st.radio("Select View Mode", ["Developer View", "User View"])
+        user_output = "\n".join(user_output_lines)
 
-        if view_mode == "Developer View":
-            st.subheader("Categorized Messages")
-            dev_output = "\n\n".join([f"[{cat}] ({score:.2f}) → {msg}" for msg, cat, score in results])
-            st.text_area("Results", dev_output, height=400, disabled=True)
+        st.markdown("---")
+        readonly_text_area("Grouped Results", user_output, height=300, key="user_view")
 
-            summary = {}
-            for _, cat, _ in results:
-                summary[cat] = summary.get(cat, 0) + 1
-            st.subheader("📊 Category Summary")
-            st.table([{"Category": k, "Count": v} for k, v in summary.items()])
-
-        else:
-            st.subheader("📋 Grouped by Category")
-            grouped, seen_ids = {}, set()
-            for msg, cat, _ in results:
-                ids = extract_ids(msg)
-                for tid in ids:
-                    if tid not in seen_ids:
-                        seen_ids.add(tid)
-                        grouped.setdefault(cat, set()).add(tid)
-
-            output_lines = []
+        # Export to Excel
+        st.markdown("---")
+        if st.button("📤 Export to Excel"):
+            df = []
             for cat, ids in grouped.items():
-                output_lines.append(f"{cat}:")
-                output_lines.extend([f"  {tid}" for tid in sorted(ids)])
-                output_lines.append("")
-            st.text_area("Grouped Results", "\n".join(output_lines), height=400, disabled=True)
+                for i in ids:
+                    df.append({"Category": cat, "ID": i})
 
-            export_data = [{"Ticket/ID": tid, "Category": cat} for cat, ids in grouped.items() for tid in ids]
-            df_export = pd.DataFrame(export_data)
-
-            filename = f"FF TT Report {datetime.today().strftime('%d.%m.%Y')}.xlsx"
+            df = pd.DataFrame(df)
             output = BytesIO()
             with pd.ExcelWriter(output, engine="xlsxwriter") as writer:
-                df_export.to_excel(writer, index=False, sheet_name="Report")
-            output.seek(0)
+                df.to_excel(writer, index=False, sheet_name="Report")
 
-            st.download_button("Download Excel Report", output, file_name=filename,
-                               mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+            today = datetime.today().strftime("%d.%m.%Y")
+            filename = f"FF TT Report {today}.xlsx"
 
-        # cursor to default even in non-editable text_area
-        st.markdown(
-            """
-            <style>
-            textarea[readonly] {
-                background-color: #f8f9fa !important;
-                cursor: text !important;
-            }
-            </style>
-            """,
-            unsafe_allow_html=True
-        )
-        
-        # Then when rendering "non-editable but selectable" text areas:
-        st.text_area(
-            "Results",
-            value=dev_output,
-            height=400,
-            key="results_area",
-            disabled=False
-        )
+            st.download_button(
+                label="⬇️ Download Excel",
+                data=output.getvalue(),
+                file_name=filename,
+                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            )
 
-# ------------------------
-# Tab 3: Single Message
-# ------------------------
-with tab3:
-    st.subheader("🔎 Categorize Single Message")
-    test_msg = st.text_input("Enter a message:")
-    if test_msg:
-        cat, score = categorize_message(test_msg)
-        st.write(f"Prediction: **{cat}** (score={score:.2f})")
+# ========================
+# DEVELOPER VIEW
+# ========================
+with tab2:
+    st.header("Developer View")
+
+    sample_message = st.text_area("Test single message:", "", height=100)
+
+    if st.button("Categorize Sample"):
+        ids = extract_ids(sample_message)
+        if ids:
+            cat, score = categorize_message(sample_message)
+            st.write(f"Category: {cat}, Score: {score}, IDs: {ids}")
+        else:
+            st.write("⚠️ No valid IDs found in message.")
+
+    uploaded_file = st.file_uploader("Upload a text file for analysis", type=["txt"], key="dev")
+
+    if uploaded_file:
+        text = uploaded_file.read().decode("utf-8")
+        messages = text.splitlines()
+
+        results = []
+        for msg in messages:
+            ids = extract_ids(msg)
+            if not ids:
+                continue
+            cat, score = categorize_message(msg)
+            results.append((msg, cat, score))
+
+        dev_output_lines = []
+        for msg, cat, score in results:
+            dev_output_lines.append(f"[{cat}] ({score}) → {msg}")
+
+        dev_output_text = "\n".join(dev_output_lines)
+
+        st.subheader("Categorized Messages")
+        readonly_text_area("Results", dev_output_text, height=400, key="dev_output")
+
+        # Summary
+        st.subheader("📊 Category Summary")
+        summary = {}
+        for _, cat, _ in results:
+            summary[cat] = summary.get(cat, 0) + 1
+        st.table([{"Category": k, "Count": v} for k, v in summary.items()])
