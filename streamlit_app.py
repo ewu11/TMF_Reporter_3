@@ -148,7 +148,9 @@ categories = {
     "Update Network Info": [
         "dekat granite dp type street cabinet tapi di network on pole",
         "yang betul adalah street cabinet",
-        "bantuan dah tukar dp snopbot sama ada error"
+        "bantuan dah tukar dp snopbot sama ada error",
+        "minta bantuan adv ctt 1-115970783375 tak boleh tukar fdp dalam granite di tmf",
+        
     ],
     "Bypass ExtraPort": [
         "tolong bypass extraport",
@@ -241,10 +243,20 @@ categories = {
         "remark : mohon tukarkan flag ke combo box ctt:  1-115976383308  s/n lama: rg6fhax32208019428 s/n baru: unc30val2411014648 login id: honghai@unifi terima kasih",
         "remark : mohon bantuan tukarkan flag ke combobox dan mohon update acs bind.  ctt: 1-116311067865 s/n lama: rgx842dl1806014106 s/n baru : unc30val2410031830 s/n baru (gpon) : cwtcb8124379 login id : yenthing1638@unifi",
         "remark : mohon bantuan tukarkan flag ke combobox dan mohon update acs bind  ctt no: 1-116152914651 old s/n: rgxdvgdl2110035485 new s/n: unc30val2410074284 login id: eyracik86@unifi  terima kasih",
-        ""
+        "1-115970926445 minta update flag tukar ke combo box. customer sudah tukar pakej ke 300m.",
+        "mohon tukar tagging ke combo/rg6 no ctt:  1-115969916464 sn lama:  rgxdvgdl2109025080 sn baru:  unc30val2412069248",
+        "enable combo flag 1-116316769444 old sn : rgxaztwr2105049908 new sn : unc30val2412061412",
+        "1-115972600583 old sn : rgxperdl1705008311 new sn : unc30val2501002986",
+        "assalamualaikum & salam sejahtera, tuan/puan zone ctt coordinator/sp/exec untuk setiap permohonan untuk enable flag rg6 di dalam tmf, mohon berikan maklumat seperti di bawah & mengisi google form yang disertakan (link terkini) & lampirkan screenshot form submission di sini.  info: ctt no: 1-115797194828 old rg sn: pvby2c3015921 new rg sn: unc30val2501057440  https://forms.gle/irzc9fmbnz8yzgtva  team support, mohon bantuan untuk enable flag hanya selepas bukti form submission disertakan.  terima kasih atas kerjasama semua.",
+        "truckroll cpe replacement  1-116315005124 old rg rgxdvgdl2109013485 newrg unc30val2501056851",
+        "nnt berikan detail spt dibwh: ctt no: nnt berikan detail spt dibwh:  ctt no: 1-116000429645 old rg sn: rgx830dl2109018545 new rg sn: unc30val2501034470 remark : serial number does not exist in your cpe ( truckroll )",
+        "mohon enable flag ctt no : 1-116323556555 old rg :aa0c724e4c8bb9cc0 new rg : unc30val2412064290",
+        "info: ctt no:  1-116312914201   old rg : rg6dl60z2206082971  new rg sn: uncfh5f32411022966    https://forms.gle/irzc9fmbnz8yzgtva  team support, mohon bantuan untuk enable flag hanya selepas bukti form submission disertakan.  terima kasih atas kerjasama semua."
     ],
     "TT RG5 Equipment Update": [
-        "ctt sn lama rgx sn baru rgx pakej 100"
+        "ctt sn lama rgx sn baru rgx pakej 100",
+        "ctt :1-116313934089 sn lama:rgxtplc11903028849 sn baru:rgx835dl2307001679 pakej:100mbps",
+        ""
     ],
     "TT HSBA Reappointment": [
         "patch appt am",
