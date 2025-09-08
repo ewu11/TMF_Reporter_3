@@ -242,7 +242,8 @@ categories = {
         "ctt missing",
         "ctt x appear dalam tmf",
         "ctt missing slps return fs troubleshooting",
-        "ctt missing. mohon bantuan 1-1"
+        "ctt missing. mohon bantuan 1-1",
+        "cek kan ctt no tersebut x appear dlm tmf"
     ],
     "TT Duplicate Activity": [
         "cancel 1 activity id a-",
