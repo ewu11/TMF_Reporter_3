@@ -76,7 +76,9 @@ categories = {
         "order status propose cancel bantu utk ra semula"
     ],
     "Order Incomplete but Auto Done": [
-        "minta tolong check order ttiba done sendiri"
+        "minta tolong check order ttiba done sendiri",
+        "mohon bantu ui nk done order terus ke saf",
+        "x sempat scan cpe lg"
     ],
     "Order Unsync": [
         "bantuan ui maklum dah done tapi nampak in progress dalam tmf"
@@ -92,7 +94,7 @@ categories = {
         "tukar new cpe ke existing order force done cancel",
         "upgrade 1gbps tukar modem router tak support 1gbps mohon tukar equipment ke combo wifi 6",
         "ui x blh nk done order equipment tmf existing cpe berlainan",
-        "tukar new equipment kpd rg6 combo ax3000"
+        "format apa2 masalah tukar new equiment kpd rg6 combo ax3000"
     ],
     "RG6-RG7 Equipment Update": [
         "wifi6 2.5ghz",
@@ -194,10 +196,13 @@ categories = {
         "xda pertukaran cpe sebelum ini",
         "team tak boleh done ctt buat penukaran rg pakej old on new sn",
         "team nak close ctt x lepas sn lama sn baru",
-        "1- old sn : rgx new sn : unc",
+        "1-1 old sn : rgx new sn : unc",
         "berikan detail spt dibwh ctt no old rg sn: new rg sn: remark serial number does not exist in your cpe",
         "truckroll cpe replacement old rg rgx new rg unc",
-        "mohon enable flag ctt no : old rg : new rg :"
+        "mohon enable flag ctt no : old rg : new rg :",
+    ],
+    "TT RG5 Equipment Update": [
+        "ctt : sn lama:rgx sn baru:rgx pakej:100mbps"
     ],
     "TT HSBA Reappointment": [
         "bantu patch appt am",
@@ -229,7 +234,9 @@ categories = {
     ],
     "TT Missing": [
         "ctt missing",
-        "ctt x appear dalam tmf"
+        "ctt x appear dalam tmf",
+        "ctt missing slps return fs troubleshooting",
+        "ctt missing. mohon bantuan 1-1"
     ],
     "TT Duplicate Activity": [
         "mohon bantun cancel 1 activity id a-",
