@@ -99,8 +99,8 @@ categories = {
     ],
     "RG6-RG7 Equipment Update": [
         "wifi6 2.5ghz",
-        "rg7 ke rg6 combo",
-        "rg7 ke rg6 ax3000",
+        #"rg7 ke rg6 combo",
+        #"rg7 ke rg6 ax3000",
         "order schoolnet",
         "update cpe wifi 7 ke wifi 6 ax3000 combo",
         "tukar rg7 ke rg6 combo",
