@@ -232,6 +232,16 @@ categories = {
         "provide old rg sn and new rg sn",
         "fill google form for rg6 combo update",
         "assalamualaikum & salam sejahtera,  remark : mohon bantuan tukarkan flag ke combo box dan mohon update acs bind.  ctt: 1-116311140378 s/n lama: rgxaztwr2112008593 s/n baru: unc30val2411098930 login id : norsitikamsiah@unifi  terima kasih 🙂 @~taufik z."
+        "remark : mohon bantuan tukarkan flag ke combo box dan mohon update acs bind.*  ctt: 1-116270632518 s/n cpe lama: rgxtplec2205052950 s/n cpe baru: unc30val2411098979 login id : tey6686@unifi  terima kasih 🙂",
+        "remark : mohon tukarkan flag ke combo box ctt:  1-115865956193  s/n lama: rgxtplc11812010132 s/n baru: uncfh5f32502024708 login id: zaynvivian95@unifi terima kasih",
+        "remark : mohon bantuan tukarkan flag ke combobox dan mohon update acs bind.  ctt: 1-116312296513 s/n lama: rgx825dl2012009971 s/n baru : unc30val2501010999 s/n baru (gpon) : cwtcb81ad76c login id : suhairina08@unifi",
+        "remark : mohon tukarkan flag ke combo box ctt:  1-115859379625  s/n lama: rgwtull71206003141 s/n baru: unc30val2412061346 login id: virtualmonn78@unifi terima kasih",
+        "assalamualaikum & salam sejahtera,  remark : mohon bantuan tukarkan flag ke combo box dan mohon update acs bind.  ctt: 1-116302969812 s/n lama: rgxperdl1707013468 s/n baru: unc30val2411098814 login id : soontat64@unifi  terima kasih 🙂 @~taufik z.",
+        "assalamualaikum  remark : mohon tukarkan flag ke combo box  ctt: 1-116311031131 s/n lama: rgx830dl2109006052 s/n baru: unc30val2411083924 logn id : nesznazeir123@unifi  terima kasih 🙂",
+        "remark : mohon tukarkan flag ke combo box ctt:  1-115976383308  s/n lama: rg6fhax32208019428 s/n baru: unc30val2411014648 login id: honghai@unifi terima kasih",
+        "remark : mohon bantuan tukarkan flag ke combobox dan mohon update acs bind.  ctt: 1-116311067865 s/n lama: rgx842dl1806014106 s/n baru : unc30val2410031830 s/n baru (gpon) : cwtcb8124379 login id : yenthing1638@unifi",
+        "remark : mohon bantuan tukarkan flag ke combobox dan mohon update acs bind  ctt no: 1-116152914651 old s/n: rgxdvgdl2110035485 new s/n: unc30val2410074284 login id: eyracik86@unifi  terima kasih",
+        ""
     ],
     "TT RG5 Equipment Update": [
         "ctt sn lama rgx sn baru rgx pakej 100"
