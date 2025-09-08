@@ -33,13 +33,13 @@ categories = {
         "xda owner"
         "tiada dalam rol",
         "order tiada/ xda owner",
-        "mohon next activity tak appear",
+        "next activity tak appear",
         "bantuan next act x appear",
         "order return tiada next owner",
         "mir in progress",
         "mir ra ip",
-        "mohon bantuan order tiada dlm rol",
-        "mohon bantuan next act x appear",
+        "bantuan order tiada dlm rol",
+        "bantuan next act x appear",
         "order return tapi missing owner",
         "order xde dlm rol",
         "boleh bantu done mir"
@@ -53,7 +53,7 @@ categories = {
     ],
     "Revert BAU SWIFT-TMF Order": [
         "tiada di subscriber activity list",
-        "mohon revert order id dibawah ke tmf system urgent"
+        "revert order id dibawah ke tmf system urgent"
     ],
     "Missing Order Manual Assign Button": [
         "tidak boleh manual assign",
@@ -62,7 +62,7 @@ categories = {
         "ma button tak appear",
         "tiada aktiviti manual assign",
         "fail to assign",
-        "mohon bantu manual assign not appear tqvm",
+        "bantu manual assign not appear tqvm",
         "bantuan manual slot x appear"
     ],
     "Reopen Order Proposed Cancel": [
@@ -77,7 +77,7 @@ categories = {
     ],
     "Order Incomplete but Auto Done": [
         "minta tolong check order ttiba done sendiri",
-        "mohon bantu ui nk done order terus ke saf",
+        "bantu ui nk done order terus ke saf",
         "x sempat scan cpe lg"
     ],
     "Order Unsync": [
@@ -126,8 +126,8 @@ categories = {
         "service point masih existing",
         "tukar sp kepada existing add new rg6 ax3000",
         "order upgrade 1g add new combo tukar btu ke existing",
-        "mohon add new uonu",
-        "bantuan tukarkan existing rg ke new combo order modify"
+        "add new uonu",
+        "tukarkan existing rg ke new combo order modify"
     ],
     "Update Network Info": [
         "dekat granite dp type street cabinet tapi di network on pole",
@@ -156,7 +156,7 @@ categories = {
         "v2p failed",
         "icbrn num invalid",
         "brn number invalid",
-        "mohon no ssm/ic cust dlm tmf tiada",
+        "no ssm/ic cust dlm tmf tiada",
         "minta ic no untuk order ni",
         "bantuan ic dan ssm no invalid",
         "fail utk update ic br no"
@@ -206,9 +206,9 @@ categories = {
         "ctt sn lama rgx sn baru rgx pakej 100mbps"
     ],
     "TT HSBA Reappointment": [
-        "bantu patch appt am",
-        "bantu patch appointment pm",
-        "bantuan patchkan appt tmf ctt am pm"
+        "patch appt am",
+        "patch appointment pm",
+        "patchkan appt tmf ctt am pm"
     ],
     "TT Error 400": [
         "ctt error 400",
@@ -217,7 +217,7 @@ categories = {
         "tt unable to slot appointment",
         "betulkan cabinet id",
         "bantuan delete olt cab id",
-        "bantuan betulkan cab id yg betul",
+        "betulkan cab id yg betul",
         "tiada detail cab",
         "mohon bantu ctt tiada detail kabinet"
     ],
@@ -225,11 +225,11 @@ categories = {
         "ctt tiada activity work type"
     ],
     "TT V1P": [
-        "mohon bantuan utk slot am pm",
+        "utk slot am pm",
         "tt v1p",
-        "mohon bantun utk appt ctt hari ini pukul :",
-        "mohon utk slot 1-2 @ am pm",
-        "mohon bantu appt v1p @ am pm",
+        "utk appt ctt hari ini pukul :",
+        "utk slot 1-2 @ am pm",
+        "appt v1p @ am pm",
         "1-2 appmt am pm tq",
         "1-2 bantuan ra pm tq",
         "ra tt v1p 1-2 am pm"
@@ -245,8 +245,8 @@ categories = {
         "ctt missing. mohon bantuan 1-1"
     ],
     "TT Duplicate Activity": [
-        "mohon bantun cancel 1 activity id a-",
-        "mohon bantun cancel act duplicate"
+        "cancel 1 activity id a-",
+        "cancel act duplicate"
     ]
 }
 
