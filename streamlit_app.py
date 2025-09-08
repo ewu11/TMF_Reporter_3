@@ -172,7 +172,7 @@ categories = {
         "site dah tukar baru",
         "update cpe di fizikal tidak sama dengan sistem",
         "add onu lama sbb perlu tukar onu sahaja",
-        "sn onu fizikal sn onu dalam list bantu update list equipment",
+        "onu fizikal onu dalam list bantu update list equipment",
         "update sn onu lama cust",
         "fizikal tak sama dengan tmf",
         "tolong update service point sn dalam tmf dengan fizikal tak sama",
