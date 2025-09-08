@@ -21,7 +21,8 @@ categories = {
         "masih tiada dalam tmf",
         "order tiada di page schedule",
         "order pending processing dalam tmf",
-        "order tiada dalam oal"
+        "order tiada dalam oal",
+        "x ade dalam oal"
     ],
     "Next Order Activity Not Appear": [
         "not in rol",
@@ -52,7 +53,7 @@ categories = {
         "ma button tak appear",
         "tiada aktiviti manual assign",
         "fail to assign",
-        "mohon bantu manual assign not appear"
+        "mohon bantu manual assign not appear tqvm"
     ],
     "Reopen Order Proposed Cancel": [
         "tarik balik order",
