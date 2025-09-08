@@ -102,16 +102,16 @@ categories = {
         "rg7 ke rg6 ax3000",
         "order schoolnet",
         "update cpe wifi 7 ke wifi 6 ax3000 combo",
-        "minta tukar rg7 ke rg6 combo",
+        "tukar rg7 ke rg6 combo",
         "tolong tukar eq ke combo biasa order schoolnet",
-        "mohon bantu tukar equipment dari rg7 ke rg6 combo ax3000",
-        "minta bantuan tukar wifi 7 kepada wifi 6",
+        "bantu tukar equipment dari rg7 ke rg6 combo ax3000",
+        "bantuan tukar wifi 7 kepada wifi 6",
         "1gb tukarkan combo dengan mesh combo rg7 ke combo ax3000",
         "tukar equipment be72000 ke ax3000 1gbps",
-        "minta tukar equipment rg dan mesh dari rg7 ke rg6 combo 2.5g",
-        "bantu flag masih rg7",
+        "tukar equipment rg dan mesh dari rg7 ke rg6 combo 2.5g",
+        "flag masih rg7",
         "ru pemasangan pakai rg6",
-        "bantuan order dh siap nk done kuar error guna wifi rg6 ax3000"
+        "order dh siap nk done kuar error guna wifi rg6 ax3000"
     ],
     "Update Order New/ Existing Equipment Info": [
         "ubah equipment ke rg6",
@@ -170,13 +170,13 @@ categories = {
     "TT CPE List not Same as Physical": [
         "dekat equipment takda modem",
         "site dah tukar baru",
-        "bantuan update cpe di fizikal tidak sama dengan sistem",
-        "bantuan add onu lama sbb perlu tukar onu sahaja",
+        "update cpe di fizikal tidak sama dengan sistem",
+        "add onu lama sbb perlu tukar onu sahaja",
         "sn onu fizikal sn onu dalam list bantu update list equipment",
-        "mohon bantun update sn onu lama cust",
-        "bantuan sn rg fizikal tak sama dengan tmf sn fizikal sn tmf",
+        "update sn onu lama cust",
+        "sn rg fizikal tak sama dengan tmf sn fizikal sn tmf",
         "tolong update service point sn dalam tmf dengan fizikal tak sama",
-        "mohon bantuan untuk add kan onu dalam tmf sn no"
+        "add kan onu dalam tmf sn no"
     ],
     "TT RG6/ Combo Update": [
         "xlepas nak replace combo",
