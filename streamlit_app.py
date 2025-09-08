@@ -81,7 +81,7 @@ categories = {
         "x sempat scan cpe lg"
     ],
     "Order Unsync": [
-        "bantuan ui maklum dah done tapi nampak in progress dalam tmf"
+        "ui maklum dah done tapi nampak in progress dalam tmf"
     ],
     "Update Order Equipment Details": [
         #"order modify",
@@ -162,7 +162,8 @@ categories = {
         "minta ic no untuk order ni",
         "bantuan ic dan ssm no invalid",
         "fail utk update ic br no",
-        "minta ic no detail customer"
+        "minta ic no detail customer",
+        "ic dan ssm no masuk tapi invalid tak lepas done"
     ],
     "Update Contact Number": [
         "tukar hp contact number",
