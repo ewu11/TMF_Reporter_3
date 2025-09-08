@@ -79,7 +79,8 @@ categories = {
     "Order Incomplete but Auto Done": [
         "ttiba done sendiri",
         "bantu ui nk done terus ke saf",
-        "x sempat scan cpe lg"
+        "x sempat scan cpe lg",
+        "tiba done sendiri masa tengah nak masuk attachment"
     ],
     "Order Unsync": [
         "ui maklum dah done tapi nampak in progress dalam tmf"
