@@ -87,7 +87,7 @@ categories = {
     "Update Order Equipment Details": [
         #"order modify",
         "error pink",
-        "bantu order tambah mesh",
+        "order tambah mesh",
         "tak boleh done",
         "error equipment not same",
         "update cpe rg5 request update ke rg6 tukar wifi 5 kepada wifi 6",
@@ -112,7 +112,8 @@ categories = {
         "tukar equipment rg dan mesh dari rg7 ke rg6 combo 2.5g",
         "flag masih rg7",
         "ru pemasangan pakai rg6",
-        "order dh siap nk done kuar error guna wifi rg6 ax3000"
+        "order dh siap nk done kuar error guna wifi rg6 ax3000",
+        "tukar existing equipment combo box ke be7200 wifi 7 ke combo box ax3000"
     ],
     "Update Order New/ Existing Equipment Info": [
         "ubah equipment ke rg6",
