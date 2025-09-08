@@ -341,7 +341,7 @@ with tab1:
             dev_output_lines = []
             for msg, cat, score in results:
                 dev_output_lines.append(f"[{cat}] ({score}) → {msg}")
-            dev_output_text = "\n".join(dev_output_lines)
+            dev_output_text = "\n\n".join(dev_output_lines)
         
             # Custom CSS: default cursor in disabled textarea
             st.markdown(
@@ -355,7 +355,7 @@ with tab1:
                 unsafe_allow_html=True
             )
         
-            st.text_area("Results", dev_output_text, height=400, disabled=True)
+            st.text_area("Results", dev_output_text, height=500, disabled=True)
         
             # Summary
             st.subheader("📊 Category Summary")
