@@ -496,47 +496,47 @@ with tab2:
         st.markdown("---")  # horizontal line
 
         if view_mode == "Developer View":
-        # Display results in scrollable text area
-        st.subheader("Categorized Messages (by ID)")
-    
-        dev_output_lines = []
-        expanded_results = []  # store per-ID results
-    
-        for msg, cat, score in results:
-            ids = extract_ids(msg)
-            if ids:
-                for tid in ids:
-                    dev_output_lines.append(f"[{cat}] ({score:.2f}) → {tid} | {msg}")
-                    expanded_results.append((tid, cat, score, msg))
-            else:
-                # if no ID, still include the message
-                dev_output_lines.append(f"[{cat}] ({score:.2f}) → {msg}")
-                expanded_results.append(("N/A", cat, score, msg))
-    
-        dev_output_text = "\n\n".join(dev_output_lines)
-    
-        # Custom CSS: default cursor in disabled textarea
-        st.markdown(
-            """
-            <style>
-            textarea[disabled] {
-                cursor: default !important;
-            }
-            </style>
-            """,
-            unsafe_allow_html=True
-        )
-    
-        st.text_area("Results", dev_output_text, height=500, disabled=True)
-        st.markdown("---")
-    
-        # Summary (count by IDs instead of messages)
-        st.subheader("📊 Category Summary")
-        summary = {}
-        for tid, cat, _, _ in expanded_results:
-            summary[cat] = summary.get(cat, 0) + 1
-    
-        st.table([{"Category": k, "Count": v} for k, v in summary.items()])
+            # Display results in scrollable text area
+            st.subheader("Categorized Messages (by ID)")
+        
+            dev_output_lines = []
+            expanded_results = []  # store per-ID results
+        
+            for msg, cat, score in results:
+                ids = extract_ids(msg)
+                if ids:
+                    for tid in ids:
+                        dev_output_lines.append(f"[{cat}] ({score:.2f}) → {tid} | {msg}")
+                        expanded_results.append((tid, cat, score, msg))
+                else:
+                    # if no ID, still include the message
+                    dev_output_lines.append(f"[{cat}] ({score:.2f}) → {msg}")
+                    expanded_results.append(("N/A", cat, score, msg))
+        
+            dev_output_text = "\n\n".join(dev_output_lines)
+        
+            # Custom CSS: default cursor in disabled textarea
+            st.markdown(
+                """
+                <style>
+                textarea[disabled] {
+                    cursor: default !important;
+                }
+                </style>
+                """,
+                unsafe_allow_html=True
+            )
+        
+            st.text_area("Results", dev_output_text, height=500, disabled=True)
+            st.markdown("---")
+        
+            # Summary (count by IDs instead of messages)
+            st.subheader("📊 Category Summary")
+            summary = {}
+            for tid, cat, _, _ in expanded_results:
+                summary[cat] = summary.get(cat, 0) + 1
+        
+            st.table([{"Category": k, "Count": v} for k, v in summary.items()])
 
 
         else:
