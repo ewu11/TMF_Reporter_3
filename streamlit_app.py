@@ -18,11 +18,11 @@ model = load_model()
 # ------------------------
 categories = {
     "Missing Order": [
-        "order missing",
+        "missing",
         "masih tiada dalam tmf",
-        "order tiada di page schedule",
-        "order pending processing dalam tmf",
-        "order tiada dalam oal",
+        "tiada di page schedule",
+        "pending processing dalam tmf",
+        "tiada dalam oal",
         "x ade dalam oal",
         "mohon bantuan order pending processing",
         "order status pending processing customer complained late installation"
