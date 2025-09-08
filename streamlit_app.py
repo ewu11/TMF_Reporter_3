@@ -163,7 +163,9 @@ categories = {
         "bantuan ic dan ssm no invalid",
         "fail utk update ic br no",
         "minta ic no detail customer",
-        "ic dan ssm no masuk tapi invalid tak lepas done"
+        "ic dan ssm no",
+        "masuk tapi invalid",
+        "tak lepas done"
     ],
     "Update Contact Number": [
         "tukar hp contact number",
