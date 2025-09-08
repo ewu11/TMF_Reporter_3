@@ -90,6 +90,10 @@ categories = {
         "service point masih existing",
         "tukar sp kepada existing add new rg6 ax3000"
     ],
+    "Update Network Info": [
+        "dekat granite dp type street cabinet tapi di network on pole",
+        "yang betul adalah street cabinet"
+    ]
     "Bypass ExtraPort": [
         "tolong bypass extraport",
         "iris access denied",
