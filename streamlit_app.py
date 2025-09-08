@@ -127,7 +127,9 @@ categories = {
         "tukar sp kepada existing add new rg6 ax3000",
         "order upgrade 1g add new combo tukar btu ke existing",
         "add new uonu",
-        "tukarkan existing rg ke new combo order modify"
+        "tukarkan existing rg ke new combo order modify",
+        "wifi rg jadi new equipment atau existing",
+        "ui tak boleh install sebab status rg delete"
     ],
     "Update Network Info": [
         "dekat granite dp type street cabinet tapi di network on pole",
