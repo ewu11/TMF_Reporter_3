@@ -42,7 +42,8 @@ categories = {
         "bantuan next act x appear",
         "order return tapi missing owner",
         "order xde dlm rol",
-        "boleh bantu done mir"
+        "boleh bantu done mir",
+        "order return tak masuk dalam bakul lobs"
     ],
     "Order D&A": [
         "task d&a ip",
