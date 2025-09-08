@@ -230,8 +230,7 @@ categories = {
         "replace rg7 with rg6 in tmf",
         "provide old rg sn and new rg sn",
         "fill google form for rg6 combo update",
-        "salam team x dapt close ctt untuk pertukaran router minta bantuan ctt no",
-        "ctt no sn lama sn baru"
+        "salam team x dapt close ctt untuk pertukaran router minta bantuan  ctt no : 1-116315464203 package : 100mbps sn lama : rg6fhax32208032145 sn baru :unc30val2410080579"
     ],
     "TT RG5 Equipment Update": [
         "ctt sn lama rgx sn baru rgx pakej 100"
