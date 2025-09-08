@@ -85,6 +85,11 @@ categories = {
     "Order Unsync": [
         "ui maklum dah done tapi nampak in progress dalam tmf"
     ],
+    "Invalid Order Segment": [
+        "tukarkan segment kepada sme order s10",
+        "tukar segment kepada sme",
+        "segment yang betul adalah sme"
+    ],
     "Update Order Equipment Details": [
         "error pink",
         "order tambah mesh",
@@ -170,8 +175,7 @@ categories = {
         "fail utk update ic br no",
         "minta ic no detail customer",
         "ic dan ssm no",
-        "masuk tapi invalid",
-        "tak lepas done"
+        "masuk tapi invalid"
     ],
     "Update Contact Number": [
         "tukar hp contact number",
