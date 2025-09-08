@@ -150,7 +150,8 @@ categories = {
         "upgrade pakej",
         "no eligible or suitable cpe in handlist for this equipment",
         "xda pertukaran cpe sebelum ini",
-        "team tak boleh done ctt buat penukaran rg pakej old on new sn"
+        "team tak boleh done ctt buat penukaran rg pakej old on new sn",
+        "team nak close ctt x lepas sn lama sn baru"
     ],
     "TT HSBA Reappointment": [
         "bantu patch appt am",
