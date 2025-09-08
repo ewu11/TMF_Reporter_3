@@ -166,7 +166,7 @@ categories = {
         "order whp/ v1p",
         "tak dapat swap number",
         "call/ contact ftc/ tva",
-        "mohon bantuan untuk error ni.   id :q103945 tt number:1-26818262517 old sn:whps20al2405000239 new sn:whp910dl2501001033"
+        "mohon bantuan untuk error ni. id :q103945 tt number:1-26818262517 old sn:whps20al2405000239 new sn:whp910dl2501001033"
     ],
     "Invalid ICBRN Number": [
         "verify to proceed failed",
