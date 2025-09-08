@@ -73,7 +73,7 @@ categories = {
         "masuk dalam rol semula",
         "masuk dalam basket rol",
         "masuk ke dalam bakul rol",
-        "order status propose cancel bantu utk ra semula"
+        "order status propose cancel"
     ],
     "Order Incomplete but Auto Done": [
         "ttiba done sendiri",
