@@ -19,7 +19,9 @@ categories = {
     "Missing Order": [
         "order missing",
         "masih tiada dalam tmf",
-        "order tiada di page schedule"
+        "order tiada di page schedule",
+        "order pending processing dalam tmf",
+        "order tiada dalam oal"
     ],
     "Next Order Activity Not Appear": [
         "not in rol",
@@ -33,7 +35,12 @@ categories = {
         "mir in progress",
         "mir ra ip",
         "mohon bantuan order tiada dlm rol",
-        "mohon bantuan next act x appear"
+        "mohon bantuan next act x appear",
+        "order return tapi missing owner",
+        "order xde dlm rol"
+    ],
+    "Order Returned but Unscheduled": [
+        "order return status unschedule"
     ],
     "Revert SWIFT-TMF Order": [
         "tiada di subscriber activity list"
@@ -44,7 +51,8 @@ categories = {
         "ma button missing",
         "ma button tak appear",
         "tiada aktiviti manual assign",
-        "fail to assign"
+        "fail to assign",
+        "mohon bantu manual assign not appear"
     ],
     "Reopen Order Proposed Cancel": [
         "tarik balik order",
@@ -62,7 +70,8 @@ categories = {
         "tak boleh done",
         "error equipment not same",
         "update cpe rg5 request update ke rg6 tukar wifi 5 kepada wifi 6",
-        "ui nak done order tak lepas keluar error macam ni"
+        "ui nak done order tak lepas keluar error macam ni",
+        "tukar new cpe ke existing order force done cancel"
     ],
     "RG6-RG7 Equipment Update": [
         "wifi6 2.5ghz",
@@ -88,7 +97,9 @@ categories = {
         "order modify tukar wifi ax3000",
         "sp masih existing",
         "service point masih existing",
-        "tukar sp kepada existing add new rg6 ax3000"
+        "tukar sp kepada existing add new rg6 ax3000",
+        "order upgrade 1g add new combo tukar btu ke existing",
+        "mohon add new uonu"
     ],
     "Update Network Info": [
         "dekat granite dp type street cabinet tapi di network on pole",
@@ -120,7 +131,8 @@ categories = {
     ],
     "TT CPE List not Same as Physical": [
         "dekat equipment takda modem",
-        "site dah tukar baru"
+        "site dah tukar baru",
+        "bantuan update cpe di fizikal tidak sama dengan sistem"
     ],
     "TT RG6/ Combo Update": [
         "xlepas nak replace combo",
@@ -137,7 +149,8 @@ categories = {
         "sn lama: rgx sn baru: unc30val",
         "upgrade pakej",
         "no eligible or suitable cpe in handlist for this equipment",
-        "xda pertukaran cpe sebelum ini"
+        "xda pertukaran cpe sebelum ini",
+        "team tak boleh done ctt buat penukaran rg pakej old on new sn"
     ],
     "TT HSBA Reappointment": [
         "bantu patch appt am",
@@ -150,7 +163,8 @@ categories = {
         "ctt xleh slot appt",
         "tt unable to slot appointment",
         "betulkan cabinet id",
-        "bantua delete olt cab id"
+        "bantuan delete olt cab id",
+        "bantuan betulkan cab id yg betul"
     ],
     "TT with No Activity Worktype": [
         "ctt tiada activity work type"
