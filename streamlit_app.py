@@ -168,7 +168,15 @@ categories = {
         "tukar hp contact number"
     ],
     "TT CPE List not Same as Physical": [
-        "dekat equipment takda modem"
+        "dekat equipment takda modem",
+        "site dah tukar baru",
+        "update cpe di fizikal tidak sama dengan sistem",
+        "add onu lama sbb perlu tukar onu sahaja",
+        "sn onu fizikal sn onu dalam list bantu update list equipment",
+        "update sn onu lama cust",
+        "fizikal tak sama dengan tmf",
+        "tolong update service point sn dalam tmf dengan fizikal tak sama",
+        "add kan onu dalam tmf sn no"
     ],
     "TT RG6/ Combo Update": [
         "xlepas nak replace combo",
@@ -195,7 +203,13 @@ categories = {
         "tukar flag tt no new sn old sn tt truckroll",
         "enable flag rg6 di dalam tmf",
         "mengisi google form",
-        "ctt no old rg sn new rg sn"
+        "ctt no old rg sn new rg sn",
+        "enable flag rg6 di dalam tmf",
+        "ctt no old rg sn new rg sn",
+        "update old rg new rg serial number",
+        "replace rg7 with rg6 in tmf",
+        "provide old rg sn and new rg sn",
+        "fill google form for rg6 combo update"
     ],
     "TT RG5 Equipment Update": [
         "ctt sn lama rgx sn baru rgx pakej 100mbps"
