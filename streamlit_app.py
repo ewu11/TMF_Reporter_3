@@ -600,7 +600,7 @@ with tab2:
 # ------------------------
 # Tab 2: Test single message
 # ------------------------
-with tab2:
+with tab3:
     st.subheader("🔎 Categorize Single Message")
     test_msg = st.text_input("Enter a message:")
 
