@@ -94,8 +94,8 @@ categories = {
         "ui nak done order tak lepas keluar error macam ni",
         "tukar new cpe ke existing order force done cancel",
         "upgrade 1gbps tukar modem router tak support 1gbps mohon tukar equipment ke combo wifi 6",
-        "ui x blh nk done order equipment tmf existing cpe berlainan",
-        "format apa2 masalah tukar new equiment kpd rg6 combo ax3000"
+        "ui x blh nk done order equipment tmf existing cpe berlainan"
+        "new equipment kpd rg6 combo ax3000"
     ],
     "RG6-RG7 Equipment Update": [
         "wifi6 2.5ghz",
