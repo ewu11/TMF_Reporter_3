@@ -224,7 +224,7 @@ categories = {
         "fill google form for rg6 combo update"
     ],
     "TT RG5 Equipment Update": [
-        "ctt sn lama rgx sn baru rgx pakej 100mbps"
+        "ctt sn lama rgx sn baru rgx pakej 100"
     ],
     "TT HSBA Reappointment": [
         "patch appt am",
