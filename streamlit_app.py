@@ -22,7 +22,9 @@ categories = {
         "order tiada di page schedule",
         "order pending processing dalam tmf",
         "order tiada dalam oal",
-        "x ade dalam oal"
+        "x ade dalam oal",
+        "mohon bantuan order pending processing",
+        "order status pending processing customer complained late installation"
     ],
     "Next Order Activity Not Appear": [
         "not in rol",
@@ -39,7 +41,7 @@ categories = {
         "mohon bantuan next act x appear",
         "order return tapi missing owner",
         "order xde dlm rol",
-        "bantu done mir"
+        "boleh bantu done mir"
     ],
     "Order D&A": [
         "task d&a ip",
@@ -88,7 +90,8 @@ categories = {
         "ui nak done order tak lepas keluar error macam ni",
         "tukar new cpe ke existing order force done cancel",
         "upgrade 1gbps tukar modem router tak support 1gbps mohon tukar equipment ke combo wifi 6",
-        "ui x blh nk done order equipment tmf existing cpe berlainan"
+        "ui x blh nk done order equipment tmf existing cpe berlainan",
+        "tukar new equipment kpd rg6 combo ax3000"
     ],
     "RG6-RG7 Equipment Update": [
         "wifi6 2.5ghz",
@@ -102,7 +105,9 @@ categories = {
         "minta bantuan tukar wifi 7 kepada wifi 6",
         "1gb tukarkan combo dengan mesh combo rg7 ke combo ax3000",
         "tukar equipment be72000 ke ax3000 1gbps",
-        "minta tukar equipment rg dan mesh dari rg7 ke rg6 combo 2.5g"
+        "minta tukar equipment rg dan mesh dari rg7 ke rg6 combo 2.5g",
+        "bantu flag masih rg7 ru pemasangan pakai rg6",
+        "bantuan order dh siap nk done kuar error guna wifi rg6 ax3000"
     ],
     "Update Order New/ Existing Equipment Info": [
         "ubah equipment ke rg6",
@@ -117,7 +122,8 @@ categories = {
         "service point masih existing",
         "tukar sp kepada existing add new rg6 ax3000",
         "order upgrade 1g add new combo tukar btu ke existing",
-        "mohon add new uonu"
+        "mohon add new uonu",
+        "bantuan tukarkan existing rg ke new combo order modify"
     ],
     "Update Network Info": [
         "dekat granite dp type street cabinet tapi di network on pole",
@@ -146,7 +152,7 @@ categories = {
         "v2p failed",
         "icbrn num invalid",
         "brn number invalid",
-        "mohon no ssm ic cust",
+        "mohon no ssm/ic cust dlm tmf tiada",
         "minta ic no untuk order ni",
         "bantuan ic dan ssm no invalid",
         "fail utk update ic br no"
@@ -160,7 +166,13 @@ categories = {
     "TT CPE List not Same as Physical": [
         "dekat equipment takda modem",
         "site dah tukar baru",
-        "bantuan update cpe di fizikal tidak sama dengan sistem"
+        "bantuan update cpe di fizikal tidak sama dengan sistem",
+        "bantuan add onu lama sbb perlu tukar onu sahaja",
+        "sn onu fizikal sn onu dalam list bantu update list equipment",
+        "mohon bantun update sn onu lama cust",
+        "bantuan sn rg fizikal tak sama dengan tmf sn fizikal sn tmf",
+        "tolong update service point sn dalam tmf dengan fizikal tak sama",
+        "mohon bantuan untuk add kan onu dalam tmf sn no"
     ],
     "TT RG6/ Combo Update": [
         "xlepas nak replace combo",
@@ -179,7 +191,11 @@ categories = {
         "no eligible or suitable cpe in handlist for this equipment",
         "xda pertukaran cpe sebelum ini",
         "team tak boleh done ctt buat penukaran rg pakej old on new sn",
-        "team nak close ctt x lepas sn lama sn baru"
+        "team nak close ctt x lepas sn lama sn baru",
+        "1- old sn : rgx new sn : unc",
+        "berikan detail spt dibwh ctt no old rg sn: new rg sn: remark serial number does not exist in your cpe",
+        "truckroll cpe replacement old rg rgx new rg unc",
+        "mohon enable flag ctt no : old rg : new rg :"
     ],
     "TT HSBA Reappointment": [
         "bantu patch appt am",
@@ -193,17 +209,29 @@ categories = {
         "tt unable to slot appointment",
         "betulkan cabinet id",
         "bantuan delete olt cab id",
-        "bantuan betulkan cab id yg betul"
+        "bantuan betulkan cab id yg betul",
+        "tiada detail cab"
     ],
     "TT with No Activity Worktype": [
         "ctt tiada activity work type"
     ],
     "TT V1P": [
         "mohon bantuan utk slot am pm",
-        "tt v1p"
+        "tt v1p",
+        "mohon bantun utk appt ctt hari ini pukul :",
+        "mohon utk slot 1-2 @ am pm",
+        "mohon bantu appt v1p @ am pm",
+        "1-2 appmt am pm tq",
+        "1-2 bantuan ra pm tq",
+        "ra tt v1p 1-2 am pm"
     ],
     "TT Missing": [
-        "ctt missing"
+        "ctt missing",
+        "ctt x appear dalam tmf"
+    ],
+    "TT Duplicate Activity": [
+        "mohon bantun cancel 1 activity id a-",
+        "mohon bantun cancel act duplicate"
     ]
 }
 
