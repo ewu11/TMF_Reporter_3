@@ -173,10 +173,10 @@ categories = {
         "update cpe di fizikal tidak sama dengan sistem",
         "add onu lama sbb perlu tukar onu sahaja",
         "onu fizikal onu dalam list bantu update list equipment",
-        "update sn onu lama cust",
+        "update onu lama cust",
         "fizikal tak sama dengan tmf",
-        "tolong update service point sn dalam tmf dengan fizikal tak sama",
-        "add kan onu dalam tmf sn no"
+        "tolong update service point dalam tmf dengan fizikal tak sama",
+        "add kan onu dalam tmf no"
     ],
     "TT RG6/ Combo Update": [
         "xlepas nak replace combo",
