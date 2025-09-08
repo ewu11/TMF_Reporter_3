@@ -378,12 +378,52 @@ st.set_page_config(layout="centered")
 st.title("📂 TMF Reporter 3")
 st.write("Enhanced report categorizer.")
 
-tab1, tab2 = st.tabs(["Categorizer", "Categorize Single Message"])
+tab1, tab2, tab3 = st.tabs(["Text Cleansing", "Categorizer", "Categorize Single Message"])
 
 # ------------------------
 # Tab 1: File categorizer
 # ------------------------
 with tab1:
+    st.header("1. Text Cleansing")
+
+    base_names_input = st.text_area(
+        "Enter names (to be removed when cleansing text file)",
+        "Hartina, Tina, Normah, Pom, Afizan, Pijan, Ariff, Arep, Arip, Dheffirdaus, Dhef, Dheff, Dheft, Hazrina, Rina, Nurul, Huda, Zazarida, Zaza, Eliasaph, Wan, ] : , ] :"
+    )
+    base_names = [name.strip() for name in base_names_input.split(",")]
+
+    uploaded_files_filter = st.file_uploader(
+        "Upload text file for cleansing (max 2)", type="txt", accept_multiple_files=True
+    )
+
+    if uploaded_files_filter and len(uploaded_files_filter) > 2:
+        st.error("You can only upload up to 2 files.")
+    else:
+        if uploaded_files_filter and st.button('Cleanse file'):
+            filtered_output = process_uploaded_files_filtering(uploaded_files_filter, base_names)
+
+            # CSS to disable cursor change
+            st.markdown(
+                """
+                <style>
+                .stTextArea textarea[disabled] { cursor: default; }
+                </style>
+                """,
+                unsafe_allow_html=True
+            )
+
+            # Display output
+            st.text_area("Cleansed Output", value=filtered_output, height=400, disabled=True)
+
+            # Download
+            download_data = BytesIO(filtered_output.encode("utf-8"))
+            st.download_button(
+                label="Download cleansed text",
+                data=download_data,
+                file_name="cleansed_output.txt",
+                mime="text/plain"
+            )
+with tab2:
     uploaded_file = st.file_uploader("Upload cleansed_output.txt", type=["txt"])
 
     if uploaded_file:
