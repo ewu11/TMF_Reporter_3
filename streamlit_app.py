@@ -200,6 +200,7 @@ categories = {
         "berikan detail spt dibwh ctt no old rg sn: new rg sn: remark serial number does not exist in your cpe",
         "truckroll cpe replacement old rg rgx new rg unc",
         "mohon enable flag ctt no old rg new rg",
+        "mintk tukar flag tt no new sn old sn tt truckroll"
     ],
     "TT RG5 Equipment Update": [
         "ctt sn lama rgx sn baru rgx pakej 100mbps"
