@@ -200,7 +200,8 @@ categories = {
         "berikan detail spt dibwh ctt no old rg sn new rg sn remark serial number does not exist in your cpe",
         "truckroll cpe replacement old rg newrg",
         "enable flag ctt no old rg new rg",
-        "tukar flag tt no new sn old sn tt truckroll"
+        "tukar flag tt no new sn old sn tt truckroll",
+        "enable flag rg6 di dalam tmf mengisi google form ctt no old rg sn new rg sn",
     ],
     "TT RG5 Equipment Update": [
         "ctt sn lama rgx sn baru rgx pakej 100mbps"
