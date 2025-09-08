@@ -230,7 +230,8 @@ categories = {
         "update old rg new rg serial number",
         "replace rg7 with rg6 in tmf",
         "provide old rg sn and new rg sn",
-        "fill google form for rg6 combo update"
+        "fill google form for rg6 combo update",
+        "mohon bantuan tukarkan flag ke combo box dan mohon update acs bind. ctt: 1-116311140378 s/n lama: rgxaztwr2112008593 s/n baru: unc30val2411098930 login id : norsitikamsiah@unifi terima kasih"
     ],
     "TT RG5 Equipment Update": [
         "ctt sn lama rgx sn baru rgx pakej 100"
