@@ -134,7 +134,8 @@ categories = {
         "wifi rg jadi new equipment atau existing",
         "ui tak boleh install sebab status rg delete",
         "tukarkan equipment serv point",
-        "service point ke rg6 ax3000"
+        "service point ke rg6 ax3000",
+        "mohon bantuan untuk tukarkan equipment serv point vm ke  rg6 ax3000 order modify 1gb"
     ],
     "Update Network Info": [
         "dekat granite dp type street cabinet tapi di network on pole",
