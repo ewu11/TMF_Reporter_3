@@ -74,7 +74,8 @@ categories = {
         "tolong tukar eq ke combo biasa order schoolnet",
         "mohon bantu tukar equipment dari rg7 ke rg6 combo ax3000",
         "minta bantuan tukar wifi 7 kepada wifi 6",
-        "1gb tukarkan combo dengan mesh combo rg7 ke combo ax3000"
+        "1gb tukarkan combo dengan mesh combo rg7 ke combo ax3000",
+        "tukar equipment be72000 ke ax3000 1gbps"
     ],
     "Update Order New/ Existing Equipment Info": [
         "ubah equipment ke rg6",
