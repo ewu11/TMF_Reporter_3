@@ -217,7 +217,8 @@ categories = {
         "betulkan cabinet id",
         "bantuan delete olt cab id",
         "bantuan betulkan cab id yg betul",
-        "tiada detail cab"
+        "tiada detail cab",
+        "mohon bantu ctt tiada detail kabinet"
     ],
     "TT with No Activity Worktype": [
         "ctt tiada activity work type"
