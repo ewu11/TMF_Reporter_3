@@ -378,6 +378,51 @@ st.set_page_config(layout="centered")
 st.title("📂 TMF Reporter 3")
 st.write("Enhanced report categorizer.")
 
+# Function to filter messages based on base names
+def filter_messages(file_contents, base_names):
+    # timestamp_pattern = re.compile(r'\[\d{2}:\d{2}, \d{1,2}/\d{1,2}/\d{4}\]|^\[\d{1,2}/\d{1,2}/\d{4} \d{1,2}:\d{2} [APM]{2}]')
+    timestamp_pattern = re.compile(r'\[\d{1,2}/\d{1,2}/\d{4} \d{1,2}:\d{2} (?:am|pm)\]|\[\d{1,2}:\d{2} (?:am|pm), \d{1,2}/\d{1,2}/\d{4}\]|\[\d{1,2}:\d{2}, \d{1,2}/\d{1,2}/\d{4}\]|^\[\d{1,2}/\d{1,2}/\d{4} \d{1,2}:\d{2} [APM]{2}]')
+    name_patterns = [
+        re.compile(rf'\b{re.escape(name)}\b', re.IGNORECASE) if re.match(r'\w+', name)
+        else re.compile(rf'{re.escape(name)}', re.IGNORECASE)  # No word boundary for non-word characters
+        for name in base_names
+    ]
+
+    filtered_lines = []
+    skip_block = False
+    current_message = []
+
+    for line in file_contents.splitlines():
+        if timestamp_pattern.match(line):
+            if current_message:
+                filtered_lines.append(' '.join(current_message).strip().lower())
+                current_message = []
+
+            if any(pattern.search(line) for pattern in name_patterns):
+                skip_block = True
+            else:
+                skip_block = False
+
+        if not skip_block:
+            current_message.append(line.strip().lower())
+
+    if not skip_block and current_message:
+        filtered_lines.append(' '.join(current_message).strip().lower())
+
+    return '\n\n'.join(filtered_lines)
+
+# Function to process all files for Process 1
+def process_uploaded_files_filtering(uploaded_files, base_names):
+    all_output = []
+
+    for uploaded_file in uploaded_files:
+        file_contents = uploaded_file.read().decode("utf-8")
+        filtered_text = filter_messages(file_contents, base_names)
+        all_output.append(f"===Cleansed content from {uploaded_file.name}:===\n{filtered_text}")
+    
+    combined_output = "\n\n".join(all_output)
+    return combined_output
+
 tab1, tab2, tab3 = st.tabs(["Text Cleansing", "Categorizer", "Categorize Single Message"])
 
 # ------------------------
