@@ -77,7 +77,7 @@ st.set_page_config(layout="centered")
 st.title("📂 TMF Reporter 3")
 st.write("Enhanced report categorizer.")
 
-tab1, tab2, tab3 = st.tabs(["Categorizer", "Categorize Single Message", "Text Cleansing"])
+tab1, tab2, tab3 = st.tabs(["Text Cleansing", "Categorizer", "Categorize Single Message"])
 
 # ------------------------
 # Tab 1: File categorizer
