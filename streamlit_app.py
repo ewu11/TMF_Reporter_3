@@ -326,25 +326,31 @@ def extract_ids(message: str):
 
 
 # ------------------------
-# Helper: read-only text area
+# Helper: read-only text area (scrollable, selectable, non-editable)
 # ------------------------
 def readonly_text_area(label, value, height=400, key=None):
+    # Custom HTML textarea
     st.markdown(
-        """
-        <style>
-        textarea[readonly] {
-            background-color: #f8f9fa !important;
-            cursor: text !important;
-        }
-        </style>
+        f"""
+        <div style="margin-bottom: 1rem;">
+            <label style="font-weight:600;">{label}</label>
+            <textarea readonly
+                style="
+                    width: 100%;
+                    height: {height}px;
+                    resize: vertical;
+                    padding: 8px;
+                    font-size: 14px;
+                    font-family: monospace;
+                    background-color: #f8f9fa;
+                    border: 1px solid #ddd;
+                    border-radius: 6px;
+                    cursor: text;
+                    overflow-y: scroll;
+                ">{value}</textarea>
+        </div>
         """,
         unsafe_allow_html=True,
-    )
-    return st.text_area(
-        label,
-        value=value,
-        height=height,
-        key=key,
     )
 
 
@@ -418,16 +424,6 @@ with tab1:
 with tab2:
     st.header("Developer View")
 
-    sample_message = st.text_area("Test single message:", "", height=100)
-
-    if st.button("Categorize Sample"):
-        ids = extract_ids(sample_message)
-        if ids:
-            cat, score = categorize_message(sample_message)
-            st.write(f"Category: {cat}, Score: {score}, IDs: {ids}")
-        else:
-            st.write("⚠️ No valid IDs found in message.")
-
     uploaded_file = st.file_uploader("Upload a text file for analysis", type=["txt"], key="dev")
 
     if uploaded_file:
@@ -457,3 +453,15 @@ with tab2:
         for _, cat, _ in results:
             summary[cat] = summary.get(cat, 0) + 1
         st.table([{"Category": k, "Count": v} for k, v in summary.items()])
+
+    # Single message test (now also non-editable after categorize)
+    st.subheader("🔎 Test Single Message")
+    test_msg = st.text_input("Enter a message to test:", key="single_test")
+    if test_msg:
+        ids = extract_ids(test_msg)
+        if ids:
+            cat, score = categorize_message(test_msg)
+            result_text = f"Prediction: {cat} (score={score:.2f}) IDs: {ids}"
+        else:
+            result_text = "⚠️ No valid IDs found in message."
+        readonly_text_area("Single Test Result", result_text, height=100, key="single_test_result")
