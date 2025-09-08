@@ -356,6 +356,8 @@ with tab1:
             )
         
             st.text_area("Results", dev_output_text, height=500, disabled=True)
+
+            st.markdown("---")  # horizontal line
         
             # Summary
             st.subheader("📊 Category Summary")
