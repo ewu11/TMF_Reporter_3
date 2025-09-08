@@ -384,7 +384,7 @@ tab1, tab2, tab3 = st.tabs(["Text Cleansing", "Categorizer", "Categorize Single 
 # Tab 1: File categorizer
 # ------------------------
 with tab1:
-    st.header("1. Text Cleansing")
+    # st.header("1. Text Cleansing")
 
     base_names_input = st.text_area(
         "Enter names (to be removed when cleansing text file)",
