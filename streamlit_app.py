@@ -233,6 +233,9 @@ categories = {
         "1-2 bantuan ra pm tq",
         "ra tt v1p 1-2 am pm"
     ],
+    "TT-LR Linkage": [
+        "mohon bantu ctt unlink tiada dalam tmf"
+    ],
     "TT Missing": [
         "ctt missing",
         "ctt x appear dalam tmf",
