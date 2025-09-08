@@ -263,7 +263,8 @@ categories = {
         "1-2 bantuan ra pm tq",
         "ra tt v1p 1-2 am pm",
         "appt ctt v1p @ 1-2",
-        "team mohon bantu utk appt ctt ni hari ini pukul"
+        "team mohon bantu utk appt ctt ni hari ini pukul",
+        "team minta buat appt pukul hari ini"
     ],
     "TT-LR Linkage": [
         "ctt unlink tiada dalam tmf",
