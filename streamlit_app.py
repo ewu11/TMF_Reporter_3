@@ -87,7 +87,8 @@ categories = {
     "Bypass Extraport": [
         "mhn bantuan bypass xp",
         "bantuan .. bypass fdp clensing ..dekat dp ada reading .. dalam tracebite tkde reading ..",
-        "mohon bypass extraport. iris access denied"
+        "mohon bypass extraport. iris access denied",
+        "1-115636242567 tolong bypass extraport lhd_c001_dp0071 09out"
     ],
     "Bypass HSI": [
         "minta bypass speedtest dan wifi analyzer sbb oder force done"
