@@ -142,7 +142,7 @@ categories = {
         "2509000080420382 – pls change contact no. to 012-8461870. tq."
     ],
     "Release Assign to Me": [
-        "mohon bantu dapat error nak ra order"
+        "dapat error nak ra order"
     ],
     "Order D&A In-Progress": [
         "task d&a ip"
