@@ -22,7 +22,9 @@ model = load_model()
 categories = {
     "Order Next Activity Not Appear": [
         "mohon bantuan orders tiada dlm rol..tq",
-        "bantuan order tiada dlm rol"
+        "bantuan order tiada dlm rol",
+        "mohon bantu order return tak masuk dalam bakul lobs/cxm",
+        "boleh bantu done mir?"
     ],
     "RG6 - RG7 Equipment Info Update": [
         "bantuan tukar kan equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
@@ -32,7 +34,8 @@ categories = {
         "bantuan mintak tukarkan equipmnt rg7 ke combo 2.5g skli mesh. tq",
         "bantuan tolong tukar combo rg7 ke rg6 order 1gbps unc30val2412065163 unc30val2412065169",
         "salam kak mintak tukar dari wifi7 ke wifi6 unc30val2412061878",
-        "unifi home 2gbps with netflix bantuan tukar rg7 ke rg6"
+        "unifi home 2gbps with netflix bantuan tukar rg7 ke rg6",
+        "mohon bantu tukarkan rg vdsl single box kepada rg 7..tq"
     ],
     "New/ Existing/ Delete Equipment Info Update": [
         "bantuan semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
@@ -43,10 +46,16 @@ categories = {
         "order tmforce team id: order date: 8/9/2025 order no: remark: cust apply upgrade 1gbps, tapi dalam tmf hanya tukar modem. router sedia ada tak support 1gbps. mohon tukar equipment ke combo wifi 6"
         "relocate bantuan ui x blh nk done order, equipment dlm tmf adalah existing  tp cpe berlainan.. mesh rg6 dlink, uonu ax3000 skyworth",
         "bantuan utk tukarkan  ata jd existing sbb kat site customer dah ada existing ata 4 port"
+        "tukar sp ke combo rg6 ax3000",
+        "bleh check dk oder ni.dkleh nk complete..nk scan combo xleh",
+        "mohon bantu ru xleh scan cpe combo..dh try log out login pun masih sama"
     ],
     "Bypass Extraport": [
         "mhn bantuan bypass xp",
         "bantuan .. bypass fdp clensing ..dekat dp ada reading .. dalam tracebite tkde reading .."
+    ],
+    "Bypass HSI": [
+        "minta bypass speedtest dan wifi analyzer sbb oder force done"
     ],
     "Manual Assign Button not Appear": [
         "tiada button manual assign. mohon bantuan",
@@ -54,7 +63,20 @@ categories = {
     ],
     "Invalid ICBRN Number": [
         "mohon no ssm/ic cust, dlm tmf tiada",
-        "minta ic no untuk order ni.. xd dekat detail customer"
+        "minta ic no untuk order ni.. xd dekat detail customer",
+        "bantuan ui fail utk update ic/br no"
+    ],
+    "Release Assign to Me": [
+        "mohon bantu dapat error nak ra order"
+    ],
+    "Order D&A In-Progress": [
+        "task d&a ip"
+    ],
+    "Revert BAU SWIFT-TMF Order": [
+        "1-cbga8gd | assalam team, mohon revert order id dibawah ke tmf system. urgent!!! tq 1-cbga8gd 1-cbgnu4p"
+    ],
+    "TT RG5 Equipment Update": [
+        "mohon bantu tukar cpe rg5 & onu ke new router combo"
     ]
 }
 
