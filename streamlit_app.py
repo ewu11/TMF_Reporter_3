@@ -31,7 +31,8 @@ categories = {
         "done mir?",
         "order return, next activity tak appear",
         "salam team,  mohon trigger semula order ini di page rrol. activity mir di siebel masih in progress 1-114085556792",
-        "not in rol | hi team mohon bantuan, order returned due to customer tapi tak ada next owner acitivty. tqvm"
+        "not in rol | hi team mohon bantuan, order returned due to customer tapi tak ada next owner acitivty. tqvm",
+        "salam, mohon bantuan order tiada dalam rol utk ra. 1-115950242200. tq"
     ],
     "RG6 - RG7 Equipment Info Update": [
         "equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
@@ -48,7 +49,8 @@ categories = {
         "equipment rg dan mesh... dari rg7 ke rg6 combo 2.5g",
         "brg dari rg7 ke combo ax3000 4.zone 5 : bw",
         "flag masih rg7 1-115972738401",
-        "flag masih rg7, ru pemasangan pakai rg6  1-115559812996"
+        "flag masih rg7, ru pemasangan pakai rg6  1-115559812996",
+        "1-115109708172    mohon bantu tukar cpe kepada rg6"
     ],
     "New/ Existing/ Delete Equipment Info Update": [
         "semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
@@ -79,7 +81,8 @@ categories = {
     ],
     "Bypass Extraport": [
         "mhn bantuan bypass xp",
-        "bantuan .. bypass fdp clensing ..dekat dp ada reading .. dalam tracebite tkde reading .."
+        "bantuan .. bypass fdp clensing ..dekat dp ada reading .. dalam tracebite tkde reading ..",
+        "mohon bypass extraport. iris access denied"
     ],
     "Bypass HSI": [
         "minta bypass speedtest dan wifi analyzer sbb oder force done"
@@ -90,7 +93,8 @@ categories = {
         "manual assign x appear",
         "salam, mohon bantu order tiada button manual assign",
         "manual assign tak appear",
-        "1-c1z5awa button manual assign tidak appear tqvm"
+        "1-c1z5awa button manual assign tidak appear tqvm",
+        "team mohon bantu tiada button ma. cxm info sdh done cc 1-114890055872"
     ],
     "Invalid ICBRN Number": [
         "no ssm/ic cust, dlm tmf tiada",
