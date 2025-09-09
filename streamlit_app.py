@@ -34,7 +34,8 @@ categories = {
         "bantuan tukarkan vm kepada rg6 tq",
         "bantuan tukarkan cpe new ke existing, order force done cancel - iris error",
         "bantuan tukar wifi(rg) jdi new equipment atau existing.order hanya tambah mesh tpi rg dh delete .ui tak boleh install sebab status rg delete sd4773474",
-        "mohon bantuan  tukar servis poin ke combo box"
+        "mohon bantuan  tukar servis poin ke combo box",
+        "order tmforce team id: q110539 order date: 8/9/2025 order no: 1-116013089310  remark: cust apply upgrade 1gbps, tapi dalam tmf hanya tukar modem. router sedia ada tak support 1gbps. mohon tukar equipment ke combo wifi 6"
     ],
     "Bypass Extraport": [
         "mhn bantuan bypass xp"
