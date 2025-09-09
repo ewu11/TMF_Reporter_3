@@ -86,7 +86,8 @@ categories = {
         "mohon bantuan add new combo box. order modify infra dari vdsl ke ftth tq  1-115625268896",
         "mohon bantu jadikan cpe existing. order relocate guna cpe asal: 1-115392918697",
         "jadikan cpe existing",
-        "order relocate guna cpe asal"
+        "order relocate guna cpe asal",
+        "1-115874174567 modify upgrade 1gb - delete new service point"
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq  1-116069040600  router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
