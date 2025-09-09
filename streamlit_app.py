@@ -229,7 +229,10 @@ categories = {
         "ra tt v1p 1-26819345735  3:30 pm",
         "dear team apptkan v1p 1-26818264514|appt 330pm 🌾terima kasih🌾",
         "appt v1p 1-26818331322 430pm",
-        "1-26819047788 bantu ra 11:45 am"
+        "1-26819047788 bantu ra 11:45 am",
+        "1-2",
+        "bantu ra",
+        "bantu ra am pm"
     ],
     "TT Error 400": [
         "slot appt",
