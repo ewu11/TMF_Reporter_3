@@ -168,9 +168,9 @@ categories = {
         "1-cbeoqy6 - status completed done in tmf 3/9/2025 tq 1-cbeub0k - status completed - swift tq 1-cbeor26 - masih tiada di subscriber activity list swift @ tmf"
     ],
     "Reopen Proposed Cancel Order": [
-        "order status propose cancel - mhn bantu utk ra semula - tq",
+        "order status propose cancel - utk ra semula - tq",
         "status order propose reappt......order ada di page order search tapi tiada di rrol",
-        "2508000079953130 | hi team , mohon bantuan tarik balik order ini from propose cancel pool, order can be installed update by ru team. tqvm team"
+        "2508000079953130 | hi team , tarik balik order ini from propose cancel pool, order can be installed update by ru team. tqvm team"
     ],
     "Order In-Progress but Auto Done": [
         "kak minta tolong check order ni tiba done sendiri masa tengah nak masuk attachment . detail speedtest semua takmasuk pun lgi sbb nk bypass btu",
