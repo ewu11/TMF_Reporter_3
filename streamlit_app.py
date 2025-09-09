@@ -20,12 +20,18 @@ model = load_model()
 # Categories (to be filled later)
 # ------------------------
 categories = {
+    "Order Missing/ Pending Processing": [
+        "mohon bantuan order pending processing  1-115106826851",
+        "order status pending processing in tm force since 25/8/25. iris reprot sd4753885 lodge on 28/8/25 until now still remain pend processing. pls assist asap. customer complained on late installation."
+    ],
     "Order Next Activity Not Appear": [
         "mohon bantuan orders tiada dlm rol..tq",
         "bantuan order tiada dlm rol",
         "mohon bantu order return tak masuk dalam bakul lobs/cxm",
         "boleh bantu done mir?",
-        "mohon bantu, order return, next activity tak appear"
+        "mohon bantu, order return, next activity tak appear",
+        "salam team,  mohon trigger semula order ini di page rrol. activity mir di siebel masih in progress 1-114085556792",
+        "not in rol | hi team mohon bantuan, order returned due to customer tapi tak ada next owner acitivty. tqvm"
     ],
     "RG6 - RG7 Equipment Info Update": [
         "bantuan tukar kan equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
@@ -62,10 +68,13 @@ categories = {
         "bantu tukar mesh ke existing ye, order schoolnet ( sekolah dah ada existing mesh )",
         "mohon bantuan untuk tukarkan equipment serv point vm ke new combo rg7 order modify 1gb  1-115960101049",
         "mohon bantuan tukar equipment new mesh wifi ke combo rg6, modify 500mbps  2508000079549409",
-        "mohon bantuan tukarkan existing service point ke new . ru maklum model ni tak  support universal..order relocate"
+        "mohon bantuan tukarkan existing service point ke new . ru maklum model ni tak  support universal..order relocate",
+        "1-115865470728 modify 09.30  mhn bantuan tukarkan new sp ke new combo (rg6) order modify 1g...tq",
+        "1-115791690115 modify upgrade 1gb - mohon bantuan tukar rg7 ke rg6 ax3000 - tukar existing rg4 ke new rg6 ax3000 - delete new service point"
     ],
     "Update Order Equipment Details": [
-        "mohon bantu, nk done keluar error seperti berikut..tq  1-116069040600  router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977"
+        "mohon bantu, nk done keluar error seperti berikut..tq  1-116069040600  router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
+        "1-115865470728 mhn bantuan order nak done tap error sn baru 👉 unc30val2501038792 ....tq"
     ],
     "Bypass Extraport": [
         "mhn bantuan bypass xp",
@@ -78,12 +87,21 @@ categories = {
         "tiada button manual assign. mohon bantuan",
         "hsba bantuan manual slot x appear",
         "mohon bantuan manual assign x appear",
-        "salam, mohon bantu order tiada button manual assign"
+        "salam, mohon bantu order tiada button manual assign",
+        "mohon bantuan manual assign tak appear",
+        "mohon bantu 1-c1z5awa button manual assign tidak appear tqvm"
     ],
     "Invalid ICBRN Number": [
         "mohon no ssm/ic cust, dlm tmf tiada",
         "minta ic no untuk order ni.. xd dekat detail customer",
         "bantuan ui fail utk update ic/br no"
+    ],
+    "Invalid Order Segment": [
+        "mohon bantu utk tukarkan segment  kepada sme. order s10. tq 2509000080543072",
+        "2509000080425247 mohon bantuan tukar segment kepada sme. segment yang betul adalah sme"
+    ],
+    "Update Contact Number": [
+        "team, kindly assist to update ctc 0139433051  for order id :2508000078626166 . tq."
     ],
     "Release Assign to Me": [
         "mohon bantu dapat error nak ra order"
@@ -102,10 +120,50 @@ categories = {
         "mohon bantu status order propose reappt......order ada di page order search tapi tiada di rrol"
     ],
     "Order In-Progress but Auto Done": [
-        "kak minta tolong check order ni tiba done sendiri masa tengah nak masuk attachment . detail speedtest semua takmasuk pun lgi sbb nk bypass btu"
+        "kak minta tolong check order ni tiba done sendiri masa tengah nak masuk attachment . detail speedtest semua takmasuk pun lgi sbb nk bypass btu",
+        "mohon bantu ui nk done order terus ke saf..x sempat scan cpe lg, tq"
     ],
     "TT RG5 Equipment Update": [
         "mohon bantu tukar cpe rg5 & onu ke new router combo"
+    ],
+    "TT RG6/ Combo Update": [
+        "salam team x dapt close ctt untuk pertukaran router minta bantuan  ctt no : 1-116315464203 package : 100mbps sn lama : rg6fhax32208032145 sn baru :unc30val2410080579",
+        "sn rg lama:rgxaztwr2205016652 sn combo baru : unc30val2410081417 no ctt:1-116314999694 package :100mbps mohon bantu tm point telah janjikan set combo tq ya",
+        "assalammualaikum, mohon bantuan untuk error ni.   id :q103945 tt number:1-26818262517 old sn:whps20al2405000239 new sn:whp910dl2501001033",
+        "salam,mohon tukar tagging,cust pekej 300mb  info: ctt no: 1-116182596740 old rg sn: rgxtplc12102000715 new rg sn: uncfh5f32411019303",
+        "info:tukar rg5 ke combo 100 mbps ctt no:1-115950652482 old rg sn:rgxaztwr2207005074 new rg sn:uncfh5f32411032691"
+    ],
+    "TT V1P": [
+        "assalamualaikum..mohon bantu tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
+        "mohon bantu appt v1p @ 4.30pm 1-26818203485",
+        "00506916920 1-26817775658 team mohon bantu utk appt ctt ni hari ini pukul 14:30 tq",
+        "team minta buat appt pukul 16:30 hari ini 00506724003 1-26818262517",
+        "mohon untuk slot 1-26817279018 @ 4.30pm",
+        "1-26815105984 appt 3.30pm  tq",
+        "assalamualaikum..mohon bantu tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
+        "mohon bantu appt v1p @ 4.30pm 1-26818203485",
+        "00506916920 1-26817775658 team mohon bantu utk appt ctt ni hari ini pukul 14:30 tq"
+    ],
+    "TT HSBA Reappointment": [
+        "salam team, bantuan untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
+        "salam team, mohon patch ctt 1-116317835775 pada 11/09/2025  @ 11:30 am",
+        "salam team, mohon bantu patch ctt dibawah :  1-116320728665 - 09/09/2025 @ 02:30:00 pm",
+        "1-115504698155 - team mohon bantu patch appt on 09/09/2025 10:30:00 am. tq",
+        "salam team, 1-116326647785 -mohon bantuan patch slot 12/09/2025 09:30:00 am.tq",
+        "salam team, mohon bantu utk patch ctt dibawah :  1-115973031505 - 09/09/2025 @ 04:30:00 pm  1-115804178865 - 09/09/2025 @ 02:30:00 pm  1-115789688125 - 09/09/2025 @ 09:30:00 am"
+    ],
+    "TT Missing": [
+        "mohon bantu tt 1-115443089895 tiada dalam tmf",
+        "mohon bantuan ctt missing slps return fs troubleshooting tq 1-116065619936",
+        "ctt missing. mohon bantuan. 1-116311028092",
+        "mohon bantu tt 1-115443089895 tiada dalam tmf"
+    ],
+    "Update Granite Network Details": [
+        "1-116311380548 - mohon betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
+        "1-115958165689 tiada detail cab"
+    ],
+    "TT Error 400": [
+        "1-115733638005 | salam team,  mohon bantuan tidak dapat view slot ctt: 1-115733638005 dp id:  mti_c102_dp0001"
     ]
 }
 
