@@ -35,7 +35,9 @@ categories = {
         "bantuan tolong tukar combo rg7 ke rg6 order 1gbps unc30val2412065163 unc30val2412065169",
         "salam kak mintak tukar dari wifi7 ke wifi6 unc30val2412061878",
         "unifi home 2gbps with netflix bantuan tukar rg7 ke rg6",
-        "mohon bantu tukarkan rg vdsl single box kepada rg 7..tq"
+        "mohon bantu tukarkan rg vdsl single box kepada rg 7..tq",
+        "1.)order schoolnet- mohon bantu tukar rg7 ke existing rg6 - combo ax3000",
+        "order schoolnet- mohon bantu tukar rg7 ke rg6 - combo ax3000"
     ],
     "New/ Existing/ Delete Equipment Info Update": [
         "bantuan semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
@@ -48,7 +50,10 @@ categories = {
         "bantuan utk tukarkan  ata jd existing sbb kat site customer dah ada existing ata 4 port"
         "tukar sp ke combo rg6 ax3000",
         "bleh check dk oder ni.dkleh nk complete..nk scan combo xleh",
-        "mohon bantu ru xleh scan cpe combo..dh try log out login pun masih sama"
+        "mohon bantu ru xleh scan cpe combo..dh try log out login pun masih sama",
+        "mohon bantuan bg isu order ini  1-115954384256 order ni cust cadari kap baru tukar rg6 combo minggu lepas ..harinhi keluar oder modify tukar onu pulak..blh check blik tk order ni  tq"
+        "order ni boleh tukar equipment dari rg4 ke rg6 ax3000 x... upgrade 500mbps",
+        "minta untuk tukar existing equipment combo box be7200 wifi 7 ke combo box ax3000 2.5ghz 4.zone : pgc"
     ],
     "Bypass Extraport": [
         "mhn bantuan bypass xp",
