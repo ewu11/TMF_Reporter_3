@@ -183,7 +183,8 @@ categories = {
         "1-116311380548 - mohon betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
         "1-115958165689 tiada detail cab",
         "minta bantuan adv ctt 1-115970783375 tak boleh tukar fdp dalam granite di tmf",
-        "mohon bantu ctt tiada detail kabinet 1-116322359307"
+        "mohon bantu ctt tiada detail kabinet 1-116322359307",
+        "1-116322359307 | mohon bantu ctt tiada detail kabinet 1-116322359307"
     ],
     "TT Error 400": [
         "1-115733638005 | salam team,  mohon bantuan tidak dapat view slot ctt: 1-115733638005 dp id:  mti_c102_dp0001"
