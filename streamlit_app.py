@@ -117,7 +117,8 @@ categories = {
         "1-115636242567 tolong bypass extraport lhd_c001_dp0071 09out"
     ],
     "Bypass HSI": [
-        "minta bypass speedtest dan wifi analyzer sbb oder force done"
+        "minta bypass speedtest dan wifi analyzer sbb oder force done",
+        "1-112885939768 hsi failed - order fdc .. ble bantu bypass iris nak balik awal kali"
     ],
     "Manual Assign Button not Appear": [
         "tiada button manual assign",
