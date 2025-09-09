@@ -177,7 +177,8 @@ categories = {
         "ui nk done order terus ke saf..x sempat scan cpe lg, tq"
     ],
     "TT RG5 Equipment Update": [
-        "tukar cpe rg5 & onu ke new router combo"
+        "tukar cpe rg5 & onu ke new router combo",
+        "mohon bantu, team inform ada error untuk done  1-116311485233  sn router : vdlf24dl2111011465"
     ],
     "TT RG6/ Combo Update": [
         "salam team x dapt close ctt untuk pertukaran router minta bantuan  ctt no : 1-116315464203 package : 100mbps sn lama : rg6fhax32208032145 sn baru :unc30val2410080579",
@@ -207,7 +208,10 @@ categories = {
         "no ctt:1-115787315701 old ce:com60vdl2304001102 new cpe:cw7220al2508011852",
         "1-116380461845 | salam, mohon tukar tagging,cust pakej 100mbps. sudah tiada stock rg5 dan sbvm.  info: ctt no: 1-116380461845 old rg sn: rgx842dl2107015642 new rg sn: uncfh5f32412032170",
         "sudah tiada stock rg5 dan sbvm",
-        "mohon bantuan..1-115961396302..tukar onu,xboleh nk done tt..sn onu lama onunokia1803010458..sn baru uonwfh2a2505004787"
+        "mohon bantuan..1-115961396302..tukar onu,xboleh nk done tt..sn onu lama onunokia1803010458..sn baru uonwfh2a2505004787",
+        "mohon bantuan @en md rad mohon bantuan ctt no :1-116321367562 no siri lama :vdlinnne1911037019 no siri baru  :unc30val250134169",
+        "salam bantuan team tak boleh tutup ctt tk boleh swap cpe  team tukar combo box  ctt no 1-116375717449",
+        "ctt tk boleh swap cpe  team tukar combo box"
     ],
     "TT V1P": [
         "assalamualaikum..mohon bantu tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
