@@ -276,7 +276,9 @@ categories = {
         "1-115733638005 | salam team,  mohon bantuan tidak dapat view slot ctt: 1-115733638005 dp id:  mti_c102_dp0001",
         "salam tmf team, @normah mohd salleh @kak nurul mohon bantuan untuk issue ctt ni team: 1-114491447905 missing cab di granite di tm force. ctt : 1-114491447905 cab : swy_c019 dp : swy_c019_dp0017",
         "missing cab di granite di tm force",
-        "1-116379866205 ult_c010_dp0050 mohon bantuan no slot"
+        "1-116379866205 ult_c010_dp0050 mohon bantuan no slot",
+        "bantuan tt slot",
+        "bantu ctt no slot"
     ],
     "TT Duplicate Activity": [
         "cancel 1 activity id 1-116247023935  a-0009903201 a-0009903196",
