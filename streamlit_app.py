@@ -27,7 +27,8 @@ categories = {
         "bantuan tukarkan ax3000 kepada rg7",
         "bantuan mintak tukarkan equipmnt rg7 ke combo 2.5g skli mesh. tq",
         "bantuan tolong tukar combo rg7 ke rg6 order 1gbps unc30val2412065163 unc30val2412065169",
-        "salam kak mintak tukar dari wifi7 ke wifi6 unc30val2412061878"
+        "salam kak mintak tukar dari wifi7 ke wifi6 unc30val2412061878",
+        "unifi home 2gbps with netflix bantuan tukar rg7 ke rg6"
     ],
     "New/ Existing/ Delete Equipment Info Update": [
         "bantuan semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
@@ -35,13 +36,20 @@ categories = {
         "bantuan tukarkan cpe new ke existing, order force done cancel - iris error",
         "bantuan tukar wifi(rg) jdi new equipment atau existing.order hanya tambah mesh tpi rg dh delete .ui tak boleh install sebab status rg delete sd4773474",
         "mohon bantuan  tukar servis poin ke combo box",
-        "order tmforce team id: q110539 order date: 8/9/2025 order no: 1-116013089310  remark: cust apply upgrade 1gbps, tapi dalam tmf hanya tukar modem. router sedia ada tak support 1gbps. mohon tukar equipment ke combo wifi 6"
+        "order tmforce team id: order date: 8/9/2025 order no: remark: cust apply upgrade 1gbps, tapi dalam tmf hanya tukar modem. router sedia ada tak support 1gbps. mohon tukar equipment ke combo wifi 6"
+        "relocate bantuan ui x blh nk done order, equipment dlm tmf adalah existing  tp cpe berlainan.. mesh rg6 dlink, uonu ax3000 skyworth",
+        
     ],
     "Bypass Extraport": [
         "mhn bantuan bypass xp"
     ],
     "Manual Assign Button not Appear": [
-        "tiada button manual assign. mohon bantuan"
+        "tiada button manual assign. mohon bantuan",
+        "hsba bantuan manual slot x appear"
+    ],
+    "Invalid ICBRN Number": [
+        "mohon no ssm/ic cust, dlm tmf tiada",
+        "minta ic no untuk order ni.. xd dekat detail customer"
     ]
 }
 
