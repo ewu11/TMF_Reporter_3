@@ -45,7 +45,12 @@ categories = {
         "mhn bntuan order npua"
     ],
     "CC Not Appear": [
-        "cc not appear"
+        "cc not appear",
+        "bantu cc x kuar"
+    ],
+    "Order Returned but Unscheduled": [
+        "2509000080687620 mohon bantuan order return jadi unscheduled",
+        "bantuan order return jd unscheduled"
     ],
     "RG6 - RG7 Equipment Info Update": [
         "equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
@@ -244,8 +249,14 @@ categories = {
         "mohon bantu ctt tiada detail kabinet 1-116322359307",
         "1-116322359307 | mohon bantu ctt tiada detail kabinet 1-116322359307"
     ],
+    "Update DP-Cabinet Location": [
+        "salam team,  mohon bantuan update dp location order digi ni 1-115819132630 daripada on pole kepada building floor.",
+        "daripada on pole kepada building floor"
+    ],
     "TT Error 400": [
-        "1-115733638005 | salam team,  mohon bantuan tidak dapat view slot ctt: 1-115733638005 dp id:  mti_c102_dp0001"
+        "1-115733638005 | salam team,  mohon bantuan tidak dapat view slot ctt: 1-115733638005 dp id:  mti_c102_dp0001",
+        "salam tmf team, @normah mohd salleh @kak nurul mohon bantuan untuk issue ctt ni team: 1-114491447905 missing cab di granite di tm force. ctt : 1-114491447905 cab : swy_c019 dp : swy_c019_dp0017",
+        "missing cab di granite di tm force"
     ],
     "TT Duplicate Activity": [
         "cancel 1 activity id 1-116247023935  a-0009903201 a-0009903196",
