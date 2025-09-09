@@ -190,6 +190,7 @@ categories = {
         "bantuan appt v1p 1-26818331322 430pm"
     ],
     "TT Error 400": [
+        "slot appt",
         "mohon semakan ctt 1-115955192035 ada eror 400. tq",
         "bantuan ctt:1-115961233664, xleh slot appt"
     ],
