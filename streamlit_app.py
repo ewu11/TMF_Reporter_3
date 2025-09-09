@@ -20,7 +20,28 @@ model = load_model()
 # Categories (to be filled later)
 # ------------------------
 categories = {
-    
+    "RG6 - RG7 Equipment Info Update": [
+        "bantuan tukar kan equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
+        "bantuan tukar equipment ke rg6 2.5",
+        "(1gbps) ... mintak tukarkan tagging wifi 7 kepada wifi 6",
+        "bantuan tukarkan ax3000 kepada rg7",
+        "bantuan mintak tukarkan equipmnt rg7 ke combo 2.5g skli mesh. tq",
+        "bantuan tolong tukar combo rg7 ke rg6 order 1gbps unc30val2412065163 unc30val2412065169",
+        "salam kak mintak tukar dari wifi7 ke wifi6 unc30val2412061878"
+    ],
+    "New/ Existing/ Delete Equipment Info Update": [
+        "bantuan semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
+        "bantuan tukarkan vm kepada rg6 tq",
+        "bantuan tukarkan cpe new ke existing, order force done cancel - iris error",
+        "bantuan tukar wifi(rg) jdi new equipment atau existing.order hanya tambah mesh tpi rg dh delete .ui tak boleh install sebab status rg delete sd4773474",
+        "mohon bantuan  tukar servis poin ke combo box"
+    ],
+    "Bypass Extraport": [
+        "mhn bantuan bypass xp"
+    ],
+    "Manual Assign Button not Appear": [
+        "tiada button manual assign. mohon bantuan"
+    ]
 }
 
 # Build initial embeddings (case-insensitive)
