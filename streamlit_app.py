@@ -171,7 +171,8 @@ categories = {
         "info: ctt no:  1-116312914201   old rg : rg6dl60z2206082971  new rg sn: uncfh5f32411022966    https://forms.gle/irzc9fmbnz8yzgtva  team support, mohon bantuan untuk enable flag hanya selepas bukti form submission disertakan.  terima kasih atas kerjasama semua.",
         "mohon bantu kembali, ui update cpe bertukar ke rg5, req update ke rg6  order no:1-112022311713 minta bantuan utk tukar wifi 5 kepada wifi 6",
         "1-115880410969..xlepas nk replace combo",
-        "ctt - 1-11588495833 sn lama - rgx835dl2307000024 sn baru - unc30val2501040315  bantuan - customer setuju renew contract... dh dijanji kan oleh tm point..  tq"
+        "ctt - 1-11588495833 sn lama - rgx835dl2307000024 sn baru - unc30val2501040315  bantuan - customer setuju renew contract... dh dijanji kan oleh tm point..  tq",
+        "no ctt:1-115787315701 old ce:com60vdl2304001102 new cpe:cw7220al2508011852"
     ],
     "TT V1P": [
         "assalamualaikum..mohon bantu tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
@@ -189,7 +190,8 @@ categories = {
         "bantuan appt v1p 1-26818331322 430pm"
     ],
     "TT Error 400": [
-      "mohon semakan ctt 1-115955192035 ada eror 400. tq"  
+        "mohon semakan ctt 1-115955192035 ada eror 400. tq",
+        "bantuan ctt:1-115961233664, xleh slot appt"
     ],
     "TT HSBA Reappointment": [
         "bantuan untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
