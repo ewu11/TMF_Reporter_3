@@ -24,7 +24,8 @@ categories = {
         "mohon bantuan orders tiada dlm rol..tq",
         "bantuan order tiada dlm rol",
         "mohon bantu order return tak masuk dalam bakul lobs/cxm",
-        "boleh bantu done mir?"
+        "boleh bantu done mir?",
+        "mohon bantu, order return, next activity tak appear"
     ],
     "RG6 - RG7 Equipment Info Update": [
         "bantuan tukar kan equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
@@ -37,7 +38,8 @@ categories = {
         "unifi home 2gbps with netflix bantuan tukar rg7 ke rg6",
         "mohon bantu tukarkan rg vdsl single box kepada rg 7..tq",
         "1.)order schoolnet- mohon bantu tukar rg7 ke existing rg6 - combo ax3000",
-        "order schoolnet- mohon bantu tukar rg7 ke rg6 - combo ax3000"
+        "order schoolnet- mohon bantu tukar rg7 ke rg6 - combo ax3000",
+        "minta tukar equipment rg dan mesh... dari rg7 ke rg6 combo 2.5g"
     ],
     "New/ Existing/ Delete Equipment Info Update": [
         "bantuan semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
@@ -53,7 +55,8 @@ categories = {
         "mohon bantu ru xleh scan cpe combo..dh try log out login pun masih sama",
         "mohon bantuan bg isu order ini  1-115954384256 order ni cust cadari kap baru tukar rg6 combo minggu lepas ..harinhi keluar oder modify tukar onu pulak..blh check blik tk order ni  tq"
         "order ni boleh tukar equipment dari rg4 ke rg6 ax3000 x... upgrade 500mbps",
-        "minta untuk tukar existing equipment combo box be7200 wifi 7 ke combo box ax3000 2.5ghz 4.zone : pgc"
+        "minta untuk tukar existing equipment combo box be7200 wifi 7 ke combo box ax3000 2.5ghz 4.zone : pgc",
+        "bantu tukar mesh ke existing ye, order schoolnet ( sekolah dah ada existing mesh )"
     ],
     "Bypass Extraport": [
         "mhn bantuan bypass xp",
@@ -64,7 +67,8 @@ categories = {
     ],
     "Manual Assign Button not Appear": [
         "tiada button manual assign. mohon bantuan",
-        "hsba bantuan manual slot x appear"
+        "hsba bantuan manual slot x appear",
+        "mohon bantuan manual assign x appear"
     ],
     "Invalid ICBRN Number": [
         "mohon no ssm/ic cust, dlm tmf tiada",
@@ -79,6 +83,9 @@ categories = {
     ],
     "Revert BAU SWIFT-TMF Order": [
         "1-cbga8gd | assalam team, mohon revert order id dibawah ke tmf system. urgent!!! tq 1-cbga8gd 1-cbgnu4p"
+    ],
+    "Reopen Proposed Cancel Order": [
+        "order status propose cancel - mhn bantu utk ra semula - tq"
     ],
     "TT RG5 Equipment Update": [
         "mohon bantu tukar cpe rg5 & onu ke new router combo"
