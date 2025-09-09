@@ -22,7 +22,8 @@ model = load_model()
 categories = {
     "Order Missing/ Pending Processing": [
         "order pending processing  1-115106826851",
-        "order status pending processing in tm force since 25/8/25. iris reprot sd4753885 lodge on 28/8/25 until now still remain pend processing. pls assist asap. customer complained on late installation."
+        "order status pending processing in tm force since 25/8/25. iris reprot sd4753885 lodge on 28/8/25 until now still remain pend processing. pls assist asap. customer complained on late installation.",
+        "1-cbeor26 - order ni masih belum ada dlm tmf"
     ],
     "Order Next Activity Not Appear": [
         "orders tiada dlm rol..tq",
@@ -52,7 +53,8 @@ categories = {
         "flag masih rg7 1-115972738401",
         "flag masih rg7, ru pemasangan pakai rg6  1-115559812996",
         "1-115109708172    mohon bantu tukar cpe kepada rg6",
-        "2509000080219214 | isu fail update equipment  mohon bantuan untuk update cpe wifi 7 ke wifi6 ax3000 combo.  no order: 2509000080219214 s/n no 1: unc25val2412025438 s/n no 2 mesh: unc25val2412025439"
+        "2509000080219214 | isu fail update equipment  mohon bantuan untuk update cpe wifi 7 ke wifi6 ax3000 combo.  no order: 2509000080219214 s/n no 1: unc25val2412025438 s/n no 2 mesh: unc25val2412025439",
+        "tma q104706 1-113191017898 mntk tlg tukar eq ke combo biasa, order schoolnet. tq"
     ],
     "New/ Existing/ Delete Equipment Info Update": [
         "semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
@@ -101,7 +103,9 @@ categories = {
         "salam, mohon bantu order tiada button manual assign",
         "manual assign tak appear",
         "1-c1z5awa button manual assign tidak appear tqvm",
-        "team mohon bantu tiada button ma. cxm info sdh done cc 1-114890055872"
+        "team mohon bantu tiada button ma. cxm info sdh done cc 1-114890055872",
+        "1-114089879333 mohon bantuan order ra tidak boleh manual assign",
+        "dear all mohon bantu 1-112893674327///jabatan sukarelawan malaysia rela negeri sarawak order pada 04092025. tiada aktivi manual assign. failed to assign. sd4769621"
     ],
     "Invalid ICBRN Number": [
         "no ssm/ic cust, dlm tmf tiada",
@@ -114,7 +118,9 @@ categories = {
         "2509000080425247 mohon bantuan tukar segment kepada sme. segment yang betul adalah sme"
     ],
     "Update Contact Number": [
-        "team, kindly assist to update ctc 0139433051  for order id :2508000078626166 . tq."
+        "team, kindly assist to update ctc 0139433051  for order id :2508000078626166 . tq.",
+        "team, mohon bantu utk tukar hp contact number 0129898252 utk order 2508000079145394, tq",
+        "2509000080420382 – pls change contact no. to 012-8461870. tq."
     ],
     "Release Assign to Me": [
         "mohon bantu dapat error nak ra order"
@@ -130,7 +136,8 @@ categories = {
     ],
     "Reopen Proposed Cancel Order": [
         "order status propose cancel - mhn bantu utk ra semula - tq",
-        "status order propose reappt......order ada di page order search tapi tiada di rrol"
+        "status order propose reappt......order ada di page order search tapi tiada di rrol",
+        "2508000079953130 | hi team , mohon bantuan tarik balik order ini from propose cancel pool, order can be installed update by ru team. tqvm team"
     ],
     "Order In-Progress but Auto Done": [
         "kak minta tolong check order ni tiba done sendiri masa tengah nak masuk attachment . detail speedtest semua takmasuk pun lgi sbb nk bypass btu",
