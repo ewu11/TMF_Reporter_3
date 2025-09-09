@@ -42,7 +42,8 @@ categories = {
         "no pending user, tq  2509000080365841",
         "00378065688 - order 1-cbi3c7w 00378035878 - order : 1-cbhvjqo  mhn bantuan masukkan semula dalam oal...ui tidak nampak order sebab mdf sudah done activity remove mdf jumpering...tq",
         "masukkan semula dalam oal",
-        "order npua"
+        "order npua",
+        "mohon bantuan order npua"
     ],
     "CC Not Appear": [
         "cc not appear",
