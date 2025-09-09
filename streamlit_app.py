@@ -34,15 +34,15 @@ categories = {
         "order return tak masuk dalam bakul lobs/cxm",
         "done mir?",
         "order return, next activity tak appear",
-        "salam team,  mohon trigger semula order ini di page rrol. activity mir di siebel masih in progress 1-114085556792",
-        "not in rol | hi team mohon bantuan, order returned due to customer tapi tak ada next owner acitivty. tqvm",
-        "salam, mohon bantuan order tiada dalam rol utk ra. 1-115950242200. tq",
-        "mohon bantuan next activity x appear",
-        "mohon bantu....2508000079730082 order ni tiada di scheduled page tp ada di page order search",
-        "mohon bantu no pending user, tq  2509000080365841",
+        "salam team,  trigger semula order ini di page rrol. activity mir di siebel masih in progress 1-114085556792",
+        "not in rol | hi team  order returned due to customer tapi tak ada next owner acitivty. tqvm",
+        "salam, order tiada dalam rol utk ra. 1-115950242200. tq",
+        "next activity x appear",
+        "....2508000079730082 order ni tiada di scheduled page tp ada di page order search",
+        "no pending user, tq  2509000080365841",
         "00378065688 - order 1-cbi3c7w 00378035878 - order : 1-cbhvjqo  mhn bantuan masukkan semula dalam oal...ui tidak nampak order sebab mdf sudah done activity remove mdf jumpering...tq",
         "masukkan semula dalam oal",
-        "mhn bntuan order npua"
+        "order npua"
     ],
     "CC Not Appear": [
         "cc not appear",
