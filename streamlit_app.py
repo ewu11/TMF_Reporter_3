@@ -20,6 +20,10 @@ model = load_model()
 # Categories (to be filled later)
 # ------------------------
 categories = {
+    "Order Next Activity Not Appear": [
+        "mohon bantuan orders tiada dlm rol..tq",
+        "bantuan order tiada dlm rol"
+    ],
     "RG6 - RG7 Equipment Info Update": [
         "bantuan tukar kan equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
         "bantuan tukar equipment ke rg6 2.5",
@@ -38,10 +42,11 @@ categories = {
         "mohon bantuan  tukar servis poin ke combo box",
         "order tmforce team id: order date: 8/9/2025 order no: remark: cust apply upgrade 1gbps, tapi dalam tmf hanya tukar modem. router sedia ada tak support 1gbps. mohon tukar equipment ke combo wifi 6"
         "relocate bantuan ui x blh nk done order, equipment dlm tmf adalah existing  tp cpe berlainan.. mesh rg6 dlink, uonu ax3000 skyworth",
-        
+        "bantuan utk tukarkan  ata jd existing sbb kat site customer dah ada existing ata 4 port"
     ],
     "Bypass Extraport": [
-        "mhn bantuan bypass xp"
+        "mhn bantuan bypass xp",
+        "bantuan .. bypass fdp clensing ..dekat dp ada reading .. dalam tracebite tkde reading .."
     ],
     "Manual Assign Button not Appear": [
         "tiada button manual assign. mohon bantuan",
