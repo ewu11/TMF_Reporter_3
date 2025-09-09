@@ -234,7 +234,9 @@ categories = {
         "mohon semakan ctt 1-115955192035 ada eror 400. tq",
         "bantuan ctt:1-115961233664, xleh slot appt",
         "error 400 tq",
-        "salam team, mohon bantuan ctt 1-116394965125. error 400 tq"
+        "salam team, mohon bantuan ctt 1-116394965125. error 400 tq",
+        "salam bantuan ctt 1-26817393148 no slot .tq",
+        "ctt no slot"
     ],
     "TT HSBA Reappointment": [
         "bantuan untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
@@ -288,7 +290,9 @@ categories = {
         "1-116316069495. minta bantuan git add onu lama dlm order sbb perlu tukar onu sahaja.  onu lama : onualual1603007277 onu baru : uonzteh92505201369",
         "ctt no: 1-116045080136 fizikal onu : 4857443d6927a9a mohon bantu update sn onu lama cust",
         "1-116330386115 tt ni cust takde mesh bila nak update keluar mcm ni mohon bantuan",
-        "tmf , tt ni nak tukar stb, tapi tak ada dalam equipment info. kat nova masih active hypptv. mohon bantu"
+        "tmf , tt ni nak tukar stb, tapi tak ada dalam equipment info. kat nova masih active hypptv. mohon bantu",
+        "mohon bantuan dalam equipment tmf tiada onu tapi di premis existed.  1-116376046915 uonwfh2a2506008576",
+        "customer nie fizikal ada 2 sahaje combo. unc25val2412013327 yang nie tak wujud fizikal. minta remove dri list equitment customer"
     ],
     "TT - LR Linkage": [
         "salam team bantuan clear tmf ctt link lr20250312-39719 1-106191315217 1-106194182478 1-106312056435 1-106312232721 1-106346917798 1-106471083514 1-106678032670 1-109407463175  tq",
