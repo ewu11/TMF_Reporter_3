@@ -429,7 +429,7 @@ tab1, tab2, tab3 = st.tabs(["Text Cleansing", "Categorizer", "Categorize Single 
 # Tab 1: File categorizer
 # ------------------------
 with tab1:
-    # st.header("1. Text Cleansing")
+    st.subheader("🧽 Text Cleansing")
 
     base_names_input = st.text_area(
         "Enter names (to be removed when cleansing text file)",
@@ -469,6 +469,8 @@ with tab1:
                 mime="text/plain"
             )
 with tab2:
+    st.subheader("🛠 Categorizer")
+    
     uploaded_file = st.file_uploader("Upload cleansed_output.txt", type=["txt"])
 
     if uploaded_file:
