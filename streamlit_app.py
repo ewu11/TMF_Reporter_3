@@ -84,7 +84,7 @@ categories = {
         "minta bypass speedtest dan wifi analyzer sbb oder force done"
     ],
     "Manual Assign Button not Appear": [
-        "tiada button manual assign. mohon bantuan",
+        "tiada button manual assign",
         "hsba bantuan manual slot x appear",
         "manual assign x appear",
         "salam, mohon bantu order tiada button manual assign",
