@@ -24,7 +24,9 @@ categories = {
         "order pending processing  1-115106826851",
         "order status pending processing in tm force since 25/8/25. iris reprot sd4753885 lodge on 28/8/25 until now still remain pend processing. pls assist asap. customer complained on late installation.",
         "1-cbeor26 - order ni masih belum ada dlm tmf",
-        "2509000080460280 - mohon bantu ru inform tak nampak order dalam dalam tmf tapi order dah assign atas id dia  id : q104758 ru : mohd azizi bin mahzun annuar"
+        "2509000080460280 - mohon bantu ru inform tak nampak order dalam dalam tmf tapi order dah assign atas id dia  id : q104758 ru : mohd azizi bin mahzun annuar",
+        "tak nampak order dalam dalam tmf",
+        "tapi order dah assign atas id dia"
     ],
     "Order Next Activity Not Appear": [
         "orders tiada dlm rol..tq",
