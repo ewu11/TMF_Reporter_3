@@ -249,7 +249,7 @@ categories = {
         "bantuan ctt missing 1-116139913645",
         "ctt missing"
     ],
-    "TT Unsync:" [
+    "TT Unsync": [
         "mohon bantu ctt status cancel dlm nova masih appear dlm tmf  1-116258282215",
         "tt cancel tapi masih appear"
     ],
