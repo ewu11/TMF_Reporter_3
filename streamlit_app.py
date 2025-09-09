@@ -217,7 +217,7 @@ category_embeddings = {
 }
 
 # Threshold
-SIMILARITY_THRESHOLD = 0.55
+SIMILARITY_THRESHOLD = 0.52
 new_groups = {}
 group_counter = 1
 
