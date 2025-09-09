@@ -83,7 +83,8 @@ categories = {
         "1-115791690115 modify upgrade 1gb - mohon bantuan tukar rg7 ke rg6 ax3000 - tukar existing rg4 ke new rg6 ax3000 - delete new service point",
         "1-115803658502 mohon bantu.. service point masih existing",
         "mohon bantu.service point masih new.mohon tukar existing & add new rg combo box 1-115965608879",
-        "mohon bantuan add new combo box. order modify infra dari vdsl ke ftth tq  1-115625268896"
+        "mohon bantuan add new combo box. order modify infra dari vdsl ke ftth tq  1-115625268896",
+        "mohon bantu jadikan cpe existing. order relocate guna cpe asal: 1-115392918697"
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq  1-116069040600  router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
