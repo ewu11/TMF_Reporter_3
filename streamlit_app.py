@@ -80,6 +80,9 @@ categories = {
         "1-115865470728 mhn bantuan order nak done tap error sn baru 👉 unc30val2501038792 ....tq",
         "mhn bantuan order modify add no shj x dapat nak done order,ade error pink.  order:2509000080361602  del:cpogelgc2501002409   onu:cw7220al2508010552 cw7220al2508010553  ata:atalc4nr2501008265"
     ],
+    "Unable to Swap Number": [
+        "1-c1z5awa order whp tidak dapat swap number ...sudah call ftc dia suruh refer jcom"
+    ],
     "Bypass Extraport": [
         "mhn bantuan bypass xp",
         "bantuan .. bypass fdp clensing ..dekat dp ada reading .. dalam tracebite tkde reading ..",
