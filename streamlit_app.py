@@ -60,7 +60,9 @@ categories = {
         "2509000080219214 | isu fail update equipment  mohon bantuan untuk update cpe wifi 7 ke wifi6 ax3000 combo.  no order: 2509000080219214 s/n no 1: unc25val2412025438 s/n no 2 mesh: unc25val2412025439",
         "tma q104706 1-113191017898 mntk tlg tukar eq ke combo biasa, order schoolnet. tq",
         "mohon bantuan tukarkan equipment rg7 ke rg6 ax3000 router & mesh....order modify 1gb  2509000080869301",
-        "mohon bantuan flag masih rg7 ru x lepas nak donekan order..cust sudah nak keluar rumah  1-115865565435"
+        "mohon bantuan flag masih rg7 ru x lepas nak donekan order..cust sudah nak keluar rumah  1-115865565435",
+        "1-115874070879 mohon bantu. masih error utk done. mohon bantu trigger wifi6",
+        "trigger wifi6"
     ],
     "New/ Existing/ Delete Equipment Info Update": [
         "semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
