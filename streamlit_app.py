@@ -214,19 +214,19 @@ categories = {
         "ctt tk boleh swap cpe  team tukar combo box"
     ],
     "TT V1P": [
-        "assalamualaikum..mohon bantu tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
-        "mohon bantu appt v1p @ 4.30pm 1-26818203485",
+        "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
+        "appt v1p @ 4.30pm 1-26818203485",
         "00506916920 1-26817775658 team mohon bantu utk appt ctt ni hari ini pukul 14:30 tq",
         "team minta buat appt pukul 16:30 hari ini 00506724003 1-26818262517",
         "slot 1-26817279018 @ 4.30pm",
         "1-26815105984 appt 3.30pm  tq",
-        "assalamualaikum..mohon bantu tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
+        "tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
         "appt v1p @ 4.30pm 1-26818203485",
         "00506916920 1-26817775658 team mohon bantu utk appt ctt ni hari ini pukul 14:30 tq",
         "1-26819223052 bantuan ra 2.30pm, tq",
         "ra tt v1p 1-26819345735  3:30 pm",
-        "dear team mohon bantuan apptkan v1p 1-26818264514|appt 330pm 🌾terima kasih🌾",
-        "bantuan appt v1p 1-26818331322 430pm",
+        "dear team apptkan v1p 1-26818264514|appt 330pm 🌾terima kasih🌾",
+        "appt v1p 1-26818331322 430pm",
         "1-26819047788 bantu ra 11:45 am"
     ],
     "TT Error 400": [
@@ -239,8 +239,8 @@ categories = {
         "tt no slot",
         "mohon bantuan tt no slot 1-116330643385, tq",
         "assalammualaikum  mohon bantu appointment error (400). tq  1-116374056595.",
-        "assalammualaikum mohon bantu appointment error (400)",
-        "assalammualaikum mohon bantu appointment error 400"
+        "assalammualaikum mohon bantu appointment error (400) 1-1",
+        "assalammualaikum mohon bantu appointment error 400 1-1"
     ],
     "TT HSBA Reappointment": [
         "bantuan untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
