@@ -25,11 +25,11 @@ categories = {
         "order status pending processing in tm force since 25/8/25. iris reprot sd4753885 lodge on 28/8/25 until now still remain pend processing. pls assist asap. customer complained on late installation."
     ],
     "Order Next Activity Not Appear": [
-        "mohon bantuan orders tiada dlm rol..tq",
-        "bantuan order tiada dlm rol",
-        "mohon bantu order return tak masuk dalam bakul lobs/cxm",
-        "boleh bantu done mir?",
-        "mohon bantu, order return, next activity tak appear",
+        "orders tiada dlm rol..tq",
+        "order tiada dlm rol",
+        "order return tak masuk dalam bakul lobs/cxm",
+        "done mir?",
+        "order return, next activity tak appear",
         "salam team,  mohon trigger semula order ini di page rrol. activity mir di siebel masih in progress 1-114085556792",
         "not in rol | hi team mohon bantuan, order returned due to customer tapi tak ada next owner acitivty. tqvm"
     ],
