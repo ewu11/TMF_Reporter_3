@@ -34,7 +34,8 @@ categories = {
         "salam team,  mohon trigger semula order ini di page rrol. activity mir di siebel masih in progress 1-114085556792",
         "not in rol | hi team mohon bantuan, order returned due to customer tapi tak ada next owner acitivty. tqvm",
         "salam, mohon bantuan order tiada dalam rol utk ra. 1-115950242200. tq",
-        "mohon bantuan next activity x appear"
+        "mohon bantuan next activity x appear",
+        "mohon bantu....2508000079730082 order ni tiada di scheduled page tp ada di page order search"
     ],
     "RG6 - RG7 Equipment Info Update": [
         "equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
@@ -54,7 +55,8 @@ categories = {
         "flag masih rg7, ru pemasangan pakai rg6  1-115559812996",
         "1-115109708172    mohon bantu tukar cpe kepada rg6",
         "2509000080219214 | isu fail update equipment  mohon bantuan untuk update cpe wifi 7 ke wifi6 ax3000 combo.  no order: 2509000080219214 s/n no 1: unc25val2412025438 s/n no 2 mesh: unc25val2412025439",
-        "tma q104706 1-113191017898 mntk tlg tukar eq ke combo biasa, order schoolnet. tq"
+        "tma q104706 1-113191017898 mntk tlg tukar eq ke combo biasa, order schoolnet. tq",
+        "mohon bantuan tukarkan equipment rg7 ke rg6 ax3000 router & mesh....order modify 1gb  2509000080869301"
     ],
     "New/ Existing/ Delete Equipment Info Update": [
         "semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
