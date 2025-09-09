@@ -243,13 +243,13 @@ categories = {
         "assalammualaikum mohon bantu appointment error 400 1-1"
     ],
     "TT HSBA Reappointment": [
-        "bantuan untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
-        "mohon patch ctt 1-116317835775 pada 11/09/2025  @ 11:30 am",
-        "mohon bantu patch ctt dibawah :  1-116320728665 - 09/09/2025 @ 02:30:00 pm",
-        "1-115504698155 - team mohon bantu patch appt on 09/09/2025 10:30:00 am. tq",
-        "salam team, 1-116326647785 -mohon bantuan patch slot 12/09/2025 09:30:00 am.tq",
-        "salam team, mohon bantu utk patch ctt dibawah :  1-115973031505 - 09/09/2025 @ 04:30:00 pm  1-115804178865 - 09/09/2025 @ 02:30:00 pm  1-115789688125 - 09/09/2025 @ 09:30:00 am",
-        "salam team, mohon bantu pacth ctt 1-116385142175 12/09/2025 11:30:00 am tq"
+        "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
+        "patch ctt 1-116317835775 pada 11/09/2025  @ 11:30 am",
+        "patch ctt dibawah :  1-116320728665 - 09/09/2025 @ 02:30:00 pm",
+        "1-115504698155 - team patch appt on 09/09/2025 10:30:00 am. tq",
+        "salam team, 1-116326647785 -patch slot 12/09/2025 09:30:00 am.tq",
+        "utk patch ctt dibawah :  1-115973031505 - 09/09/2025 @ 04:30:00 pm  1-115804178865 - 09/09/2025 @ 02:30:00 pm  1-115789688125 - 09/09/2025 @ 09:30:00 am",
+        "pacth ctt 1-116385142175 12/09/2025 11:30:00 am tq"
     ],
     "TT Missing": [
         "tt 1-115443089895 tiada dalam tmf",
