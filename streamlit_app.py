@@ -21,7 +21,7 @@ model = load_model()
 # ------------------------
 categories = {
     "Order Missing/ Pending Processing": [
-        "mohon bantuan order pending processing  1-115106826851",
+        "order pending processing  1-115106826851",
         "order status pending processing in tm force since 25/8/25. iris reprot sd4753885 lodge on 28/8/25 until now still remain pend processing. pls assist asap. customer complained on late installation."
     ],
     "Order Next Activity Not Appear": [
@@ -34,46 +34,46 @@ categories = {
         "not in rol | hi team mohon bantuan, order returned due to customer tapi tak ada next owner acitivty. tqvm"
     ],
     "RG6 - RG7 Equipment Info Update": [
-        "bantuan tukar kan equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
-        "bantuan tukar equipment ke rg6 2.5",
+        "equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
+        "tukar equipment ke rg6 2.5",
         "(1gbps) ... mintak tukarkan tagging wifi 7 kepada wifi 6",
-        "bantuan tukarkan ax3000 kepada rg7",
-        "bantuan mintak tukarkan equipmnt rg7 ke combo 2.5g skli mesh. tq",
-        "bantuan tolong tukar combo rg7 ke rg6 order 1gbps unc30val2412065163 unc30val2412065169",
+        "tukarkan ax3000 kepada rg7",
+        "mintak tukarkan equipmnt rg7 ke combo 2.5g skli mesh. tq",
+        "combo rg7 ke rg6 order 1gbps unc30val2412065163 unc30val2412065169",
         "salam kak mintak tukar dari wifi7 ke wifi6 unc30val2412061878",
         "unifi home 2gbps with netflix bantuan tukar rg7 ke rg6",
         "mohon bantu tukarkan rg vdsl single box kepada rg 7..tq",
         "1.)order schoolnet- mohon bantu tukar rg7 ke existing rg6 - combo ax3000",
         "order schoolnet- mohon bantu tukar rg7 ke rg6 - combo ax3000",
-        "minta tukar equipment rg dan mesh... dari rg7 ke rg6 combo 2.5g",
-        "tukar brg dari rg7 ke combo ax3000 4.zone 5 : bw",
-        "mohon bantu flag masih rg7 1-115972738401",
-        "mohon bantu flag masih rg7, ru pemasangan pakai rg6  1-115559812996"
+        "equipment rg dan mesh... dari rg7 ke rg6 combo 2.5g",
+        "brg dari rg7 ke combo ax3000 4.zone 5 : bw",
+        "flag masih rg7 1-115972738401",
+        "flag masih rg7, ru pemasangan pakai rg6  1-115559812996"
     ],
     "New/ Existing/ Delete Equipment Info Update": [
-        "bantuan semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
-        "bantuan tukarkan vm kepada rg6 tq",
-        "bantuan tukarkan cpe new ke existing, order force done cancel - iris error",
-        "bantuan tukar wifi(rg) jdi new equipment atau existing.order hanya tambah mesh tpi rg dh delete .ui tak boleh install sebab status rg delete sd4773474",
-        "mohon bantuan  tukar servis poin ke combo box",
+        "semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
+        "tukarkan vm kepada rg6 tq",
+        "cpe new ke existing, order force done cancel - iris error",
+        "tukar wifi(rg) jdi new equipment atau existing.order hanya tambah mesh tpi rg dh delete .ui tak boleh install sebab status rg delete sd4773474",
+        "tukar servis poin ke combo box",
         "order tmforce team id: order date: 8/9/2025 order no: remark: cust apply upgrade 1gbps, tapi dalam tmf hanya tukar modem. router sedia ada tak support 1gbps. mohon tukar equipment ke combo wifi 6"
         "relocate bantuan ui x blh nk done order, equipment dlm tmf adalah existing  tp cpe berlainan.. mesh rg6 dlink, uonu ax3000 skyworth",
-        "bantuan utk tukarkan  ata jd existing sbb kat site customer dah ada existing ata 4 port"
-        "tukar sp ke combo rg6 ax3000",
+        "tukarkan  ata jd existing sbb kat site customer dah ada existing ata 4 port"
+        "sp ke combo rg6 ax3000",
         "bleh check dk oder ni.dkleh nk complete..nk scan combo xleh",
-        "mohon bantu ru xleh scan cpe combo..dh try log out login pun masih sama",
-        "mohon bantuan bg isu order ini  1-115954384256 order ni cust cadari kap baru tukar rg6 combo minggu lepas ..harinhi keluar oder modify tukar onu pulak..blh check blik tk order ni  tq"
+        "ru xleh scan cpe combo..dh try log out login pun masih sama",
+        "bg isu order ini  1-115954384256 order ni cust cadari kap baru tukar rg6 combo minggu lepas ..harinhi keluar oder modify tukar onu pulak..blh check blik tk order ni  tq"
         "order ni boleh tukar equipment dari rg4 ke rg6 ax3000 x... upgrade 500mbps",
-        "minta untuk tukar existing equipment combo box be7200 wifi 7 ke combo box ax3000 2.5ghz 4.zone : pgc",
-        "bantu tukar mesh ke existing ye, order schoolnet ( sekolah dah ada existing mesh )",
-        "mohon bantuan untuk tukarkan equipment serv point vm ke new combo rg7 order modify 1gb  1-115960101049",
-        "mohon bantuan tukar equipment new mesh wifi ke combo rg6, modify 500mbps  2508000079549409",
-        "mohon bantuan tukarkan existing service point ke new . ru maklum model ni tak  support universal..order relocate",
+        "existing equipment combo box be7200 wifi 7 ke combo box ax3000 2.5ghz 4.zone : pgc",
+        "tukar mesh ke existing ye, order schoolnet ( sekolah dah ada existing mesh )",
+        "tukarkan equipment serv point vm ke new combo rg7 order modify 1gb  1-115960101049",
+        "tukar equipment new mesh wifi ke combo rg6, modify 500mbps  2508000079549409",
+        "tukarkan existing service point ke new . ru maklum model ni tak  support universal..order relocate",
         "1-115865470728 modify 09.30  mhn bantuan tukarkan new sp ke new combo (rg6) order modify 1g...tq",
         "1-115791690115 modify upgrade 1gb - mohon bantuan tukar rg7 ke rg6 ax3000 - tukar existing rg4 ke new rg6 ax3000 - delete new service point"
     ],
     "Update Order Equipment Details": [
-        "mohon bantu, nk done keluar error seperti berikut..tq  1-116069040600  router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
+        "nk done keluar error seperti berikut..tq  1-116069040600  router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
         "1-115865470728 mhn bantuan order nak done tap error sn baru 👉 unc30val2501038792 ....tq"
     ],
     "Bypass Extraport": [
@@ -86,18 +86,18 @@ categories = {
     "Manual Assign Button not Appear": [
         "tiada button manual assign. mohon bantuan",
         "hsba bantuan manual slot x appear",
-        "mohon bantuan manual assign x appear",
+        "manual assign x appear",
         "salam, mohon bantu order tiada button manual assign",
-        "mohon bantuan manual assign tak appear",
-        "mohon bantu 1-c1z5awa button manual assign tidak appear tqvm"
+        "manual assign tak appear",
+        "1-c1z5awa button manual assign tidak appear tqvm"
     ],
     "Invalid ICBRN Number": [
-        "mohon no ssm/ic cust, dlm tmf tiada",
+        "no ssm/ic cust, dlm tmf tiada",
         "minta ic no untuk order ni.. xd dekat detail customer",
         "bantuan ui fail utk update ic/br no"
     ],
     "Invalid Order Segment": [
-        "mohon bantu utk tukarkan segment  kepada sme. order s10. tq 2509000080543072",
+        "tukarkan segment  kepada sme. order s10. tq 2509000080543072",
         "2509000080425247 mohon bantuan tukar segment kepada sme. segment yang betul adalah sme"
     ],
     "Update Contact Number": [
@@ -117,14 +117,14 @@ categories = {
     ],
     "Reopen Proposed Cancel Order": [
         "order status propose cancel - mhn bantu utk ra semula - tq",
-        "mohon bantu status order propose reappt......order ada di page order search tapi tiada di rrol"
+        "status order propose reappt......order ada di page order search tapi tiada di rrol"
     ],
     "Order In-Progress but Auto Done": [
         "kak minta tolong check order ni tiba done sendiri masa tengah nak masuk attachment . detail speedtest semua takmasuk pun lgi sbb nk bypass btu",
-        "mohon bantu ui nk done order terus ke saf..x sempat scan cpe lg, tq"
+        "ui nk done order terus ke saf..x sempat scan cpe lg, tq"
     ],
     "TT RG5 Equipment Update": [
-        "mohon bantu tukar cpe rg5 & onu ke new router combo"
+        "tukar cpe rg5 & onu ke new router combo"
     ],
     "TT RG6/ Combo Update": [
         "salam team x dapt close ctt untuk pertukaran router minta bantuan  ctt no : 1-116315464203 package : 100mbps sn lama : rg6fhax32208032145 sn baru :unc30val2410080579",
@@ -154,10 +154,10 @@ categories = {
         "mohon bantu appt v1p @ 4.30pm 1-26818203485",
         "00506916920 1-26817775658 team mohon bantu utk appt ctt ni hari ini pukul 14:30 tq",
         "team minta buat appt pukul 16:30 hari ini 00506724003 1-26818262517",
-        "mohon untuk slot 1-26817279018 @ 4.30pm",
+        "slot 1-26817279018 @ 4.30pm",
         "1-26815105984 appt 3.30pm  tq",
         "assalamualaikum..mohon bantu tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
-        "mohon bantu appt v1p @ 4.30pm 1-26818203485",
+        "appt v1p @ 4.30pm 1-26818203485",
         "00506916920 1-26817775658 team mohon bantu utk appt ctt ni hari ini pukul 14:30 tq",
         "1-26819223052 bantuan ra 2.30pm, tq",
         "ra tt v1p 1-26819345735  3:30 pm",
@@ -165,18 +165,18 @@ categories = {
         "bantuan appt v1p 1-26818331322 430pm"
     ],
     "TT HSBA Reappointment": [
-        "salam team, bantuan untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
-        "salam team, mohon patch ctt 1-116317835775 pada 11/09/2025  @ 11:30 am",
-        "salam team, mohon bantu patch ctt dibawah :  1-116320728665 - 09/09/2025 @ 02:30:00 pm",
+        "bantuan untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
+        "mohon patch ctt 1-116317835775 pada 11/09/2025  @ 11:30 am",
+        "mohon bantu patch ctt dibawah :  1-116320728665 - 09/09/2025 @ 02:30:00 pm",
         "1-115504698155 - team mohon bantu patch appt on 09/09/2025 10:30:00 am. tq",
         "salam team, 1-116326647785 -mohon bantuan patch slot 12/09/2025 09:30:00 am.tq",
         "salam team, mohon bantu utk patch ctt dibawah :  1-115973031505 - 09/09/2025 @ 04:30:00 pm  1-115804178865 - 09/09/2025 @ 02:30:00 pm  1-115789688125 - 09/09/2025 @ 09:30:00 am"
     ],
     "TT Missing": [
-        "mohon bantu tt 1-115443089895 tiada dalam tmf",
-        "mohon bantuan ctt missing slps return fs troubleshooting tq 1-116065619936",
+        "tt 1-115443089895 tiada dalam tmf",
+        "ctt missing slps return fs troubleshooting tq 1-116065619936",
         "ctt missing. mohon bantuan. 1-116311028092",
-        "mohon bantu tt 1-115443089895 tiada dalam tmf",
+        "tt 1-115443089895 tiada dalam tmf",
         "bantuan ctt missing 1-116139913645"
     ],
     "Update Granite Network Details": [
@@ -190,22 +190,22 @@ categories = {
         "1-115733638005 | salam team,  mohon bantuan tidak dapat view slot ctt: 1-115733638005 dp id:  mti_c102_dp0001"
     ],
     "TT Duplicate Activity": [
-        "mohon bantu cancel 1 activity id 1-116247023935  a-0009903201 a-0009903196",
-        "mohon bantu cancel act duplicate 1-116315708835 a-0009908381"
+        "cancel 1 activity id 1-116247023935  a-0009903201 a-0009903196",
+        "cancel act duplicate 1-116315708835 a-0009908381"
     ],
     "TT TMF-Physical CPE Unsync": [
-        "bantuan sn rg fizikal dengan tmf tak sama  ctt : 1-116245831767 fizikal : 159fe54e0057211b0 tmf : 0405202300000",
+        "sn rg fizikal dengan tmf tak sama  ctt : 1-116245831767 fizikal : 159fe54e0057211b0 tmf : 0405202300000",
         "1-115885719055 sn onu fizikal - uonwfh2a2312002473 sn onu dalam list - uonwfh2a2312000612 bantu update list equipment.",
-        "bantuan sn rg fizikal tak sama dengan tmf no ctt : 1-116153828615 rg sn fizikal : rgx842dl1903020843 sn tmf : rgwtull71309006364",
-        "mohon bantuan, tolong update service point punya sn. sebab dalam tmf dengan fizikal tak sama. tq  no ctt : 1-116248891495 sn : onualual1706002509 mac : 9c50eee65894",
-        "mohon bantu untuk add onu dalam equipment di tmf, team inform customer ada onu di fizikal  1-116313069961  sn : uonzteh92505209321",
+        "sn rg fizikal tak sama dengan tmf no ctt : 1-116153828615 rg sn fizikal : rgx842dl1903020843 sn tmf : rgwtull71309006364",
+        "tolong update service point punya sn. sebab dalam tmf dengan fizikal tak sama. tq  no ctt : 1-116248891495 sn : onualual1706002509 mac : 9c50eee65894",
+        "add onu dalam equipment di tmf, team inform customer ada onu di fizikal  1-116313069961  sn : uonzteh92505209321",
         "1-116313069961 mohon bantuan untuk add kan onu dalam tmf.  sn no : uonzteh92505209321",
         "1-116316069495. minta bantuan git add onu lama dlm order sbb perlu tukar onu sahaja.  onu lama : onualual1603007277 onu baru : uonzteh92505201369",
         "ctt no: 1-116045080136 fizikal onu : 4857443d6927a9a mohon bantu update sn onu lama cust"
     ],
     "TT - LR Linkage": [
         "salam team bantuan clear tmf ctt link lr20250312-39719 1-106191315217 1-106194182478 1-106312056435 1-106312232721 1-106346917798 1-106471083514 1-106678032670 1-109407463175  tq",
-        "mohon bantu ctt unlink 1-115388049295 tiada dalam tmf.."
+        "ctt unlink 1-115388049295 tiada dalam tmf.."
     ]
 }
 
