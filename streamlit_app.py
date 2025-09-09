@@ -241,7 +241,8 @@ categories = {
         "assalammualaikum  mohon bantu appointment error (400). tq  1-116374056595",
         "appointment error",
         "appointment error (400).",
-        "appointment error (400). tq  1-116374056595"
+        "appointment error (400). tq  1-116374056595",
+        "salam, mohon bantuan ctt 1-116345228405 x keluar slot book appt"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
@@ -262,7 +263,8 @@ categories = {
     ],
     "TT Unsync": [
         "mohon bantu ctt status cancel dlm nova masih appear dlm tmf  1-116258282215",
-        "tt cancel tapi masih appear"
+        "tt cancel tapi masih appear",
+        "mohon bantuan team nak close ctt x boleh"
     ],
     "Update Granite Network Details": [
         "1-116311380548 - mohon betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
