@@ -136,7 +136,18 @@ categories = {
         "assalamualaikum & salam sejahtera,  remark : mohon bantuan tukarkan flag ke combo box dan mohon update acs bind.  ctt: 1-116311140378 s/n lama: rgxaztwr2112008593 s/n baru: unc30val2411098930 login id : norsitikamsiah@unifi  terima kasih 🙂 @~taufik z.",
         "remark : mohon bantuan tukarkan flag ke combo box dan mohon update acs bind.*  ctt: 1-115722470135 s/n cpe lama: rgxperdl1709003741 s/n cpe baru: unc30val2411098813 login id : isminorhanbinismai@unifi  terima kasih 🙂 @~taufik z.",
         "remark : mohon tukarkan flag ke combo box ctt:  1-115865956193  s/n lama: rgxtplc11812010132 s/n baru: uncfh5f32502024708 login id: zaynvivian95@unifi terima kasih",
-        "remark : mohon bantuan tukarkan flag ke combobox dan mohon update acs bind.  ctt: 1-116312296513 s/n lama: rgx825dl2012009971 s/n baru : unc30val2501010999 s/n baru (gpon) : cwtcb81ad76c login id : suhairina08@unifi"
+        "remark : mohon bantuan tukarkan flag ke combobox dan mohon update acs bind.  ctt: 1-116312296513 s/n lama: rgx825dl2012009971 s/n baru : unc30val2501010999 s/n baru (gpon) : cwtcb81ad76c login id : suhairina08@unifi",
+        "remark : mohon tukarkan flag ke combo box ctt:  1-115976383308  s/n lama: rg6fhax32208019428 s/n baru: unc30val2411014648 login id: honghai@unifi terima kasih",
+        "1-115970926445 minta update flag tukar ke combo box. customer sudah tukar pakej ke 300m.",
+        "mohon tukar tagging ke combo/rg6 no ctt:  1-115969916464 sn lama:  rgxdvgdl2109025080 sn baru:  unc30val2412069248",
+        "ctt :1-116313934089 sn lama:rgxtplc11903028849 sn baru:rgx835dl2307001679 pakej:100mbps",
+        "enable combo flag 1-116316769444 old sn : rgxaztwr2105049908 new sn : unc30val2412061412",
+        "1-115972600583 old sn : rgxperdl1705008311 new sn : unc30val2501002986",
+        "truckroll cpe replacement  1-116315005124 old rg rgxdvgdl2109013485 newrg unc30val2501056851",
+        "nnt berikan detail spt dibwh: ctt no: nnt berikan detail spt dibwh:  ctt no: 1-116000429645 old rg sn: rgx830dl2109018545 new rg sn: unc30val2501034470 remark : serial number does not exist in your cpe ( truckroll )",
+        "ctt no :  1-116323270125 old rg :  vdlaztds2008003140 new rg : unc30val2412066279  mohon enable flag",
+        "mintk tukar flag tt no:1-116321092138 new sn:uncfh5f32411001561 old sn:rgxaztwr2207027329 tt truckroll",
+        "info: ctt no:  1-116312914201   old rg : rg6dl60z2206082971  new rg sn: uncfh5f32411022966    https://forms.gle/irzc9fmbnz8yzgtva  team support, mohon bantuan untuk enable flag hanya selepas bukti form submission disertakan.  terima kasih atas kerjasama semua."
     ],
     "TT V1P": [
         "assalamualaikum..mohon bantu tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
@@ -147,7 +158,11 @@ categories = {
         "1-26815105984 appt 3.30pm  tq",
         "assalamualaikum..mohon bantu tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
         "mohon bantu appt v1p @ 4.30pm 1-26818203485",
-        "00506916920 1-26817775658 team mohon bantu utk appt ctt ni hari ini pukul 14:30 tq"
+        "00506916920 1-26817775658 team mohon bantu utk appt ctt ni hari ini pukul 14:30 tq",
+        "1-26819223052 bantuan ra 2.30pm, tq",
+        "ra tt v1p 1-26819345735  3:30 pm",
+        "dear team mohon bantuan apptkan v1p 1-26818264514|appt 330pm 🌾terima kasih🌾",
+        "bantuan appt v1p 1-26818331322 430pm"
     ],
     "TT HSBA Reappointment": [
         "salam team, bantuan untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
@@ -161,14 +176,35 @@ categories = {
         "mohon bantu tt 1-115443089895 tiada dalam tmf",
         "mohon bantuan ctt missing slps return fs troubleshooting tq 1-116065619936",
         "ctt missing. mohon bantuan. 1-116311028092",
-        "mohon bantu tt 1-115443089895 tiada dalam tmf"
+        "mohon bantu tt 1-115443089895 tiada dalam tmf",
+        "bantuan ctt missing 1-116139913645"
     ],
     "Update Granite Network Details": [
         "1-116311380548 - mohon betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
-        "1-115958165689 tiada detail cab"
+        "1-115958165689 tiada detail cab",
+        "minta bantuan adv ctt 1-115970783375 tak boleh tukar fdp dalam granite di tmf",
+        "mohon bantu ctt tiada detail kabinet 1-116322359307"
     ],
     "TT Error 400": [
         "1-115733638005 | salam team,  mohon bantuan tidak dapat view slot ctt: 1-115733638005 dp id:  mti_c102_dp0001"
+    ],
+    "TT Duplicate Activity": [
+        "mohon bantu cancel 1 activity id 1-116247023935  a-0009903201 a-0009903196",
+        "mohon bantu cancel act duplicate 1-116315708835 a-0009908381"
+    ],
+    "TT TMF-Physical CPE Unsync": [
+        "bantuan sn rg fizikal dengan tmf tak sama  ctt : 1-116245831767 fizikal : 159fe54e0057211b0 tmf : 0405202300000",
+        "1-115885719055 sn onu fizikal - uonwfh2a2312002473 sn onu dalam list - uonwfh2a2312000612 bantu update list equipment.",
+        "bantuan sn rg fizikal tak sama dengan tmf no ctt : 1-116153828615 rg sn fizikal : rgx842dl1903020843 sn tmf : rgwtull71309006364",
+        "mohon bantuan, tolong update service point punya sn. sebab dalam tmf dengan fizikal tak sama. tq  no ctt : 1-116248891495 sn : onualual1706002509 mac : 9c50eee65894",
+        "mohon bantu untuk add onu dalam equipment di tmf, team inform customer ada onu di fizikal  1-116313069961  sn : uonzteh92505209321",
+        "1-116313069961 mohon bantuan untuk add kan onu dalam tmf.  sn no : uonzteh92505209321",
+        "1-116316069495. minta bantuan git add onu lama dlm order sbb perlu tukar onu sahaja.  onu lama : onualual1603007277 onu baru : uonzteh92505201369",
+        "ctt no: 1-116045080136 fizikal onu : 4857443d6927a9a mohon bantu update sn onu lama cust"
+    ],
+    "TT - LR Linkage": [
+        "salam team bantuan clear tmf ctt link lr20250312-39719 1-106191315217 1-106194182478 1-106312056435 1-106312232721 1-106346917798 1-106471083514 1-106678032670 1-109407463175  tq",
+        "mohon bantu ctt unlink 1-115388049295 tiada dalam tmf.."
     ]
 }
 
