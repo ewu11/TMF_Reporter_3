@@ -41,7 +41,8 @@ categories = {
         "mohon bantu....2508000079730082 order ni tiada di scheduled page tp ada di page order search",
         "mohon bantu no pending user, tq  2509000080365841",
         "00378065688 - order 1-cbi3c7w 00378035878 - order : 1-cbhvjqo  mhn bantuan masukkan semula dalam oal...ui tidak nampak order sebab mdf sudah done activity remove mdf jumpering...tq",
-        "masukkan semula dalam oal"
+        "masukkan semula dalam oal",
+        "mhn bntuan order npua"
     ],
     "CC Not Appear": [
         "cc not appear"
