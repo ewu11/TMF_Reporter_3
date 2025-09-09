@@ -307,7 +307,8 @@ categories = {
         "tmf , tt ni nak tukar stb, tapi tak ada dalam equipment info. kat nova masih active hypptv. mohon bantu",
         "mohon bantuan dalam equipment tmf tiada onu tapi di premis existed.  1-116376046915 uonwfh2a2506008576",
         "customer nie fizikal ada 2 sahaje combo. unc25val2412013327 yang nie tak wujud fizikal. minta remove dri list equitment customer",
-        "xboleh swap combo, combo asal skyworth, saya tukar dgn skyworth same brand  1-116321727895"
+        "xboleh swap combo, combo asal skyworth, saya tukar dgn skyworth same brand  1-116321727895",
+        "xboleh swap combo, combo asal skyworth"
     ],
     "TT - LR Linkage": [
         "salam team bantuan clear tmf ctt link lr20250312-39719 1-106191315217 1-106194182478 1-106312056435 1-106312232721 1-106346917798 1-106471083514 1-106678032670 1-109407463175  tq",
