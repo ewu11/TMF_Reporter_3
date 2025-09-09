@@ -33,7 +33,7 @@ categories = {
         "salam team,  mohon trigger semula order ini di page rrol. activity mir di siebel masih in progress 1-114085556792",
         "not in rol | hi team mohon bantuan, order returned due to customer tapi tak ada next owner acitivty. tqvm",
         "salam, mohon bantuan order tiada dalam rol utk ra. 1-115950242200. tq",
-        "mohon bantuan next activity x appear 1-114054768903 1-114054769610 1-114055037317"
+        "mohon bantuan next activity x appear"
     ],
     "RG6 - RG7 Equipment Info Update": [
         "equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
