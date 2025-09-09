@@ -74,7 +74,8 @@ categories = {
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq  1-116069040600  router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
-        "1-115865470728 mhn bantuan order nak done tap error sn baru 👉 unc30val2501038792 ....tq"
+        "1-115865470728 mhn bantuan order nak done tap error sn baru 👉 unc30val2501038792 ....tq",
+        "mhn bantuan order modify add no shj x dapat nak done order,ade error pink.  order:2509000080361602  del:cpogelgc2501002409   onu:cw7220al2508010552 cw7220al2508010553  ata:atalc4nr2501008265"
     ],
     "Bypass Extraport": [
         "mhn bantuan bypass xp",
