@@ -35,7 +35,8 @@ categories = {
         "not in rol | hi team mohon bantuan, order returned due to customer tapi tak ada next owner acitivty. tqvm",
         "salam, mohon bantuan order tiada dalam rol utk ra. 1-115950242200. tq",
         "mohon bantuan next activity x appear",
-        "mohon bantu....2508000079730082 order ni tiada di scheduled page tp ada di page order search"
+        "mohon bantu....2508000079730082 order ni tiada di scheduled page tp ada di page order search",
+        "mohon bantu no pending user, tq  2509000080365841"
     ],
     "RG6 - RG7 Equipment Info Update": [
         "equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
