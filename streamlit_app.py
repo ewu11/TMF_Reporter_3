@@ -80,7 +80,8 @@ categories = {
         "tukarkan existing service point ke new . ru maklum model ni tak  support universal..order relocate",
         "1-115865470728 modify 09.30  mhn bantuan tukarkan new sp ke new combo (rg6) order modify 1g...tq",
         "1-115791690115 modify upgrade 1gb - mohon bantuan tukar rg7 ke rg6 ax3000 - tukar existing rg4 ke new rg6 ax3000 - delete new service point",
-        "1-115803658502 mohon bantu.. service point masih existing"
+        "1-115803658502 mohon bantu.. service point masih existing",
+        "mohon bantu.service point masih new.mohon tukar existing & add new rg combo box 1-115965608879"
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq  1-116069040600  router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
