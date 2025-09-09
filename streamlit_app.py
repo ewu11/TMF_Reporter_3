@@ -89,7 +89,8 @@ categories = {
         "order relocate guna cpe asal",
         "1-115874174567 modify upgrade 1gb - delete new service point",
         "delete new",
-        "delete new service point"
+        "delete new service point",
+        "modify upgrade"
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq  1-116069040600  router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
