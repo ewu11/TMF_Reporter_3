@@ -131,7 +131,12 @@ categories = {
         "sn rg lama:rgxaztwr2205016652 sn combo baru : unc30val2410081417 no ctt:1-116314999694 package :100mbps mohon bantu tm point telah janjikan set combo tq ya",
         "assalammualaikum, mohon bantuan untuk error ni.   id :q103945 tt number:1-26818262517 old sn:whps20al2405000239 new sn:whp910dl2501001033",
         "salam,mohon tukar tagging,cust pekej 300mb  info: ctt no: 1-116182596740 old rg sn: rgxtplc12102000715 new rg sn: uncfh5f32411019303",
-        "info:tukar rg5 ke combo 100 mbps ctt no:1-115950652482 old rg sn:rgxaztwr2207005074 new rg sn:uncfh5f32411032691"
+        "info:tukar rg5 ke combo 100 mbps ctt no:1-115950652482 old rg sn:rgxaztwr2207005074 new rg sn:uncfh5f32411032691",
+        "remark : mohon bantuan tukarkan flag ke combo box dan mohon update acs bind.*  ctt: 1-116270632518 s/n cpe lama: rgxtplec2205052950 s/n cpe baru: unc30val2411098979 login id : tey6686@unifi  terima kasih 🙂",
+        "assalamualaikum & salam sejahtera,  remark : mohon bantuan tukarkan flag ke combo box dan mohon update acs bind.  ctt: 1-116311140378 s/n lama: rgxaztwr2112008593 s/n baru: unc30val2411098930 login id : norsitikamsiah@unifi  terima kasih 🙂 @~taufik z.",
+        "remark : mohon bantuan tukarkan flag ke combo box dan mohon update acs bind.*  ctt: 1-115722470135 s/n cpe lama: rgxperdl1709003741 s/n cpe baru: unc30val2411098813 login id : isminorhanbinismai@unifi  terima kasih 🙂 @~taufik z.",
+        "remark : mohon tukarkan flag ke combo box ctt:  1-115865956193  s/n lama: rgxtplc11812010132 s/n baru: uncfh5f32502024708 login id: zaynvivian95@unifi terima kasih",
+        "remark : mohon bantuan tukarkan flag ke combobox dan mohon update acs bind.  ctt: 1-116312296513 s/n lama: rgx825dl2012009971 s/n baru : unc30val2501010999 s/n baru (gpon) : cwtcb81ad76c login id : suhairina08@unifi"
     ],
     "TT V1P": [
         "assalamualaikum..mohon bantu tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
