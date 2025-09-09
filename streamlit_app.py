@@ -206,7 +206,8 @@ categories = {
         "ctt - 1-11588495833 sn lama - rgx835dl2307000024 sn baru - unc30val2501040315  bantuan - customer setuju renew contract... dh dijanji kan oleh tm point..  tq",
         "no ctt:1-115787315701 old ce:com60vdl2304001102 new cpe:cw7220al2508011852",
         "1-116380461845 | salam, mohon tukar tagging,cust pakej 100mbps. sudah tiada stock rg5 dan sbvm.  info: ctt no: 1-116380461845 old rg sn: rgx842dl2107015642 new rg sn: uncfh5f32412032170",
-        "sudah tiada stock rg5 dan sbvm"
+        "sudah tiada stock rg5 dan sbvm",
+        "mohon bantuan..1-115961396302..tukar onu,xboleh nk done tt..sn onu lama onunokia1803010458..sn baru uonwfh2a2505004787"
     ],
     "TT V1P": [
         "assalamualaikum..mohon bantu tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
@@ -221,7 +222,8 @@ categories = {
         "1-26819223052 bantuan ra 2.30pm, tq",
         "ra tt v1p 1-26819345735  3:30 pm",
         "dear team mohon bantuan apptkan v1p 1-26818264514|appt 330pm 🌾terima kasih🌾",
-        "bantuan appt v1p 1-26818331322 430pm"
+        "bantuan appt v1p 1-26818331322 430pm",
+        "1-26819047788 bantu ra 11:45 am"
     ],
     "TT Error 400": [
         "slot appt",
@@ -247,6 +249,10 @@ categories = {
         "bantuan ctt missing 1-116139913645",
         "ctt missing"
     ],
+    "TT Unsync:" [
+        "mohon bantu ctt status cancel dlm nova masih appear dlm tmf  1-116258282215",
+        "tt cancel tapi masih appear"
+    ],
     "Update Granite Network Details": [
         "1-116311380548 - mohon betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
         "1-115958165689 tiada detail cab",
@@ -261,7 +267,8 @@ categories = {
     "TT Error 400": [
         "1-115733638005 | salam team,  mohon bantuan tidak dapat view slot ctt: 1-115733638005 dp id:  mti_c102_dp0001",
         "salam tmf team, @normah mohd salleh @kak nurul mohon bantuan untuk issue ctt ni team: 1-114491447905 missing cab di granite di tm force. ctt : 1-114491447905 cab : swy_c019 dp : swy_c019_dp0017",
-        "missing cab di granite di tm force"
+        "missing cab di granite di tm force",
+        "1-116379866205 ult_c010_dp0050 mohon bantuan no slot"
     ],
     "TT Duplicate Activity": [
         "cancel 1 activity id 1-116247023935  a-0009903201 a-0009903196",
@@ -275,7 +282,9 @@ categories = {
         "add onu dalam equipment di tmf, team inform customer ada onu di fizikal  1-116313069961  sn : uonzteh92505209321",
         "1-116313069961 mohon bantuan untuk add kan onu dalam tmf.  sn no : uonzteh92505209321",
         "1-116316069495. minta bantuan git add onu lama dlm order sbb perlu tukar onu sahaja.  onu lama : onualual1603007277 onu baru : uonzteh92505201369",
-        "ctt no: 1-116045080136 fizikal onu : 4857443d6927a9a mohon bantu update sn onu lama cust"
+        "ctt no: 1-116045080136 fizikal onu : 4857443d6927a9a mohon bantu update sn onu lama cust",
+        "1-116330386115 tt ni cust takde mesh bila nak update keluar mcm ni mohon bantuan",
+        "tmf , tt ni nak tukar stb, tapi tak ada dalam equipment info. kat nova masih active hypptv. mohon bantu"
     ],
     "TT - LR Linkage": [
         "salam team bantuan clear tmf ctt link lr20250312-39719 1-106191315217 1-106194182478 1-106312056435 1-106312232721 1-106346917798 1-106471083514 1-106678032670 1-109407463175  tq",
