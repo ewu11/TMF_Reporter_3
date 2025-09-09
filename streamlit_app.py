@@ -43,6 +43,9 @@ categories = {
         "00378065688 - order 1-cbi3c7w 00378035878 - order : 1-cbhvjqo  mhn bantuan masukkan semula dalam oal...ui tidak nampak order sebab mdf sudah done activity remove mdf jumpering...tq",
         "masukkan semula dalam oal"
     ],
+    "CC Not Appear": [
+        "cc not appear"
+    ],
     "RG6 - RG7 Equipment Info Update": [
         "equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
         "tukar equipment ke rg6 2.5",
