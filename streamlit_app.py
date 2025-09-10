@@ -280,7 +280,8 @@ categories = {
         "bantu ra",
         "bantu ra am pm",
         "1-26820223665 bantuan v1p slot 11am",
-        "mohon bantuan ra appt ctt v1p @230pm. tq 1-26819047743"
+        "mohon bantuan ra appt ctt v1p @230pm. tq 1-26819047743",
+        "1-26813027589 ra 2:30pm"
     ],
     "TT Error 400": [
         "slot appt",
@@ -315,7 +316,8 @@ categories = {
         "ctt status cancel dlm nova masih appear dlm tmf  1-116258282215",
         "tt cancel tapi masih appear",
         "team nak close ctt x boleh",
-        "tak boleh colse ctt"
+        "tak boleh colse ctt",
+        "tt 1-112719548255 not sync tmf resolve, nova ip"
     ],
     "Update Granite Network Details": [
         "1-116311380548 - mohon betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
