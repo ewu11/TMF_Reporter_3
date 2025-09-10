@@ -184,7 +184,8 @@ categories = {
         "x boleh book appt, keluar error seperti di atas...tq"
     ],
     "Order D&A In-Progress": [
-        "task d&a ip"
+        "task d&a ip",
+        "d&a masih in progress"
     ],
     "Unsync Order": [
         "team mohon bantuan ui maklum dah done tapi nampak in progress lagi dlm tmf. tk",
