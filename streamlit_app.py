@@ -278,18 +278,18 @@ categories = {
     ],
     "TT Error 400": [
         "slot appt",
-        "mohon semakan ctt 1-115955192035 ada eror 400. tq",
-        "bantuan ctt:1-115961233664, xleh slot appt",
+        "semakan ctt 1-115955192035 ada eror 400. tq",
+        "ctt:1-115961233664, xleh slot appt",
         "error 400 tq",
-        "salam team, ctt 1-116394965125. error 400 tq",
+        "ctt 1-116394965125. error 400 tq",
         "ctt 1-2 no slot",
         "tt no slot",
-        "mohon bantuan tt no slot 1-116330643385, tq",
+        "tt no slot 1-116330643385, tq",
         "assalammualaikum  mohon bantu appointment error (400). tq  1-116374056595",
         "appointment error",
         "appointment error (400).",
         "appointment error (400). tq  1-116374056595",
-        "salam, mohon bantuan ctt 1-116345228405 x keluar slot book appt"
+        "salam, ctt 1-116345228405 x keluar slot book appt"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
