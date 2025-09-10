@@ -53,6 +53,9 @@ categories = {
         "2509000080687620 mohon bantuan order return jadi unscheduled",
         "bantuan order return jd unscheduled"
     ],
+    "Order Capping Issue": [
+        "bukakan capping utk id q003975 nak slot whp 14 line 1 lokasi (cust minta buat semua harini)"
+    ],
     "RG6 - RG7 Equipment Info Update": [
         "equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
         "tukar equipment ke rg6 2.5",
