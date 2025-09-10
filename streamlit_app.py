@@ -258,7 +258,8 @@ categories = {
         "ada error untuk done  1-116336590617  sn baru : uncfh5f32502020536 sn lama : rg6wfh1y220701631",
         "ada error untuk done",
         "1-116325374545 - tt ni sblm ni pd 13/8/25 tukar rg6 & mesh wifi kepada combo box & mesh wifi.. customer pilih option renew contract..dlm rekod tt yg keluar balik masih cpe lama rg6..mohon bantuan untuk update combo box baru dlm equipment customer",
-        " salam team x dapt close ctt untuk pertukaran router combo minta bantuan  ctt no :1-115980922928 package : 300mbps sn lama :vdlinnne1911015109 sn baru : unc30val2412063318"
+        " salam team x dapt close ctt untuk pertukaran router combo minta bantuan  ctt no :1-115980922928 package : 300mbps sn lama :vdlinnne1911015109 sn baru : unc30val2412063318",
+        "info:100 mbp combo ctt no: 1-116384133328 old rg sn:vdlaztds2109009572 new rg sn:uncfh5f32411042436 ctt save program dr telemarketing request renew contract tukar router wifi 6"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
