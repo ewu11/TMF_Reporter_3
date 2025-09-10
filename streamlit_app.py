@@ -166,7 +166,8 @@ categories = {
         "minta ic no untuk order ni.. xd dekat detail customer",
         "bantuan ui fail utk update ic/br no",
         "ic dan ssm no. dah masuk tp invalid, tak lepas done.",
-        "order x bole done ic cust invalid."
+        "order x bole done ic cust invalid.",
+        "team sdh masukkan no ic sperti penama didalam order tetapi tidak dapat"
     ],
     "Invalid Order Segment": [
         "tukarkan segment  kepada sme. order s10. tq 2509000080543072",
