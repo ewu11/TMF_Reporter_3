@@ -255,7 +255,8 @@ categories = {
         "salam bantuan team tak boleh tutup ctt tk boleh swap cpe  team tukar combo box  ctt no 1-116375717449",
         "ctt tk boleh swap cpe  team tukar combo box",
         "ada error untuk done  1-116336590617  sn baru : uncfh5f32502020536 sn lama : rg6wfh1y220701631",
-        "ada error untuk done"
+        "ada error untuk done",
+        "1-116325374545 - tt ni sblm ni pd 13/8/25 tukar rg6 & mesh wifi kepada combo box & mesh wifi.. customer pilih option renew contract..dlm rekod tt yg keluar balik masih cpe lama rg6..mohon bantuan untuk update combo box baru dlm equipment customer"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
