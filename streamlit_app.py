@@ -44,7 +44,8 @@ categories = {
         "masukkan semula dalam oal",
         "order npua",
         "mohon bantuan order npua",
-        "order tiada dalam oal"
+        "order tiada dalam oal",
+        "tiada dalam rol ..mohon bantu."
     ],
     "CC Not Appear": [
         "cc not appear",
