@@ -282,8 +282,6 @@ categories = {
         "ctt:1-115961233664, xleh slot appt",
         "error 400 tq",
         "ctt 1-116394965125. error 400 tq",
-        "ctt 1-2 no slot",
-        "tt no slot",
         "tt no slot 1-116330643385, tq",
         "assalammualaikum  mohon bantu appointment error (400). tq  1-116374056595",
         "salam, ctt 1-116345228405 x keluar slot book appt"
