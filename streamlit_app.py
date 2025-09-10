@@ -159,7 +159,8 @@ categories = {
     ],
     "Invalid Order Segment": [
         "tukarkan segment  kepada sme. order s10. tq 2509000080543072",
-        "2509000080425247 mohon bantuan tukar segment kepada sme. segment yang betul adalah sme"
+        "2509000080425247 mohon bantuan tukar segment kepada sme. segment yang betul adalah sme",
+        "order ni kepada segment sme, order biz"
     ],
     "Update Contact Number": [
         "update ctc no",
