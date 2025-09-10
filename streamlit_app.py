@@ -185,7 +185,10 @@ categories = {
     ],
     "Order D&A In-Progress": [
         "task d&a ip",
-        "d&a masih in progress"
+        "d&a masih in progress",
+        "d&a ip",
+        "dna ip",
+        "d&a masih ip"
     ],
     "Unsync Order": [
         "team mohon bantuan ui maklum dah done tapi nampak in progress lagi dlm tmf. tk",
