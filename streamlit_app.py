@@ -211,7 +211,8 @@ categories = {
     ],
     "Order In-Progress but Auto Done": [
         "kak minta tolong check order ni tiba done sendiri masa tengah nak masuk attachment . detail speedtest semua takmasuk pun lgi sbb nk bypass btu",
-        "ui nk done order terus ke saf..x sempat scan cpe lg, tq"
+        "ui nk done order terus ke saf..x sempat scan cpe lg, tq",
+        "team, mohon bantuan ui dah complete order tapi masih x hilang. ui xleh nak buat next order. tk"
     ],
     "TT RG5 Equipment Update": [
         "tukar cpe rg5 & onu ke new router combo",
