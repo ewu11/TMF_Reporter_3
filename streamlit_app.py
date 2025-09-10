@@ -113,7 +113,8 @@ categories = {
         "1-115874174567 modify upgrade 1gb - delete new service point",
         "delete new",
         "delete new service point",
-        "modify upgrade"
+        "modify upgrade",
+        "tukarkan  8 dect (new cpe) kpd existing krn cstmer guna pabx tq"
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq  1-116069040600  router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
