@@ -286,9 +286,6 @@ categories = {
         "tt no slot",
         "tt no slot 1-116330643385, tq",
         "assalammualaikum  mohon bantu appointment error (400). tq  1-116374056595",
-        "appointment error",
-        "appointment error (400).",
-        "appointment error (400). tq  1-116374056595",
         "salam, ctt 1-116345228405 x keluar slot book appt"
     ],
     "TT HSBA Reappointment": [
