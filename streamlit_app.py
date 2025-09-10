@@ -50,7 +50,8 @@ categories = {
     ],
     "CC Not Appear": [
         "cc not appear",
-        "bantu cc x kuar"
+        "bantu cc x kuar",
+        "cc tak appear 1-114576765037"
     ],
     "Order Returned but Unscheduled": [
         "2509000080687620 mohon bantuan order return jadi unscheduled",
