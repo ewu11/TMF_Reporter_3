@@ -169,7 +169,8 @@ categories = {
         "team, mohon bantu 1-116379701877 update ctc no 0166855599 di tmf. thanks"
         "team, kindly assist to update ctc 0139433051  for order id :2508000078626166 . tq.",
         "team, mohon bantu utk tukar hp contact number 0129898252 utk order 2508000079145394, tq",
-        "2509000080420382 – pls change contact no. to 012-8461870. tq."
+        "2509000080420382 – pls change contact no. to 012-8461870. tq.",
+        "tukarkan contact number kepada 01139851691"
     ],
     "Release Assign to Me": [
         "dapat error nak ra order"
@@ -297,7 +298,8 @@ categories = {
     ],
     "Update DP-Cabinet Location": [
         "salam team,  mohon bantuan update dp location order digi ni 1-115819132630 daripada on pole kepada building floor.",
-        "daripada on pole kepada building floor"
+        "daripada on pole kepada building floor",
+        "dekat granite dp type street cabinet tapi di network on pole. dekat site dp type yang betul adalah street cabinet"
     ],
     "TT Error 400": [
         "1-115733638005 | salam team,  mohon bantuan tidak dapat view slot ctt: 1-115733638005 dp id:  mti_c102_dp0001",
