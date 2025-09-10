@@ -304,7 +304,8 @@ categories = {
         "ctt missing. mohon bantuan. 1-116311028092",
         "tt 1-115443089895 tiada dalam tmf",
         "bantuan ctt missing 1-116139913645",
-        "ctt missing"
+        "ctt missing",
+        "team.....mohon trigger tt 1-116324250905....coz telah missing dlm activity list tmf......tq......zita."
     ],
     "TT Unsync": [
         "ctt status cancel dlm nova masih appear dlm tmf  1-116258282215",
