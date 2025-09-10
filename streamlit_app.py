@@ -117,7 +117,7 @@ categories = {
         "modify upgrade",
         "tukarkan  8 dect (new cpe) kpd existing krn cstmer guna pabx tq",
         "minta tukar btu ke new..order x share btu",
-        "1-116374098769 -minta tukar btu ke new..order x share btu"
+        "boleh check ini equipment sdh add 1 ata pun masihh sama"
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq  1-116069040600  router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
@@ -132,7 +132,8 @@ categories = {
         "mhn bantuan bypass xp",
         "bantuan .. bypass fdp clensing ..dekat dp ada reading .. dalam tracebite tkde reading ..",
         "mohon bypass extraport. iris access denied",
-        "1-115636242567 tolong bypass extraport lhd_c001_dp0071 09out"
+        "1-115636242567 tolong bypass extraport lhd_c001_dp0071 09out",
+        "iris error.. xboleh log iris  2509000081023987 mohon bantu bypass ep.no order tiada dlm apps/troika.ep flag y"
     ],
     "Bypass HSI": [
         "minta bypass speedtest dan wifi analyzer sbb oder force done",
@@ -173,7 +174,9 @@ categories = {
         "team, kindly assist to update ctc 0139433051  for order id :2508000078626166 . tq.",
         "team, mohon bantu utk tukar hp contact number 0129898252 utk order 2508000079145394, tq",
         "2509000080420382 – pls change contact no. to 012-8461870. tq.",
-        "tukarkan contact number kepada 01139851691"
+        "tukarkan contact number kepada 01139851691",
+        "update contact number.....tq order:  2508000078206670 / sw food & bar concepts sdn bhd ctc no: 0166812312",
+        "update contact number. ....tq order:  2508000079407460 / yap mun kit contact no mobile: 01112240477 contact no home : 0177060128"
     ],
     "Release Assign to Me": [
         "dapat error nak ra order"
