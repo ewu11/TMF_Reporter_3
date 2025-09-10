@@ -297,9 +297,9 @@ categories = {
         "ctt missing"
     ],
     "TT Unsync": [
-        "mohon bantu ctt status cancel dlm nova masih appear dlm tmf  1-116258282215",
+        "ctt status cancel dlm nova masih appear dlm tmf  1-116258282215",
         "tt cancel tapi masih appear",
-        "mohon bantuan team nak close ctt x boleh"
+        "team nak close ctt x boleh"
     ],
     "Update Granite Network Details": [
         "1-116311380548 - mohon betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
