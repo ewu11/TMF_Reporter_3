@@ -47,7 +47,8 @@ categories = {
         "tiada dalam oal",
         "tiada dalam rol ..mohon bantu.",
         "slot 10/9 tapi mir masih ip",
-        "salam 2509000080381065  mohon masukan order dalam basket jcc. tq"
+        "salam 2509000080381065  mohon masukan order dalam basket jcc. tq",
+        "order tiada di schedule page 1-115878860659 tq"
     ],
     "CC Not Appear": [
         "cc not appear",
