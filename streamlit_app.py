@@ -54,7 +54,8 @@ categories = {
         "bantuan order return jd unscheduled"
     ],
     "Order Capping Issue": [
-        "bukakan capping utk id q003975 nak slot whp 14 line 1 lokasi (cust minta buat semua harini)"
+        "bukakan capping utk id q003975 nak slot whp 14 line 1 lokasi (cust minta buat semua harini)",
+        "order gomen kementerian sumber manusia  dlm portal tmf ui q003975 ada dpt 13 order. tp ui hanya ada 10 order shj 1-cbjdpgv 1-cbjzqxz 1-cbjx85i 1-cbjy128 1-cbjz0vp 1-cbjz165 1-cbjx8k4 1-cbjy0o0 1-cbjx22i 1-cbizjkr"
     ],
     "RG6 - RG7 Equipment Info Update": [
         "equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
