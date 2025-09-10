@@ -179,7 +179,8 @@ categories = {
         "update contact number. ....tq order:  2508000079407460 / yap mun kit contact no mobile: 01112240477 contact no home : 0177060128"
     ],
     "Release Assign to Me": [
-        "dapat error nak ra order"
+        "dapat error nak ra order",
+        "x boleh book appt, keluar error seperti di atas...tq"
     ],
     "Order D&A In-Progress": [
         "task d&a ip"
