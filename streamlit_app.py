@@ -29,9 +29,9 @@ categories = {
         "tapi order dah assign atas id dia"
     ],
     "Order Next Activity Not Appear": [
-        "orders tiada dlm rol..tq",
-        "order tiada dlm rol",
-        "order return tak masuk dalam bakul lobs/cxm",
+        "tiada dlm rol..tq",
+        "tiada dlm rol",
+        "return tak masuk dalam bakul lobs/cxm",
         "done mir?",
         "order return, next activity tak appear",
         "salam team,  trigger semula order ini di page rrol. activity mir di siebel masih in progress 1-114085556792",
@@ -42,11 +42,11 @@ categories = {
         "no pending user, tq  2509000080365841",
         "00378065688 - order 1-cbi3c7w 00378035878 - order : 1-cbhvjqo  mhn bantuan masukkan semula dalam oal...ui tidak nampak order sebab mdf sudah done activity remove mdf jumpering...tq",
         "masukkan semula dalam oal",
-        "order npua",
+        "npua",
         "mohon bantuan order npua",
-        "order tiada dalam oal",
+        "tiada dalam oal",
         "tiada dalam rol ..mohon bantu.",
-        "order slot 10/9 tapi mir masih ip"
+        "slot 10/9 tapi mir masih ip"
     ],
     "CC Not Appear": [
         "cc not appear",
