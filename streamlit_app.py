@@ -145,6 +145,10 @@ categories = {
         "1-114089879333 mohon bantuan order ra tidak boleh manual assign",
         "dear all mohon bantu 1-112893674327///jabatan sukarelawan malaysia rela negeri sarawak order pada 04092025. tiada aktivi manual assign. failed to assign. sd4769621"
     ],
+    "Order Error 500": [
+        "Tak boleh nk return",
+        "bantuan id Q102829 x blh nk return order,ui dh try relogin pun sama"
+    ],
     "Invalid ICBRN Number": [
         "no ssm/ic cust, dlm tmf tiada",
         "minta ic no untuk order ni.. xd dekat detail customer",
