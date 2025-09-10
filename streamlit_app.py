@@ -310,7 +310,8 @@ categories = {
     "TT Unsync": [
         "ctt status cancel dlm nova masih appear dlm tmf  1-116258282215",
         "tt cancel tapi masih appear",
-        "team nak close ctt x boleh"
+        "team nak close ctt x boleh",
+        "tak boleh colse ctt"
     ],
     "Update Granite Network Details": [
         "1-116311380548 - mohon betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
@@ -352,7 +353,8 @@ categories = {
         "customer nie fizikal ada 2 sahaje combo. unc25val2412013327 yang nie tak wujud fizikal. minta remove dri list equitment customer",
         "xboleh swap combo, combo asal skyworth, saya tukar dgn skyworth same brand  1-116321727895",
         "xboleh swap combo, combo asal skyworth",
-        "verify phone dalam tmf tiada tapi customer inform pernah dapat phone dari tm  1-116327647495"
+        "verify phone dalam tmf tiada tapi customer inform pernah dapat phone dari tm  1-116327647495",
+        "cust no tel isu ata xde kat site dlm tmf ade cmne nk wat"
     ],
     "TT - LR Linkage": [
         "salam team bantuan clear tmf ctt link lr20250312-39719 1-106191315217 1-106194182478 1-106312056435 1-106312232721 1-106346917798 1-106471083514 1-106678032670 1-109407463175  tq",
