@@ -220,7 +220,7 @@ categories = {
     ],
     "TT RG5 Equipment Update": [
         "tukar cpe rg5 & onu ke new router combo",
-        "mohon bantu, team inform ada error untuk done  1-116311485233  sn router : vdlf24dl2111011465"
+        "ada error untuk done  1-116311485233  sn router : vdlf24dl2111011465"
     ],
     "TT RG6/ Combo Update": [
         "salam team x dapt close ctt untuk pertukaran router minta bantuan  ctt no : 1-116315464203 package : 100mbps sn lama : rg6fhax32208032145 sn baru :unc30val2410080579",
