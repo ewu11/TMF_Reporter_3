@@ -127,7 +127,8 @@ categories = {
         "jdkan new btu dekat equipment..order relocate sebelum ini cust pakai copper (sbvm)",
         "add new sp, dekat dlm order tak de sp",
         "add modem...order modify infra.",
-        "updated order 2gb guna combo wifi 7.dlam tmf ada modem shj,."
+        "updated order 2gb guna combo wifi 7.dlam tmf ada modem shj,.",
+        "tukar btu ke new..order x share btu -1-116438099969"
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq  1-116069040600  router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
