@@ -87,7 +87,8 @@ categories = {
         "mohon bantuan flag masih rg7 ru x lepas nak donekan order..cust sudah nak keluar rumah  1-115865565435",
         "1-115874070879 mohon bantu. masih error utk done. mohon bantu trigger wifi6",
         "trigger wifi6",
-        "updated equipment pda rg6 ax3000..order 1gb"
+        "updated equipment pda rg6 ax3000..order 1gb",
+        "ubah ke wifi 7 .customer behaviour. order downgrade ke 1gb. customer tetap nak wifi 7 rujukan dr cff"
     ],
     "New/ Existing/ Delete Equipment Info Update": [
         "semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
