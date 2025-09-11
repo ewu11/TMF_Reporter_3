@@ -132,6 +132,7 @@ categories = {
         "tukar btu ke new..order x share btu -1-116438099969",
         "tukar sp kepada existing, order relocate btu masih baru",
         "mintak existing cpe onu order relocate",
+        "existing cpe onu",
         "order modify tolong tukar eqiupment new ke existing",
         "eqiupment new ke existing"
     ],
