@@ -299,7 +299,8 @@ categories = {
         "bantu ra am pm",
         "1-26820223665 bantuan v1p slot 11am",
         "mohon bantuan ra appt ctt v1p @230pm. tq 1-26819047743",
-        "1-26813027589 ra 2:30pm"
+        "1-26813027589 ra 2:30pm",
+        "ra ctt v1p 4:30 1-26821452755"
     ],
     "TT Error 400": [
         "slot appt",
@@ -317,8 +318,7 @@ categories = {
         "eror 400",
         "ctt 1-116493162085, tjb_v1011_0001, ada error 400 , tq",
         "ada error 400",
-        "ada eror 400",
-        "salam team mohon bantuan ctt 1-116493162085, tjb_v1011_0001, ada error 400 , tq"
+        "ada eror 400"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
