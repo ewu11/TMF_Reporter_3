@@ -326,7 +326,8 @@ categories = {
         "bantuan ctt missing 1-116139913645",
         "ctt missing",
         "team.....mohon trigger tt 1-116324250905....coz telah missing dlm activity list tmf......tq......zita.",
-        "tt missing. mohon bantuan. 1-116132927093"
+        "tt missing. mohon bantuan. 1-116132927093",
+        "trigger ctt ini missing"
     ],
     "TT Unsync": [
         "ctt status cancel dlm nova masih appear dlm tmf  1-116258282215",
@@ -334,7 +335,8 @@ categories = {
         "team nak close ctt x boleh",
         "tak boleh colse ctt",
         "tt 1-112719548255 not sync tmf resolve, nova ip",
-        "bntu clearkn tmf nova cancelled"
+        "bntu clearkn tmf nova cancelled",
+        "ctt sudah closed di nova"
     ],
     "Update Granite Network Details": [
         "1-116311380548 - mohon betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
