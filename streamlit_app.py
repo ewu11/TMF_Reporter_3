@@ -235,9 +235,9 @@ categories = {
         "ui dah complete order tapi masih x hilang. ui xleh nak buat next order. tk"
     ],
     "TT RG5 Equipment Update": [
-        "tukar cpe rg5 & onu ke new router combo",
+        "cpe rg5 & onu ke new router combo",
         "ada error untuk done  1-116311485233  sn router : vdlf24dl2111011465",
-        "ctt untuk pertukaran router rg5 minta bantuan  ctt no :1-116329668255 package : 100mbps sn lama :vdlinnne2007051543 sn baru : vdlf24dl2111009558",
+        "rg5 minta bantuan  ctt no :1-116329668255 package : 100mbps sn lama :vdlinnne2007051543 sn baru : vdlf24dl2111009558",
         "rg 5..equitment combo.. tapi cust pakai rg 5"
     ],
     "TT RG6/ Combo Update": [
