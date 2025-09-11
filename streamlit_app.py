@@ -123,7 +123,8 @@ categories = {
         "minta tukar btu ke new..order x share btu",
         "boleh check ini equipment sdh add 1 ata pun masihh sama",
         "oder. ni 1gb tp tukar modem sj btolke",
-        "jdkan new btu dekat equipment..order relocate sebelum ini cust pakai copper (sbvm)"
+        "jdkan new btu dekat equipment..order relocate sebelum ini cust pakai copper (sbvm)",
+        "add new sp, dekat dlm order tak de sp"
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq  1-116069040600  router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
