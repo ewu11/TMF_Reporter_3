@@ -214,7 +214,8 @@ categories = {
     "Unsync Order": [
         "ui maklum dah done tapi nampak in progress lagi dlm tmf. tk",
         "2508000079434474 nak tanya knp takde button book appt. (nak retime...)",
-        "ui kata xde button utk on site. tk"
+        "ui kata xde button utk on site. tk",
+        "mntk tlg tngk order dah done tpi masih in progress"
     ],
     "Revert BAU SWIFT-TMF Order": [
         "1-cbga8gd | assalam team, mohon revert order id dibawah ke tmf system. urgent!!! tq 1-cbga8gd 1-cbgnu4p",
