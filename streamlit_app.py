@@ -281,7 +281,11 @@ categories = {
         "no tt:1-116480219495 remark: ctt truck roll cust tukar ke combo bantuan tukar flag",
         "remark: ctt truck roll cust tukar ke combo bantuan tukar flag",
         "assalamualaikum & salam sejahtera, tuan/puan zone ctt coordinator/sp/exec untuk setiap permohonan untuk enable flag rg6 di dalam tmf, mohon berikan maklumat seperti di bawah & mengisi google form yang disertakan (link terkini) & lampirkan screenshot form submission di sini.  info: ctt no: 1-116443193056  old rg sn: rgx835dl2307011663  new rg sn: unc30val2501028768  https://forms.gle/irzc9fmbnz8yzgtva  team support, mohon bantuan untuk enable flag hanya selepas bukti form submission disertakan.  terima kasih atas kerjasama semua.",
-        "minta update  no ctt : 1-116483225947 sn lama : rg6gleex2204026011 sn baru : unc30val2501033247  mesh lama : rg6gleex2204025382 mesh baru : unc30val2501033248"
+        "minta update  no ctt : 1-116483225947 sn lama : rg6gleex2204026011 sn baru : unc30val2501033247  mesh lama : rg6gleex2204025382 mesh baru : unc30val2501033248",
+        "ctt no :1-116446218772 package : 300mbps sn lama :rgxperdl1707017730 sn baru : uncfh5f32412028927 tm janji dengan customer untuk tukar router yang terbaru",
+        "tm janji",
+        "tm janji dengan customer",
+        "tm janji dengan customer untuk tukar router yg terbaru"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
