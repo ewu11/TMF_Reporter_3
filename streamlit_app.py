@@ -290,7 +290,9 @@ categories = {
         "x dapt close ctt",
         "pertukaran router combo",
         "ctt no :1-116448629262 package : 500mbps sn lama :rgx830dl2108032644 sn baru : uncfh5f32412028466",
-        "package : 500mbps sn lama :rgx830dl2108032644 sn baru : uncfh5f32412028466"
+        "package : 500mbps sn lama :rgx830dl2108032644 sn baru : uncfh5f32412028466",
+        "old s/n: uncfh5f32406024342 new s/n: uncfh5f32412023471",
+        "old s/n: uncfh5f32406024342 new s/n: uncfh5f32412023471 xboleh swap mesh"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
