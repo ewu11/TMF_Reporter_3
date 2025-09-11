@@ -234,7 +234,7 @@ categories = {
         "order proposed cancel 2508000079156490 bantuan... order proceed pemasangan..."
     ],
     "Order In-Progress but Auto Done": [
-        "tiba done sendiri masa tengah nak masuk attachment . detail speedtest semua takmasuk pun lgi sbb nk bypass btu",
+        "tiba sendiri masa tengah nak masuk attachment . detail speedtest semua takmasuk pun lgi sbb nk bypass btu",
         "terus ke saf..x sempat scan cpe lg, tq",
         "ui dah complete order tapi masih x hilang. ui xleh nak buat next order. tk"
     ],
