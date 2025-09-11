@@ -277,7 +277,8 @@ categories = {
         " salam team x dapt close ctt untuk pertukaran router combo minta bantuan  ctt no :1-115980922928 package : 300mbps sn lama :vdlinnne1911015109 sn baru : unc30val2412063318",
         "info:100 mbp combo ctt no: 1-116384133328 old rg sn:vdlaztds2109009572 new rg sn:uncfh5f32411042436 ctt save program dr telemarketing request renew contract tukar router wifi 6",
         "ctt no : 1-116444069593 rg old : rgxtplc11901017459 rg new : uncfh5f32411020443",
-        "no tt:1-116480219495 remark: ctt truck roll cust tukar ke combo bantuan tukar flag"
+        "no tt:1-116480219495 remark: ctt truck roll cust tukar ke combo bantuan tukar flag",
+        "remark: ctt truck roll cust tukar ke combo bantuan tukar flag"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
@@ -309,7 +310,7 @@ categories = {
         "error 400 tq",
         "ctt 1-116394965125. error 400 tq",
         "tt no slot 1-116330643385, tq",
-        "assalammualaikum  mohon bantu appointment error (400). tq  1-116374056595",
+        "appointment error (400). tq  1-116374056595",
         "salam, ctt 1-116345228405 x keluar slot book appt",
         "tdk bole slot appt, error 400",
         "semakan ctt 1-116487978265, ada eror 400. tq",
@@ -338,7 +339,8 @@ categories = {
         "ctt missing",
         "team.....mohon trigger tt 1-116324250905....coz telah missing dlm activity list tmf......tq......zita.",
         "tt missing. mohon bantuan. 1-116132927093",
-        "trigger ctt ini missing"
+        "trigger ctt ini missing",
+        "missing di tmf"
     ],
     "TT Unsync": [
         "ctt status cancel dlm nova masih appear dlm tmf  1-116258282215",
