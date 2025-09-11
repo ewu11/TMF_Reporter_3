@@ -43,7 +43,7 @@ categories = {
         "00378065688 - order 1-cbi3c7w 00378035878 - order : 1-cbhvjqo  mhn bantuan masukkan semula dalam oal...ui tidak nampak order sebab mdf sudah done activity remove mdf jumpering...tq",
         "masukkan semula dalam oal",
         "npua",
-        "mohon bantuan order npua",
+        "order npua",
         "tiada dalam oal",
         "tiada dalam rol ..mohon bantu.",
         "slot 10/9 tapi mir masih ip",
@@ -310,7 +310,8 @@ categories = {
         "tt no slot 1-116330643385, tq",
         "assalammualaikum  mohon bantu appointment error (400). tq  1-116374056595",
         "salam, ctt 1-116345228405 x keluar slot book appt",
-        "tdk bole slot appt, error 400"
+        "tdk bole slot appt, error 400",
+        "semakan ctt 1-116487978265, ada eror 400. tq"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
