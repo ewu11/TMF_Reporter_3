@@ -392,7 +392,8 @@ categories = {
         "verify phone dalam tmf tiada tapi customer inform pernah dapat phone dari tm  1-116327647495",
         "cust no tel isu ata xde kat site dlm tmf ade cmne nk wat",
         "team xboleh update cpe..",
-        "x dapt close ctt untuk pertukaran  cpe..dlm tm force cpe list btu tiada..team nak scan btu tak boleh"
+        "x dapt close ctt untuk pertukaran  cpe..dlm tm force cpe list btu tiada..team nak scan btu tak boleh",
+        "verify, customer ada langgan mesh sekali ke ? sebab team inform di fizikal ada mesh tetapi system tiada"
     ],
     "TT - LR Linkage": [
         "salam team bantuan clear tmf ctt link lr20250312-39719 1-106191315217 1-106194182478 1-106312056435 1-106312232721 1-106346917798 1-106471083514 1-106678032670 1-109407463175  tq",
