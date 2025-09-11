@@ -185,8 +185,8 @@ categories = {
         "team sdh masukkan no ic sperti penama didalam order tetapi tidak dapat"
     ],
     "Invalid Order Segment": [
-        "tukarkan segment  kepada sme. order s10. tq 2509000080543072",
-        "2509000080425247 mohon bantuan tukar segment kepada sme. segment yang betul adalah sme",
+        "segment  kepada sme. order s10. tq 2509000080543072",
+        "2509000080425247 mohon bantuan segment kepada sme. segment yang betul adalah sme",
         "order ni kepada segment sme, order biz"
     ],
     "Update Contact Number": [
