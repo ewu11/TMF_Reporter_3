@@ -285,7 +285,10 @@ categories = {
         "ctt no :1-116446218772 package : 300mbps sn lama :rgxperdl1707017730 sn baru : uncfh5f32412028927 tm janji dengan customer untuk tukar router yang terbaru",
         "tm janji",
         "tm janji dengan customer",
-        "tm janji dengan customer untuk tukar router yg terbaru"
+        "tm janji dengan customer untuk tukar router yg terbaru",
+        "x dapt close ctt untuk pertukaran router combo",
+        "x dapt close ctt",
+        "pertukaran router combo"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
