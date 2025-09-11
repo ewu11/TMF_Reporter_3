@@ -237,8 +237,8 @@ categories = {
     "TT RG5 Equipment Update": [
         "tukar cpe rg5 & onu ke new router combo",
         "ada error untuk done  1-116311485233  sn router : vdlf24dl2111011465",
-        "salam team x dapt close ctt untuk pertukaran router rg5 minta bantuan  ctt no :1-116329668255 package : 100mbps sn lama :vdlinnne2007051543 sn baru : vdlf24dl2111009558",
-        "tak boleh tukar rg 5..equitment combo.. tapi cust pakai rg 5"
+        "ctt untuk pertukaran router rg5 minta bantuan  ctt no :1-116329668255 package : 100mbps sn lama :vdlinnne2007051543 sn baru : vdlf24dl2111009558",
+        "rg 5..equitment combo.. tapi cust pakai rg 5"
     ],
     "TT RG6/ Combo Update": [
         "salam team x dapt close ctt untuk pertukaran router minta bantuan  ctt no : 1-116315464203 package : 100mbps sn lama : rg6fhax32208032145 sn baru :unc30val2410080579",
