@@ -155,7 +155,8 @@ categories = {
     ],
     "Bypass HSI": [
         "minta bypass speedtest dan wifi analyzer sbb oder force done",
-        "1-112885939768 hsi failed - order fdc .. ble bantu bypass iris nak balik awal kali"
+        "1-112885939768 hsi failed - order fdc .. ble bantu bypass iris nak balik awal kali",
+        "ui maklum dah up kat site tapi xleh nak done hsi xlepas. plgn dah boleh online. boleh bypass hsi ke?"
     ],
     "Manual Assign Button not Appear": [
         "tiada button manual assign",
