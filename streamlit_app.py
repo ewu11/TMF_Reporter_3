@@ -304,7 +304,8 @@ categories = {
         "1-26820223665 bantuan v1p slot 11am",
         "mohon bantuan ra appt ctt v1p @230pm. tq 1-26819047743",
         "1-26813027589 ra 2:30pm",
-        "ra ctt v1p 4:30 1-26821452755"
+        "ra ctt v1p 4:30 1-26821452755",
+        "ctt 1-26821375701 / v1p mohon bantu slot appt tt v1p 4.30pm...tqvm"
     ],
     "TT Error 400": [
         "slot appt",
