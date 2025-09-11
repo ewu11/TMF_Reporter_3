@@ -125,7 +125,8 @@ categories = {
         "oder. ni 1gb tp tukar modem sj btolke",
         "jdkan new btu dekat equipment..order relocate sebelum ini cust pakai copper (sbvm)",
         "add new sp, dekat dlm order tak de sp",
-        "add modem...order modify infra."
+        "add modem...order modify infra.",
+        "updated order 2gb guna combo wifi 7.dlam tmf ada modem shj,."
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq  1-116069040600  router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
