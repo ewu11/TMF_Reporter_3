@@ -136,8 +136,8 @@ categories = {
         "eqiupment new ke existing"
     ],
     "Update Order Equipment Details": [
-        "nk done keluar error seperti berikut..tq  1-116069040600  router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
-        "1-115865470728 order nak done tap error sn baru 👉 unc30val2501038792 ....tq",
+        "nk done keluar error seperti berikut..tq router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
+        "order nak done tap error sn baru 👉 unc30val2501038792 ....tq",
         "order modify add no shj x dapat nak done order,ade error pink.  order:2509000080361602  del:cpogelgc2501002409   onu:cw7220al2508010552 cw7220al2508010553  ata:atalc4nr2501008265",
         "ru tak boleh done, order add new ata sahaja, tak tukar cpe lain, tak boleh done, sn ata new: atanov042505000248",
         "intelligence netcare sdn bhd mohon bantu ui tak dapat complete order,order delete fix ip,cust pakai cpe sendiri tak guna cpe tm.tq",
