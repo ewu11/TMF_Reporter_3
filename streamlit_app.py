@@ -317,7 +317,8 @@ categories = {
         "eror 400",
         "ctt 1-116493162085, tjb_v1011_0001, ada error 400 , tq",
         "ada error 400",
-        "ada eror 400"
+        "ada eror 400",
+        "salam team mohon bantuan ctt 1-116493162085, tjb_v1011_0001, ada error 400 , tq"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
