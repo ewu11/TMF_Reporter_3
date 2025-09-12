@@ -418,7 +418,8 @@ categories = {
         "missing di tmf",
         "ctt tiada di tmf 1-116534984525..tq",
         "tt xda di tmf",
-        "ctt 1-116531652175 missing di tm force, nova unscheduled . mohon bantu ..tqsm"
+        "ctt 1-116531652175 missing di tm force, nova unscheduled . mohon bantu ..tqsm",
+        "ctt tidak masuk ke tmf. tq 1-116446350874"
     ],
     "TT Unsync": [
         "ctt status cancel dlm nova masih appear dlm tmf  1-116258282215",
@@ -429,7 +430,8 @@ categories = {
         "bntu clearkn tmf nova cancelled",
         "ctt sudah closed di nova",
         "1-116503447165 mohon bantuan team nak close tt x boleh",
-        "team nak close tt x boleh"
+        "team nak close tt x boleh",
+        "status cancel dalam nova masih appier  dalam tmf"
     ],
     "Update Granite Network Details": [
         "1-116311380548 - mohon betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
@@ -451,7 +453,8 @@ categories = {
         "missing cab di granite di tm force",
         "1-116379866205 ult_c010_dp0050 mohon bantuan no slot",
         "bantuan tt slot",
-        "bantu ctt no slot"
+        "bantu ctt no slot",
+        "tidak dapat view slot, ada error 400, advice tmf team, mapping cab id & hsba skill set ke_c999_056.  ctt number :1-116535146015 created date : 12/09/2025 09:59:30 am dp id : fsn_c027a_dp0011 customer : measat broadcast network systems sdn bhd"
     ],
     "TT Duplicate Activity": [
         "cancel 1 activity id 1-116247023935  a-0009903201 a-0009903196",
@@ -481,7 +484,8 @@ categories = {
     ],
     "TT - LR Linkage": [
         "salam team bantuan clear tmf ctt link lr20250312-39719 1-106191315217 1-106194182478 1-106312056435 1-106312232721 1-106346917798 1-106471083514 1-106678032670 1-109407463175  tq",
-        "ctt unlink 1-115388049295 tiada dalam tmf.."
+        "ctt unlink 1-115388049295 tiada dalam tmf..",
+        "tt unlink 1-115788745277 tiada dalam tmf.."
     ],
     "TT - Activity Work Type Blank": [
         "mohon bantuan...ctt tiada activity work type...ctt no : 1-115880486755..iris sudah closed minta retry...tq"
