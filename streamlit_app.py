@@ -58,7 +58,8 @@ categories = {
     "CC Not Appear": [
         "cc not appear",
         "bantu cc x kuar",
-        "cc tak appear 1-114576765037"
+        "cc tak appear 1-114576765037",
+        "1-116383637429 mohon bantu cc not appear"
     ],
     "Order Returned but Unscheduled": [
         "2509000080687620 return jadi unscheduled",
