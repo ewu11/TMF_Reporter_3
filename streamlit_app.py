@@ -167,7 +167,9 @@ categories = {
         "ui maklum dah up kat site tapi xleh nak done hsi xlepas. plgn dah boleh online. boleh bypass hsi ke?",
         "nak done hsi xlepas",
         "plgn dah boleh online",
-        "boleh bypass hsi ke"
+        "boleh bypass hsi ke",
+        "order force done. verify hsi failed",
+        "verify hsi failed"
     ],
     "Manual Assign Button not Appear": [
         "tiada button manual assign",
