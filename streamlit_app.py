@@ -364,7 +364,9 @@ categories = {
         "slot",
         "bantu slot",
         "bantu slot appt",
-        "bantu slot appt tt v1p"
+        "bantu slot appt tt v1p",
+        "team minta appt hari ini pukul 11:30 utk 00506776246 1-26822579516",
+        "appt hari ini pukul 11:30 utk 00506776246 1-26822579516"
     ],
     "TT Error 400": [
         "slot appt",
