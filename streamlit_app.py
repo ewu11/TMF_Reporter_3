@@ -63,7 +63,9 @@ categories = {
     "Order Returned but Unscheduled": [
         "2509000080687620 return jadi unscheduled",
         "return jd unscheduled",
-        "ra date hari ini jam4 pm..jadi unscheduled 2509000081041721"
+        "ra date hari ini jam4 pm..jadi unscheduled 2509000081041721",
+        "1-116327524637 - bantuan order return jd unscheduled"
+        "return jd unscheduled"
     ],
     "Order Capping Issue": [
         "bukakan capping utk id q003975 nak slot whp 14 line 1 lokasi (cust minta buat semua harini)",
