@@ -386,7 +386,8 @@ categories = {
         "failed to manual slot id",
         "xboleh book appt utk ctt ini.1-116477712816",
         "mohon bantu, ctt error 400 1-116497030791",
-        "ctt error 400"
+        "ctt error 400",
+        "1-116315635487 mohon bantu error 400"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
@@ -407,7 +408,9 @@ categories = {
         "team.....trigger tt 1-116324250905....coz telah missing dlm activity list tmf......tq......zita.",
         "tt missing. 1-116132927093",
         "trigger ctt ini missing",
-        "missing di tmf"
+        "missing di tmf",
+        "ctt tiada di tmf 1-116534984525..tq",
+        "tt xda di tmf"
     ],
     "TT Unsync": [
         "ctt status cancel dlm nova masih appear dlm tmf  1-116258282215",
