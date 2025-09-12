@@ -203,6 +203,7 @@ categories = {
         "order x bole done ic cust invalid.",
         "team sdh masukkan no ic sperti penama didalam order tetapi tidak dapat",
         "ui inform, masukkan ic cust tp tak boleh atau kne masuk br no? tp takde info br number",
+        "2509000081253533 | ,format apa2 masalah / bypass extraport/btu/s.test/dll 1.order .2509000081253533 2masalah/req: ic  no tak betul 3.q001808 4.zone 5 : byb",
         "req: ic  no tak betul"
     ],
     "Invalid Order Segment": [
