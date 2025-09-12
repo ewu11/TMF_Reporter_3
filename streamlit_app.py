@@ -158,7 +158,8 @@ categories = {
         "order modify add no shj x dapat nak done order,ade error pink.  order:2509000080361602  del:cpogelgc2501002409   onu:cw7220al2508010552 cw7220al2508010553  ata:atalc4nr2501008265",
         "ru tak boleh done, order add new ata sahaja, tak tukar cpe lain, tak boleh done, sn ata new: atanov042505000248",
         "intelligence netcare sdn bhd mohon bantu ui tak dapat complete order,order delete fix ip,cust pakai cpe sendiri tak guna cpe tm.tq",
-        "bypaskn rg dgn mesh,main tak sama nak done tak lepas"
+        "bypaskn rg dgn mesh,main tak sama nak done tak lepas",
+        "update rg kpd mode combo.  2509000081013138"
     ],
     "Unable to Swap Number": [
         "1-c1z5awa order whp tidak dapat swap number ...sudah call ftc dia suruh refer jcom"
