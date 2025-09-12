@@ -245,7 +245,9 @@ categories = {
         "2508000079434474 nak tanya knp takde button book appt. (nak retime...)",
         "ui kata xde button utk on site. tk",
         "mntk tlg tngk order dah done tpi masih in progress",
-        "jadikan order kepada status completed sebab pihak vasp daripada digi confirm order telah completed di fizikal...dlm tmf ui tidak boleh done sebab semua activity sudah completed"
+        "jadikan order kepada status completed sebab pihak vasp daripada digi confirm order telah completed di fizikal...dlm tmf ui tidak boleh done sebab semua activity sudah completed",
+        "1-115390711719-mohon bantuan check order ni minta tlg cek dh completed tp masih inprogress",
+        "tlg cek dh completed tp masih inprogress"
     ],
     "Revert BAU SWIFT-TMF Order": [
         "1-cbga8gd | assalam team, mohon revert order id dibawah ke tmf system. urgent!!! tq 1-cbga8gd 1-cbgnu4p",
