@@ -134,7 +134,8 @@ categories = {
         "mintak existing cpe onu order relocate",
         "existing cpe onu",
         "order modify tolong tukar eqiupment new ke existing",
-        "eqiupment new ke existing"
+        "eqiupment new ke existing",
+        "order relocate. dekat site customer tiada combo box tetapi dalam tmf cpe info ada existing combo box(uonu).  mohon add existing onu & existing rg5. kerana di site x ada uonu"
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
