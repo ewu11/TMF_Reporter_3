@@ -59,9 +59,9 @@ categories = {
         "cc tak appear 1-114576765037"
     ],
     "Order Returned but Unscheduled": [
-        "2509000080687620 mohon bantuan order return jadi unscheduled",
-        "bantuan order return jd unscheduled",
-        "order ra date hari ini jam4 pm..order jadi unscheduled 2509000081041721"
+        "2509000080687620 return jadi unscheduled",
+        "return jd unscheduled",
+        "ra date hari ini jam4 pm..jadi unscheduled 2509000081041721"
     ],
     "Order Capping Issue": [
         "bukakan capping utk id q003975 nak slot whp 14 line 1 lokasi (cust minta buat semua harini)",
