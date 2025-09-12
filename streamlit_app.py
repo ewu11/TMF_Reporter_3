@@ -384,7 +384,9 @@ categories = {
         "ada error 400",
         "ada eror 400",
         "failed to manual slot id",
-        "xboleh book appt utk ctt ini.1-116477712816"
+        "xboleh book appt utk ctt ini.1-116477712816",
+        "mohon bantu, ctt error 400 1-116497030791",
+        "ctt error 400"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
