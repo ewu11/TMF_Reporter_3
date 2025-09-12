@@ -400,12 +400,12 @@ categories = {
     "TT Missing": [
         "tt 1-115443089895 tiada dalam tmf",
         "ctt missing slps return fs troubleshooting tq 1-116065619936",
-        "ctt missing. mohon bantuan. 1-116311028092",
+        "ctt missing. 1-116311028092",
         "tt 1-115443089895 tiada dalam tmf",
-        "bantuan ctt missing 1-116139913645",
+        "ctt missing 1-116139913645",
         "ctt missing",
-        "team.....mohon trigger tt 1-116324250905....coz telah missing dlm activity list tmf......tq......zita.",
-        "tt missing. mohon bantuan. 1-116132927093",
+        "team.....trigger tt 1-116324250905....coz telah missing dlm activity list tmf......tq......zita.",
+        "tt missing. 1-116132927093",
         "trigger ctt ini missing",
         "missing di tmf"
     ],
