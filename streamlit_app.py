@@ -140,7 +140,8 @@ categories = {
         "existing cpe onu",
         "order modify tolong tukar eqiupment new ke existing",
         "eqiupment new ke existing",
-        "order relocate. dekat site customer tiada combo box tetapi dalam tmf cpe info ada existing combo box(uonu).  mohon add existing onu & existing rg5. kerana di site x ada uonu"
+        "order relocate. dekat site customer tiada combo box tetapi dalam tmf cpe info ada existing combo box(uonu).  mohon add existing onu & existing rg5. kerana di site x ada uonu",
+        "sistem ada modem sahaja. tapi cust request router"
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
@@ -226,7 +227,8 @@ categories = {
         "d&a masih ip",
         "assalamualaikum 1-116382418268 - d&a masih in progress, mohon bantu",
         "d&a inprogress",
-        "order 1-116064693500 d&a inprogress (sd4785299 )"
+        "order 1-116064693500 d&a inprogress (sd4785299 )",
+        "dna & osm ip"
     ],
     "Unsync Order": [
         "ui maklum dah done tapi nampak in progress lagi dlm tmf. tk",
