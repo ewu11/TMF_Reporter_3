@@ -228,6 +228,7 @@ categories = {
         "assalamualaikum 1-116382418268 - d&a masih in progress, mohon bantu",
         "d&a inprogress",
         "order 1-116064693500 d&a inprogress (sd4785299 )",
+        "dna & osm ip",
         "dna & osm ip"
     ],
     "Unsync Order": [
