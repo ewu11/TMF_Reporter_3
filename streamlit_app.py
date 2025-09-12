@@ -229,7 +229,8 @@ categories = {
         "d&a inprogress",
         "order 1-116064693500 d&a inprogress (sd4785299 )",
         "dna & osm ip",
-        "dna & osm ip"
+        "dna & osm ip",
+        "bantuan dna & osm ip,,,cust urgent req install harini jgk  tq"
     ],
     "Unsync Order": [
         "ui maklum dah done tapi nampak in progress lagi dlm tmf. tk",
