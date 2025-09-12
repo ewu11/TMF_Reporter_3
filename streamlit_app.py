@@ -51,7 +51,9 @@ categories = {
         "order tiada di schedule page 1-115878860659 tq",
         "order ra, next act (act cc) not appear",
         "next act (act cc) not appear",
-        "(act cc) not appear"
+        "(act cc) not appear",
+        "order mir ip",
+        "mir ip"
     ],
     "CC Not Appear": [
         "cc not appear",
