@@ -221,7 +221,9 @@ categories = {
         "d&a ip",
         "dna ip",
         "d&a masih ip",
-        "assalamualaikum 1-116382418268 - d&a masih in progress, mohon bantu"
+        "assalamualaikum 1-116382418268 - d&a masih in progress, mohon bantu",
+        "d&a inprogress",
+        "order 1-116064693500 d&a inprogress (sd4785299 )"
     ],
     "Unsync Order": [
         "ui maklum dah done tapi nampak in progress lagi dlm tmf. tk",
