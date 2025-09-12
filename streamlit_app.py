@@ -391,7 +391,9 @@ categories = {
         "ctt error 400",
         "1-116315635487 mohon bantu error 400",
         "salam team, mohon bantuan semak ctt 1-116310853735, error 404 tq",
-        "semak ctt 1-116310853735, error 404 tq"
+        "semak ctt 1-116310853735, error 404 tq",
+        "error 404",
+        "ctt err 404"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
