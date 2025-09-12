@@ -194,7 +194,8 @@ categories = {
         "bantuan ui fail utk update ic/br no",
         "ic dan ssm no. dah masuk tp invalid, tak lepas done.",
         "order x bole done ic cust invalid.",
-        "team sdh masukkan no ic sperti penama didalam order tetapi tidak dapat"
+        "team sdh masukkan no ic sperti penama didalam order tetapi tidak dapat",
+        "ui inform, masukkan ic cust tp tak boleh atau kne masuk br no? tp takde info br number"
     ],
     "Invalid Order Segment": [
         "segment  kepada sme. order s10. tq 2509000080543072",
