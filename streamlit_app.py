@@ -336,7 +336,8 @@ categories = {
         "package : 500mbps sn lama :rgx830dl2108032644 sn baru : uncfh5f32412028466",
         "old s/n: uncfh5f32406024342 new s/n: uncfh5f32412023471",
         "old s/n: uncfh5f32406024342 new s/n: uncfh5f32412023471 xboleh swap mesh",
-        "nk closed tak blh..tukar combo box"
+        "nk closed tak blh..tukar combo box",
+        "ctt: 1-116478717255  mesh  old sn: com60vdl2305001957 new sn: unc25val2412025598 fill up ....☝...tq.......zita.."
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
