@@ -49,7 +49,9 @@ categories = {
         "slot 10/9 tapi mir masih ip",
         "salam 2509000080381065 masukan order dalam basket jcc. tq",
         "order tiada di schedule page 1-115878860659 tq",
-        "order ra, next act (act cc) not appear"
+        "order ra, next act (act cc) not appear",
+        "next act (act cc) not appear",
+        "(act cc) not appear"
     ],
     "CC Not Appear": [
         "cc not appear",
