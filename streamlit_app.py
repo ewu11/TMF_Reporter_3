@@ -144,7 +144,8 @@ categories = {
         "order modify tolong tukar eqiupment new ke existing",
         "eqiupment new ke existing",
         "order relocate. dekat site customer tiada combo box tetapi dalam tmf cpe info ada existing combo box(uonu).  mohon add existing onu & existing rg5. kerana di site x ada uonu",
-        "sistem ada modem sahaja. tapi cust request router"
+        "sistem ada modem sahaja. tapi cust request router",
+        "delete 1 unifi plusbox dlm tm force di dalam nova pakej hnya 1 unifi plusbox 1-116377604103"
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
