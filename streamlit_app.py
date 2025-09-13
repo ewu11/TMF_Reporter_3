@@ -170,7 +170,8 @@ categories = {
     ],
     "Unable to Swap Number": [
         "1-c1z5awa order whp tidak dapat swap number ...sudah call ftc dia suruh refer jcom",
-        "order whp ui nak done kan order tapi tak boleh"
+        "order whp ui nak done kan order tapi tak boleh",
+        "tak lepas perform swap number"
     ],
     "Bypass Extraport": [
         "mhn bantuan bypass xp",
