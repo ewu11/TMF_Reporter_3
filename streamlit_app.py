@@ -388,7 +388,10 @@ categories = {
         "bantu slot appt",
         "bantu slot appt tt v1p",
         "team minta appt hari ini pukul 11:30 utk 00506776246 1-26822579516",
-        "appt hari ini pukul 11:30 utk 00506776246 1-26822579516"
+        "appt hari ini pukul 11:30 utk 00506776246 1-26822579516",
+        "1-26822622537 mohon bantuan untuk book kan v1p jam 1130 am. tqtqt",
+        "book kan v1p jam 1130 am",
+        "1-26822622537 book kan v1p jam 1130 am"
     ],
     "TT Error 400": [
         "slot appt",
