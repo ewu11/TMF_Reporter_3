@@ -155,7 +155,9 @@ categories = {
         "1-115786010445 req tukar ke existing equipment ,customer nak kekal router lama dia( router beli sendiri)",
         "tukar ke existing equipment",
         "customer nak kekal router lama dia( router beli sendiri",
-        "mohon bantu tukarkan new serv point kepada combo rg6 ax3000 order modify 1gb  1-116442585197"
+        "mohon bantu tukarkan new serv point kepada combo rg6 ax3000 order modify 1gb  1-116442585197",
+        "mohon bantu tukar rg4 kpd rg6 combo (ax3000) & jadikan sp kpd existing. | 1-116490051611",
+        "rg4 kpd rg6 combo (ax3000) & jadikan sp kpd existing"
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
