@@ -181,6 +181,9 @@ categories = {
         "order force done. verify hsi failed",
         "verify hsi failed"
     ],
+    "Bypass IPTV": [
+        "tlg bypass iptv,order modify"
+    ],
     "Manual Assign Button not Appear": [
         "tiada button manual assign",
         "hsba bantuan manual slot x appear",
