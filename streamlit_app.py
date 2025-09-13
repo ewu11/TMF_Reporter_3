@@ -359,7 +359,9 @@ categories = {
         "old s/n: uncfh5f32406024342 new s/n: uncfh5f32412023471",
         "old s/n: uncfh5f32406024342 new s/n: uncfh5f32412023471 xboleh swap mesh",
         "nk closed tak blh..tukar combo box",
-        "ctt: 1-116478717255  mesh  old sn: com60vdl2305001957 new sn: unc25val2412025598 fill up ....☝...tq.......zita.."
+        "ctt: 1-116478717255  mesh  old sn: com60vdl2305001957 new sn: unc25val2412025598 fill up ....☝...tq.......zita..",
+        "team tak boleh tutup ctt tk boleh swap cpe  team tukar combo box  ctt no 1-116320070051",
+        "ctt tk boleh swap cpe  team tukar combo box"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
