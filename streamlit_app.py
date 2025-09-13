@@ -162,7 +162,8 @@ categories = {
         "update rg kpd mode combo.  2509000081013138"
     ],
     "Unable to Swap Number": [
-        "1-c1z5awa order whp tidak dapat swap number ...sudah call ftc dia suruh refer jcom"
+        "1-c1z5awa order whp tidak dapat swap number ...sudah call ftc dia suruh refer jcom",
+        "order whp ui nak done kan order tapi tak boleh"
     ],
     "Bypass Extraport": [
         "mhn bantuan bypass xp",
