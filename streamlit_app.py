@@ -513,7 +513,9 @@ categories = {
     "TT - LR Linkage": [
         "salam team bantuan clear tmf ctt link lr20250312-39719 1-106191315217 1-106194182478 1-106312056435 1-106312232721 1-106346917798 1-106471083514 1-106678032670 1-109407463175  tq",
         "ctt unlink 1-115388049295 tiada dalam tmf..",
-        "tt unlink 1-115788745277 tiada dalam tmf.."
+        "tt unlink 1-115788745277 tiada dalam tmf..",
+        "ctt unlink from ntt,no slot",
+        "ctt unlink from ntt"
     ],
     "TT - Activity Work Type Blank": [
         "mohon bantuan...ctt tiada activity work type...ctt no : 1-115880486755..iris sudah closed minta retry...tq"
