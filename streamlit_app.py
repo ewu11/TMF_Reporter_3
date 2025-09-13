@@ -425,7 +425,9 @@ categories = {
         "salam team, 1-116326647785 -patch slot 12/09/2025 09:30:00 am.tq",
         "utk patch ctt dibawah :  1-115973031505 - 09/09/2025 @ 04:30:00 pm  1-115804178865 - 09/09/2025 @ 02:30:00 pm  1-115789688125 - 09/09/2025 @ 09:30:00 am",
         "pacth ctt 1-116385142175 12/09/2025 11:30:00 am tq",
-        "tukarkan status order dari unscheduled kepada scheduled.. 1-116431932204 13/9/2025 9:30"
+        "tukarkan status order dari unscheduled kepada scheduled.. 1-116431932204 13/9/2025 9:30",
+        "tukarkan status order dari unscheduled kepada scheduled",
+        "status order dari unscheduled kepada scheduled 13/9/2025 9:30"
     ],
     "TT Missing": [
         "tt 1-115443089895 tiada dalam tmf",
