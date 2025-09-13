@@ -184,7 +184,8 @@ categories = {
         "plgn dah boleh online",
         "boleh bypass hsi ke",
         "order force done. verify hsi failed",
-        "verify hsi failed"
+        "verify hsi failed",
+        "minta bypass hsi,order dh psg tadi,cust terus off equipement dan dh bercuti 4.zone 5 : sja"
     ],
     "Bypass IPTV": [
         "tlg bypass iptv,order modify"
