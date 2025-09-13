@@ -237,6 +237,9 @@ categories = {
         "2509000080425247 mohon bantuan segment kepada sme. segment yang betul adalah sme",
         "order ni kepada segment sme, order biz"
     ],
+    "SLIMS CPE Issue": [
+        "1-116094469447 mintak bantuan,cpe lock.. sn- uonzteh92502027553 mac id : 648505dced20"
+    ],
     "Update Contact Number": [
         "update ctc no",
         "team, mohon bantu 1-116379701877 update ctc no 0166855599 di tmf. thanks"
