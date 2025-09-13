@@ -74,7 +74,7 @@ categories = {
     ],
     "Force Done Order": [
         "order fd - mhn bypass - tq"
-    ]
+    ],
     "RG6 - RG7 Equipment Info Update": [
         "equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
         "tukar equipment ke rg6 2.5",
