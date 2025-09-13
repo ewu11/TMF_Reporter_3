@@ -154,7 +154,8 @@ categories = {
         "delete 1 unifi plusbox dlm tm force di dalam nova pakej hnya 1 unifi plusbox 1-116377604103",
         "1-115786010445 req tukar ke existing equipment ,customer nak kekal router lama dia( router beli sendiri)",
         "tukar ke existing equipment",
-        "customer nak kekal router lama dia( router beli sendiri"
+        "customer nak kekal router lama dia( router beli sendiri",
+        "mohon bantu tukarkan new serv point kepada combo rg6 ax3000 order modify 1gb  1-116442585197"
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
