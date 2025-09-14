@@ -74,7 +74,8 @@ categories = {
         "order gomen kementerian sumber manusia  dlm portal tmf ui q003975 ada dpt 13 order. tp ui hanya ada 10 order shj 1-cbjdpgv 1-cbjzqxz 1-cbjx85i 1-cbjy128 1-cbjz0vp 1-cbjz165 1-cbjx8k4 1-cbjy0o0 1-cbjx22i 1-cbizjkr"
     ],
     "Force Done Order": [
-        "order fd - mhn bypass - tq"
+        "order fd - mhn bypass - tq",
+        "tukarkan cpe kepada existing, order force done"
     ],
     "RG6 - RG7 Equipment Info Update": [
         "equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
