@@ -538,7 +538,8 @@ categories = {
         "ctt unlink from ntt"
     ],
     "TT - Activity Work Type Blank": [
-        "mohon bantuan...ctt tiada activity work type...ctt no : 1-115880486755..iris sudah closed minta retry...tq"
+        "mohon bantuan...ctt tiada activity work type...ctt no : 1-115880486755..iris sudah closed minta retry...tq",
+        "xtvt worktype xd. zon nsj. tq"
     ]
 }
 
