@@ -369,7 +369,8 @@ categories = {
         "nk closed tak blh..tukar combo box",
         "ctt: 1-116478717255  mesh  old sn: com60vdl2305001957 new sn: unc25val2412025598 fill up ....☝...tq.......zita..",
         "team tak boleh tutup ctt tk boleh swap cpe  team tukar combo box  ctt no 1-116320070051",
-        "ctt tk boleh swap cpe  team tukar combo box"
+        "ctt tk boleh swap cpe  team tukar combo box",
+        "salam team x dapt close ctt untuk pertukaran router combo minta bantuan  ctt no :1-116618160695 package : 300mbps sn lama :rgx8825dl2101000969 sn baru : uncfh5f32412028562"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
@@ -433,7 +434,8 @@ categories = {
         "semak ctt 1-116310853735, error 404 tq",
         "error 404",
         "ctt err 404",
-        "mohon bantu tt 1-116581090012/ass_c888_dp0001 error 400"
+        "mohon bantu tt 1-116581090012/ass_c888_dp0001 error 400",
+        "tt 1-116581090012/ass_c888_dp0001 error 400"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
