@@ -370,7 +370,9 @@ categories = {
         "ctt: 1-116478717255  mesh  old sn: com60vdl2305001957 new sn: unc25val2412025598 fill up ....☝...tq.......zita..",
         "team tak boleh tutup ctt tk boleh swap cpe  team tukar combo box  ctt no 1-116320070051",
         "ctt tk boleh swap cpe  team tukar combo box",
-        "salam team x dapt close ctt untuk pertukaran router combo minta bantuan  ctt no :1-116618160695 package : 300mbps sn lama :rgx8825dl2101000969 sn baru : uncfh5f32412028562"
+        "salam team x dapt close ctt untuk pertukaran router combo minta bantuan  ctt no :1-116618160695 package : 300mbps sn lama :rgx8825dl2101000969 sn baru : uncfh5f32412028562",
+        "1-116573977145 old cpe. rg6gleex2205030063 new cpe. unc30val2501035091",
+        "info: ctt no: 1-116534218062  old rg sn : com6ovdl2306000083 new rg sn:unc30val2501032667"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
