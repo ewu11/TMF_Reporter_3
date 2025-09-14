@@ -171,7 +171,8 @@ categories = {
         "ru tak boleh done, order add new ata sahaja, tak tukar cpe lain, tak boleh done, sn ata new: atanov042505000248",
         "intelligence netcare sdn bhd mohon bantu ui tak dapat complete order,order delete fix ip,cust pakai cpe sendiri tak guna cpe tm.tq",
         "bypaskn rg dgn mesh,main tak sama nak done tak lepas",
-        "update rg kpd mode combo.  2509000081013138"
+        "update rg kpd mode combo.  2509000081013138",
+        "-116572297563 sn lama-rg6dlax32401051346 snbaru-uon30val2501028982 id:q105041"
     ],
     "Unable to Swap Number": [
         "1-c1z5awa order whp tidak dapat swap number ...sudah call ftc dia suruh refer jcom",
