@@ -406,7 +406,8 @@ categories = {
         "1-26822622537 book kan v1p jam 1130 am",
         "slot appt appt 4:30 ctt whp .tq 1-26821969962",
         "slot appt appt 4:30 ctt whp",
-        "slot appt 1-26821969962"
+        "slot appt 1-26821969962",
+        "1-26822843515 appt 3.30pm  tq"
     ],
     "TT Error 400": [
         "slot appt",
