@@ -372,7 +372,8 @@ categories = {
         "ctt tk boleh swap cpe  team tukar combo box",
         "salam team x dapt close ctt untuk pertukaran router combo minta bantuan  ctt no :1-116618160695 package : 300mbps sn lama :rgx8825dl2101000969 sn baru : uncfh5f32412028562",
         "1-116573977145 old cpe. rg6gleex2205030063 new cpe. unc30val2501035091",
-        "info: ctt no: 1-116534218062  old rg sn : com6ovdl2306000083 new rg sn:unc30val2501032667"
+        "info: ctt no: 1-116534218062  old rg sn : com6ovdl2306000083 new rg sn:unc30val2501032667",
+        "mohon tukar tagging,cust dah pakai rg6.  info: ctt no: 1-1156539355602 old rg sn: rg6dl60z2208039147 new rg sn: uncfh5f32411019291"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
