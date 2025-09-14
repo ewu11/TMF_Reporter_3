@@ -464,7 +464,9 @@ categories = {
         "tt xda di tmf",
         "ctt 1-116531652175 missing di tm force, nova unscheduled . mohon bantu ..tqsm",
         "ctt tidak masuk ke tmf. tq 1-116446350874",
-        "trigger ctt tiada dlm tmf  1-116582031641"
+        "trigger ctt tiada dlm tmf  1-116582031641",
+        "trigger ctt tiada dlm tmf",
+        "trigger tt dalam tmf"
     ],
     "TT Unsync": [
         "ctt status cancel dlm nova masih appear dlm tmf  1-116258282215",
