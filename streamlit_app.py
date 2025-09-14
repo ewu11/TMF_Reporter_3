@@ -181,12 +181,12 @@ categories = {
         "order whp ui nak done kan order tapi tak boleh"
     ],
     "Bypass Extraport": [
-        "mhn bantuan bypass xp",
-        "bantuan .. bypass fdp clensing ..dekat dp ada reading .. dalam tracebite tkde reading ..",
-        "mohon bypass extraport. iris access denied",
+        "bypass xp",
+        "bypass fdp clensing ..dekat dp ada reading .. dalam tracebite tkde reading ..",
+        "bypass extraport. iris access denied",
         "1-115636242567 tolong bypass extraport lhd_c001_dp0071 09out",
         "iris error.. xboleh log iris  2509000081023987 mohon bantu bypass ep.no order tiada dlm apps/troika.ep flag y",
-        "mohon bypass extraport 4.zone : bw  gambar failed dah attach"
+        "bypass extraport 4.zone : bw  gambar failed dah attach"
     ],
     "Bypass HSI": [
         "minta bypass speedtest dan wifi analyzer sbb oder force done",
