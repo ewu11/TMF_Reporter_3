@@ -374,7 +374,9 @@ categories = {
         "1-116573977145 old cpe. rg6gleex2205030063 new cpe. unc30val2501035091",
         "info: ctt no: 1-116534218062  old rg sn : com6ovdl2306000083 new rg sn:unc30val2501032667",
         "mohon tukar tagging,cust dah pakai rg6.  info: ctt no: 1-1156539355602 old rg sn: rg6dl60z2208039147 new rg sn: uncfh5f32411019291",
-        "tuan/puan zone ctt coordinator/sp/exec untuk setiap permohonan untuk enable flag rg6 di dalam tmf, mohon berikan maklumat seperti di bawah & mengisi google form yang disertakan (link terkini) & lampirkan screenshot form submission di sini.  info: ctt no: 1-116539355602 old rg sn: rg6dl60z2208039147 new rg sn: uncfh5f32411019291  https://forms.gle/irzc9fmbnz8yzgtva  team support, mohon bantuan untuk enable flag hanya selepas bukti form submission disertakan.  terima kasih atas kerjasama semua."
+        "tuan/puan zone ctt coordinator/sp/exec untuk setiap permohonan untuk enable flag rg6 di dalam tmf, mohon berikan maklumat seperti di bawah & mengisi google form yang disertakan (link terkini) & lampirkan screenshot form submission di sini.  info: ctt no: 1-116539355602 old rg sn: rg6dl60z2208039147 new rg sn: uncfh5f32411019291  https://forms.gle/irzc9fmbnz8yzgtva  team support, mohon bantuan untuk enable flag hanya selepas bukti form submission disertakan.  terima kasih atas kerjasama semua.",
+        "enable flag hanya selepas bukti form submission disertakan",
+        "ctt no: 1-116539355602 old rg sn: rg6dl60z2208039147 new rg sn: uncfh5f32411019291"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
