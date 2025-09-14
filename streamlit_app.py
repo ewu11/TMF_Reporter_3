@@ -184,7 +184,8 @@ categories = {
         "bantuan .. bypass fdp clensing ..dekat dp ada reading .. dalam tracebite tkde reading ..",
         "mohon bypass extraport. iris access denied",
         "1-115636242567 tolong bypass extraport lhd_c001_dp0071 09out",
-        "iris error.. xboleh log iris  2509000081023987 mohon bantu bypass ep.no order tiada dlm apps/troika.ep flag y"
+        "iris error.. xboleh log iris  2509000081023987 mohon bantu bypass ep.no order tiada dlm apps/troika.ep flag y",
+        "mohon bypass extraport 4.zone : bw  gambar failed dah attach"
     ],
     "Bypass HSI": [
         "minta bypass speedtest dan wifi analyzer sbb oder force done",
@@ -367,9 +368,7 @@ categories = {
         "nk closed tak blh..tukar combo box",
         "ctt: 1-116478717255  mesh  old sn: com60vdl2305001957 new sn: unc25val2412025598 fill up ....☝...tq.......zita..",
         "team tak boleh tutup ctt tk boleh swap cpe  team tukar combo box  ctt no 1-116320070051",
-        "ctt tk boleh swap cpe  team tukar combo box",
-        "1-111936689929 mohon bantu tukarkan flag technology ke rg6 ax3000.tq",
-        "tukarkan flag technology ke rg6 ax3000"
+        "ctt tk boleh swap cpe  team tukar combo box"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
