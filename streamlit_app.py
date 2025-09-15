@@ -29,6 +29,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if "tiada slot" in text or "no slot" in text:
             scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.1
             scores["Order Next Activity Not Appear"] = scores.get("Order Next Activity Not Appear", 0) - 0.1
+        if "boleh tukar combo ke" in text:
+            scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.1
+            scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
 
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
