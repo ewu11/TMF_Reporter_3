@@ -107,7 +107,8 @@ categories = {
         "ubah ke wifi 7 .customer behaviour. order downgrade ke 1gb. customer tetap nak wifi 7 rujukan dr cff",
         "dear all mohon bantu 1-116411918915 consumer minta tukar equipment service point ke rg7 sebab flag detail dlm tmf be7000 , tq",
         "tukar equipment service point ke rg7 sebab flag detail dlm tmf be7000",
-        "2509000080972753 order modify mohon bantu tukar rg7 kepada rg6..tq"
+        "2509000080972753 order modify mohon bantu tukar rg7 kepada rg6..tq",
+        "minta tukar cpe rg6, sebab rg7 tiada stok.. customer setuju"
     ],
     "New/ Existing/ Delete Equipment Info Update": [
         "semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
