@@ -445,7 +445,8 @@ categories = {
         "mohon bantu tt 1-116581090012/ass_c888_dp0001 error 400",
         "tt 1-116581090012/ass_c888_dp0001 error 400",
         "assalamualaikum & selamat pagi....team.....mohon bantu tt 1-116623676624.......coz tiada slot/no slot.....tq........zita..",
-        "tt 1-116623676624.......coz tiada slot/no slot"
+        "tt 1-116623676624.......coz tiada slot/no slot",
+        "tiada slot/no slot"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
