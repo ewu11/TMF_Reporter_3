@@ -17,6 +17,23 @@ def load_model():
 model = load_model()
 
 # ------------------------
+# Biasing rules
+# ------------------------
+def apply_bias(msg: str, scores: dict) -> dict:
+    """
+    Adjust similarity scores based on keyword rules.
+    """
+    text = msg.lower()
+
+    if "tt" in text or "tiada slot/no slot" in text:
+        scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.2
+
+    # Cap scores at 1.0
+    scores = {k: min(v, 1.0) for k, v in scores.items()}
+
+    return scores
+
+# ------------------------
 # Categories (to be filled later)
 # ------------------------
 categories = {
@@ -593,6 +610,7 @@ def clean_message(msg: str) -> str:
     msg = re.sub(r"\s+", " ", msg)
     return msg.strip()
 
+# added biasing implementation
 def categorize_message(msg):
     global group_counter
 
@@ -603,6 +621,10 @@ def categorize_message(msg):
         cat: util.cos_sim(emb, emb_cat).item()
         for cat, emb_cat in category_embeddings.items()
     }
+
+    # Apply biasing rules
+    scores = apply_bias(clean_msg, scores)
+
     if scores:
         best_cat, best_score = max(scores.items(), key=lambda x: x[1])
     else:
