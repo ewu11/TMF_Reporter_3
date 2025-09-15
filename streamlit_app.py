@@ -745,7 +745,7 @@ with tab1:
 with tab2:
     st.subheader("🛠 Categorizer")
     
-    uploaded_file = st.file_uploader("Upload cleansed_output.txt", type=["txt"])
+    uploaded_file = st.file_uploader("Upload cleansed_output.txt", type=["txt"], accept_multiple_files=True)
 
     if uploaded_file:
         # Read messages
