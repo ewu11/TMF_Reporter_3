@@ -26,7 +26,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
     text = msg.lower()
 
     if "tiada slot/no slot" in text:
-        scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.2
+        scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.5
 
     # Cap scores at 1.0
     scores = {k: min(v, 1.0) for k, v in scores.items()}
