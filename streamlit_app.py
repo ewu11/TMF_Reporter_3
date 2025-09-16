@@ -536,7 +536,8 @@ categories = {
         "mohon bantu ctt tiada detail kabinet 1-116322359307",
         "1-116322359307 | mohon bantu ctt tiada detail kabinet 1-116322359307",
         "tt 1-116383768545 granite tiada data",
-        "update cabinet/fdp dalam tmf,fizikal plgn berada di kgu_c002_db0012..tq  1-115861232625 kgu_c002_dp0009a - tmforce kgu_c002_db0012 -granite"
+        "update cabinet/fdp dalam tmf,fizikal plgn berada di kgu_c002_db0012..tq  1-115861232625 kgu_c002_dp0009a - tmforce kgu_c002_db0012 -granite",
+        "detail granite x appear  2509000080355497"
     ],
     "Update DP-Cabinet Location": [
         "salam team,  mohon bantuan update dp location order digi ni 1-115819132630 daripada on pole kepada building floor.",
