@@ -534,7 +534,8 @@ categories = {
     "Update DP-Cabinet Location": [
         "salam team,  mohon bantuan update dp location order digi ni 1-115819132630 daripada on pole kepada building floor.",
         "daripada on pole kepada building floor",
-        "dekat granite dp type street cabinet tapi di network on pole. dekat site dp type yang betul adalah street cabinet"
+        "dekat granite dp type street cabinet tapi di network on pole. dekat site dp type yang betul adalah street cabinet",
+        "tukarkan network tagging dari on pole ke building floor...dekat site order bf"
     ],
     "TT Error 400": [
         "1-115733638005 | salam team,  mohon bantuan tidak dapat view slot ctt: 1-115733638005 dp id:  mti_c102_dp0001",
