@@ -273,7 +273,8 @@ categories = {
     "Invalid Order Segment": [
         "segment  kepada sme. order s10. tq 2509000080543072",
         "2509000080425247 mohon bantuan segment kepada sme. segment yang betul adalah sme",
-        "order ni kepada segment sme, order biz"
+        "order ni kepada segment sme, order biz",
+        "order number: 2509000080880931 account: tecstar auto sdn.bhd.  mohon bantuan, customer sme, pakej business, tapi segment group consumer."
     ],
     "SLIMS CPE Issue": [
         "1-116094469447 mintak bantuan,cpe lock.. sn- uonzteh92502027553 mac id : 648505dced20"
