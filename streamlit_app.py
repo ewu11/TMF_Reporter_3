@@ -37,9 +37,10 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
             scores["RG6 - RG7 Equipment Info Update"] = scores.get("RG6 - RG7 Equipment Info Update", 0) + 0.1
             scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
-        if "tukar kan equipment ke existing" in text or "hanya tambah fixed ip bukan tukar brg" in text:
-            scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.1
-            scores["RG6 - RG7 Equipment Info Update"] = scores.get("RG6 - RG7 Equipment Info Update", 0) - 0.1
+    
+    if "tukar kan equipment ke existing" in text or "hanya tambah fixed ip bukan tukar brg" in text:
+        scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.1
+        scores["RG6 - RG7 Equipment Info Update"] = scores.get("RG6 - RG7 Equipment Info Update", 0) - 0.1
 
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
