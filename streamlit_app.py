@@ -50,7 +50,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
 
     if ("ctt" in text or "tt" in text) and ("view slot" in text or "skillset" in text or "slot" in text):
-        scores["TT Error 400]"] = scores.get("TT Error 400]", 0) + 0.1
+        scores["TT Error 400]"] = scores.get("TT Error 400]", 0) + 0.2
         scores["TT V1P"] = scores.get("TT V1P", 0) - 0.1
 
     if "order dah refresh network tp failed" in text:
@@ -518,7 +518,8 @@ categories = {
         "tiada slot/no slot",
         "tiada slot"
         "no slot",
-        "tidak dapat view slot, team dah open skillset ctt: 1-116376826125 created date: 09/09/2025 15:00:27 dp id: tdi_c025_dp0029 customer : astro  zone tdi"
+        "tidak dapat view slot, team dah open skillset ctt: 1-116376826125 created date: 09/09/2025 15:00:27 dp id: tdi_c025_dp0029 customer : astro  zone tdi",
+        "tidak dapat view slot  , minta bantu mapping cab id & hsba skill set.  ctt: 1-116648418155 created date: 15/09/2025 11:21:08 am dp id: kin_c046_dp0007 customer : measat broadcast network systems sdn bhd  zone puchong"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
