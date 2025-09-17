@@ -619,7 +619,8 @@ categories = {
         "update cabinet/fdp dalam tmf,fizikal plgn berada di kgu_c002_db0012..tq  1-115861232625 kgu_c002_dp0009a - tmforce kgu_c002_db0012 -granite",
         "detail granite x appear  2509000080355497",
         "order dah refresh network tp failed",
-        "mohon provide dp id 1-116696621386"
+        "mohon provide dp id 1-116696621386",
+        "1-116571996775 mohon update detail fdp & cab id, kerosakan di melaka, building btm.."
     ],
     "Update DP-Cabinet Location": [
         "salam team,  mohon bantuan update dp location order digi ni 1-115819132630 daripada on pole kepada building floor.",
