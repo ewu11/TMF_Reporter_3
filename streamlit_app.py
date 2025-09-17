@@ -35,8 +35,8 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if "error 400" in text or "err 400" in text:
             scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.3
         if "100 mbps" not in text and "300 mbps" in text:
-            scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update]", 0) + 0.3
-            scores["TT RG5 Equipment Update"] = scores.get("TT RG5 Equipment Update", 0) - 0.2
+            scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update]", 0) + 0.5
+            scores["TT RG5 Equipment Update"] = scores.get("TT RG5 Equipment Update", 0) - 0.5
 
     if "order" in text or "oder" in text:
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
