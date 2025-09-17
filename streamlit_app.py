@@ -478,7 +478,8 @@ categories = {
         "error cpe swap  ctt :1-116670617245 svc no :6049767605 rg old sn:rg6wfh1y2208006277 nnew:uncfh5f32412014687",
         "tkr combo script: speed 500mbps  info: ctt no: 1-116680278435 old rg sn:rgx842dl2101014587 new rg sn: unc25val2412004704",
         "ctt number :- 1-116573718745 old rg - rgxaztwr2208044963 new rg - unc30val2410053158 remark cff :cust upgrade pakej mohon tukar cpe combo",
-        "ctt choppy =1-116671146138 ,,,team perlu tukar rg5 kpd combo mohon bantu"
+        "ctt choppy =1-116671146138 ,,,team perlu tukar rg5 kpd combo mohon bantu",
+        "ctt ni pakai 100mbps. rg5 dah takda dekat lo cheras. so mcm mana ya boleh ke kalau nak pakai combo?"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
