@@ -550,7 +550,8 @@ categories = {
         "tiada slot"
         "no slot",
         "tidak dapat view slot, team dah open skillset ctt: 1-116376826125 created date: 09/09/2025 15:00:27 dp id: tdi_c025_dp0029 customer : astro  zone tdi",
-        "tidak dapat view slot  , minta bantu mapping cab id & hsba skill set.  ctt: 1-116648418155 created date: 15/09/2025 11:21:08 am dp id: kin_c046_dp0007 customer : measat broadcast network systems sdn bhd  zone puchong"
+        "tidak dapat view slot  , minta bantu mapping cab id & hsba skill set.  ctt: 1-116648418155 created date: 15/09/2025 11:21:08 am dp id: kin_c046_dp0007 customer : measat broadcast network systems sdn bhd  zone puchong",
+        "tt tiada cab/id --1-26823601984"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
