@@ -513,7 +513,8 @@ categories = {
         "tt 1-116623676624.......coz tiada slot/no slot",
         "tiada slot/no slot",
         "tiada slot"
-        "no slot"
+        "no slot",
+        "tidak dapat view slot, team dah open skillset ctt: 1-116376826125 created date: 09/09/2025 15:00:27 dp id: tdi_c025_dp0029 customer : astro  zone tdi"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
