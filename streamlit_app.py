@@ -43,6 +43,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if "cab" in text or "cabinet" in text or "fdp" in text or "dp" in text or "fdc" in text:
             scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.2
             scores["Manual Assign Button not Appear"] = scores.get("Manual Assign Button not Appear", 0) - 0.1
+        if "combo" in text:
+            scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.2
+            scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) - 0.1
 
     if "order" in text or "oder" in text:
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
