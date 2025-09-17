@@ -340,7 +340,8 @@ categories = {
         "jadikan order kepada status completed sebab pihak vasp daripada digi confirm order telah completed di fizikal...dlm tmf ui tidak boleh done sebab semua activity sudah completed",
         "1-115390711719-mohon bantuan check order ni minta tlg cek dh completed tp masih inprogress",
         "tlg cek dh completed tp masih inprogress",
-        "ui tak boleh donekan order"
+        "ui tak boleh donekan order",
+        "dah done tapi still in progress"
     ],
     "Revert BAU SWIFT-TMF Order": [
         "1-cbga8gd | assalam team, mohon revert order id dibawah ke tmf system. urgent!!! tq 1-cbga8gd 1-cbgnu4p",
