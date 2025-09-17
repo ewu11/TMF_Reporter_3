@@ -665,7 +665,8 @@ categories = {
         "delete equipment mesh, pelanggan maklum tidak pakai mesh.. fizikal pon tiada mesh hanya ada 1 router sahaja",
         "1-116541338489 mohn bantuan verify ctt ni vdsl ke atau fiber sebab dekat equipmnt tmf ada modem dekat site tiada modem 🙏🏻",
         "add equipment service point 1-116652759125",
-        "tukar cpe, yang valid rg sahaja, mesh tidak valid untuk tukar"
+        "tukar cpe, yang valid rg sahaja, mesh tidak valid untuk tukar",
+        "1-116694278247 old btu onualual1508010393 new btu uonzteh92412010786 minta add onu dalam tmforce.."
     ],
     "TT - LR Linkage": [
         "salam team bantuan clear tmf ctt link lr20250312-39719 1-106191315217 1-106194182478 1-106312056435 1-106312232721 1-106346917798 1-106471083514 1-106678032670 1-109407463175  tq",
