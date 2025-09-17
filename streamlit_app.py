@@ -42,6 +42,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.1
         scores["RG6 - RG7 Equipment Info Update"] = scores.get("RG6 - RG7 Equipment Info Update", 0) - 0.1
 
+    if "order dah refresh network tp failed" in text:
+        scores["Update Granite Network Details"] = scores.get("Update Granite Network Details", 0) + 0.1
+
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
 
