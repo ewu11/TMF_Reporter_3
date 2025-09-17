@@ -66,7 +66,8 @@ categories = {
         "1-cbeor26 - order ni masih belum ada dlm tmf",
         "2509000080460280 - mohon bantu ru inform tak nampak order dalam dalam tmf tapi order dah assign atas id dia  id : q104758 ru : mohd azizi bin mahzun annuar",
         "tak nampak order dalam dalam tmf",
-        "tapi order dah assign atas id dia"
+        "tapi order dah assign atas id dia",
+        "pending processing"
     ],
     "Order Next Activity Not Appear": [
         "tiada dlm rol..tq",
@@ -271,7 +272,8 @@ categories = {
         "tak keluar ma",
         "bantuan order tak keluar ma tq 1-116382004540",
         "1-114656007104 / mohon bantu ma not appear",
-        "1-cbkn1lw mohon bantu manual assign not appear"
+        "1-cbkn1lw mohon bantu manual assign not appear",
+        "takdak m.assign"
     ],
     "Order Error 500": [
         "Tak boleh nk return",
