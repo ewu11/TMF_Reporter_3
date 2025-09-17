@@ -51,6 +51,10 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["Update Order Equipment Details]"] = scores.get("Update Order Equipment Details]", 0) + 0.1
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
 
+    if ("appointmnet" in text or "appmnt" in text or "apt" in text or "appmnt" in text) and "v1p" in text:
+        scores["TT V1P]"] = scores.get("TT V1P]", 0) + 0.2
+        scores["TT HSBA Reappointment"] = scores.get("TT HSBA Reappointment", 0) - 0.1
+
     if ("ctt" in text or "tt" in text) and ("view slot" in text or "skillset" in text or "slot" in text or "mapping" in text or "cab" in text or "cabinet" in text or "dp" in text):
         scores["TT Error 400]"] = scores.get("TT Error 400]", 0) + 0.2
         scores["TT V1P"] = scores.get("TT V1P", 0) - 0.1
@@ -487,7 +491,8 @@ categories = {
         "slot appt appt 4:30 ctt whp",
         "slot appt 1-26821969962",
         "1-26822843515 appt 3.30pm  tq",
-        "1-26822063055 - whp mohon appt 230pm tq"
+        "1-26822063055 - whp mohon appt 230pm tq",
+        "mohon appt today at 230pm ctt v1p.ctt no : 1-26820229835..tq"
     ],
     "TT Error 400": [
         "slot appt",
