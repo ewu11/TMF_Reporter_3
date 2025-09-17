@@ -37,7 +37,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if ("100 mbps" not in text and "300 mbps" in text) and ("old rg" in text or "new rg"):
             scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update]", 0) + 0.3
             scores["TT RG5 Equipment Update"] = scores.get("TT RG5 Equipment Update", 0) - 0.3
-        if "tukar" in text and "combo" in text:
+        if ("tukar" in text and "combo" in text) or "flag" in text:
             scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.2
             scores["RG6 - RG7 Equipment Info Update"] = scores.get("RG6 - RG7 Equipment Info Update", 0) - 0.1
         if "cab" in text or "cabinet" in text or "fdp" in text or "dp" in text or "fdc" in text:
@@ -666,7 +666,9 @@ categories = {
         "1-116541338489 mohn bantuan verify ctt ni vdsl ke atau fiber sebab dekat equipmnt tmf ada modem dekat site tiada modem 🙏🏻",
         "add equipment service point 1-116652759125",
         "tukar cpe, yang valid rg sahaja, mesh tidak valid untuk tukar",
-        "1-116694278247 old btu onualual1508010393 new btu uonzteh92412010786 minta add onu dalam tmforce.."
+        "1-116694278247 old btu onualual1508010393 new btu uonzteh92412010786 minta add onu dalam tmforce..",
+        "add onu dalam tmforce",
+        "old btu new btu"
     ],
     "TT - LR Linkage": [
         "salam team bantuan clear tmf ctt link lr20250312-39719 1-106191315217 1-106194182478 1-106312056435 1-106312232721 1-106346917798 1-106471083514 1-106678032670 1-109407463175  tq",
