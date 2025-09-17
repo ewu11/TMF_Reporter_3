@@ -46,8 +46,8 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["RG6 - RG7 Equipment Info Update"] = scores.get("RG6 - RG7 Equipment Info Update", 0) - 0.1
 
     if ("order" in text or "oder" in text) and ("blh" in text or "boleh" in text) and "done" in text and "equipment semua existing" in text:
-        scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.1
-        scores["Update Order Equipment Details]"] = scores.get("Update Order Equipment Details]", 0) - 0.1
+        scores["Update Order Equipment Details]"] = scores.get("Update Order Equipment Details]", 0) + 0.1
+        scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
 
     if "order dah refresh network tp failed" in text:
         scores["Update Granite Network Details"] = scores.get("Update Granite Network Details", 0) + 0.3
