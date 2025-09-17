@@ -49,9 +49,10 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["Update Order Equipment Details]"] = scores.get("Update Order Equipment Details]", 0) + 0.1
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
 
-    if ("ctt" in text or "tt" in text) and ("view slot" in text or "skillset" in text or "slot" in text):
+    if ("ctt" in text or "tt" in text) and ("view slot" in text or "skillset" in text or "slot" in text or "mapping" in text or "cab" in text or "cabinet" in text or "dp" in text):
         scores["TT Error 400]"] = scores.get("TT Error 400]", 0) + 0.2
         scores["TT V1P"] = scores.get("TT V1P", 0) - 0.1
+        scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) - 0.1
 
     if "order dah refresh network tp failed" in text:
         scores["Update Granite Network Details"] = scores.get("Update Granite Network Details", 0) + 0.3
