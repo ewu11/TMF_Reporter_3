@@ -67,8 +67,8 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) - 0.1
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
 
-    if ("valid rg" in text):
-        scores["TT RG6/ Combo Update]"] = scores.get("TT RG6/ Combo Update]", 0) + 0.3
+    if ("valid rg" in text) and ("tukar" in text or "tkr" in text) and "cpe" in text:
+        scores["TT RG6/ Combo Update]"] = scores.get("TT RG6/ Combo Update]", 0) + 0.5
         scores["RG6 - RG7 Equipment Info Update"] = scores.get("RG6 - RG7 Equipment Info Update", 0) - 0.1
         scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) - 0.1 
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1 
