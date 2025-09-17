@@ -70,6 +70,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if ("valid rg" in text):
         scores["TT RG6/ Combo Update]"] = scores.get("TT RG6/ Combo Update]", 0) + 0.2
         scores["RG6 - RG7 Equipment Info Update"] = scores.get("RG6 - RG7 Equipment Info Update", 0) - 0.1
+        scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) - 0.1
         
     if "order dah refresh network tp failed" in text:
         scores["Update Granite Network Details"] = scores.get("Update Granite Network Details", 0) + 0.3
