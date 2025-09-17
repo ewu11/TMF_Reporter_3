@@ -34,6 +34,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
         if "error 400" in text or "err 400" in text:
             scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.3
+        if ("100 mbps" not in text and "300 mbps" in text) and ("old rg" in text or "new rg"):
+            scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update]", 0) + 0.3
+            scores["TT RG5 Equipment Update"] = scores.get("TT RG5 Equipment Update", 0) - 0.3
 
     if "order" in text or "oder" in text:
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
@@ -54,10 +57,6 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if ("appointmnet" in text or "appmnt" in text or "apt" in text or "appmnt" in text) and "v1p" in text:
         scores["TT V1P"] = scores.get("TT V1P", 0) + 0.2
         scores["TT HSBA Reappointment"] = scores.get("TT HSBA Reappointment", 0) - 0.1
-
-    if ("100 mbps" not in text and "300 mbps" in text) and ("old rg" in text or "new rg"):
-            scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update]", 0) + 0.3
-            scores["TT RG5 Equipment Update"] = scores.get("TT RG5 Equipment Update", 0) - 0.3
 
     if ("ctt" in text or "tt" in text) and ("view slot" in text or "skillset" in text or "slot" in text or "mapping" in text or "cab" in text or "cabinet" in text or "dp" in text):
         scores["TT Error 400]"] = scores.get("TT Error 400]", 0) + 0.2
@@ -461,7 +460,11 @@ categories = {
         "ctt no:1-116619626412 old rg sn: uncfh5f32412032743 new rg sn: unc30val2410077802 300 mbps",
         "ctt no:1-116619626412 old rg sn: uncfh5f32412032743 new rg sn: unc30val2410077802",
         "old rg sn: unc",
-        "new rg sn: unc"
+        "new rg sn: unc",
+        "error cpe swap  ctt :1-116670617245 svc no :6049767605 rg old sn:rg6wfh1y2208006277 nnew:uncfh5f32412014687",
+        "tkr combo script: speed 500mbps  info: ctt no: 1-116680278435 old rg sn:rgx842dl2101014587 new rg sn: unc25val2412004704",
+        "ctt number :- 1-116573718745 old rg - rgxaztwr2208044963 new rg - unc30val2410053158 remark cff :cust upgrade pakej mohon tukar cpe combo",
+        "ctt choppy =1-116671146138 ,,,team perlu tukar rg5 kpd combo mohon bantu"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
