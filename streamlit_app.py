@@ -453,7 +453,8 @@ categories = {
         "tuan/puan zone ctt coordinator/sp/exec untuk setiap permohonan untuk enable flag rg6 di dalam tmf, mohon berikan maklumat seperti di bawah & mengisi google form yang disertakan (link terkini) & lampirkan screenshot form submission di sini.  info: ctt no: 1-116539355602 old rg sn: rg6dl60z2208039147 new rg sn: uncfh5f32411019291  https://forms.gle/irzc9fmbnz8yzgtva  team support, mohon bantuan untuk enable flag hanya selepas bukti form submission disertakan.  terima kasih atas kerjasama semua.",
         "enable flag hanya selepas bukti form submission disertakan",
         "ctt no: 1-116539355602 old rg sn: rg6dl60z2208039147 new rg sn: uncfh5f32411019291",
-        "double confirm ctt ni boleh tukar combo ke? sbb dia 100mbps. tapi kalau tgk notes sini dia mintak tukar tanpa renew contract. boleh proceed ke ?"
+        "double confirm ctt ni boleh tukar combo ke? sbb dia 100mbps. tapi kalau tgk notes sini dia mintak tukar tanpa renew contract. boleh proceed ke ?",
+        "ctt no:1-116619626412 old rg sn: uncfh5f32412032743 new rg sn: unc30val2410077802 300 mbps"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
