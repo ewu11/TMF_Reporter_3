@@ -34,6 +34,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
         if "error 400" in text or "err 400" in text:
             scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.3
+        if "100 mbps" not in text:
+            scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update]", 0) + 0.2
+            scores["TT RG5 Equipment Update"] = scores.get("TT RG5 Equipment Update", 0) - 0.1
 
     if "order" in text or "oder" in text:
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
@@ -52,7 +55,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
 
     if ("appointmnet" in text or "appmnt" in text or "apt" in text or "appmnt" in text) and "v1p" in text:
-        scores["TT V1P]"] = scores.get("TT V1P]", 0) + 0.2
+        scores["TT V1P"] = scores.get("TT V1P", 0) + 0.2
         scores["TT HSBA Reappointment"] = scores.get("TT HSBA Reappointment", 0) - 0.1
 
     if ("ctt" in text or "tt" in text) and ("view slot" in text or "skillset" in text or "slot" in text or "mapping" in text or "cab" in text or "cabinet" in text or "dp" in text):
