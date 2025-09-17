@@ -367,7 +367,8 @@ categories = {
         "tiba sendiri masa tengah nak masuk attachment . detail speedtest semua takmasuk pun lgi sbb nk bypass btu",
         "terus ke saf..x sempat scan cpe lg, tq",
         "ui dah complete order tapi masih x hilang. ui xleh nak buat next order. tk",
-        "2509000081788103 bantuan ui blm sempat scan cpe ..order sudah status completed"
+        "2509000081788103 bantuan ui blm sempat scan cpe ..order sudah status completed",
+        "team baru buat hsi .. terus auto done order.."
     ],
     "TT RG5 Equipment Update": [
         "cpe rg5 & onu ke new router combo",
