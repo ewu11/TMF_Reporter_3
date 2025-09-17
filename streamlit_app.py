@@ -457,7 +457,8 @@ categories = {
         "enable flag hanya selepas bukti form submission disertakan",
         "ctt no: 1-116539355602 old rg sn: rg6dl60z2208039147 new rg sn: uncfh5f32411019291",
         "double confirm ctt ni boleh tukar combo ke? sbb dia 100mbps. tapi kalau tgk notes sini dia mintak tukar tanpa renew contract. boleh proceed ke ?",
-        "ctt no:1-116619626412 old rg sn: uncfh5f32412032743 new rg sn: unc30val2410077802 300 mbps"
+        "ctt no:1-116619626412 old rg sn: uncfh5f32412032743 new rg sn: unc30val2410077802 300 mbps",
+        "ctt no:1-116619626412 old rg sn: uncfh5f32412032743 new rg sn: unc30val2410077802"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
