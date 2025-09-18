@@ -66,6 +66,8 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if "vdsl" in text or "ftth" in text:
             scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.2
             scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) - 0.1
+        if ("ma" in text or "manual assign" in text) and ("btn" in text or "butang" in text or "button" in text):
+            scores["Manual Assign Button not Appear"] = scores.get("Manual Assign Button not Appear", 0) + 0.1
     
     if "tukar kan equipment ke existing" in text or "hanya tambah fixed ip bukan tukar brg" in text:
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.1
@@ -340,7 +342,8 @@ categories = {
         "bantuan order tak keluar ma tq 1-116382004540",
         "1-114656007104 / mohon bantu ma not appear",
         "1-cbkn1lw mohon bantu manual assign not appear",
-        "takdak m.assign"
+        "takdak m.assign",
+        "ra,manual assign not appear"
     ],
     "Order Error 500": [
         "Tak boleh nk return",
