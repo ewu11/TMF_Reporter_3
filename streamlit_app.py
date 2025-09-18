@@ -429,7 +429,8 @@ categories = {
         "order status propose cancel - utk ra semula - tq",
         "status order propose reappt......order ada di page order search tapi tiada di rrol",
         "2508000079953130 | hi team , tarik balik order ini from propose cancel pool, order can be installed update by ru team. tqvm team",
-        "order proposed cancel 2508000079156490 bantuan... order proceed pemasangan..."
+        "order proposed cancel 2508000079156490 bantuan... order proceed pemasangan...",
+        "revert ke rol"
     ],
     "Order In-Progress but Auto Done": [
         "tiba sendiri masa tengah nak masuk attachment . detail speedtest semua takmasuk pun lgi sbb nk bypass btu",
