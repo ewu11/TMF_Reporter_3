@@ -68,7 +68,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) - 0.1
         if ("ma" in text or "manual assign" in text):
             scores["Manual Assign Button not Appear"] = scores.get("Manual Assign Button not Appear", 0) + 0.1
-            ("btn" in text or "butang" in text or "button" in text)
+            if ("btn" in text or "butang" in text or "button" in text):
                 scores["Manual Assign Button not Appear"] = scores.get("Manual Assign Button not Appear", 0) + 0.3
     
     if "tukar kan equipment ke existing" in text or "hanya tambah fixed ip bukan tukar brg" in text:
