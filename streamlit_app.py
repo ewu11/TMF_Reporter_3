@@ -648,7 +648,8 @@ categories = {
         "ctt sudah closed di nova",
         "1-116503447165 mohon bantuan team nak close tt x boleh",
         "team nak close tt x boleh",
-        "status cancel dalam nova masih appier  dalam tmf"
+        "status cancel dalam nova masih appier  dalam tmf",
+        "id ni team ui  hari ni bantu  buat tt restoration  issue tiang bengkok , nak return ke nff tak boleh ..tt nova hsba digi 1-116633008355 tt status on site"
     ],
     "Update Granite Network Details": [
         "1-116311380548 - mohon betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
