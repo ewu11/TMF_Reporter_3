@@ -63,6 +63,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if ("equipment" in text or "eqp" in text or "eqmnt" in text) and "vendor" in text:
             scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) + 0.2
             scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
+        if "vdsl" in text or "ftth" in text:
+            scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.2
+            scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) - 0.1
     
     if "tukar kan equipment ke existing" in text or "hanya tambah fixed ip bukan tukar brg" in text:
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.1
