@@ -203,7 +203,8 @@ categories = {
         "2509000080972753 order modify mohon bantu tukar rg7 kepada rg6..tq",
         "minta tukar cpe rg6, sebab rg7 tiada stok.. customer setuju",
         "order 1gb tp dlm tmf guna rg7. minta ubah equipment dr rg7 ke rg6 combo ax3000. tq",
-        "updated mesh dan wifi pada rg6 ax3000..order 1gb"
+        "updated mesh dan wifi pada rg6 ax3000..order 1gb",
+        "mohon bantuan untuk tukar cpe rg7 ke ax3000 (1000006013) combo ax3000 (rg6) 2509000081963621"
     ],
     "New/ Existing/ Delete Equipment Info Update": [
         "semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
