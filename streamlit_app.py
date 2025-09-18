@@ -74,9 +74,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["Update Granite Network Details"] = scores.get("Update Granite Network Details", 0) + 0.2
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
 
-    if "cpe" in text:
-        scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.2
-        scores["Update Contact Number"] = scores.get("Update Contact Number", 0) - 0.1
+    # if "cpe" in text:
+    #     scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.2
+    #     scores["Update Contact Number"] = scores.get("Update Contact Number", 0) - 0.1
 
     if ("ctt" in text or "tt" in text) and ("view slot" in text or "skillset" in text or "slot" in text or "mapping" in text or "cab" in text or "cabinet" in text or "dp" in text):
         scores["TT Error 400]"] = scores.get("TT Error 400]", 0) + 0.2
