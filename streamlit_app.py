@@ -48,7 +48,6 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) - 0.1
 
     if "order" in text or "oder" in text:
-        st.toast("here!")
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
             scores["RG6 - RG7 Equipment Info Update"] = scores.get("RG6 - RG7 Equipment Info Update", 0) + 0.1
             scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
@@ -58,8 +57,8 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if "ra" in text and ("dalam" in text or "dlm" in text) and ("rtn" in text or "return" in text or "returned" in text):
             scores["Order Next Activity Not Appear"] = scores.get("Order Next Activity Not Appear", 0) + 0.1
             scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) - 0.1
-        if ("sn" in text or "s/n" in text or "s\/n" in text):
-            st.toast(":D")
+        if ("sn" in text or "s/n" in text or "s\/n" in text) and ("ctc" not in text or "contact" not in text):
+            st.write(":D")
             scores["RG6 - RG7 Equipment Info Update"] = scores.get("RG6 - RG7 Equipment Info Update", 0) + 0.2
             scores["Update Contact Number"] = scores.get("Update Contact Number", 0) - 0.3
     
