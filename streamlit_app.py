@@ -47,9 +47,11 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.2
             scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) - 0.1
         if "missing" in text:
-            scores["TT Missing"] = scores.get("TT Missing", 0) + 0.2
+            scores["TT Missing"] = scores.get("TT Missing", 0) + 0.1
             if ("dalam" in text or "dlm" in text) and ("tmforce" in text or "tmf" in text):
-                scores["TT Missing"] = scores.get("TT Missing", 0) + 0.3
+                scores["TT Missing"] = scores.get("TT Missing", 0) + 0.2
+        if ("dalam" in text or "dlm" in text) and ("tmforce" in text or "tmf" in text):
+                scores["TT Missing"] = scores.get("TT Missing", 0) + 0.2
 
     if "order" in text or "oder" in text:
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
