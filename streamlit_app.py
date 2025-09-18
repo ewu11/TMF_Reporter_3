@@ -123,7 +123,8 @@ categories = {
         "2509000080460280 - mohon bantu ru inform tak nampak order dalam dalam tmf tapi order dah assign atas id dia  id : q104758 ru : mohd azizi bin mahzun annuar",
         "tak nampak order dalam dalam tmf",
         "tapi order dah assign atas id dia",
-        "pending processing"
+        "pending processing",
+        "mir dah done tapi ra masih ip. tapi dekat order activity list tulis record not found"
     ],
     "Order Next Activity Not Appear": [
         "tiada dlm rol..tq",
@@ -393,7 +394,8 @@ categories = {
         "order 1-116064693500 d&a inprogress (sd4785299 )",
         "dna & osm ip",
         "dna & osm ip",
-        "bantuan dna & osm ip,,,cust urgent req install harini jgk  tq"
+        "bantuan dna & osm ip,,,cust urgent req install harini jgk  tq",
+        "d&a in progress"
     ],
     "Unsync Order": [
         "ui maklum dah done tapi nampak in progress lagi dlm tmf. tk",
