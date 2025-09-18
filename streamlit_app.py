@@ -714,6 +714,7 @@ categories = {
     "TT - Activity Work Type Blank": [
         "mohon bantuan...ctt tiada activity work type...ctt no : 1-115880486755..iris sudah closed minta retry...tq",
         "xtvt worktype xd. zon nsj. tq"
+        "source skill blank"
     ],
     "User Management Issues": [
         "ru inform id problem tak dapat masuk tmf q004560"
