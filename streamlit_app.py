@@ -640,7 +640,8 @@ categories = {
         "detail granite x appear  2509000080355497",
         "order dah refresh network tp failed",
         "mohon provide dp id 1-116696621386",
-        "1-116571996775 mohon update detail fdp & cab id, kerosakan di melaka, building btm.."
+        "1-116571996775 mohon update detail fdp & cab id, kerosakan di melaka, building btm..",
+        " ftc dah snop.dalam tmf belum update.dah refresh fail  1-116379809716 old dp - dp slb_999_014_0001 new dp -  db slb_c054_db0021"
     ],
     "Update DP-Cabinet Location": [
         "salam team,  mohon bantuan update dp location order digi ni 1-115819132630 daripada on pole kepada building floor.",
