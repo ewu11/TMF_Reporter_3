@@ -58,7 +58,6 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["Order Next Activity Not Appear"] = scores.get("Order Next Activity Not Appear", 0) + 0.1
             scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) - 0.1
         if ("sn:" in text or "sn" in text or "s/n" in text or "s\/n" in text or "s/n:" in text or "s\/n:" in text) and ("ctc" not in text or "contact" not in text):
-            st.write(":D")
             scores["RG6 - RG7 Equipment Info Update"] = scores.get("RG6 - RG7 Equipment Info Update", 0) + 0.2
             scores["Update Contact Number"] = scores.get("Update Contact Number", 0) - 0.3
     
@@ -277,7 +276,8 @@ categories = {
         "update rg kpd mode combo.  2509000081013138",
         "-116572297563 sn lama-rg6dlax32401051346 snbaru-uon30val2501028982 id:q105041",
         "2509000081081426- ru dpt error seperti di atas semasa nak scan cpe",
-        "ui maklum order tak boleh done, dapat error, equipment semua existing order no : 2509000081327334"
+        "ui maklum order tak boleh done, dapat error, equipment semua existing order no : 2509000081327334",
+        "done order sebab equipment vendor tak sama . main ( skyworth ) , mesh (dlink) , boleh minta eqp vendor mesh tukar ke skyworth"
     ],
     "Unable to Swap Number": [
         "1-c1z5awa order whp tidak dapat swap number ...sudah call ftc dia suruh refer jcom",
