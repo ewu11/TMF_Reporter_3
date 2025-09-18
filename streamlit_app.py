@@ -60,7 +60,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if ("sn:" in text or "sn" in text or "s/n" in text or "s\/n" in text or "s/n:" in text or "s\/n:" in text) and ("ctc" not in text or "contact" not in text):
             scores["RG6 - RG7 Equipment Info Update"] = scores.get("RG6 - RG7 Equipment Info Update", 0) + 0.2
             scores["Update Contact Number"] = scores.get("Update Contact Number", 0) - 0.3
-         if ("equipment" in text or "eqp" in text or "eqmnt" in text) and "vendor" in text:
+        if ("equipment" in text or "eqp" in text or "eqmnt" in text) and "vendor" in text:
             scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) + 0.2
             scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
     
