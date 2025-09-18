@@ -360,14 +360,14 @@ categories = {
         "1-116094469447 mintak bantuan,cpe lock.. sn- uonzteh92502027553 mac id : 648505dced20"
     ],
     "Update Contact Number": [
-        "update ctc no",
-        "team, mohon bantu 1-116379701877 update ctc no 0166855599 di tmf. thanks"
-        "team, kindly assist to update ctc 0139433051  for order id :2508000078626166 . tq.",
+        "ctc no",
+        "team, mohon bantu 1-116379701877 ctc no 0166855599 di tmf. thanks"
+        "team, kindly assist to ctc 0139433051  for order id :2508000078626166 . tq.",
         "team, mohon bantu utk tukar hp contact number 0129898252 utk order 2508000079145394, tq",
         "2509000080420382 – pls change contact no. to 012-8461870. tq.",
         "tukarkan contact number kepada 01139851691",
-        "update contact number.....tq order:  2508000078206670 / sw food & bar concepts sdn bhd ctc no: 0166812312",
-        "update contact number. ....tq order:  2508000079407460 / yap mun kit contact no mobile: 01112240477 contact no home : 0177060128",
+        "contact number.....tq order:  2508000078206670 / sw food & bar concepts sdn bhd ctc no: 0166812312",
+        "contact number. ....tq order:  2508000079407460 / yap mun kit contact no mobile: 01112240477 contact no home : 0177060128",
         "team, mohon bantu 2509000080776773,  upadte ctc no 0172678851 di tmf. tq",
         "upadte ctc no 0172678851 di tmf"
     ],
