@@ -316,7 +316,8 @@ categories = {
         "-116572297563 sn lama-rg6dlax32401051346 snbaru-uon30val2501028982 id:q105041",
         "2509000081081426- ru dpt error seperti di atas semasa nak scan cpe",
         "ui maklum order tak boleh done, dapat error, equipment semua existing order no : 2509000081327334",
-        "done order sebab equipment vendor tak sama . main ( skyworth ) , mesh (dlink) , boleh minta eqp vendor mesh tukar ke skyworth"
+        "done order sebab equipment vendor tak sama . main ( skyworth ) , mesh (dlink) , boleh minta eqp vendor mesh tukar ke skyworth",
+        "order cust tambah mesh tp existing kat tmf rg6, kat rumah cust rg4.. boleh ke ui nak tick tambah dua2 baru skyworth"
     ],
     "Unable to Swap Number": [
         "1-c1z5awa order whp tidak dapat swap number ...sudah call ftc dia suruh refer jcom",
