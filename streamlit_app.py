@@ -85,6 +85,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if "rol" in text and ("tiada" in text or "xda" in text) and ("dalam" in text or "dlm" in text):
             scores["Order Next Activity Not Appear"] = scores.get("Order Next Activity Not Appear", 0) + 0.2
             scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) - 0.1
+        if ("mesh" in text and "tambah" in text) or "tick" in text:
+            scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) + 0.2
+            scores["Manual Assign Button not Appear"] = scores.get("Manual Assign Button not Appear", 0) - 0.1
     
     if "tukar kan equipment ke existing" in text or "hanya tambah fixed ip bukan tukar brg" in text:
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.1
@@ -132,8 +135,8 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if "pending processing" in text:
         scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) + 0.1
 
-    if ("ma" in text or "manual assign" in text or "appear" in text):
-            scores["Manual Assign Button not Appear"] = scores.get("Manual Assign Button not Appear", 0) + 0.1
+    if ("ma" in text or "manual assign" in text) and "appear" in text:
+        scores["Manual Assign Button not Appear"] = scores.get("Manual Assign Button not Appear", 0) + 0.1
 
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
