@@ -653,18 +653,18 @@ categories = {
         "id ni team ui  hari ni bantu  buat tt restoration  issue tiang bengkok , nak return ke nff tak boleh ..tt nova hsba digi 1-116633008355 tt status on site"
     ],
     "Update Granite Network Details": [
-        "1-116311380548 - mohon betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
+        "1-116311380548 - betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
         "1-115958165689 tiada detail cab",
-        "minta bantuan adv ctt 1-115970783375 tak boleh tukar fdp dalam granite di tmf",
-        "mohon bantu ctt tiada detail kabinet 1-116322359307",
+        "adv ctt 1-115970783375 tak boleh tukar fdp dalam granite di tmf",
+        "ctt tiada detail kabinet 1-116322359307",
         "1-116322359307 | mohon bantu ctt tiada detail kabinet 1-116322359307",
         "tt 1-116383768545 granite tiada data",
         "update cabinet/fdp dalam tmf,fizikal plgn berada di kgu_c002_db0012..tq  1-115861232625 kgu_c002_dp0009a - tmforce kgu_c002_db0012 -granite",
         "detail granite x appear  2509000080355497",
         "order dah refresh network tp failed",
-        "mohon provide dp id 1-116696621386",
-        "1-116571996775 mohon update detail fdp & cab id, kerosakan di melaka, building btm..",
-        " ftc dah snop.dalam tmf belum update.dah refresh fail  1-116379809716 old dp - dp slb_999_014_0001 new dp -  db slb_c054_db0021"
+        "provide dp id 1-116696621386",
+        "1-116571996775 update detail fdp & cab id, kerosakan di melaka, building btm..",
+        "ftc dah snop.dalam tmf belum update.dah refresh fail  1-116379809716 old dp - dp slb_999_014_0001 new dp -  db slb_c054_db0021"
     ],
     "Update DP-Cabinet Location": [
         "salam team,  mohon bantuan update dp location order digi ni 1-115819132630 daripada on pole kepada building floor.",
