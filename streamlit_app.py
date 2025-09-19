@@ -315,7 +315,8 @@ categories = {
         "iris error.. xboleh log iris  2509000081023987 mohon bantu bypass ep.no order tiada dlm apps/troika.ep flag y",
         "bypass extraport 4.zone : bw  gambar failed dah attach",
         "bypass extraport verification failed",
-        "bypass xp"
+        "bypass xp",
+        "by pass extraport. tiada dalam portal  2509000081355996 | sd4795360"
     ],
     "Bypass HSI": [
         "minta bypass speedtest dan wifi analyzer sbb oder force done",
