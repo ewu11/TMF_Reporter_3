@@ -126,6 +126,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if "pending processing" in text:
         scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) + 0.1
 
+    if ("ma" in text or "manual assign" in text or "appear" in text):
+            scores["Manual Assign Button not Appear"] = scores.get("Manual Assign Button not Appear", 0) + 0.1
+
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
 
@@ -176,7 +179,8 @@ categories = {
         "no next owner",
         "order return tiada next owner  1-112726082278",
         "order ini   1-112532187256 ,  belum ra tp dalam nova . aktiviti ra sudah done . dalam tmf , order tiada masuk dalam returned order . iris : sd4790757 ./ tk",
-        "order rtn x masuk basket jcc"
+        "order rtn x masuk basket jcc",
+        "order sip, act not appear"
     ],
     "CC Not Appear": [
         "cc not appear",
@@ -362,7 +366,8 @@ categories = {
         "1-114656007104 / mohon bantu ma not appear",
         "1-cbkn1lw mohon bantu manual assign not appear",
         "takdak m.assign",
-        "ra,manual assign not appear"
+        "ra,manual assign not appear",
+        "manual assign xappear (sd4792995)"
     ],
     "Order Error 500": [
         "Tak boleh nk return",
@@ -446,7 +451,8 @@ categories = {
         "status order propose reappt......order ada di page order search tapi tiada di rrol",
         "2508000079953130 | hi team , tarik balik order ini from propose cancel pool, order can be installed update by ru team. tqvm team",
         "order proposed cancel 2508000079156490 bantuan... order proceed pemasangan...",
-        "revert ke rol"
+        "revert ke rol",
+        "keluar error ni untuk onsite. order force done cancel"
     ],
     "Order In-Progress but Auto Done": [
         "tiba sendiri masa tengah nak masuk attachment . detail speedtest semua takmasuk pun lgi sbb nk bypass btu",
