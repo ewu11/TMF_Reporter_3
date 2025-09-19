@@ -141,6 +141,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if "granite" in text or ("refresh" in text and "fail" in text):
         scores["Update Granite Network Details"] = scores.get("Update Granite Network Details", 0) + 0.1
 
+    if "err" in text and "400" in text:
+        scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.2
+
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
 
