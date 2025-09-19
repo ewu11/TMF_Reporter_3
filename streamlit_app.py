@@ -320,7 +320,8 @@ categories = {
         "2509000081081426- ru dpt error seperti di atas semasa nak scan cpe",
         "ui maklum order tak boleh done, dapat error, equipment semua existing order no : 2509000081327334",
         "done order sebab equipment vendor tak sama . main ( skyworth ) , mesh (dlink) , boleh minta eqp vendor mesh tukar ke skyworth",
-        "order cust tambah mesh tp existing kat tmf rg6, kat rumah cust rg4.. boleh ke ui nak tick tambah dua2 baru skyworth"
+        "order cust tambah mesh tp existing kat tmf rg6, kat rumah cust rg4.. boleh ke ui nak tick tambah dua2 baru skyworth",
+        "2509000080337336 failed to scan barcode. getting error. mohon bantuan  uncfh5f32502005906 mesh uncfh5f32502009890"
     ],
     "Unable to Swap Number": [
         "1-c1z5awa order whp tidak dapat swap number ...sudah call ftc dia suruh refer jcom",
