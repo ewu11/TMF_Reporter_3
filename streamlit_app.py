@@ -79,6 +79,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if "tukar" in text and "rg7" in text and "rg6" in text:
             scores["RG6 - RG7 Equipment Info Update"] = scores.get("RG6 - RG7 Equipment Info Update", 0) + 0.2
             scores["Order Capping Issue"] = scores.get("Order Capping Issue", 0) - 0.1
+        if "oal" in text:
+            scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) + 0.2
+            scores["Manual Assign Button not Appear"] = scores.get("Manual Assign Button not Appear", 0) - 0.1
     
     if "tukar kan equipment ke existing" in text or "hanya tambah fixed ip bukan tukar brg" in text:
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.1
