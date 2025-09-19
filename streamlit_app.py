@@ -602,7 +602,8 @@ categories = {
         "1-26822843515 appt 3.30pm  tq",
         "1-26822063055 - whp mohon appt 230pm tq",
         "mohon appt today at 230pm ctt v1p.ctt no : 1-26820229835..tq",
-        "1-26823566715 bantuan slotkan tt whp 4.30pm..tq"
+        "1-26823566715 bantuan slotkan tt whp 4.30pm..tq",
+        "ctt : 1-26825685185 tolong set up appment hari ini jam 4pm"
     ],
     "TT Error 400": [
         "slot appt",
