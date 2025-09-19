@@ -146,7 +146,8 @@ categories = {
         "tak nampak order dalam dalam tmf",
         "tapi order dah assign atas id dia",
         "pending processing",
-        "mir dah done tapi ra masih ip. tapi dekat order activity list tulis record not found"
+        "mir dah done tapi ra masih ip. tapi dekat order activity list tulis record not found",
+        "order tak appear dalam oal tmf"
     ],
     "Order Next Activity Not Appear": [
         "tiada dlm rol..tq",
