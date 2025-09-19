@@ -230,7 +230,8 @@ categories = {
         "updated mesh dan wifi pada rg6 ax3000..order 1gb",
         "mohon bantuan untuk tukar cpe rg7 ke ax3000 (1000006013) combo ax3000 (rg6) 2509000081963621",
         "update detail dibawah:  no order: 2509000081969792 no s/n: unc30val2410035159",
-        "tukarkan rg7 ke rg6 kerana rg7 tiada stock 4.zone 5 : bw"
+        "tukarkan rg7 ke rg6 kerana rg7 tiada stock 4.zone 5 : bw",
+        "order id: 2509000080433971 2.ru id: q106095 3.masalah/req : tukarkan rg7 ke rg6 kerana rg7 tiada stock 4.zone 5 : bukit mertajam"
     ],
     "New/ Existing/ Delete Equipment Info Update": [
         "semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
