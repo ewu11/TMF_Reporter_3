@@ -62,8 +62,8 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["Order Capping Issue"] = scores.get("Order Capping Issue", 0) - 0.1
         if (re.search(r"slot", text)) and (re.search(r"ap(.)?(.)?(.)?(.)?(.)?(.)?", text)):
             st.toast("ada :)")
-            scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.4
-            scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) - 0.1
+            scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.3
+            scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) - 0.3
 
     if "order" in text or "oder" in text:
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
@@ -675,7 +675,8 @@ categories = {
         "no slot",
         "tidak dapat view slot, team dah open skillset ctt: 1-116376826125 created date: 09/09/2025 15:00:27 dp id: tdi_c025_dp0029 customer : astro  zone tdi",
         "tidak dapat view slot  , minta bantu mapping cab id & hsba skill set.  ctt: 1-116648418155 created date: 15/09/2025 11:21:08 am dp id: kin_c046_dp0007 customer : measat broadcast network systems sdn bhd  zone puchong",
-        "tt tiada cab/id --1-26823601984"
+        "tt tiada cab/id --1-26823601984",
+        "ctt tak boleh slot appt 1-107063025547"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
