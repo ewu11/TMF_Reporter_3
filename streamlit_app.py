@@ -57,6 +57,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if "link" in text or "lr" in text:
             scores["TT - LR Linkage"] = scores.get("TT - LR Linkage", 0) + 0.2
             scores["Manual Assign Button not Appear"] = scores.get("Manual Assign Button not Appear", 0) - 0.1
+        if "v1p" in text and "slot" in text:
+            scores["TT V1P"] = scores.get("TT V1P", 0) + 0.2
+            scores["Order Capping Issue"] = scores.get("Order Capping Issue", 0) - 0.1
 
     if "order" in text or "oder" in text:
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
@@ -630,7 +633,8 @@ categories = {
         "1-26823566715 bantuan slotkan tt whp 4.30pm..tq",
         "ctt : 1-26825685185 tolong set up appment hari ini jam 4pm",
         "1-26710708621 tolong set appment pukul 4.30pm hari ini. slot kat id tm31638",
-        "team sao ctt : 1-26710708621 tolong set appment pukul 4.30pm hari ini. slot kat id tm31638"
+        "team sao ctt : 1-26710708621 tolong set appment pukul 4.30pm hari ini. slot kat id tm31638",
+        "mohon ra terdekat ctt v1p 3.30 n slot semula b17296...tq"
     ],
     "TT Error 400": [
         "slot appt",
