@@ -54,6 +54,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["TT Missing"] = scores.get("TT Missing", 0) + 0.3
         if "trig" in text:
             scores["TT Missing"] = scores.get("TT Missing", 0) + 0.2
+        if "link" in text or "lr" in text:
+            scores["TT - LR Linkage"] = scores.get("TT - LR Linkage", 0) + 0.2
+            scores["Manual Assign Button not Appear"] = scores.get("Manual Assign Button not Appear", 0) - 0.1
 
     if "order" in text or "oder" in text:
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
