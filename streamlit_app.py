@@ -111,10 +111,10 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
 
     if ("appointment" in text or "appmnt" in text or "appt" in text or "apt" in text or "appment" in text) and "set" in text and ("pukul" in text or "jam" in text):
-        scores["TT V1P"] = scores.get("TT V1P]", 0) + 0.1
+        scores["TT V1P"] = scores.get("TT V1P]", 0) + 0.2
         scores["Order Capping Issue"] = scores.get("Order Capping Issue", 0) - 0.1
         if re.search(r"\b1-2\d{10,11}\b", text) or re.search(r"slot.*id", text):
-            scores["TT V1P"] = scores.get("TT V1P]", 0) + 0.3
+            scores["TT V1P"] = scores.get("TT V1P]", 0) + 0.4
             scores["TT HSBA Reappointment"] = scores.get("TT HSBA Reappointment", 0) - 0.1
             scores["TT Unsync"] = scores.get("TT Unsync", 0) - 0.1
             scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) - 0.1
