@@ -459,7 +459,8 @@ categories = {
         "contact number. ....tq order:  2508000079407460 / yap mun kit contact no mobile: 01112240477 contact no home : 0177060128",
         "team, mohon bantu 2509000080776773,  upadte ctc no 0172678851 di tmf. tq",
         "upadte ctc no 0172678851 di tmf",
-        "update contact number 01159893540. tq"
+        "update contact number 01159893540. tq",
+        "update contact number : 012-8188024"
     ],
     "Release Assign to Me": [
         "dapat error nak ra order",
