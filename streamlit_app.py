@@ -146,6 +146,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if "err" in text and "400" in text:
         scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.2
 
+    if "add" in text and "new" in text and ("sp" in text or "service point" in text):
+        scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.2
+
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
 
