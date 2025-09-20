@@ -440,7 +440,8 @@ categories = {
         "release order ""asssign to me""...team maklum nk release tp hilang dlm tmf...tq",
         "tak boleh nk slot ke tarikh yg available.  tmf keluar pop up ""fail..slot not available. kindly refresh the page""",
         "ra kan order ni harini. ui dah siap pemasangan",
-        "ra kan order ni harini"
+        "ra kan order ni harini",
+        "remove tag assign to me dr team ui yang sdh lock"
     ],
     "Order D&A In-Progress": [
         "task d&a ip",
