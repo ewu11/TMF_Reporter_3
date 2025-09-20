@@ -149,7 +149,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if "add" in text and "new" in text and ("sp" in text or "service point" in text):
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.2
 
-    if ("release" in text) and ("assign" in text or "me" in text):
+    if ("remove" in text or "release" in text) and ("assign" in text or "me" in text) and "tag" in text:
         scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) + 0.2
 
     # Cap scores between 0.0 and 1.0
