@@ -454,7 +454,8 @@ categories = {
         "dna & osm ip",
         "dna & osm ip",
         "bantuan dna & osm ip,,,cust urgent req install harini jgk  tq",
-        "d&a in progress"
+        "d&a in progress",
+        "task d&a ip"
     ],
     "Unsync Order": [
         "ui maklum dah done tapi nampak in progress lagi dlm tmf. tk",
