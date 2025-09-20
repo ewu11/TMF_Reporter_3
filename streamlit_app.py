@@ -172,6 +172,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if ("remove" in text or "release" in text) and ("assign" in text or "me" in text) and "tag" in text:
         scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) + 0.2
 
+    if (re.search(r"m(.)?as(.)?k", text) and re.search(r"rol", text)):
+        scores["Order Next Activity Not Appear"] = scores.get("Order Next Activity Not Appear", 0) + 0.2
+
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
 
