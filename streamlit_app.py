@@ -113,7 +113,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if ("appointment" in text or "appmnt" in text or "appt" in text or "apt" in text or "appment" in text) and "set" in text or "pukul" in text or "jam" in text:
         scores["TT V1P"] = scores.get("TT V1P]", 0) + 0.1
         scores["Order Capping Issue"] = scores.get("Order Capping Issue", 0) - 0.1
-        if re.search(r"1-2\d[10,11]", text):
+        if re.search(r"1-2\d{10,11}", text):
             scores["TT V1P"] = scores.get("TT V1P]", 0) + 0.2
             scores["TT HSBA Reappointment"] = scores.get("TT HSBA Reappointment", 0) - 0.1
     
