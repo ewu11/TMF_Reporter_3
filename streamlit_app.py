@@ -61,7 +61,8 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["TT V1P"] = scores.get("TT V1P", 0) + 0.2
             scores["Order Capping Issue"] = scores.get("Order Capping Issue", 0) - 0.1
         if (re.search(r"slot", text)) and (re.search(r"ap(.)?(.)?(.)?(.)?(.)?(.)?", text)):
-            scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.2
+            st.toast("ada :)")
+            scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.4
             scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) - 0.1
 
     if "order" in text or "oder" in text:
