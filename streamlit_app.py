@@ -118,7 +118,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["TT V1P"] = scores.get("TT V1P]", 0) + 0.2
             scores["TT HSBA Reappointment"] = scores.get("TT HSBA Reappointment", 0) - 0.1
         else:
-            st.toast("tidak ada")
+            st.toast(f"tidak ada: {text}")
     
     # if "cpe" in text:
     #     scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.2
