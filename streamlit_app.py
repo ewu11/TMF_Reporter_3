@@ -110,7 +110,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["Update Granite Network Details"] = scores.get("Update Granite Network Details", 0) + 0.2
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
 
-    if "1-2" in text and ("appointment" in text or "appmnt" in text or "appt" in text or "apt" in text):
+    if "1-2" in text and ("appointment" in text or "appmnt" in text or "appt" in text or "apt" in text or "appment" in text):
         scores["TT V1P"] = scores.get("TT V1P]", 0) + 0.1
         scores["Order Capping Issue"] = scores.get("Order Capping Issue", 0) - 0.1
     
