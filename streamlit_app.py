@@ -478,7 +478,8 @@ categories = {
         "2508000079953130 | hi team , tarik balik order ini from propose cancel pool, order can be installed update by ru team. tqvm team",
         "order proposed cancel 2508000079156490 bantuan... order proceed pemasangan...",
         "revert ke rol",
-        "keluar error ni untuk onsite. order force done cancel"
+        "keluar error ni untuk onsite. order force done cancel",
+        "revert ke basket jcc, plgn nk proceed pasang 1-106182430364"
     ],
     "Order In-Progress but Auto Done": [
         "tiba sendiri masa tengah nak masuk attachment . detail speedtest semua takmasuk pun lgi sbb nk bypass btu",
