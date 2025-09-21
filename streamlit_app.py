@@ -712,7 +712,8 @@ categories = {
         "ctt tidak masuk ke tmf. tq 1-116446350874",
         "trigger ctt tiada dlm tmf  1-116582031641",
         "trigger ctt tiada dlm tmf",
-        "trigger tt dalam tmf"
+        "trigger tt dalam tmf",
+        "ctt x apear 1-116870112592"
     ],
     "TT Unsync": [
         "ctt status cancel dlm nova masih appear dlm tmf  1-116258282215",
