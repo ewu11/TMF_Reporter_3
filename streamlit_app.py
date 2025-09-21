@@ -28,7 +28,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if "tt" in text or "ctt" in text:
         if "tiada slot" in text or "no slot" in text:
             scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.1
-            scores["Order Next Activity Not Appear"] = scores.get("Order Next Activity Not Appear", 0) - 0.1
+            scores["Next Order Activity Not Appear"] = scores.get("Next Order Activity Not Appear", 0) - 0.1
         if "boleh tukar combo ke" in text:
             scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.1
             scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
@@ -73,7 +73,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.1
             scores["Order Capping Issue"] = scores.get("Order Capping Issue]", 0) - 0.1
         if "ra" in text and ("dalam" in text or "dlm" in text) and ("rtn" in text or "return" in text or "returned" in text):
-            scores["Order Next Activity Not Appear"] = scores.get("Order Next Activity Not Appear", 0) + 0.1
+            scores["Next Order Activity Not Appear"] = scores.get("Next Order Activity Not Appear", 0) + 0.1
             scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) - 0.1
         if ("sn:" in text or "sn" in text or "s/n" in text or "s\/n" in text or "s/n:" in text or "s\/n:" in text) and ("ctc" not in text or "contact" not in text):
             scores["RG6 - RG7 Equipment Info Update"] = scores.get("RG6 - RG7 Equipment Info Update", 0) + 0.2
@@ -95,7 +95,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) + 0.2
             scores["Manual Assign Button not Appear"] = scores.get("Manual Assign Button not Appear", 0) - 0.1
         if "rol" in text and ("tiada" in text or "xda" in text) and ("dalam" in text or "dlm" in text):
-            scores["Order Next Activity Not Appear"] = scores.get("Order Next Activity Not Appear", 0) + 0.2
+            scores["Next Order Activity Not Appear"] = scores.get("Next Order Activity Not Appear", 0) + 0.2
             scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) - 0.1
         if ("mesh" in text and "tambah" in text) or "tick" in text:
             scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) + 0.2
@@ -149,7 +149,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["Update Granite Network Details"] = scores.get("Update Granite Network Details", 0) + 0.3
 
     if "tiada next owner" in text:
-        scores["Order Next Activity Not Appear"] = scores.get("Order Next Activity Not Appear", 0) + 0.2
+        scores["Next Order Activity Not Appear"] = scores.get("Next Order Activity Not Appear", 0) + 0.2
 
     if "source skill blank" in text:
         scores["TT - Activity Work Type Blank"] = scores.get("TT - Activity Work Type Blank", 0) + 0.2
@@ -173,7 +173,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) + 0.2
 
     if (re.search(r"m(.)?as(.)?k", text) and re.search(r"rol", text)):
-        scores["Order Next Activity Not Appear"] = scores.get("Order Next Activity Not Appear", 0) + 0.2
+        scores["Next Order Activity Not Appear"] = scores.get("Next Order Activity Not Appear", 0) + 0.2
 
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
@@ -196,7 +196,7 @@ categories = {
         "order tak appear dalam oal tmf",
         "order ra xappear di scheduled page"
     ],
-    "Order Next Activity Not Appear": [
+    "Next Order Activity Not Appear": [
         "tiada dlm rol..tq",
         "tiada dlm rol",
         "return tak masuk dalam bakul lobs/cxm",
