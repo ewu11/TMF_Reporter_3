@@ -501,7 +501,8 @@ categories = {
         "ui tak boleh donekan order",
         "dah done tapi still in progress",
         "order ni dah onsite.. tp tetibe back default",
-        "installation status done ,order masih status returned/processing"
+        "installation status done ,order masih status returned/processing",
+        "order ni kuning dari pagi tadi..sya tiada usik apa2..masalah tidak dpt task"
     ],
     "Revert BAU SWIFT-TMF Order": [
         "1-cbga8gd | assalam team, mohon revert order id dibawah ke tmf system. urgent!!! tq 1-cbga8gd 1-cbgnu4p",
