@@ -99,6 +99,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if ("mesh" in text and "tambah" in text) or "tick" in text:
             scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) + 0.2
             scores["Manual Assign Button not Appear"] = scores.get("Manual Assign Button not Appear", 0) - 0.1
+        if (re.search(r"inst(.)?(.)?(.)?(.)?(.)?(.)?(.)?(.)?", text) and re.search(r"d(.)?n(.)?", text) and re.search(r"m(.)?s(.)?(.)?", text)):
+            scores["Unsync Order"] = scores.get("Unsync Order", 0) + 0.2
+            scores["Next Order Activity Not Appear"] = scores.get("Next Order Activity Not Appear", 0) - 0.1
     
     if "tukar kan equipment ke existing" in text or "hanya tambah fixed ip bukan tukar brg" in text:
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.1
@@ -207,7 +210,7 @@ categories = {
         "next activity x appear",
         "....2508000079730082 order ni tiada di scheduled page tp ada di page order search",
         "no pending user, tq  2509000080365841",
-        "00378065688 - order 1-cbi3c7w 00378035878 - order : 1-cbhvjqo  mhn bantuan masukkan semula dalam oal...ui tidak nampak order sebab mdf sudah done activity remove mdf jumpering...tq",
+        "00378065688 - order 1-cbi3c7w 00378035878 - order : 1-cbhvjqo  masukkan semula dalam oal...ui tidak nampak order sebab mdf sudah done activity remove mdf jumpering...tq",
         "masukkan semula dalam oal",
         "npua",
         "order npua",
