@@ -419,7 +419,7 @@ categories = {
         "1-cbkn1lw mohon bantu manual assign not appear",
         "takdak m.assign",
         "ra,manual assign not appear",
-        "manual assign xappear (sd4792995)"
+        "manual assign xappear"
     ],
     "Order Error 500": [
         "Tak boleh nk return",
@@ -497,7 +497,8 @@ categories = {
         "tlg cek dh completed tp masih inprogress",
         "ui tak boleh donekan order",
         "dah done tapi still in progress",
-        "order ni dah onsite.. tp tetibe back default"
+        "order ni dah onsite.. tp tetibe back default",
+        "installation status done ,order masih status returned/processing"
     ],
     "Revert BAU SWIFT-TMF Order": [
         "1-cbga8gd | assalam team, mohon revert order id dibawah ke tmf system. urgent!!! tq 1-cbga8gd 1-cbgnu4p",
