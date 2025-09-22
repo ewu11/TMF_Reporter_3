@@ -377,7 +377,8 @@ categories = {
         "bypass extraport 4.zone : bw  gambar failed dah attach",
         "bypass extraport verification failed",
         "bypass xp",
-        "by pass extraport. tiada dalam portal  2509000081355996 | sd4795360"
+        "by pass extraport. tiada dalam portal  2509000081355996 | sd4795360",
+        "bypass extraport order tiada dlm troika iris tak boleh nak masuk.. ✅"
     ],
     "Bypass HSI": [
         "minta bypass speedtest dan wifi analyzer sbb oder force done",
@@ -427,7 +428,7 @@ categories = {
     "Invalid ICBRN Number": [
         "no ssm/ic cust, dlm tmf tiada",
         "minta ic no untuk order ni.. xd dekat detail customer",
-        "bantuan ui fail utk update ic/br no",
+        "ui fail utk update ic/br no",
         "ic dan ssm no. dah masuk tp invalid, tak lepas done.",
         "order x bole done ic cust invalid.",
         "team sdh masukkan no ic sperti penama didalam order tetapi tidak dapat",
