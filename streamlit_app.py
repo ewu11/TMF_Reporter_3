@@ -1,7 +1,7 @@
 import streamlit as st
 from pathlib import Path
 from sentence_transformers import SentenceTransformer, util
-import re
+import rex
 import string
 import pandas as pd
 from io import BytesIO
