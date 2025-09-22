@@ -436,7 +436,8 @@ categories = {
         "2509000081253533 | ,format apa2 masalah / bypass extraport/btu/s.test/dll 1.order .2509000081253533 2masalah/req: ic  no tak betul 3.q001808 4.zone 5 : byb",
         "req: ic  no tak betul",
         "perlu masukkn no ic",
-        "br no. spt semakan dgn cust: 519537-x  minta bantuan utk error diatas. ru sudah masukkan br no. yg betul spt semakan dgn cust"
+        "br no. spt semakan dgn cust: 519537-x  minta bantuan utk error diatas. ru sudah masukkan br no. yg betul spt semakan dgn cust",
+        "dah masukan no ic betul tapi dapat error dalam tmf:"
     ],
     "Invalid Order Segment": [
         "segment  kepada sme. order s10. tq 2509000080543072",
