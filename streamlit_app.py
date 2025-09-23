@@ -69,6 +69,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if (re.search(r"en(.)?m(.)?d(.)?r(.)?d", text)):
             scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.2
             scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) - 0.1
+        if (re.search(r"cpe.*swap.*serial number.*exist", text)):
+            scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.2
+            scores["TT Error 400"] = scores.get("TT Error 400", 0) - 0.1
 
     if "order" in text or "oder" in text:
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
