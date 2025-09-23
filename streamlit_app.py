@@ -102,6 +102,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if (re.search(r"inst(.)?(.)?(.)?(.)?(.)?(.)?(.)?(.)?", text) and re.search(r"d(.)?n(.)?", text) and re.search(r"m(.)?s(.)?(.)?", text)):
             scores["Unsync Order"] = scores.get("Unsync Order", 0) + 0.2
             scores["Next Order Activity Not Appear"] = scores.get("Next Order Activity Not Appear", 0) - 0.1
+        if (re.search(r"ru|ui", text) and re.search(r"done(.)?(.)?(.)? o(.)?der", text) and re.search(r"err(.)?(.)?", text)):
+            scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) + 0.2
+            scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) - 0.1
     
     if "tukar kan equipment ke existing" in text or "hanya tambah fixed ip bukan tukar brg" in text:
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.1
