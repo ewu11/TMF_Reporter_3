@@ -231,7 +231,8 @@ categories = {
         "order ini   1-112532187256 ,  belum ra tp dalam nova . aktiviti ra sudah done . dalam tmf , order tiada masuk dalam returned order . iris : sd4790757 ./ tk",
         "order rtn x masuk basket jcc",
         "order sip, act not appear",
-        "order ni xda ble update any activity"
+        "order ni xda ble update any activity",
+        "update dlm rol"
     ],
     "CC Not Appear": [
         "cc not appear",
@@ -443,7 +444,8 @@ categories = {
         "req: ic  no tak betul",
         "perlu masukkn no ic",
         "br no. spt semakan dgn cust: 519537-x  minta bantuan utk error diatas. ru sudah masukkan br no. yg betul spt semakan dgn cust",
-        "dah masukan no ic betul tapi dapat error dalam tmf:"
+        "dah masukan no ic betul tapi dapat error dalam tmf:",
+        "ssm number in taas 1337374-m  2509000082430600 mohon bantu. team dah masukan no ssm yg betul tapi error nk done dlm tmf"
     ],
     "Invalid Order Segment": [
         "segment  kepada sme. order s10. tq 2509000080543072",
