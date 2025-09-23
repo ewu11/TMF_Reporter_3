@@ -516,7 +516,8 @@ categories = {
         "order proposed cancel 2508000079156490 bantuan... order proceed pemasangan...",
         "revert ke rol",
         "keluar error ni untuk onsite. order force done cancel",
-        "revert ke basket jcc, plgn nk proceed pasang 1-106182430364"
+        "revert ke basket jcc, plgn nk proceed pasang 1-106182430364",
+        "untuk buka order rcl ke rrol  2508000078490589 1-115407078949 2509000080848720 2509000080183389 2509000082054485"
     ],
     "Order In-Progress but Auto Done": [
         "tiba sendiri masa tengah nak masuk attachment . detail speedtest semua takmasuk pun lgi sbb nk bypass btu",
