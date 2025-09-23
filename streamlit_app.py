@@ -810,7 +810,8 @@ categories = {
         "tukar cpe, yang valid rg sahaja, mesh tidak valid untuk tukar",
         "1-116694278247 old btu onualual1508010393 new btu uonzteh92412010786 minta add onu dalam tmforce..",
         "add onu dalam tmforce",
-        "old btu new btu"
+        "old btu new btu",
+        "update cpe dlm system  :  kerana error : sn not exist  ctt:1-116997958275  num siri cpe yg hendak ditukar: unc30val2412064577"
     ],
     "TT - LR Linkage": [
         "salam team bantuan clear tmf ctt link lr20250312-39719 1-106191315217 1-106194182478 1-106312056435 1-106312232721 1-106346917798 1-106471083514 1-106678032670 1-109407463175  tq",
