@@ -64,7 +64,10 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.3
             scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) - 0.3
         if (re.search(r"cpe", text)) and (re.search(r"sn.*exist(.)?(.)?(.)?", text)):
-            scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.1
+            scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.2
+            scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) - 0.1
+        if (re.search(r"en(.)?m(.)?d(.)?r(.)?d", text)):
+            scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.2
             scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) - 0.1
 
     if "order" in text or "oder" in text:
