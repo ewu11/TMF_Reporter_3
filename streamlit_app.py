@@ -347,7 +347,8 @@ categories = {
         "tukar eqpmnt jadi combo x? order modi tapi tukar onu shj. pelanggan mahukan combo.",
         "add new btu order modify infra",
         "minta bantu tukar new service point ke new combo box order modify infra dari vdsl ke ftth  1-116379809716",
-        "add new service point 1-106717512390"
+        "add new service point 1-106717512390",
+        "ubah equipment p existing"
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
