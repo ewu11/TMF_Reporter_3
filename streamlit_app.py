@@ -230,7 +230,8 @@ categories = {
         "order return tiada next owner  1-112726082278",
         "order ini   1-112532187256 ,  belum ra tp dalam nova . aktiviti ra sudah done . dalam tmf , order tiada masuk dalam returned order . iris : sd4790757 ./ tk",
         "order rtn x masuk basket jcc",
-        "order sip, act not appear"
+        "order sip, act not appear",
+        "order ni xda ble update any activity"
     ],
     "CC Not Appear": [
         "cc not appear",
@@ -364,8 +365,7 @@ categories = {
         "done order sebab equipment vendor tak sama . main ( skyworth ) , mesh (dlink) , boleh minta eqp vendor mesh tukar ke skyworth",
         "order cust tambah mesh tp existing kat tmf rg6, kat rumah cust rg4.. boleh ke ui nak tick tambah dua2 baru skyworth",
         "2509000080337336 failed to scan barcode. getting error. mohon bantuan  uncfh5f32502005906 mesh uncfh5f32502009890",
-        "2504000064702662 blh buang equipment ata, cust nk pakai unifi sahaja",
-        "order ni xda ble update any activity..."
+        "2504000064702662 blh buang equipment ata, cust nk pakai unifi sahaja"
     ],
     "Unable to Swap Number": [
         "1-c1z5awa order whp tidak dapat swap number ...sudah call ftc dia suruh refer jcom",
@@ -508,7 +508,7 @@ categories = {
         "order ni kuning dari pagi tadi..sya tiada usik apa2..masalah tidak dpt task"
     ],
     "Revert BAU SWIFT-TMF Order": [
-        "1-cbga8gd | assalam team, mohon revert order id dibawah ke tmf system. urgent!!! tq 1-cbga8gd 1-cbgnu4p",
+        "1-cbga8gd | assalam team, mohon revert id dibawah ke tmf system. urgent!!! tq 1-cbga8gd 1-cbgnu4p",
         "1-cbeoqy6 - status completed done in tmf 3/9/2025 tq 1-cbeub0k - status completed - swift tq 1-cbeor26 - masih tiada di subscriber activity list swift @ tmf"
     ],
     "Reopen Proposed Cancel Order": [
