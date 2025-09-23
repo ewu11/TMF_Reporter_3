@@ -63,6 +63,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if (re.search(r"slot", text)) and (re.search(r"ap(.)?(.)?(.)?(.)?(.)?(.)?", text)):
             scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.3
             scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) - 0.3
+        if (re.search(r"cpe", text)) and (re.search(r"sn.*exist(.)?(.)?(.)?", text)):
+            scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.1
+            scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) - 0.1
 
     if "order" in text or "oder" in text:
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
@@ -826,7 +829,8 @@ categories = {
         "source skill blank"
     ],
     "User Management Issues": [
-        "ru inform id problem tak dapat masuk tmf q004560"
+        "ru inform id problem tak dapat masuk tmf q004560",
+        "team unbale to log id id baru"
     ]
 }
 
