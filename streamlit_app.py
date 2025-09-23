@@ -624,7 +624,8 @@ categories = {
         "ctt number :- 1-116573718745 old rg - rgxaztwr2208044963 new rg - unc30val2410053158 remark cff :cust upgrade pakej mohon tukar cpe combo",
         "ctt choppy =1-116671146138 ,,,team perlu tukar rg5 kpd combo mohon bantu",
         "ctt ni pakai 100mbps. rg5 dah takda dekat lo cheras. so mcm mana ya boleh ke kalau nak pakai combo?",
-        "update cpe 1-116434798675  s/n on site:uonzteh92109051552 s/n on tmf:uonzteh92109052452"
+        "update cpe 1-116434798675  s/n on site:uonzteh92109051552 s/n on tmf:uonzteh92109052452",
+        "error nak close ctt no : 1-117012414029 remark : cpe swap serial number does not exist in you cpe list"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
