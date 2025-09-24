@@ -553,7 +553,8 @@ categories = {
         "ui dah complete order tapi masih x hilang. ui xleh nak buat next order. tk",
         "2509000081788103 bantuan ui blm sempat scan cpe ..order sudah status completed",
         "team baru buat hsi .. terus auto done order..",
-        "order xdan scan barcode sn dah skip pi ke saf .."
+        "order xdan scan barcode sn dah skip pi ke saf ..",
+        "ui blum complete tp tetiba dh status hijau dlm tmf."
     ],
     "TT RG5 Equipment Update": [
         "cpe rg5 & onu ke new router combo",
