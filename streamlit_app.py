@@ -683,7 +683,8 @@ categories = {
         "1-26710708621 tolong set appment pukul 4.30pm hari ini. slot kat id tm31638",
         "team sao ctt : 1-26710708621 tolong set appment pukul 4.30pm hari ini. slot kat id tm31638",
         "mohon ra terdekat ctt v1p 3.30 n slot semula b17296...tq",
-        "v1p_nodialtone || 1-26826779718 , tlg buat appt 11:30am ..tq"
+        "v1p_nodialtone || 1-26826779718 , tlg buat appt 11:30am ..tq",
+        "1-26828417098 assgn app pukul 330"
     ],
     "TT Error 400": [
         "slot appt",
