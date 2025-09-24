@@ -196,7 +196,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if (re.search(r"m(.)?as(.)?k", text) and re.search(r"rol", text)):
         scores["Next Order Activity Not Appear"] = scores.get("Next Order Activity Not Appear", 0) + 0.2
 
-    if (re.search(r"1-2\d{10,11}", text)) and (re.search(r"as(.)?(.)?(.)?(.)?", text)) and (re.search(r"p(.)?k(.)?(.)?", text)):
+    if (re.search(r"1-2\d{10,11}", text)) or (re.search(r"as(.)?(.)?(.)?(.)?", text)) and (re.search(r"p(.)?k(.)?(.)?", text)):
         scores["TT V1P"] = scores.get("TT V1P", 0) + 0.2
 
     # Cap scores between 0.0 and 1.0
