@@ -261,7 +261,8 @@ categories = {
         "cc not appear",
         "bantu cc x kuar",
         "cc tak appear 1-114576765037",
-        "1-116383637429 mohon bantu cc not appear"
+        "1-116383637429 mohon bantu cc not appear",
+        "order tiada butang cc di nova"
     ],
     "Order Returned but Unscheduled": [
         "2509000080687620 return jadi unscheduled",
