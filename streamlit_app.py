@@ -278,6 +278,9 @@ categories = {
     "Order Address Unsync": [
         "2509000082201564, address x sama dengan taas.  dalam tmf(alamat lama) : no 5a level 1 bazar mara jalan pantai batu 4 nil 71050 port dickson, negeri sembilan malaysia  dalam taas(yg betul) : 15-g jalan prima 4 g  lukut prima lukut negeri sembilan malaysia 71010"
     ],
+    "Order Unable to Slot": [
+        "calendar no slot orders num :2509000082543130"
+    ],
     "Force Done Order": [
         "order fd - mhn bypass - tq",
         "tukarkan cpe kepada existing, order force done"
