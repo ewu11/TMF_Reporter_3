@@ -788,7 +788,8 @@ categories = {
         "1-116571996775 update detail fdp & cab id, kerosakan di melaka, building btm..",
         "ftc dah snop.dalam tmf belum update.dah refresh fail  1-116379809716 old dp - dp slb_999_014_0001 new dp -  db slb_c054_db0021",
         "2509000082078987 granite kosong. dah refresh pun fail. ",
-        "del dp id ctt berikut : 1-26828131949"
+        "del dp id ctt berikut : 1-26828131949",
+        "detail granite not appear"
     ],
     "Update DP-Cabinet Location": [
         "salam team,  mohon bantuan update dp location order digi ni 1-115819132630 daripada on pole kepada building floor.",
