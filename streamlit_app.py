@@ -75,7 +75,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if (re.search(r"del(.)?(.)?(.)?", text) and re.search(r"(.)?d(c|p)( id)?", text)):
             scores["Update Granite Network Details"] = scores.get("Update Granite Network Details", 0) + 0.2
             scores["Invalid ICBRN Number"] = scores.get("Invalid ICBRN Number", 0) - 0.1
-        if ((re.search(r"(f)?d(c|p)?", text) or (re.search(r"cab(inet)?", text)) and re.search(r"map(ping)?", text):
+        if (re.search(r"(f)?d(c|p)?", text) or re.search(r"cab(inet)?", text)) and re.search(r"map(ping)?", text):
             scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.2
             scores["Update Granite Network Details"] = scores.get("Update Granite Network Details", 0) - 0.2
 
