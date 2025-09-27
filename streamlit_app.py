@@ -79,9 +79,10 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.2
             scores["Update Granite Network Details"] = scores.get("Update Granite Network Details", 0) - 0.2
         if ("no slot" in text):
-            scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.2
+            scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.3
             scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) - 0.1
             scores["Order Capping Issue"] = scores.get("Order Capping Issue", 0) - 0.1
+            scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) - 0.1
 
     if "order" in text or "oder" in text:
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
