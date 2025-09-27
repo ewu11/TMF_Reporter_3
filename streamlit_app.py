@@ -398,7 +398,8 @@ categories = {
         "order cust tambah mesh tp existing kat tmf rg6, kat rumah cust rg4.. boleh ke ui nak tick tambah dua2 baru skyworth",
         "2509000080337336 failed to scan barcode. getting error. mohon bantuan  uncfh5f32502005906 mesh uncfh5f32502009890",
         "2504000064702662 blh buang equipment ata, cust nk pakai unifi sahaja",
-        "ru tak boleh done order keluar error ni"
+        "ru tak boleh done order keluar error ni",
+        "xlepas nak bind cpe"
     ],
     "Unable to Swap Number": [
         "1-c1z5awa order whp tidak dapat swap number ...sudah call ftc dia suruh refer jcom",
