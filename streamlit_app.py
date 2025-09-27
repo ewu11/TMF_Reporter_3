@@ -203,6 +203,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) + 0.1
         scores["TT V1P"] = scores.get("TT V1P", 0) - 0.1
 
+    if (re.search(r"(tiada|xd(.)?)", text) and re.search(r"(.)?(.)?l", text)):
+        scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) + 0.2
+
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
 
