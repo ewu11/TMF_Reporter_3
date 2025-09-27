@@ -550,7 +550,8 @@ categories = {
         "revert ke rol",
         "keluar error ni untuk onsite. order force done cancel",
         "revert ke basket jcc, plgn nk proceed pasang 1-106182430364",
-        "untuk buka order rcl ke rrol  2508000078490589 1-115407078949 2509000080848720 2509000080183389 2509000082054485"
+        "untuk buka order rcl ke rrol  2508000078490589 1-115407078949 2509000080848720 2509000080183389 2509000082054485",
+        "masukkan semula order dlm resolved..order nak proceed"
     ],
     "Order In-Progress but Auto Done": [
         "tiba sendiri masa tengah nak masuk attachment . detail speedtest semua takmasuk pun lgi sbb nk bypass btu",
