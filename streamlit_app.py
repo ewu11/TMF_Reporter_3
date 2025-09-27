@@ -27,7 +27,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
 
     if "tt" in text or "ctt" in text:
         if "tiada slot" in text or "no slot" in text:
-            scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.1
+            scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.3
             scores["Next Order Activity Not Appear"] = scores.get("Next Order Activity Not Appear", 0) - 0.1
         if "boleh tukar combo ke" in text:
             scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.1
