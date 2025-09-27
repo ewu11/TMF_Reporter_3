@@ -209,7 +209,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if (re.search(r"(tiada|xd(.)?)", text) and re.search(r"(.)?(.)?l", text)):
         scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) + 0.2
 
-    if re.search(r"ra", text) and re.search(r"v1p", text):
+    if (re.search(r"ra", text) or re.search(r"ap(.)?(.)?(.)?(.)?(.)?(.)?(.)?(.)?(.)?", text)) and re.search(r"v1p", text):
         scores["TT V1P"] = scores.get("TT V1P", 0) + 0.2
 
     # Cap scores between 0.0 and 1.0
