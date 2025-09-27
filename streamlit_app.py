@@ -380,7 +380,8 @@ categories = {
         "minta bantu tukar new service point ke new combo box order modify infra dari vdsl ke ftth  1-116379809716",
         "add new service point 1-106717512390",
         "ubah equipment p existing",
-        "add new rg combo kerana dalam tmf missing cpe rg.order modify add mesh  sn rg combo : unc30val2411021166"
+        "add new rg combo kerana dalam tmf missing cpe rg.order modify add mesh  sn rg combo : unc30val2411021166",
+        "add on rg - action code new | 2509000082740713"
     ],
     "Update Order Equipment Details": [
         "nk done keluar error seperti berikut..tq router-rg6dlax32311015973 mesh rg6-rg6dlax32311015977",
