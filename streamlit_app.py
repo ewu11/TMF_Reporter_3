@@ -307,7 +307,8 @@ categories = {
     ],
     "Order Unable to Slot": [
         "calendar no slot orders num :2509000082543130",
-        "order status unscheduled xboleh slot"
+        "order status unscheduled xboleh slot",
+        "order tidak boleh book appointment."
     ],
     "Force Done Order": [
         "order fd - mhn bypass - tq",
