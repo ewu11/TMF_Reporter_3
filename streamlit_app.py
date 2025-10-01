@@ -230,11 +230,11 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["TT Error 400"] = scores.get("TT Error 400", 0) - 0.1
 
     if (re.search(r"appear", text) and re.search(r"cc", text)):
-            scores["CC Not Appear"] = scores.get("CC Not Appear", 0) + 0.2
+        scores["CC Not Appear"] = scores.get("CC Not Appear", 0) + 0.2
 
-    if (re.search(r"t(.)?mb(.)?h", text) and re.search(r"(btu|sp|service point)", text) or and re.search(r"d(.)?t(.)?(.)?l", text)):
-            scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) + 0.2
-            scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) - 0.1
+    if (re.search(r"t(.)?mb(.)?h", text) and re.search(r"(btu|sp|service point)", text) and re.search(r"d(.)?t(.)?(.)?l", text)):
+        scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) + 0.2
+        scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) - 0.1
 
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
