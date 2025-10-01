@@ -131,6 +131,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if (re.search(r"new(k(.)?n)?", text) and re.search(r"(vm|btu|sp|rg)", text)):
             scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.2
             scores["Force Done Order"] = scores.get("Force Done Order", 0) - 0.1
+        if (re.search(r"revert", text) and re.search(r"ke tmf system", text)):
+            scores["Revert BAU SWIFT-TMF Order"] = scores.get("Revert BAU SWIFT-TMF Order", 0) + 0.2
+            scores["Reopen Proposed Cancel Order"] = scores.get("Reopen Proposed Cancel Order", 0) - 0.1
     
     if "tukar kan equipment ke existing" in text or "hanya tambah fixed ip bukan tukar brg" in text:
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.1
