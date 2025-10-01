@@ -888,7 +888,8 @@ categories = {
         "add onu dalam tmforce",
         "old btu new btu",
         "update cpe dlm system  :  kerana error : sn not exist  ctt:1-116997958275  num siri cpe yg hendak ditukar: unc30val2412064577",
-        "bru pasang bulan 7 pakai fiber..dekat sub ada modem dan single box …dlm tmf hanya ada singlebox je..nk tukar modem"
+        "bru pasang bulan 7 pakai fiber..dekat sub ada modem dan single box …dlm tmf hanya ada singlebox je..nk tukar modem",
+        "boleh tukar combo ke customer nie. customer dah renew kontrak dekat tm point  1-117335657805"
     ],
     "TT - LR Linkage": [
         "salam team bantuan clear tmf ctt link lr20250312-39719 1-106191315217 1-106194182478 1-106312056435 1-106312232721 1-106346917798 1-106471083514 1-106678032670 1-109407463175  tq",
