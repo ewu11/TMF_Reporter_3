@@ -220,6 +220,10 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if (re.search(r"ra", text) or re.search(r"ap(.)?(.)?(.)?(.)?(.)?(.)?(.)?(.)?(.)?", text)) and re.search(r"v1p", text) or re.search(r"1-2\d{9,11}", text):
         scores["TT V1P"] = scores.get("TT V1P", 0) + 0.2
 
+    if re.search(r"25\d{12,14}", text) and re.search(r"slot", text):
+        scores["Order Unable to Slot"] = scores.get("Order Unable to Slot") + 0.1
+        scores["TT Error 400"] = scores.get("TT Error 400", 0) - 0.1
+
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
 
