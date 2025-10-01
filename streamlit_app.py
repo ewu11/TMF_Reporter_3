@@ -339,7 +339,9 @@ categories = {
         "update detail dibawah:  no order: 2509000081969792 no s/n: unc30val2410035159",
         "tukarkan rg7 ke rg6 kerana rg7 tiada stock 4.zone 5 : bw",
         "order id: 2509000080433971 2.ru id: q106095 3.masalah/req : tukarkan rg7 ke rg6 kerana rg7 tiada stock 4.zone 5 : bukit mertajam",
-        "wifi 7 ke wifi 6"
+        "wifi 7 ke wifi 6",
+        "order modify 1gb",
+        "2509000083144439-update wifi 7 ke wifi 6,order modify 1gb"
     ],
     "New/ Existing/ Delete Equipment Info Update": [
         "semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
