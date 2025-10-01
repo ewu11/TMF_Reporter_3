@@ -302,7 +302,8 @@ categories = {
         "address unsync iris:  sd4815419 order no: 2509000081940810 taas : view tmf order status :  processing tmf service item status :returned issue: unsync address  at tmf/ unable to reschedule correct add: 697-28-04 blok 697 kondominium desa kiara ss21 pj jalan damansara 28 ftth blok 697 kondominium desa kiara ss21  dlm tmf: no b-13a-11 level 13a blok b empire city jalan damansara damansara perdana pju 8 47820 petaling jaya, selangor malaysia"
     ],
     "Order Unable to Slot": [
-        "calendar no slot orders num :2509000082543130"
+        "calendar no slot orders num :2509000082543130",
+        "order status unscheduled xboleh slot"
     ],
     "Force Done Order": [
         "order fd - mhn bypass - tq",
