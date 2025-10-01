@@ -128,6 +128,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if (re.search(r"(butang|b(.)?t(.)?(.)?(.)?)", text) and re.search(r"cc", text)):
             scores["CC Not Appear"] = scores.get("CC Not Appear", 0) + 0.2
             scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) - 0.1
+        if (re.search(r"new(k(.)?n)?", text) and re.search(r"(vm|btu|sp|rg)", text)):
+            scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.2
+            scores["Force Done Order"] = scores.get("Force Done Order", 0) - 0.1
     
     if "tukar kan equipment ke existing" in text or "hanya tambah fixed ip bukan tukar brg" in text:
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.1
