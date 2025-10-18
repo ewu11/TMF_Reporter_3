@@ -254,6 +254,10 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["Order Returned but Unscheduled"] = scores.get("Order Returned but Unscheduled", 0) + 0.2
         scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) - 0.1
 
+    if re.search(r"100mb(.)?(.)?.*t(.)?k(.)?(.)?.*combo", text):
+        scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.2
+        scores["Order In-Progress but Auto Done"] = scores.get("Order In-Progress but Auto Done", 0) - 0.1
+
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
 
