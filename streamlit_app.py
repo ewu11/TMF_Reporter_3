@@ -86,7 +86,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if (re.search(r"stat(.)?(.)?(.)?", text) and re.search(r"m(.)?s(.)?(.)?", text)) and re.search(r"new", text):
             scores["TT Missing"] = scores.get("TT Missing", 0) + 0.2
         if (re.search(r"no slot", text)):
-            scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.1
+            scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.2
 
     if "order" in text or "oder" in text:
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
