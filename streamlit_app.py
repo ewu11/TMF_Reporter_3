@@ -191,7 +191,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if "order dah refresh network tp failed" in text:
         scores["Update Granite Network Details"] = scores.get("Update Granite Network Details", 0) + 0.3
 
-    if "tiada next owner" in text:
+    if "tiada next owner" in text or re.search(r"next act not appear", text):
         scores["Next Order Activity Not Appear"] = scores.get("Next Order Activity Not Appear", 0) + 0.2
 
     if "source skill blank" in text:
