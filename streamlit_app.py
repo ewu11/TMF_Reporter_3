@@ -197,6 +197,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if "source skill blank" in text:
         scores["TT - Activity Work Type Blank"] = scores.get("TT - Activity Work Type Blank", 0) + 0.2
 
+    if re.search(r"(.)?(.)? fail(.)?(.)? verify (.)?(.)?br(.)? cust(.)?(.)?(.)?(.)?", text):
+        scores["Invalid ICBRN Number"] = scores.get("Invalid ICBRN Number", 0) + 0.2
+    
     if "pending processing" in text:
         scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) + 0.1
 
