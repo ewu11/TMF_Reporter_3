@@ -317,7 +317,8 @@ categories = {
         "ra date hari ini jam4 pm..jadi unscheduled 2509000081041721",
         "1-116327524637 - bantuan order return jd unscheduled"
         "return jd unscheduled",
-        "order return jadi unschedule"
+        "order return jadi unschedule",
+        "update p status rtn"
     ],
     "Order Capping Issue": [
         "bukakan capping utk id q003975 nak slot whp 14 line 1 lokasi (cust minta buat semua harini)",
@@ -334,7 +335,9 @@ categories = {
     ],
     "Force Done Order": [
         "order fd - mhn bypass - tq",
-        "tukarkan cpe kepada existing, order force done"
+        "tukarkan cpe kepada existing, order force done",
+        "order forcedone for cancellation",
+        "order forcedone for cancellation. hsi failed to done. mohon bypass hsi"
     ],
     "RG6 - RG7 Equipment Info Update": [
         "equipment rg7 ke rg6 ax3000 (router dan juga mesh)",
