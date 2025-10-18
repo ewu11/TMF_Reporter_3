@@ -242,7 +242,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) + 0.2
         scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) - 0.1
 
-    if (re.search(r"d(.)?a", text) and re.search(r"m(.)?s(.)?(.)?.*(ip|in(.)?progre(.)?(.)?)", text)):
+    if (re.search(r"d(.)?a", text) and re.search(r"(m(.)?s(.)?(.)?.*)?(ip|in(.)?progre(.)?(.)?)", text)):
         scores["Order D&A In-Progress"] = scores.get("Order D&A In-Progress", 0) + 0.2
         scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) - 0.1
 
