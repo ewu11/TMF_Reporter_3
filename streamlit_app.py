@@ -89,7 +89,10 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.1
         if (re.search(r"cancel(.)?(.)?(.)? s(.)?l(.)?(.)?.*(act(.)?(.)?(.)?(.)?(.)?|ak(.)?(.)?(.)?(.)?(.)?(.)?|xtvt)", text)):
             scores["TT Duplicate Activity"] = scores.get("TT Duplicate Activity", 0) + 0.1
-
+        if re.search(r"patch.*(am|pm)", text):
+            scores["TT HSBA Reappointment"] = scores.get("TT HSBA Reappointment", 0) + 0.1 
+            scores["TT Missing"] = scores.get("TT Missing", 0) - 0.1
+    
     if "order" in text or "oder" in text:
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
             scores["RG6 - RG7 Equipment Info Update"] = scores.get("RG6 - RG7 Equipment Info Update", 0) + 0.1
