@@ -852,7 +852,8 @@ categories = {
         "team nak close tt x boleh",
         "status cancel dalam nova masih appier  dalam tmf",
         "id ni team ui  hari ni bantu  buat tt restoration  issue tiang bengkok , nak return ke nff tak boleh ..tt nova hsba digi 1-116633008355 tt status on site",
-        "tt 1-118250210770 sudah cancel tp portal x hilang lg"
+        "tt 1-118250210770 sudah cancel tp portal x hilang lg",
+        "ctt ni dah resolved tp dlm system belum closed.. aging 0106d 14:41:15.. mohon bantu boleh closed kan ke dlm system.."
     ],
     "Update Granite Network Details": [
         "1-116311380548 - betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
