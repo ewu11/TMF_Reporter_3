@@ -484,7 +484,8 @@ categories = {
         "boleh bypass hsi ke",
         "order force done. verify hsi failed",
         "verify hsi failed",
-        "minta bypass hsi,order dh psg tadi,cust terus off equipement dan dh bercuti 4.zone 5 : sja"
+        "minta bypass hsi,order dh psg tadi,cust terus off equipement dan dh bercuti 4.zone 5 : sja",
+        "ru dapat error nak donekan hsi 1-118001286324, interner dah up"
     ],
     "Bypass IPTV": [
         "tlg bypass iptv,order modify"
