@@ -587,7 +587,8 @@ categories = {
         "order ni dah onsite.. tp tetibe back default",
         "installation status done ,order masih status returned/processing",
         "order ni kuning dari pagi tadi..sya tiada usik apa2..masalah tidak dpt task",
-        "xboleh done order"
+        "xboleh done order",
+        "order siap pasang/completed pada 14/10/2025. tetapi dalam nova & tmf , order ini apt scheduled telah berubah tarikh kepada 17/10/2025. dalam nova/tmf order masih status processing. mohon bantu utk trigger status completed"
     ],
     "Revert BAU SWIFT-TMF Order": [
         "1-cbga8gd | assalam team, mohon revert id dibawah ke tmf system. urgent!!! tq 1-cbga8gd 1-cbgnu4p",
