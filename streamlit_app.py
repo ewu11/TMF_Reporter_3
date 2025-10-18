@@ -92,6 +92,8 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if re.search(r"patch.*(am|pm)", text):
             scores["TT HSBA Reappointment"] = scores.get("TT HSBA Reappointment", 0) + 0.1 
             scores["TT Missing"] = scores.get("TT Missing", 0) - 0.1
+        if (re.search(r"(whp|v1p)", text) and re.search(r"slot(.)?(.)?(.)?", text)):
+            scores["TT V1P"] = scores.get("TT V1P", 0) + 0.2
     
     if "order" in text or "oder" in text:
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
@@ -815,7 +817,8 @@ categories = {
         "tt tiada cab/id --1-26823601984",
         "ctt tak boleh slot appt 1-107063025547",
         "ctt no slot 1-118571148885 1-118589296285 1-118575450265 1-118555692365",
-        "tt 1-117806195075 tiada slot appt.."
+        "tt 1-117806195075 tiada slot appt..",
+        "bantu ctt x blh slot appt : 1-26829977648"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
