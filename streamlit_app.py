@@ -846,7 +846,8 @@ categories = {
         "1-116503447165 mohon bantuan team nak close tt x boleh",
         "team nak close tt x boleh",
         "status cancel dalam nova masih appier  dalam tmf",
-        "id ni team ui  hari ni bantu  buat tt restoration  issue tiang bengkok , nak return ke nff tak boleh ..tt nova hsba digi 1-116633008355 tt status on site"
+        "id ni team ui  hari ni bantu  buat tt restoration  issue tiang bengkok , nak return ke nff tak boleh ..tt nova hsba digi 1-116633008355 tt status on site",
+        "tt 1-118250210770 sudah cancel tp portal x hilang lg"
     ],
     "Update Granite Network Details": [
         "1-116311380548 - betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
@@ -885,7 +886,8 @@ categories = {
         "cancel 1 activity id 1-116247023935  a-0009903201 a-0009903196",
         "cancel act duplicate 1-116315708835 a-0009908381",
         "ctt 1-116586656460 mintak delete activiti a-0009962626 duplicate atas ctt yg sama",
-        "a-0009982910 - 1-116679412161 bntuan team delete xtvt ni. duplicate.tq"
+        "a-0009982910 - 1-116679412161 bntuan team delete xtvt ni. duplicate.tq",
+        "tt 1-118615976875 cancel slh 1 activity"
     ],
     "TT TMF-Physical CPE Unsync": [
         "sn rg fizikal dengan tmf tak sama  ctt : 1-116245831767 fizikal : 159fe54e0057211b0 tmf : 0405202300000",
