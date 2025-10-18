@@ -814,7 +814,8 @@ categories = {
         "tidak dapat view slot  , minta bantu mapping cab id & hsba skill set.  ctt: 1-116648418155 created date: 15/09/2025 11:21:08 am dp id: kin_c046_dp0007 customer : measat broadcast network systems sdn bhd  zone puchong",
         "tt tiada cab/id --1-26823601984",
         "ctt tak boleh slot appt 1-107063025547",
-        "ctt no slot 1-118571148885 1-118589296285 1-118575450265 1-118555692365"
+        "ctt no slot 1-118571148885 1-118589296285 1-118575450265 1-118555692365",
+        "tt 1-117806195075 tiada slot appt.."
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
