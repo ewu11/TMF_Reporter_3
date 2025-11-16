@@ -915,7 +915,8 @@ categories = {
         "cancel act duplicate 1-116315708835 a-0009908381",
         "ctt 1-116586656460 mintak delete activiti a-0009962626 duplicate atas ctt yg sama",
         "a-0009982910 - 1-116679412161 bntuan team delete xtvt ni. duplicate.tq",
-        "tt 1-118615976875 cancel slh 1 activity"
+        "tt 1-118615976875 cancel slh 1 activity",
+        "ctt 1-120219676215 duplicated"
     ],
     "TT TMF-Physical CPE Unsync": [
         "sn rg fizikal dengan tmf tak sama  ctt : 1-116245831767 fizikal : 159fe54e0057211b0 tmf : 0405202300000",
