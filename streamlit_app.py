@@ -320,7 +320,8 @@ categories = {
         "order rtn x masuk basket jcc",
         "order sip, act not appear",
         "order ni xda ble update any activity",
-        "update dlm rol"
+        "update dlm rol",
+        "missing owner"
     ],
     "CC Not Appear": [
         "cc not appear",
