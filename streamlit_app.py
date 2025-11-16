@@ -558,7 +558,8 @@ categories = {
         "dah masukan no ic betul tapi dapat error dalam tmf:",
         "ssm number in taas 1337374-m  2509000082430600 mohon bantu. team dah masukan no ssm yg betul tapi error nk done dlm tmf",
         "dah try ic dan ssm pun still tak boleh",
-        "ru failed verify br cust"
+        "ru failed verify br cust",
+        "icbr.. xbole pkai ic cust..sangkut nk closed order"
     ],
     "Invalid Order Segment": [
         "segment  kepada sme. order s10. tq 2509000080543072",
