@@ -325,7 +325,8 @@ categories = {
         "order ni xda ble update any activity",
         "update dlm rol",
         "missing owner",
-        "mir x appear"
+        "mir x appear",
+        "mir tak appear"
     ],
     "CC Not Appear": [
         "cc not appear",
