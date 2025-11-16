@@ -264,7 +264,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["Order In-Progress but Auto Done"] = scores.get("Order In-Progress but Auto Done", 0) - 0.1
 
     if re.search(r"mir.*a(.)?ear", text):
-        scores["Next Order Activity Not Appear"] = scores.get("Next Order Activity Not Appear", 0) + 0.1
+        scores["Next Order Activity Not Appear"] = scores.get("Next Order Activity Not Appear", 0) + 0.3
 
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
