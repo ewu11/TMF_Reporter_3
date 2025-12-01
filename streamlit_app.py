@@ -981,7 +981,7 @@ group_counter = 1
 # ------------------------
 # Regex for ticket/order/ID
 # ------------------------
-ID_PATTERN = re.compile(r"(?<!\w)(?:1-[A-Za-z0-9]+|250\d+|Q\d+|TM\d+)(?!\w)", re.IGNORECASE)
+ID_PATTERN = re.compile(r"(?<!\w)(?:1-[A-Za-z0-9]+|25\d+|Q\d+|TM\d+)(?!\w)", re.IGNORECASE)
 
 def has_valid_id(msg: str) -> bool:
     return bool(ID_PATTERN.search(msg))
