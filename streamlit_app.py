@@ -1045,7 +1045,23 @@ st.write("Enhanced report categorizer.")
 # Function to filter messages based on base names
 def filter_messages(file_contents, base_names):
     # timestamp_pattern = re.compile(r'\[\d{2}:\d{2}, \d{1,2}/\d{1,2}/\d{4}\]|^\[\d{1,2}/\d{1,2}/\d{4} \d{1,2}:\d{2} [APM]{2}]')
-    timestamp_pattern = re.compile(r'\[\d{1,2}/\d{1,2}/\d{4} \d{1,2}:\d{2} (?:am|pm)\]|\[\d{1,2}:\d{2} (?:am|pm), \d{1,2}/\d{1,2}/\d{4}\]|\[\d{1,2}:\d{2}, \d{1,2}/\d{1,2}/\d{4}\]|^\[\d{1,2}/\d{1,2}/\d{4} \d{1,2}:\d{2} [APM]{2}]')
+    # timestamp_pattern = re.compile(r'\[\d{1,2}/\d{1,2}/\d{4} \d{1,2}:\d{2} (?:am|pm)\]|\[\d{1,2}:\d{2} (?:am|pm), \d{1,2}/\d{1,2}/\d{4}\]|\[\d{1,2}:\d{2}, \d{1,2}/\d{1,2}/\d{4}\]|^\[\d{1,2}/\d{1,2}/\d{4} \d{1,2}:\d{2} [APM]{2}]')
+
+    timestamp_pattern = re.compile(
+        r'''
+        \[
+        (
+            # Date first formats
+            \d{1,2}/\d{1,2}/\d{4}\s+\d{1,2}:\d{2}\s*(?:am|pm)
+          |
+            # Time first formats (WhatsApp)
+            \d{1,2}:\d{2}\s*(?:am|pm),\s*\d{1,2}/\d{1,2}/\d{4}
+        )
+        \]
+        ''',
+        re.IGNORECASE | re.VERBOSE
+    )
+
     name_patterns = [
         re.compile(rf'\b{re.escape(name)}\b', re.IGNORECASE) if re.match(r'\w+', name)
         else re.compile(rf'{re.escape(name)}', re.IGNORECASE)  # No word boundary for non-word characters
