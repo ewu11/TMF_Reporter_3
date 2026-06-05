@@ -263,6 +263,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["TT RG6/ Combo Update"] = scores.get("TT RG6/ Combo Update", 0) + 0.2
         scores["Order In-Progress but Auto Done"] = scores.get("Order In-Progress but Auto Done", 0) - 0.1
 
+    if re.search(r"mir.*a(.)?ear", text):
+        scores["Next Order Activity Not Appear"] = scores.get("Next Order Activity Not Appear", 0) + 0.3
+
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
 
@@ -283,7 +286,8 @@ categories = {
         "mir dah done tapi ra masih ip. tapi dekat order activity list tulis record not found",
         "order tak appear dalam oal tmf",
         "order ra xappear di scheduled page",
-        "tiada dalam oal"
+        "tiada dalam oal",
+        "team order tk nampak dlm id nx2502095"
     ],
     "Next Order Activity Not Appear": [
         "tiada dlm rol..tq",
@@ -319,7 +323,10 @@ categories = {
         "order rtn x masuk basket jcc",
         "order sip, act not appear",
         "order ni xda ble update any activity",
-        "update dlm rol"
+        "update dlm rol",
+        "missing owner",
+        "mir x appear",
+        "mir tak appear"
     ],
     "CC Not Appear": [
         "cc not appear",
@@ -474,7 +481,8 @@ categories = {
         "2509000080337336 failed to scan barcode. getting error. mohon bantuan  uncfh5f32502005906 mesh uncfh5f32502009890",
         "2504000064702662 blh buang equipment ata, cust nk pakai unifi sahaja",
         "ru tak boleh done order keluar error ni",
-        "xlepas nak bind cpe"
+        "xlepas nak bind cpe",
+        "order relocate tak boleh close equipment tak same.."
     ],
     "Unable to Swap Number": [
         "1-c1z5awa order whp tidak dapat swap number ...sudah call ftc dia suruh refer jcom",
@@ -556,7 +564,9 @@ categories = {
         "dah masukan no ic betul tapi dapat error dalam tmf:",
         "ssm number in taas 1337374-m  2509000082430600 mohon bantu. team dah masukan no ssm yg betul tapi error nk done dlm tmf",
         "dah try ic dan ssm pun still tak boleh",
-        "ru failed verify br cust"
+        "ru failed verify br cust",
+        "icbr.. xbole pkai ic cust..sangkut nk closed order",
+        "icbr.. xbole pkai ic cust"
     ],
     "Invalid Order Segment": [
         "segment  kepada sme. order s10. tq 2509000080543072",
@@ -971,7 +981,16 @@ group_counter = 1
 # ------------------------
 # Regex for ticket/order/ID
 # ------------------------
-ID_PATTERN = re.compile(r"(?<!\w)(?:1-[A-Za-z0-9]+|250\d+|Q\d+|TM\d+)(?!\w)", re.IGNORECASE)
+# ID_PATTERN = re.compile(
+#     r"(?<!\w)(?:1-[A-Za-z0-9]+|2(0-9)\d+|Q\d+|TM\d+|TaaS-\d+)(?!\w)",
+#     re.IGNORECASE
+# )
+
+ID_PATTERN = re.compile(
+    r"(?<!\w)(?:1-[A-Za-z0-9]+|2\d+|Q\d+|TM\d+|TaaS-\d+)(?!\w)",
+    re.IGNORECASE
+)
+
 
 def has_valid_id(msg: str) -> bool:
     return bool(ID_PATTERN.search(msg))
@@ -1032,7 +1051,25 @@ st.write("Enhanced report categorizer.")
 # Function to filter messages based on base names
 def filter_messages(file_contents, base_names):
     # timestamp_pattern = re.compile(r'\[\d{2}:\d{2}, \d{1,2}/\d{1,2}/\d{4}\]|^\[\d{1,2}/\d{1,2}/\d{4} \d{1,2}:\d{2} [APM]{2}]')
-    timestamp_pattern = re.compile(r'\[\d{1,2}/\d{1,2}/\d{4} \d{1,2}:\d{2} (?:am|pm)\]|\[\d{1,2}:\d{2} (?:am|pm), \d{1,2}/\d{1,2}/\d{4}\]|\[\d{1,2}:\d{2}, \d{1,2}/\d{1,2}/\d{4}\]|^\[\d{1,2}/\d{1,2}/\d{4} \d{1,2}:\d{2} [APM]{2}]')
+    # timestamp_pattern = re.compile(r'\[\d{1,2}/\d{1,2}/\d{4} \d{1,2}:\d{2} (?:am|pm)\]|\[\d{1,2}:\d{2} (?:am|pm), \d{1,2}/\d{1,2}/\d{4}\]|\[\d{1,2}:\d{2}, \d{1,2}/\d{1,2}/\d{4}\]|^\[\d{1,2}/\d{1,2}/\d{4} \d{1,2}:\d{2} [APM]{2}]')
+
+    # now allows 24hr format/ am_pm
+    timestamp_pattern = re.compile(
+        r'''
+        \[
+        (
+            # Date first formats
+            \d{1,2}/\d{1,2}/\d{4}\s+\d{1,2}:\d{2}(?:\s*(?:am|pm))?
+          |
+            # Time first formats (WhatsApp)
+            \d{1,2}:\d{2}(?:\s*(?:am|pm))?,\s*\d{1,2}/\d{1,2}/\d{4}
+        )
+        \]
+        ''',
+        re.IGNORECASE | re.VERBOSE
+    )
+
+
     name_patterns = [
         re.compile(rf'\b{re.escape(name)}\b', re.IGNORECASE) if re.match(r'\w+', name)
         else re.compile(rf'{re.escape(name)}', re.IGNORECASE)  # No word boundary for non-word characters
