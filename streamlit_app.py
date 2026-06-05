@@ -247,7 +247,11 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if (re.search(r"appear", text) and re.search(r"cc", text)):
         scores["CC Not Appear"] = scores.get("CC Not Appear", 0) + 0.2
 
-    if (re.search(r"t(.)?mb(.)?h", text) and re.search(r"(btu|sp|service point)", text) and re.search(r"d(.)?t(.)?(.)?l", text)):
+    if (
+        (re.search(r"t(.)?mb(.)?h", text) and re.search(r"(btu|sp|service point)", text) and re.search(r"d(.)?t(.)?(.)?l", text))
+        or
+        (re.search(r"(add|t(.)?mb(.)?h)", text) and re.search(r"eq(.)(.)(.)m(.)(.)(.)", text) and re.search(r"stb|upb|ata", text))
+    ):
         scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) + 0.2
         scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) - 0.1
 
@@ -948,7 +952,8 @@ categories = {
         "update cpe dlm system  :  kerana error : sn not exist  ctt:1-116997958275  num siri cpe yg hendak ditukar: unc30val2412064577",
         "bru pasang bulan 7 pakai fiber..dekat sub ada modem dan single box …dlm tmf hanya ada singlebox je..nk tukar modem",
         "boleh tukar combo ke customer nie. customer dah renew kontrak dekat tm point  1-117335657805",
-        "taas-104677993 bantu add upb dlm cpe list cust ada asset upb/stb...kt list equipment takde.cust report iptv down"
+        "taas-104677993 bantu add upb dlm cpe list cust ada asset upb/stb...kt list equipment takde.cust report iptv down",
+        "taas-104704440 upb cust rosak. team nk tukar tp tiada di equipment dlm tmf. boleh tmbh ke dlm tmf"
     ],
     "TT - LR Linkage": [
         "salam team bantuan clear tmf ctt link lr20250312-39719 1-106191315217 1-106194182478 1-106312056435 1-106312232721 1-106346917798 1-106471083514 1-106678032670 1-109407463175  tq",
