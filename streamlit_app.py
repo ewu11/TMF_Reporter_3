@@ -1024,7 +1024,12 @@ def clean_message(msg: str) -> str:
     # Lowercase
     msg = msg.lower()
     # Remove punctuation
-    msg = re.sub(rf"[{re.escape(string.punctuation)}]", " ", msg)
+    # msg = re.sub(rf"[{re.escape(string.punctuation)}]", " ", msg)
+
+    # only remove punctuation kalau bukan ticket/ order format
+    if not ID_PATTERN.sub("", msg):
+        msg = re.sub(rf"[{re.escape(string.punctuation)}]", " ", msg)
+    
     # Collapse multiple spaces
     msg = re.sub(r"\s+", " ", msg)
     return msg.strip()
