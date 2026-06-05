@@ -1041,6 +1041,8 @@ def categorize_message(msg):
         for cat, emb_cat in category_embeddings.items()
     }
 
+    st.code('clean_msg', clean_msg)
+
     # Apply biasing rules
     scores = apply_bias(clean_msg, scores)
 
