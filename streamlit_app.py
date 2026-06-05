@@ -273,6 +273,10 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if re.search(r"mir.*a(.)?ear", text):
         scores["Next Order Activity Not Appear"] = scores.get("Next Order Activity Not Appear", 0) + 0.3
 
+    if (re.search(r"slot", text, re.IGNORECASE) and re.search(r"\b1-\d{12}\b", text)):
+        scores["TT HSBA Reappointment"] = scores.get("TT HSBA Reappointment", 0) + 0.2
+        scores["TT V1P"] = scores.get("TT V1P", 0) - 0.1
+
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
 
@@ -1195,7 +1199,7 @@ with tab2:
             results.append((msg, cat, round(score, 2)))
 
         # saja test
-        st.code(results)
+        # st.code(results)
 
         # Choose View Mode
         view_mode = st.radio("Select View Mode", ["Developer View", "User View"])
