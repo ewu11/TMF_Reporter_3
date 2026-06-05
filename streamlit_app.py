@@ -58,7 +58,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["TT - LR Linkage"] = scores.get("TT - LR Linkage", 0) + 0.2
             scores["Manual Assign Button not Appear"] = scores.get("Manual Assign Button not Appear", 0) - 0.1
         if "v1p" in text and "slot" in text:
-            scores["TT V1P"] = scores.get("TT V1P", 0) + 0.2
+            scores[""] = scores.get("", 0) + 0.2
             scores["Order Capping Issue"] = scores.get("Order Capping Issue", 0) - 0.1
         if (re.search(r"slot", text)) and (re.search(r"ap(.)?(.)?(.)?(.)?(.)?(.)?", text)):
             scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.3
@@ -93,7 +93,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["TT HSBA Reappointment"] = scores.get("TT HSBA Reappointment", 0) + 0.1 
             scores["TT Missing"] = scores.get("TT Missing", 0) - 0.1
         if (re.search(r"(whp|v1p)", text) and re.search(r"slot(.)?(.)?(.)?", text)):
-            scores["TT V1P"] = scores.get("TT V1P", 0) + 0.2
+            scores[""] = scores.get("", 0) + 0.2
         if (re.search(r"t(.)k(.)(.).*cpe.*b(.)ru", text) and re.search(r"t(.)t(.)(.)", text)):
             scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) + 0.2
             scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) - 0.1
@@ -161,7 +161,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
 
     if ("slot" in text or "slotkan" in text or "set" in text) and ("appointmnet" in text or "appmnt" in text or "apt" in text or "appmnt" in text or "appt" in text) and ("v1p" in text or "whp" in text):
-        scores["TT V1P"] = scores.get("TT V1P", 0) + 0.2
+        scores[""] = scores.get("", 0) + 0.2
         scores["TT HSBA Reappointment"] = scores.get("TT HSBA Reappointment", 0) - 0.1
 
     if "fdp" in text or "cab" in text:
@@ -173,10 +173,10 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["RG6 - RG7 Equipment Info Update"] = scores.get("RG6 - RG7 Equipment Info Update", 0) - 0.2
 
     if ("appointment" in text or "appmnt" in text or "appt" in text or "apt" in text or "appment" in text) and "set" in text and ("pukul" in text or "jam" in text):
-        scores["TT V1P"] = scores.get("TT V1P]", 0) + 0.2
+        scores[""] = scores.get("]", 0) + 0.2
         scores["Order Capping Issue"] = scores.get("Order Capping Issue", 0) - 0.1
         if re.search(r"\b1-2\d{10,11}\b", text) or re.search(r"slot.*id", text):
-            scores["TT V1P"] = scores.get("TT V1P]", 0) + 0.4
+            scores[""] = scores.get("]", 0) + 0.4
             scores["TT HSBA Reappointment"] = scores.get("TT HSBA Reappointment", 0) - 0.1
             scores["TT Unsync"] = scores.get("TT Unsync", 0) - 0.1
             scores["Release Assign to Me"] = scores.get("Release Assign to Me", 0) - 0.1
@@ -188,7 +188,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
 
     if ("ctt" in text or "tt" in text) and ("view slot" in text or "skillset" in text or "slot" in text or "mapping" in text or "cab" in text or "cabinet" in text or "dp" in text):
         scores["TT Error 400"] = scores.get("TT Error 400]", 0) + 0.2
-        scores["TT V1P"] = scores.get("TT V1P", 0) - 0.1
+        scores[""] = scores.get("", 0) - 0.1
         scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) - 0.1
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
 
@@ -235,13 +235,13 @@ def apply_bias(msg: str, scores: dict) -> dict:
 
     if (re.search(r"ada", text)) and (re.search(r"tm(.)?f(orce)?", text)) and (re.search(r"h(.)?n(.)?(.)?", text)):
         scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) + 0.1
-        scores["TT V1P"] = scores.get("TT V1P", 0) - 0.1
+        scores[""] = scores.get("", 0) - 0.1
 
     if (re.search(r"(tiada|xd(.)?)", text) and re.search(r"(.)?(.)?l", text)):
         scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) + 0.2
 
     if (re.search(r"ra", text) or re.search(r"ap(.)?(.)?(.)?(.)?(.)?(.)?(.)?(.)?(.)?", text)) and re.search(r"v1p", text) or re.search(r"1-2\d{9,11}", text):
-        scores["TT V1P"] = scores.get("TT V1P", 0) + 0.2
+        scores[""] = scores.get("", 0) + 0.2
 
     if re.search(r"25\d{12,14}", text) and re.search(r"slot", text):
         scores["Order Unable to Slot"] = scores.get("Order Unable to Slot") + 0.1
@@ -1193,6 +1193,9 @@ with tab2:
         for msg in messages:
             cat, score = categorize_message(msg)
             results.append((msg, cat, round(score, 2)))
+
+        # saja test
+        st.code(results)
 
         # Choose View Mode
         view_mode = st.radio("Select View Mode", ["Developer View", "User View"])
