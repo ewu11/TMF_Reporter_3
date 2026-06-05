@@ -94,6 +94,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["TT Missing"] = scores.get("TT Missing", 0) - 0.1
         if (re.search(r"(whp|v1p)", text) and re.search(r"slot(.)?(.)?(.)?", text)):
             scores["TT V1P"] = scores.get("TT V1P", 0) + 0.2
+        if (re.search(r"t(.)k(.)(.).*cpe.*b(.)ru", text) and re.search(r"slot(.)?(.)?(.)?", text)):
+            scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) + 0.2
+            scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) - 0.1
     
     if "order" in text or "oder" in text:
         if "tukar equipment ke combo ax3000" in text or "customer package" in text:
@@ -832,7 +835,18 @@ categories = {
         "ctt tak boleh slot appt 1-107063025547",
         "ctt no slot 1-118571148885 1-118589296285 1-118575450265 1-118555692365",
         "tt 1-117806195075 tiada slot appt..",
-        "bantu ctt x blh slot appt : 1-26829977648"
+        "bantu ctt x blh slot appt : 1-26829977648",
+        "1-115733638005 | salam team,  mohon bantuan tidak dapat view slot ctt: 1-115733638005 dp id:  mti_c102_dp0001",
+        "salam tmf team, @normah mohd salleh @kak nurul mohon bantuan untuk issue ctt ni team: 1-114491447905 missing cab di granite di tm force. ctt : 1-114491447905 cab : swy_c019 dp : swy_c019_dp0017",
+        "missing cab di granite di tm force",
+        "1-116379866205 ult_c010_dp0050 mohon bantuan no slot",
+        "bantuan tt slot",
+        "bantu ctt no slot",
+        "tidak dapat view slot, ada error 400, advice tmf team, mapping cab id & hsba skill set ke_c999_056.  ctt number :1-116535146015 created date : 12/09/2025 09:59:30 am dp id : fsn_c027a_dp0011 customer : measat broadcast network systems sdn bhd",
+        "taas-104708187 tak dapat book appt, mohon bantuan tq",
+        "mohon bantu tak dapat slot appt taas-104707739",
+        "taas-104677487 mohon bantuan ctt error nak book appointment",
+        "taas-104694855 salam...bantu slot appt fail, tq"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
@@ -879,7 +893,8 @@ categories = {
         "status cancel dalam nova masih appier  dalam tmf",
         "id ni team ui  hari ni bantu  buat tt restoration  issue tiang bengkok , nak return ke nff tak boleh ..tt nova hsba digi 1-116633008355 tt status on site",
         "tt 1-118250210770 sudah cancel tp portal x hilang lg",
-        "ctt ni dah resolved tp dlm system belum closed.. aging 0106d 14:41:15.. mohon bantu boleh closed kan ke dlm system.."
+        "ctt ni dah resolved tp dlm system belum closed.. aging 0106d 14:41:15.. mohon bantu boleh closed kan ke dlm system..",
+        "taas-104581696 taas-104602803 taas-104602966 bntuan clearkn ctt closed"
     ],
     "Update Granite Network Details": [
         "1-116311380548 - betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
@@ -904,15 +919,6 @@ categories = {
         "daripada on pole kepada building floor",
         "dekat granite dp type street cabinet tapi di network on pole. dekat site dp type yang betul adalah street cabinet",
         "tukarkan network tagging dari on pole ke building floor...dekat site order bf"
-    ],
-    "TT Error 400": [
-        "1-115733638005 | salam team,  mohon bantuan tidak dapat view slot ctt: 1-115733638005 dp id:  mti_c102_dp0001",
-        "salam tmf team, @normah mohd salleh @kak nurul mohon bantuan untuk issue ctt ni team: 1-114491447905 missing cab di granite di tm force. ctt : 1-114491447905 cab : swy_c019 dp : swy_c019_dp0017",
-        "missing cab di granite di tm force",
-        "1-116379866205 ult_c010_dp0050 mohon bantuan no slot",
-        "bantuan tt slot",
-        "bantu ctt no slot",
-        "tidak dapat view slot, ada error 400, advice tmf team, mapping cab id & hsba skill set ke_c999_056.  ctt number :1-116535146015 created date : 12/09/2025 09:59:30 am dp id : fsn_c027a_dp0011 customer : measat broadcast network systems sdn bhd"
     ],
     "TT Duplicate Activity": [
         "cancel 1 activity id 1-116247023935  a-0009903201 a-0009903196",
@@ -953,7 +959,8 @@ categories = {
         "bru pasang bulan 7 pakai fiber..dekat sub ada modem dan single box …dlm tmf hanya ada singlebox je..nk tukar modem",
         "boleh tukar combo ke customer nie. customer dah renew kontrak dekat tm point  1-117335657805",
         "taas-104677993 bantu add upb dlm cpe list cust ada asset upb/stb...kt list equipment takde.cust report iptv down",
-        "taas-104704440 upb cust rosak. team nk tukar tp tiada di equipment dlm tmf. boleh tmbh ke dlm tmf"
+        "taas-104704440 upb cust rosak. team nk tukar tp tiada di equipment dlm tmf. boleh tmbh ke dlm tmf",
+        "minta valid kan warranty untuk service point ni"
     ],
     "TT - LR Linkage": [
         "salam team bantuan clear tmf ctt link lr20250312-39719 1-106191315217 1-106194182478 1-106312056435 1-106312232721 1-106346917798 1-106471083514 1-106678032670 1-109407463175  tq",
