@@ -1020,7 +1020,7 @@ def extract_ids(msg: str):
 # ------------------------
 def clean_message(msg: str) -> str:
     # Remove ticket/order IDs
-    msg = ID_PATTERN.sub("", msg)
+    # msg = ID_PATTERN.sub("", msg) #-----------------saya remove ni jap..we need the ticket#/ order# in the categorizer as well
     # Lowercase
     msg = msg.lower()
     # Remove punctuation
