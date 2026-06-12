@@ -916,7 +916,8 @@ categories = {
         "2509000082078987 granite kosong. dah refresh pun fail. ",
         "del dp id ctt berikut : 1-26828131949",
         "detail granite not appear",
-        "tambah detail btu dalam tmf. site tukar btu tapi detail btu lama tiada dalam tmf"
+        "tambah detail btu dalam tmf. site tukar btu tapi detail btu lama tiada dalam tmf",
+        "1-130489807326 | mohon bantu repatch buidling id  1-130489807326 sepatutnya srg bukan sag  sd5312208"
     ],
     "Update DP-Cabinet Location": [
         "salam team,  mohon bantuan update dp location order digi ni 1-115819132630 daripada on pole kepada building floor.",
