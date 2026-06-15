@@ -280,6 +280,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["TT HSBA Reappointment"] = scores.get("TT HSBA Reappointment", 0) + 0.2
         scores["TT V1P"] = scores.get("TT V1P", 0) - 0.1
 
+    if (re.search(r"up(.)?(.)?(.)?(.)? eq(.)?(.)?(.)?(.)?(.)?(.)?(.)?", text, re.IGNORECASE) and re.search(r"2\d+", text)):
+        scores["Update Order Equipment Details"] = scores.get("TT HSBA Reappointment", 0) + 0.2
+        scores["TT Error 400"] = scores.get("TT Error 400", 0) - 0.1
 
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
@@ -415,7 +418,8 @@ categories = {
         "order id: 2509000080433971 2.ru id: q106095 3.masalah/req : tukarkan rg7 ke rg6 kerana rg7 tiada stock 4.zone 5 : bukit mertajam",
         "wifi 7 ke wifi 6",
         "order modify 1gb",
-        "2509000083144439-update wifi 7 ke wifi 6,order modify 1gb"
+        "2509000083144439-update wifi 7 ke wifi 6,order modify 1gb",
+        "template request patch rg7 to rg6 (1g)  2605000109565268 unc30val2601009624 unc30val2601009623"
     ],
     "New/ Existing/ Delete Equipment Info Update": [
         "semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
@@ -498,7 +502,10 @@ categories = {
         "ru tak boleh done order keluar error ni",
         "xlepas nak bind cpe",
         "order relocate tak boleh close equipment tak same..",
-        "mohon bantuan, team x blh complete order, tq nbr order : 2605000108920789 rg : uncfh5f32412020269 mesh : uncfh5f32412020416  nx2504618 byb"
+        "mohon bantuan, team x blh complete order, tq nbr order : 2605000108920789 rg : uncfh5f32412020269 mesh : uncfh5f32412020416  nx2504618 byb",
+        "mohon mohon bantuan , orde tak boleh ada error pink 2606000110121172  uncztef62601010477 uncztef62601007117 dphrgcml2105017079",
+        "2605000109260333 bantu error update equipment  main router sn:uncfh5f32412029026 mac:d400682c7c98  mesh router sn:uncfh5f32412029039 mac:d400682c7d00",
+        "mohon bantu 2606000110367300 2606000110202174  sn- tiada mac- tiada  cust pakai firewall"
     ],
     "Unable to Swap Number": [
         "1-c1z5awa order whp tidak dapat swap number ...sudah call ftc dia suruh refer jcom",
@@ -532,7 +539,8 @@ categories = {
         "ru dapat error nak donekan hsi 1-118001286324, interner dah up"
     ],
     "Bypass IPTV": [
-        "tlg bypass iptv,order modify"
+        "tlg bypass iptv,order modify",
+        "2605000109569633 / sd5300730 /mohon bypass iptv, cust ni tak de tv"
     ],
     "Manual Assign Button not Appear": [
         "tiada button manual assign",
@@ -982,7 +990,8 @@ categories = {
         "boleh tukar combo ke customer nie. customer dah renew kontrak dekat tm point  1-117335657805",
         "taas-104677993 bantu add upb dlm cpe list cust ada asset upb/stb...kt list equipment takde.cust report iptv down",
         "taas-104704440 upb cust rosak. team nk tukar tp tiada di equipment dlm tmf. boleh tmbh ke dlm tmf",
-        "minta valid kan warranty untuk service point ni"
+        "minta valid kan warranty untuk service point ni",
+        "photo salam taas-104847067 tak boleh done untuk mesh . untuk main router ok minta checkan main router sn lama = com60vdl2312004032 main router sn baru = cw7220al2508037336  mesh router sn lama= com60vdl2312004424 mesh router sn baru= cw7220al2508037338"
     ],
     "TT - LR Linkage": [
         "salam team bantuan clear tmf ctt link lr20250312-39719 1-106191315217 1-106194182478 1-106312056435 1-106312232721 1-106346917798 1-106471083514 1-106678032670 1-109407463175  tq",
@@ -1008,6 +1017,10 @@ categories = {
     "TT - SP to RG": [
         "assalamualaikum / salam sejahtera mohon bantuan tukarkan service point kepada wi-fi(rg)  ctt no:taas-104672919 login id: wkc2016@unifi old s/n: rg6fhax32208052935 new s/n: uncfh5f32511069318",
         "assalamualaikum / salam sejahtera mohon bantuan tukarkan service point kepada wi-fi(rg)  ctt no:taas-104672919 login id: wkc2016@unifi old s/n: rg6fhax32208052935 new s/n: uncfh5f32511069318 successfully updated sp to rg: taas-104672919"
+    ],
+    "TT - Address Unsync": [
+        "taas-104886595 bantuan, alamat di tmf tak sama dgn spanms. cust dah buat report baru pun masih keluar alamat salah. alamat di spanms alamat yg betul.",
+        "taas-104886595 bantuan, alamat di tmf tak sama dgn spanms. cust dah buat report baru pun masih keluar alamat salah. alamat di spanms alamat yg betul. create  iris hantar  ke taas"
     ]
 }
 
