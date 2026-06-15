@@ -78,7 +78,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if (re.search(r"(f)?d(c|p)?", text) or re.search(r"cab(inet)?", text)) and re.search(r"map(ping)?", text):
             scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.2
             scores["Update Granite Network Details"] = scores.get("Update Granite Network Details", 0) - 0.2
-        if ("no slot" in text):
+        if ("no slot" in text or re.search("(t(.)?k|x) b(.)?l(.)?h sl(.)?t a(.)?(.)?(.)?(.)?(.)?(.)?(.)?(.)?(.)?t", text)):
             scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.3
             scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) - 0.1
             scores["Order Capping Issue"] = scores.get("Order Capping Issue", 0) - 0.1
@@ -1002,7 +1002,8 @@ categories = {
     ],
     "TT - Invalid Customer Info": [
         "taas-104690825, ctt tidak dpt close due to error",
-        "taas-104708187 tak dapat book appt, mohon bantuan tq"
+        "taas-104708187 tak dapat book appt, mohon bantuan tq",
+        "bantu ctt x blh slot appt: error TaaS-104606125"
     ],
     "TT - SP to RG": [
         "assalamualaikum / salam sejahtera mohon bantuan tukarkan service point kepada wi-fi(rg)  ctt no:taas-104672919 login id: wkc2016@unifi old s/n: rg6fhax32208052935 new s/n: uncfh5f32511069318",
