@@ -151,6 +151,9 @@ def apply_bias(msg: str, scores: dict) -> dict:
         if (re.search(r"(nova|tm(.)?f(orce)?(.*siap.*p(.)?s(.)?(.)?(.)?)?)", text) and re.search(r"(m(.)?s(.)?(.)?.*process(.)?(.)?(.)?)", text)):
             scores["Unsync Order"] = scores.get("Unsync Order", 0) + 0.2
             scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) - 0.1
+        if (re.search(r"c(.)?(.)?pl(.)?te(.)?.*t(.)?p(.)? m(.)?(.)?(.)?(.)? (in(.)?progre(.)?(.)?|ip)", text) and re.search(r"", text)):
+            scores["Unsync Order"] = scores.get("Unsync Order", 0) + 0.2
+            scores["Order Capping Issue"] = scores.get("Order Capping Issue", 0) - 0.1
     
     if "tukar kan equipment ke existing" in text or "hanya tambah fixed ip bukan tukar brg" in text:
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) + 0.1
