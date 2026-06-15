@@ -284,6 +284,17 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["Update Order Equipment Details"] = scores.get("TT HSBA Reappointment", 0) + 0.2
         scores["TT Error 400"] = scores.get("TT Error 400", 0) - 0.1
 
+    if (re.search(r"b(.)?(.)?(.)?(.)?(.)?(.)?g|c(.)?b(inet)?|(.)?dc.*id", text, re.IGNORECASE)):
+        scores["Update Granite Network Details"] = scores.get("Update Granite Network Details", 0) + 0.2
+        scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) - 0.1
+
+    if (re.search(r"del(.)?(.)?(.)?.*rg5.*new.*eq(.)?(.)?(.)?(.)?(.)?(.)?(.)?.*rg6.*combo.", text, re.IGNORECASE) 
+        or re.search(r"mod(.)?(.)?(.)? ord(.)?r cpe list not match", text, re.IGNORECASE)
+       ):
+        scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) + 0.2
+        scores["TT RG5 Equipment Update"] = scores.get("TT RG5 Equipment Update", 0) - 0.1
+        scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) - 0.1
+
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
 
@@ -505,7 +516,8 @@ categories = {
         "mohon bantuan, team x blh complete order, tq nbr order : 2605000108920789 rg : uncfh5f32412020269 mesh : uncfh5f32412020416  nx2504618 byb",
         "mohon mohon bantuan , orde tak boleh ada error pink 2606000110121172  uncztef62601010477 uncztef62601007117 dphrgcml2105017079",
         "2605000109260333 bantu error update equipment  main router sn:uncfh5f32412029026 mac:d400682c7c98  mesh router sn:uncfh5f32412029039 mac:d400682c7d00",
-        "mohon bantu 2606000110367300 2606000110202174  sn- tiada mac- tiada  cust pakai firewall"
+        "mohon bantu 2606000110367300 2606000110202174  sn- tiada mac- tiada  cust pakai firewall",
+        "mohon bantuan modify order cpe list not match  rg no : unc30val2602023702 mesh no : dekat site tiada mesh"
     ],
     "Unable to Swap Number": [
         "1-c1z5awa order whp tidak dapat swap number ...sudah call ftc dia suruh refer jcom",
