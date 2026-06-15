@@ -277,6 +277,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["TT HSBA Reappointment"] = scores.get("TT HSBA Reappointment", 0) + 0.2
         scores["TT V1P"] = scores.get("TT V1P", 0) - 0.1
 
+
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
 
@@ -493,7 +494,8 @@ categories = {
         "2504000064702662 blh buang equipment ata, cust nk pakai unifi sahaja",
         "ru tak boleh done order keluar error ni",
         "xlepas nak bind cpe",
-        "order relocate tak boleh close equipment tak same.."
+        "order relocate tak boleh close equipment tak same..",
+        "mohon bantuan, team x blh complete order, tq nbr order : 2605000108920789 rg : uncfh5f32412020269 mesh : uncfh5f32412020416  nx2504618 byb"
     ],
     "Unable to Swap Number": [
         "1-c1z5awa order whp tidak dapat swap number ...sudah call ftc dia suruh refer jcom",
@@ -643,7 +645,8 @@ categories = {
         "order ni kuning dari pagi tadi..sya tiada usik apa2..masalah tidak dpt task",
         "xboleh done order",
         "order siap pasang/completed pada 14/10/2025. tetapi dalam nova & tmf , order ini apt scheduled telah berubah tarikh kepada 17/10/2025. dalam nova/tmf order masih status processing. mohon bantu utk trigger status completed",
-        "oder ni sy x active.. tapi dekat saya dah hijau"
+        "oder ni sy x active.. tapi dekat saya dah hijau",
+        "ru id : nx2504314 exch id : srk order no : 1-129420544229 segment : wholesale remark : minta tolong report ke git , order completed tapi masih in progress , tq"
     ],
     "Revert BAU SWIFT-TMF Order": [
         "1-cbga8gd | assalam team, mohon revert id dibawah ke tmf system. urgent!!! tq 1-cbga8gd 1-cbgnu4p",
@@ -668,6 +671,13 @@ categories = {
         "team baru buat hsi .. terus auto done order..",
         "order xdan scan barcode sn dah skip pi ke saf ..",
         "ui blum complete tp tetiba dh status hijau dlm tmf."
+    ],
+    "Order Missing VOBB/ HSI Password": [
+        "2605000109270220 minta bntuan password voice tiada dlm tmf  mohon advise dgn siapa atau langkah seterusnya utk kami request detail vobb yang n/a dalam tmf",
+        "1-130166198153 nideyefatoudiallo@unifi mohon reset password hsi"
+    ],
+    "Unsync Address Issue": [
+        "mohon bantu unsync address taas & tmf .tq"  
     ],
     "TT RG5 Equipment Update": [
         "cpe rg5 & onu ke new router combo",
@@ -898,7 +908,10 @@ categories = {
         "id ni team ui  hari ni bantu  buat tt restoration  issue tiang bengkok , nak return ke nff tak boleh ..tt nova hsba digi 1-116633008355 tt status on site",
         "tt 1-118250210770 sudah cancel tp portal x hilang lg",
         "ctt ni dah resolved tp dlm system belum closed.. aging 0106d 14:41:15.. mohon bantu boleh closed kan ke dlm system..",
-        "taas-104581696 taas-104602803 taas-104602966 bntuan clearkn ctt closed"
+        "taas-104581696 taas-104602803 taas-104602966 bntuan clearkn ctt closed",
+        "status activity dah resolve taas-104680272 -ctt ini pun status resolved,  boleh masuk balik lagi activity list. tapi  ctt taas-104680575 status resolved,  tak dpt masuk balik activity list.",
+        "yang pernah berjaya masuk balik activity list taas-104680272 taas-104668845  yang tidak berjaya masuk balik activity list taas-104680575 taas-104555595",
+        "ctt ini pun status resolved,  boleh masuk balik lagi activity list. tapi  ctt taas-104680575 status resolved,  tak dpt masuk balik activity list."
     ],
     "Update Granite Network Details": [
         "1-116311380548 - betulkan dp id tin-1-d6qy8p3-001 kepada tin_c006_db0034",
@@ -917,7 +930,8 @@ categories = {
         "del dp id ctt berikut : 1-26828131949",
         "detail granite not appear",
         "tambah detail btu dalam tmf. site tukar btu tapi detail btu lama tiada dalam tmf",
-        "1-130489807326 | mohon bantu repatch buidling id  1-130489807326 sepatutnya srg bukan sag  sd5312208"
+        "1-130489807326 | mohon bantu repatch buidling id  1-130489807326 sepatutnya srg bukan sag  sd5312208",
+        "taas-104656075, mohon bantuan update kepada dp id yg betul tq pn_c013_dp0053"
     ],
     "Update DP-Cabinet Location": [
         "salam team,  mohon bantuan update dp location order digi ni 1-115819132630 daripada on pole kepada building floor.",
@@ -982,6 +996,14 @@ categories = {
     "User Management Issues": [
         "ru inform id problem tak dapat masuk tmf q004560",
         "team unbale to log id id baru"
+    ],
+    "TT - Invalid Customer Info": [
+        "taas-104690825, ctt tidak dpt close due to error",
+        "taas-104708187 tak dapat book appt, mohon bantuan tq"
+    ],
+    "TT - SP to RG": [
+        "assalamualaikum / salam sejahtera mohon bantuan tukarkan service point kepada wi-fi(rg)  ctt no:taas-104672919 login id: wkc2016@unifi old s/n: rg6fhax32208052935 new s/n: uncfh5f32511069318",
+        "assalamualaikum / salam sejahtera mohon bantuan tukarkan service point kepada wi-fi(rg)  ctt no:taas-104672919 login id: wkc2016@unifi old s/n: rg6fhax32208052935 new s/n: uncfh5f32511069318 successfully updated sp to rg: taas-104672919"
     ]
 }
 
