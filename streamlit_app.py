@@ -355,7 +355,8 @@ categories = {
         "update dlm rol",
         "missing owner",
         "mir x appear",
-        "mir tak appear"
+        "mir tak appear",
+        "1-130905576857-Mohon bantuan next activity not appear"
     ],
     "CC Not Appear": [
         "cc not appear",
@@ -430,7 +431,8 @@ categories = {
         "wifi 7 ke wifi 6",
         "order modify 1gb",
         "2509000083144439-update wifi 7 ke wifi 6,order modify 1gb",
-        "template request patch rg7 to rg6 (1g)  2605000109565268 unc30val2601009624 unc30val2601009623"
+        "template request patch rg7 to rg6 (1g)  2605000109565268 unc30val2601009624 unc30val2601009623",
+        "template request patch rg7 ke rg6 (1g) ax3000 – sme order  order no: 2606000113088130 segment: cosumer serial no: uncfh5f32603049732 serial no:uncfh5f32603047881 @kak nurul  ru tersalah order number..boleh tolong semula ..order number yang betul di bawah  template request patch rg7 ke rg6 (1g) ax3000 – sme order  order no: 2606000113232563 segment: consumer serial no: uncfh5f32603049732 serial no:uncfh5f32603047881"
     ],
     "New/ Existing/ Delete Equipment Info Update": [
         "semakan order upgrade pakej 2gb tp dlm tmf equipment yg new vm shj",
@@ -517,7 +519,9 @@ categories = {
         "mohon mohon bantuan , orde tak boleh ada error pink 2606000110121172  uncztef62601010477 uncztef62601007117 dphrgcml2105017079",
         "2605000109260333 bantu error update equipment  main router sn:uncfh5f32412029026 mac:d400682c7c98  mesh router sn:uncfh5f32412029039 mac:d400682c7d00",
         "mohon bantu 2606000110367300 2606000110202174  sn- tiada mac- tiada  cust pakai firewall",
-        "mohon bantuan modify order cpe list not match  rg no : unc30val2602023702 mesh no : dekat site tiada mesh"
+        "mohon bantuan modify order cpe list not match  rg no : unc30val2602023702 mesh no : dekat site tiada mesh",
+        "guna format nie :-  order number : 2606000112667921 s/n lama : unc25val2412002196 s/n mesh : unc25val2412002156 error pink : attach error pink / attachment available remark : customer site guna combo 2.5 order relocate kasik serial number detail",
+        "order num: 2605000108715539 order type: relocated  serilal num: uncfh5f32511074860 serial num: uncfh5f32511061281  minta tlg tak boleh nk done cpe existing"
     ],
     "Unable to Swap Number": [
         "1-c1z5awa order whp tidak dapat swap number ...sudah call ftc dia suruh refer jcom",
@@ -651,7 +655,8 @@ categories = {
         "bantuan dna & osm ip,,,cust urgent req install harini jgk  tq",
         "d&a in progress",
         "task d&a ip",
-        "urgent. cust nk slot harini. tp d&a osm masih ip."
+        "urgent. cust nk slot harini. tp d&a osm masih ip.",
+        "minta bantu done task Design & Assign & OSM Activation Exception 1-131192686280 / iris SD5342792"
     ],
     "Unsync Order": [
         "ui maklum dah done tapi nampak in progress lagi dlm tmf. tk",
@@ -831,7 +836,8 @@ categories = {
         "team sao ctt : 1-26710708621 tolong set appment pukul 4.30pm hari ini. slot kat id tm31638",
         "mohon ra terdekat ctt v1p 3.30 n slot semula b17296...tq",
         "v1p_nodialtone || 1-26826779718 , tlg buat appt 11:30am ..tq",
-        "1-26828417098 assgn app pukul 330"
+        "1-26828417098 assgn app pukul 330",
+        "salam.. mohon bantuan utk RA TT V1P pukul 2.30 petang.. tqvm. 1-26977798007"
     ],
     "TT Error 400": [
         "slot appt",
