@@ -295,6 +295,13 @@ def apply_bias(msg: str, scores: dict) -> dict:
         scores["TT RG5 Equipment Update"] = scores.get("TT RG5 Equipment Update", 0) - 0.1
         scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) - 0.1
 
+    if (re.search(r"next activity not appear", text, re.IGNORECASE)):
+        scores["Next Order Activity Not Appear"] = scores.get("Next Order Activity Not Appear", 0) + 0.2
+
+    if (re.search(r"d(.)?s(.)?gn*as(.)?ign(*osm activation exception)?", text, re.IGNORECASE)):
+        scores["Order D&A In-Progress"] = scores.get("Order D&A In-Progress", 0) + 0.2
+        
+
     # Cap scores between 0.0 and 1.0
     scores = {k: max(0.0, min(v, 1.0)) for k, v in scores.items()}
 
@@ -316,7 +323,8 @@ categories = {
         "order tak appear dalam oal tmf",
         "order ra xappear di scheduled page",
         "tiada dalam oal",
-        "team order tk nampak dlm id nx2502095"
+        "team order tk nampak dlm id nx2502095",
+        "260600013516284 not found 2606000113516284 no order yg betul"
     ],
     "Next Order Activity Not Appear": [
         "tiada dlm rol..tq",
