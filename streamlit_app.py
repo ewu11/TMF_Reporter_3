@@ -298,7 +298,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if (re.search(r"next activity not appear", text, re.IGNORECASE)):
         scores["Next Order Activity Not Appear"] = scores.get("Next Order Activity Not Appear", 0) + 0.2
 
-    if (re.search(r"d(.)?s(.)?gn*as(.)?ign(*osm activation exception)?", text, re.IGNORECASE)):
+    if (re.search(r"d(.)?s(.)?gn.*as(.)?ign(.*osm activation exception)?", text, re.IGNORECASE)):
         scores["Order D&A In-Progress"] = scores.get("Order D&A In-Progress", 0) + 0.2
         
 
