@@ -304,6 +304,10 @@ def apply_bias(msg: str, scores: dict) -> dict:
 
     if (re.search(r"d(.)?s(.)?gn.*as(.)?ign(.*osm activation exception)?", text, re.IGNORECASE)):
         scores["Order D&A In-Progress"] = scores.get("Order D&A In-Progress", 0) + 0.2
+
+    if (re.search(r"taas", text) and re.search(r"taas-\d", text)):
+            scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) + 0.2
+            scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) - 0.1
         
 
     # Cap scores between 0.0 and 1.0
