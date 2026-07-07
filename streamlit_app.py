@@ -94,7 +94,11 @@ def apply_bias(msg: str, scores: dict) -> dict:
             scores["TT Missing"] = scores.get("TT Missing", 0) - 0.1
         if (re.search(r"(whp|v1p)", text) and re.search(r"slot(.)?(.)?(.)?", text)):
             scores[""] = scores.get("", 0) + 0.2
-        if (re.search(r"t(.)k(.)(.).*cpe.*b(.)ru", text) and re.search(r"t(.)t(.)(.)", text)):
+        if (
+            (re.search(r"t(.)k(.)(.).*cpe.*b(.)ru", text) and re.search(r"t(.)t(.)(.)", text))
+            or
+            (re.search(r"taas", text) and re.search(r"taas-\d", text))
+        ):
             scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) + 0.2
             scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) - 0.1
     
