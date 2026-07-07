@@ -332,7 +332,8 @@ categories = {
         "order ra xappear di scheduled page",
         "tiada dalam oal",
         "team order tk nampak dlm id nx2502095",
-        "260600013516284 not found 2606000113516284 no order yg betul"
+        "260600013516284 not found 2606000113516284 no order yg betul",
+        "ru dah onsite pagi tadi tiba2 status jadi scheduled semula -2607000114502164"
     ],
     "Next Order Activity Not Appear": [
         "tiada dlm rol..tq",
@@ -372,7 +373,8 @@ categories = {
         "missing owner",
         "mir x appear",
         "mir tak appear",
-        "1-130905576857-Mohon bantuan next activity not appear"
+        "1-130905576857-Mohon bantuan next activity not appear",
+        "1-126664321366 - mohon bantu order sip status return, kalau nak ra dekat mana ya.. mir ra done dekat nova"
     ],
     "CC Not Appear": [
         "cc not appear",
@@ -806,7 +808,11 @@ categories = {
         "update cpe 1-116434798675  s/n on site:uonzteh92109051552 s/n on tmf:uonzteh92109052452",
         "error nak close ctt no : 1-117012414029 remark : cpe swap serial number does not exist in you cpe list",
         "1-117237507045 old vdlinnne170700622 new unc30val2501032873  500mbps",
-        "100mbps mau tukar combo tuan atur dulu di tmforce"
+        "100mbps mau tukar combo tuan atur dulu di tmforce",
+        "pejabat  1-130842455651  new - uncfh5f32603048245  existing - uncfh5f32404049987 uncfh5f32404049943    nx2507642  bm",
+        "pejabat  1-130933948862  new - uncztef62604326214 uncztef62604312913 uncztef62604326213   q105396  bw",
+        "pejabat  1-130934726824  new - uncztef62604300436 uncztef62604300432 uncztef62604307746     nx2507644  bm",
+        "makmal  1-130934727315  new - uncztef62604300028 uncztef62604300041 uncztef62604300047     nx2507644  bm"
     ],
     "TT V1P": [
         "assalamualaikum..tt v1p 1-26814783348 appt semula hari ni 10.30 am..tq",
@@ -976,7 +982,8 @@ categories = {
         "detail granite not appear",
         "tambah detail btu dalam tmf. site tukar btu tapi detail btu lama tiada dalam tmf",
         "1-130489807326 | mohon bantu repatch buidling id  1-130489807326 sepatutnya srg bukan sag  sd5312208",
-        "taas-104656075, mohon bantuan update kepada dp id yg betul tq pn_c013_dp0053"
+        "taas-104656075, mohon bantuan update kepada dp id yg betul tq pn_c013_dp0053",
+        "salam mohon bantuan 1-131582421076 tt ni dp tmp_c034_dp0003 di zone tampoi alamt cust di zone batu pahat node ptr"
     ],
     "Update DP-Cabinet Location": [
         "salam team,  mohon bantuan update dp location order digi ni 1-115819132630 daripada on pole kepada building floor.",
