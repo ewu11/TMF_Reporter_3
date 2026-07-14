@@ -14,7 +14,9 @@ from datetime import datetime
 def load_model():
     return SentenceTransformer("all-MiniLM-L6-v2")  # <-- change if model is not local
 
-model = load_model()
+# model = load_model()
+def get_model():
+    return load_model()
 
 # ------------------------
 # Biasing rules
@@ -1066,6 +1068,7 @@ categories = {
 }
 
 # Build initial embeddings (case-insensitive)
+model = get_model()
 category_embeddings = {
     cat: model.encode([s.lower() for s in sentences], convert_to_tensor=True).mean(dim=0)
     for cat, sentences in categories.items()
