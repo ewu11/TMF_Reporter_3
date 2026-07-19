@@ -197,7 +197,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
 
     if ("ctt" in text or "tt" in text) and ("view slot" in text or "skillset" in text or "slot" in text or "mapping" in text or "cab" in text or "cabinet" in text or "dp" in text):
         scores["TT Error 400"] = scores.get("TT Error 400]", 0) + 0.2
-        scores[""] = scores.get("", 0) - 0.1
+        # scores[""] = scores.get("", 0) - 0.1
         scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) - 0.1
         scores["New/ Existing/ Delete Equipment Info Update"] = scores.get("New/ Existing/ Delete Equipment Info Update", 0) - 0.1
 
@@ -244,7 +244,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
 
     if (re.search(r"ada", text)) and (re.search(r"tm(.)?f(orce)?", text)) and (re.search(r"h(.)?n(.)?(.)?", text)):
         scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) + 0.1
-        scores[""] = scores.get("", 0) - 0.1
+        # scores[""] = scores.get("", 0) - 0.1
 
     if (re.search(r"(tiada|xd(.)?)", text) and re.search(r"(.)?(.)?l", text)):
         scores["Order Missing/ Pending Processing"] = scores.get("Order Missing/ Pending Processing", 0) + 0.2
@@ -310,6 +310,11 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if (re.search(r"taas", text) and re.search(r"taas-\d", text)):
             scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) + 0.2
             scores["Update Order Equipment Details"] = scores.get("Update Order Equipment Details", 0) - 0.1
+
+    if (re.search(r"slot", text) and re.search(r"ap(.)?(.)?(.)?(.)?(.)?(.)?(.)?(.)?(.)?", text) and re.search(r"(.)?tt", text)):
+            scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.2
+            scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) - 0.2
+           
         
 
     # Cap scores between 0.0 and 1.0
