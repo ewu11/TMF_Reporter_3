@@ -314,7 +314,7 @@ def apply_bias(msg: str, scores: dict) -> dict:
     if (re.search(r"slot", text) and re.search(r"ap(.)?(.)?(.)?(.)?(.)?(.)?(.)?(.)?(.)?", text) and re.search(r"(.)?tt", text)):
             scores["TT Error 400"] = scores.get("TT Error 400", 0) + 0.5
             scores["TT TMF-Physical CPE Unsync"] = scores.get("TT TMF-Physical CPE Unsync", 0) - 0.3
-           
+            scores["TT - Invalid Customer Info"] = scores.get("TT - Invalid Customer Info", 0) - 0.3
         
 
     # Cap scores between 0.0 and 1.0
