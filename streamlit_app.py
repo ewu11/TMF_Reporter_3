@@ -913,7 +913,8 @@ categories = {
         "taas-104708187 tak dapat book appt, mohon bantuan tq",
         "mohon bantu tak dapat slot appt taas-104707739",
         "taas-104677487 mohon bantuan ctt error nak book appointment",
-        "taas-104694855 salam...bantu slot appt fail, tq"
+        "taas-104694855 salam...bantu slot appt fail, tq",
+        "salam.. mohon bantu utk check .. ctt no slot appt..dah mapping pd id tm32376 taas-106494671 taas-106509987 taas-106362905"
     ],
     "TT HSBA Reappointment": [
         "untuk patchkan ctt tq 1-116312148935 - appt on 10/9/25 at 11.30am",
@@ -999,7 +1000,9 @@ categories = {
         "ctt 1-116586656460 mintak delete activiti a-0009962626 duplicate atas ctt yg sama",
         "a-0009982910 - 1-116679412161 bntuan team delete xtvt ni. duplicate.tq",
         "tt 1-118615976875 cancel slh 1 activity",
-        "remove salah satu activity, tq taas-104669401 a-0012358288 a-0012363487"
+        "remove salah satu activity, tq taas-104669401 a-0012358288 a-0012363487",
+        "salam...taas-106514003 ada 2 activity id bantu cancel 1 , tq",
+        "mohon bantuan,duplicate activity id taas-106522906"
     ],
     "TT TMF-Physical CPE Unsync": [
         "sn rg fizikal dengan tmf tak sama  ctt : 1-116245831767 fizikal : 159fe54e0057211b0 tmf : 0405202300000",
